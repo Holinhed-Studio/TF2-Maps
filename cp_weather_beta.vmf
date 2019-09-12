@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "81"
+	"mapversion" "82"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "81"
+	"mapversion" "82"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3406,6 +3406,7 @@ entity
 	connections
 	{
 		"OnTrigger" "WeatherType,PickRandomShuffle,,0,-1"
+		"OnTrigger" "WeatherCycleTimer,Enable,,0,-1"
 	}
 	"origin" "2608 -408 72"
 	editor
@@ -3606,8 +3607,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2714.65 -486.74 200.457]"
-		"look" "[2557.89 480.99 -1582.77]"
+		"position" "[2656.87 -530.034 365.116]"
+		"look" "[2722.35 189.617 -1537.2]"
 	}
 }
 cordon
