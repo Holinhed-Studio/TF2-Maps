@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "85"
+	"mapversion" "86"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "85"
+	"mapversion" "86"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -657,7 +657,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[3584 -0.000244141 64]"
+				"startposition" "[3584 0 64]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1134,7 +1134,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[0.000488281 -7168 64]"
+				"startposition" "[0 -7168 64]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1293,7 +1293,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[0.000488281 -3584 64]"
+				"startposition" "[0 -3584 64]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1452,7 +1452,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[0.000488281 -0.000244141 64]"
+				"startposition" "[0 0 64]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1611,7 +1611,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[0.000488281 3584 64]"
+				"startposition" "[0 3584 64]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2088,7 +2088,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-3584 -0.000427246 64]"
+				"startposition" "[-3584 0 64]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2724,7 +2724,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-7168 -0.000244141 64]"
+				"startposition" "[-7168 0 64]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4138,13 +4138,54 @@ entity
 		"logicalpos" "[0 -14768]"
 	}
 }
+entity
+{
+	"id" "5779"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/dovahki/sky/weather/sky_weather_sunny2.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "WeatherSunny2"
+	"origin" "5128 -11264 2080"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[4844.7 -11087.2 2186]"
-		"look" "[6419.38 -12299.8 1749.03]"
+		"position" "[5568.48 -11673.5 2812.96]"
+		"look" "[5623.51 -12134.9 831.792]"
 	}
 }
 cordon
