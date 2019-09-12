@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "78"
+	"mapversion" "81"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "78"
+	"mapversion" "81"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3109,7 +3109,8 @@ entity
 	"classname" "info_player_teamspawn"
 	"angles" "0 0 0"
 	"spawnflags" "511"
-	"origin" "2397.44 -447.903 63.9999"
+	"TeamNum" "2"
+	"origin" "2397.44 -448 72"
 	editor
 	{
 		"color" "220 30 220"
@@ -3133,6 +3134,7 @@ entity
 	{
 		"OnTimer" "dbg_timeradd,Display,,0,-1"
 		"OnTimer" "WeatherCycleClock,PickRandomShuffle,,0,-1"
+		"OnTimer" "testsound,PlaySound,,0,-1"
 	}
 	"origin" "2664 -384 72"
 	editor
@@ -3568,13 +3570,44 @@ entity
 		"logicalpos" "[0 2500]"
 	}
 }
+entity
+{
+	"id" "5661"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "misc/halloween/clock_tick.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "testsound"
+	"volstart" "0"
+	"origin" "2685.91 -478.848 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -16268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2691.28 -463.018 182.863]"
-		"look" "[2702.46 338.555 -1687.52]"
+		"position" "[2714.65 -486.74 200.457]"
+		"look" "[2557.89 480.99 -1582.77]"
 	}
 }
 cordon
