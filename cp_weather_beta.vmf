@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "86"
+	"mapversion" "100"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "86"
+	"mapversion" "100"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3726,6 +3726,12 @@ entity
 	{
 		"OnCase01" "t1,Display,,0,-1"
 		"OnCase12" "t2,Display,,0,-1"
+		"OnCase05" "weathersunny,Skin,1,0,-1"
+		"OnCase09" "weathersunny,Skin,2,0,-1"
+		"OnCase12" "weathersunny,Skin,3,0,-1"
+		"OnCase15" "weathersunny,Skin,4,0,-1"
+		"OnCase16" "weathersunny,Disable,,30,-1"
+		"OnCase16" "weathersunny2,Enable,,30,-1"
 	}
 	"origin" "2720 -384 72"
 	editor
@@ -4086,7 +4092,7 @@ entity
 	"fogenable" "0"
 	"fogend" "2000.0"
 	"fogstart" "500.0"
-	"scale" "16"
+	"scale" "32"
 	"use_angles" "0"
 	"origin" "5120 -11264 2048"
 	editor
@@ -4114,8 +4120,8 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/dovahki/sky/weather/sky_weather_sunny.mdl"
-	"modelscale" "1.0"
+	"model" "models/dovahki/sky/weather/skysquare_weather_sunny.mdl"
+	"modelscale" "7"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -4155,8 +4161,8 @@ entity
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
-	"model" "models/dovahki/sky/weather/sky_weather_sunny2.mdl"
-	"modelscale" "1.0"
+	"model" "models/dovahki/sky/weather/skysquare_weather_sunny2.mdl"
+	"modelscale" "7"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -4170,7 +4176,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "WeatherSunny2"
-	"origin" "5128 -11264 2080"
+	"origin" "5120 -11264 2048"
 	editor
 	{
 		"color" "220 30 220"
@@ -4184,8 +4190,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5568.48 -11673.5 2812.96]"
-		"look" "[5623.51 -12134.9 831.792]"
+		"position" "[2708.67 -437.403 140.548]"
+		"look" "[2860.91 839.698 -1436.41]"
 	}
 }
 cordon
