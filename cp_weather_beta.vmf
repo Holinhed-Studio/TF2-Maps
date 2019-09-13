@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "102"
+	"mapversion" "104"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "102"
+	"mapversion" "104"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3028,82 +3028,6 @@ world
 	}
 	solid
 	{
-		"id" "4861"
-		side
-		{
-			"id" "355"
-			"plane" "(-512 512 1536) (512 512 1536) (512 -512 1536)"
-			"material" "NATURE/GRASSFLOOR002A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "356"
-			"plane" "(-512 -512 568) (512 -512 568) (512 512 568)"
-			"material" "NATURE/GRASSFLOOR002A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "357"
-			"plane" "(-512 512 1536) (-512 -512 1536) (-512 -512 568)"
-			"material" "NATURE/GRASSFLOOR002A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "358"
-			"plane" "(512 512 568) (512 -512 568) (512 -512 1536)"
-			"material" "NATURE/GRASSFLOOR002A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "359"
-			"plane" "(512 512 1536) (-512 512 1536) (-512 512 568)"
-			"material" "NATURE/GRASSFLOOR002A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "360"
-			"plane" "(512 -512 568) (-512 -512 568) (-512 -512 1536)"
-			"material" "NATURE/GRASSFLOOR002A"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 156 125"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "5699"
 		side
 		{
@@ -3595,13 +3519,13 @@ entity
 {
 	"id" "5036"
 	"classname" "logic_timer"
-	"LowerRandomBound" "0"
-	"RefireTime" "60"
+	"LowerRandomBound" "45"
+	"RefireTime" "0"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "WeatherCycleTimer"
-	"UpperRandomBound" "0"
-	"UseRandomTime" "0"
+	"UpperRandomBound" "90"
+	"UseRandomTime" "1"
 	connections
 	{
 		"OnTimer" "dbg_timeradd,Display,,0,-1"
@@ -3726,12 +3650,14 @@ entity
 	{
 		"OnCase01" "t1,Display,,0,-1"
 		"OnCase12" "t2,Display,,0,-1"
-		"OnCase05" "weathersunny,Skin,1,0,-1"
-		"OnCase09" "weathersunny,Skin,2,0,-1"
-		"OnCase12" "weathersunny,Skin,3,0,-1"
-		"OnCase15" "weathersunny,Skin,4,0,-1"
-		"OnCase16" "weathersunny,Disable,,30,-1"
-		"OnCase16" "weathersunny2,Enable,,30,-1"
+		"OnCase02" "weathersunny,Skin,1,0,-1"
+		"OnCase16" "weathersunny,Skin,2,0,-1"
+		"OnCase07" "weathersunny,Skin,3,0,-1"
+		"OnCase10" "weathersunny,Skin,4,0,-1"
+		"OnCase12" "weathersunny,Disable,,30,-1"
+		"OnCase12" "weathersunny2,Enable,,30,-1"
+		"OnCase05" "weathersunny2,Skin,2,0,-1"
+		"OnCase14" "weathersunny2,Skin,1,0,-1"
 	}
 	"origin" "2720 -384 72"
 	editor
@@ -3765,8 +3691,23 @@ entity
 	"targetname" "WeatherLogic"
 	connections
 	{
-		"OnCase06" "t3,Display,,0,-1"
+		"OnCase08" "t3,Display,,0,-1"
 		"OnCase16" "t4,Display,,0,-1"
+		"OnCase01" "weathersunny2,Disable,,30,-1"
+		"OnCase01" "weathermcloudy,Enable,,30,-1"
+		"OnCase03" "weathermcloudy,Skin,1,0,-1"
+		"OnCase05" "weathermcloudy,Skin,2,0,-1"
+		"OnCase06" "weathermcloudy,Skin,3,0,-1"
+		"OnCase08" "weathermcloudy,Disable,,30,-1"
+		"OnCase08" "weathercloudy,Enable,,30,-1"
+		"OnCase09" "weathercloudy,Skin,1,0,-1"
+		"OnCase10" "weathercloudy,Skin,2,0,-1"
+		"OnCase13" "weathercloudy,Skin,3,0,-1"
+		"OnCase11" "WeatherLRain,Trigger,,0,-1"
+		"OnCase13" "WeatherMRain,Trigger,,20,-1"
+		"OnCase16" "weathercloudy,Disable,,30,-1"
+		"OnCase16" "weatherstormy,Enable,,30,-1"
+		"OnCase16" "weatherstorm,Trigger,,0,-1"
 	}
 	"origin" "2744 -384 72"
 	editor
@@ -4185,13 +4126,73 @@ entity
 		"logicalpos" "[0 -14768]"
 	}
 }
+entity
+{
+	"id" "6147"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "WeatherLRain"
+	"origin" "2768 -384 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6162"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "WeatherMRain"
+	"origin" "2768 -408 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6172"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "WeatherStorm"
+	"origin" "2792 -384 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6180"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "WeatherBStorm"
+	"origin" "2792 -408 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5115.2 -11218.9 2024.96]"
-		"look" "[5238.68 -12983.9 3030.1]"
+		"position" "[2741.65 -457.578 171.531]"
+		"look" "[2991.23 758.684 -1440.73]"
 	}
 }
 cordon
