@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "100"
+	"mapversion" "101"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "100"
+	"mapversion" "101"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4092,7 +4092,7 @@ entity
 	"fogenable" "0"
 	"fogend" "2000.0"
 	"fogstart" "500.0"
-	"scale" "32"
+	"scale" "16"
 	"use_angles" "0"
 	"origin" "5120 -11264 2048"
 	editor
@@ -4121,7 +4121,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/dovahki/sky/weather/skysquare_weather_sunny.mdl"
-	"modelscale" "7"
+	"modelscale" "2"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -4162,7 +4162,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/dovahki/sky/weather/skysquare_weather_sunny2.mdl"
-	"modelscale" "7"
+	"modelscale" "2"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -4190,8 +4190,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2708.67 -437.403 140.548]"
-		"look" "[2860.91 839.698 -1436.41]"
+		"position" "[5111.56 -11166.8 1995.32]"
+		"look" "[5235.04 -12931.9 3000.46]"
 	}
 }
 cordon
