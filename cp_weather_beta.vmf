@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "101"
+	"mapversion" "102"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "101"
+	"mapversion" "102"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4092,7 +4092,7 @@ entity
 	"fogenable" "0"
 	"fogend" "2000.0"
 	"fogstart" "500.0"
-	"scale" "16"
+	"scale" "32"
 	"use_angles" "0"
 	"origin" "5120 -11264 2048"
 	editor
@@ -4190,8 +4190,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5111.56 -11166.8 1995.32]"
-		"look" "[5235.04 -12931.9 3000.46]"
+		"position" "[5115.2 -11218.9 2024.96]"
+		"look" "[5238.68 -12983.9 3030.1]"
 	}
 }
 cordon
