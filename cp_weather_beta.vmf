@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "210"
+	"mapversion" "212"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "210"
+	"mapversion" "212"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11405,8 +11405,7 @@ entity
 		"OnCase16" "t4,Display,,0,-1"
 		"OnCase01" "weathersunny2,Disable,,30,-1"
 		"OnCase01" "weathermcloudy,Enable,,30,-1"
-		"OnCase03" "weathermcloudy,Skin,1,0,-1"
-		"OnCase05" "weathermcloudy,Skin,2,0,-1"
+		"OnCase04" "weathermcloudy,Skin,1,0,-1"
 		"OnCase06" "weathermcloudy,Disable,,30,-1"
 		"OnCase06" "weathercloudy,Enable,,30,-1"
 		"OnCase08" "weathercloudy,Skin,1,0,-1"
@@ -11494,7 +11493,7 @@ entity
 		"OnCase05" "WeatherCycle,SetValue,32,0,-1"
 		"OnCase06" "WeatherCycle,SetValue,17,0,-1"
 		"OnCase07" "WeatherCycle,SetValue,17,0,-1"
-		"OnCase08" "WeatherCycle,SetValue,12,0,-1"
+		"OnCase08" "WeatherCycle,SetValue,17,0,-1"
 		"OnCase09" "WeatherCycle,SetValue,22,0,-1"
 		"OnCase10" "WeatherCycle,SetValue,0,0,-1"
 		"OnCase11" "WeatherCycle,SetValue,0,0,-1"
@@ -12909,6 +12908,7 @@ entity
 	connections
 	{
 		"OnPass" "bluburgtrain,SetSpeedReal,2400,0,-1"
+		"OnPass" "HindenCrashBlu,Trigger,,0,-1"
 	}
 	"origin" "3584 3584 4120"
 	editor
@@ -13026,8 +13026,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2704.62 -453.108 195.364]"
-		"look" "[3061.97 512.647 -1559.81]"
+		"position" "[626.356 -7997.49 -1763.9]"
+		"look" "[-1377.6 -8014.79 -2117.26]"
 	}
 }
 cordon
