@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "208"
+	"mapversion" "210"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "208"
+	"mapversion" "210"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11360,15 +11360,14 @@ entity
 	connections
 	{
 		"OnCase01" "t1,Display,,0,-1"
-		"OnCase12" "t2,Display,,0,-1"
 		"OnCase02" "weathersunny,Skin,1,0,-1"
-		"OnCase16" "weathersunny,Skin,2,0,-1"
+		"OnCase14" "weathersunny,Skin,2,0,-1"
 		"OnCase07" "weathersunny,Skin,3,0,-1"
-		"OnCase10" "weathersunny,Skin,4,0,-1"
-		"OnCase12" "weathersunny,Disable,,30,-1"
-		"OnCase12" "weathersunny2,Enable,,30,-1"
+		"OnCase08" "weathersunny,Skin,4,0,-1"
+		"OnCase10" "weathersunny,Disable,,30,-1"
+		"OnCase10" "weathersunny2,Enable,,30,-1"
 		"OnCase05" "weathersunny2,Skin,2,0,-1"
-		"OnCase14" "weathersunny2,Skin,1,0,-1"
+		"OnCase12" "weathersunny2,Skin,1,0,-1"
 	}
 	"origin" "2720 -384 72"
 	editor
@@ -11418,6 +11417,7 @@ entity
 		"OnCase16" "weathercloudy,Disable,,30,-1"
 		"OnCase16" "weatherstormy,Enable,,30,-1"
 		"OnCase16" "weatherstorm,Trigger,,0,-1"
+		"OnCase01" "t2,Display,,0,-1"
 	}
 	"origin" "2744 -384 72"
 	editor
@@ -11492,17 +11492,17 @@ entity
 		"OnCase03" "WeatherCycle,SetValue,22,0,-1"
 		"OnCase04" "WeatherCycle,SetValue,22,0,-1"
 		"OnCase05" "WeatherCycle,SetValue,32,0,-1"
-		"OnCase06" "WeatherCycle,SetValue,12,0,-1"
-		"OnCase07" "WeatherCycle,SetValue,12,0,-1"
+		"OnCase06" "WeatherCycle,SetValue,17,0,-1"
+		"OnCase07" "WeatherCycle,SetValue,17,0,-1"
 		"OnCase08" "WeatherCycle,SetValue,12,0,-1"
 		"OnCase09" "WeatherCycle,SetValue,22,0,-1"
 		"OnCase10" "WeatherCycle,SetValue,0,0,-1"
 		"OnCase11" "WeatherCycle,SetValue,0,0,-1"
 		"OnCase12" "WeatherCycle,SetValue,22,0,-1"
 		"OnCase13" "WeatherCycle,SetValue,32,0,-1"
-		"OnCase14" "WeatherCycle,SetValue,12,0,-1"
+		"OnCase14" "WeatherCycle,SetValue,17,0,-1"
 		"OnCase15" "WeatherCycle,SetValue,22,0,-1"
-		"OnCase16" "WeatherCycle,SetValue,12,0,-1"
+		"OnCase16" "WeatherCycle,SetValue,17,0,-1"
 	}
 	"origin" "2664 -408 72"
 	editor
@@ -13026,8 +13026,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[13838.8 -8512.01 2613.96]"
-		"look" "[14597.2 -9842.08 1273.56]"
+		"position" "[2704.62 -453.108 195.364]"
+		"look" "[3061.97 512.647 -1559.81]"
 	}
 }
 cordon
