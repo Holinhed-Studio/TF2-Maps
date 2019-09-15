@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "254"
+	"mapversion" "255"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "254"
+	"mapversion" "255"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -14534,7 +14534,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "RedBurg"
-	"origin" "544 8336 -1847.33"
+	"origin" "560 8312 -1800"
 	editor
 	{
 		"color" "220 30 220"
@@ -16143,8 +16143,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3534.96 -3448.41 200.04]"
-		"look" "[4598.76 -4693.84 -1007.53]"
+		"position" "[920.464 7967.22 -1839.92]"
+		"look" "[-18.574 9725.56 -1430.73]"
 	}
 }
 cordon
