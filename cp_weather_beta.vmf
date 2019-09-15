@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "241"
+	"mapversion" "244"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "241"
+	"mapversion" "244"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -13253,7 +13253,7 @@ entity
 	"id" "18627"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"targetname" "yeet"
+	"targetname" "BluBurgSpawner"
 	connections
 	{
 		"OnTrigger" "BluBurgTrain,SetSpeedReal,150,10,-1"
@@ -13423,6 +13423,12 @@ entity
 	"speed" "0"
 	"target" "BluBurgTrack8"
 	"targetname" "BluBurgTrack8"
+	connections
+	{
+		"OnPass" "BluBurgTrain,TeleportToPathTrack,BluBurgTrack1,3,-1"
+		"OnPass" "BluBurg,Enable,,3,-1"
+		"OnPass" "BluBurgLift,SetParent,BluBurgTrain,3,-1"
+	}
 	"origin" "-1024 2048 128"
 	editor
 	{
@@ -15669,7 +15675,9 @@ entity
 	"targetname" "RedBurgTrack7"
 	connections
 	{
-		"OnPass" "RedBurgTrain,SetSpeedReal,1000,0,-1"
+		"OnPass" "BluBurgLift,SetParent,RedBurgTrain,3,-1"
+		"OnPass" "RedBurg,Enable,,3,-1"
+		"OnPass" "BluBurgTrain,TeleportToPathTrack,RedBurgTrack1,3,-1"
 	}
 	"origin" "3584 -3584 104"
 	editor
@@ -16016,7 +16024,7 @@ entity
 	"id" "22015"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"targetname" "yeet2"
+	"targetname" "RedBurgSpawner"
 	connections
 	{
 		"OnTrigger" "RedBurgTrain,SetSpeedReal,150,10,-1"
@@ -16040,8 +16048,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[970.617 7222.69 1116.39]"
-		"look" "[2852.02 7225.97 340.938]"
+		"position" "[3092.19 -3050.59 272.96]"
+		"look" "[4428.99 -4489.1 -260.578]"
 	}
 }
 cordon
