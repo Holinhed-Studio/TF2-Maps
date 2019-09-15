@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "251"
+	"mapversion" "254"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "251"
+	"mapversion" "254"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12079,6 +12079,8 @@ entity
 	connections
 	{
 		"OnMapSpawn" "MapSetup,Trigger,,0,-1"
+		"OnMapSpawn" "BluBurgLiftTemplate,ForceSpawn,,0,-1"
+		"OnMapSpawn" "RedBurgLiftTemplate,ForceSpawn,,0,-1"
 	}
 	"origin" "2608 -384 72"
 	editor
@@ -13452,9 +13454,6 @@ entity
 	"targetname" "BluBurgTrack8"
 	connections
 	{
-		"OnPass" "BluBurgTrain,TeleportToPathTrack,BluBurgTrack1,3,-1"
-		"OnPass" "BluBurg,Enable,,3,-1"
-		"OnPass" "BluBurgLift,SetParent,BluBurgTrain,3.25,-1"
 		"OnPass" "BurgEngineBlu*,StopSound,,0,-1"
 	}
 	"origin" "-1024 2048 128"
@@ -13563,6 +13562,10 @@ entity
 		"OnTrigger" "HindenCrashBluSND,PlaySound,,0,-1"
 		"OnTrigger" "HindenParticleBlu,Start,,0,-1"
 		"OnTrigger" "HindenParticleBlu,Stop,,8,-1"
+		"OnTrigger" "BluBurgLift,Kill,,3.25,-1"
+		"OnTrigger" "BluBurgLiftTemplate,ForceSpawn,,3.25,-1"
+		"OnTrigger" "BluBurg,Enable,,3,-1"
+		"OnTrigger" "BluBurgTrain,TeleportToPathTrack,BluBurgTrack1,3,-1"
 	}
 	"origin" "-1074.38 2077.51 72"
 	editor
@@ -15976,6 +15979,10 @@ entity
 		"OnTrigger" "HindenCrashRedSND,PlaySound,,0,-1"
 		"OnTrigger" "HindenParticleRed,Start,,0,-1"
 		"OnTrigger" "HindenParticleRed,Stop,,8,-1"
+		"OnTrigger" "RedBurgLift,Kill,,3.25,-1"
+		"OnTrigger" "RedBurgLiftTemplate,ForceSpawn,,3.25,-1"
+		"OnTrigger" "RedBurg,Enable,,3,-1"
+		"OnTrigger" "RedBurgTrain,TeleportToPathTrack,BluBurgTrack1,3,-1"
 	}
 	"origin" "3646.54 -3518.57 72.0001"
 	editor
@@ -16099,13 +16106,45 @@ entity
 		"logicalpos" "[0 10000]"
 	}
 }
+entity
+{
+	"id" "22555"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "BluBurgLiftTemplate"
+	"Template01" "BluBurgLift"
+	"origin" "1223.26 -9335 -1507.23"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "22580"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "RedBurgLiftTemplate"
+	"Template01" "RedBurgLift"
+	"origin" "93.3696 9392 -1029.75"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-22.1169 -8092.99 -1149.05]"
-		"look" "[1108.17 -9454.29 -2154.19]"
+		"position" "[3534.96 -3448.41 200.04]"
+		"look" "[4598.76 -4693.84 -1007.53]"
 	}
 }
 cordon
