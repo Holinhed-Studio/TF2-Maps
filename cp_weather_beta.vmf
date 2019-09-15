@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "256"
+	"mapversion" "258"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "256"
+	"mapversion" "258"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10810,6 +10810,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "22717"
+		side
+		{
+			"id" "5831"
+			"plane" "(-3080 4032 4064) (920 4032 4064) (920 32 4064)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5832"
+			"plane" "(-3080 32 64.0001) (920 32 64.0001) (920 4032 64.0001)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5833"
+			"plane" "(-3080 4032 4064) (-3080 32 4064) (-3080 32 64.0001)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5834"
+			"plane" "(920 4032 64.0001) (920 32 64.0001) (920 32 4064)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5835"
+			"plane" "(920 4032 4064) (-3080 4032 4064) (-3080 4032 64.0001)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5836"
+			"plane" "(920 32 64.0001) (-3080 32 64.0001) (-3080 32 4064)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 255 108"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "5711"
@@ -13584,7 +13660,7 @@ entity
 	"iMagnitude" "800"
 	"iRadiusOverride" "4000"
 	"rendermode" "5"
-	"spawnflags" "0"
+	"spawnflags" "2"
 	"targetname" "HindenExplodeBlu"
 	"origin" "-1083.96 2032.97 72"
 	editor
@@ -16001,7 +16077,7 @@ entity
 	"iMagnitude" "800"
 	"iRadiusOverride" "4000"
 	"rendermode" "5"
-	"spawnflags" "0"
+	"spawnflags" "2"
 	"targetname" "HindenExplodeRed"
 	"origin" "3649.84 -3497.54 80.0283"
 	editor
@@ -16061,8 +16137,8 @@ entity
 	"id" "21992"
 	"classname" "game_text"
 	"channel" "1"
-	"color" "202 202 255"
-	"color2" "0 0 255"
+	"color" "255 202 202"
+	"color2" "255 0 0"
 	"effect" "0"
 	"fadein" "1.5"
 	"fadeout" "0.5"
@@ -16143,8 +16219,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[860.463 6997.86 286.117]"
-		"look" "[1164.79 8987.84 -11.1512]"
+		"position" "[3562.76 -3509.11 142.231]"
+		"look" "[5230.2 -4304.17 -711.327]"
 	}
 }
 cordon
