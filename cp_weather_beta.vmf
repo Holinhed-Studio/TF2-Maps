@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "293"
+	"mapversion" "294"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "293"
+	"mapversion" "294"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -24146,7 +24146,7 @@ entity
 	"solid" "6"
 	"spawnflags" "0"
 	"targetname" "BluUsableTank"
-	"origin" "4141.62 -770.042 73.7859"
+	"origin" "4136 -770.042 64"
 	editor
 	{
 		"color" "220 30 220"
@@ -24544,7 +24544,7 @@ entity
 	"solid" "6"
 	"spawnflags" "0"
 	"targetname" "BluUsableTank2"
-	"origin" "2105.13 -2322.07 79.169"
+	"origin" "2120 -2322.07 64"
 	editor
 	{
 		"color" "220 30 220"
@@ -24682,8 +24682,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2212.93 -2601.76 297.121]"
-		"look" "[1593.43 -874.295 -582.15]"
+		"position" "[4254.8 -502.007 162.909]"
+		"look" "[2736.18 -1728.68 -411.637]"
 	}
 }
 cordon
