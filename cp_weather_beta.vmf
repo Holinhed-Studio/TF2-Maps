@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "361"
+	"mapversion" "365"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "361"
+	"mapversion" "365"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -20921,6 +20921,8 @@ entity
 		"OnCase10" "weathersunny2,Enable,,30,-1"
 		"OnCase05" "weathersunny2,Skin,2,0,-1"
 		"OnCase12" "weathersunny2,Skin,1,0,-1"
+		"OnCase01" "value,turnon,,0,-1"
+		"OnCase10" "value,turnon,,0,-1"
 	}
 	"origin" "2720 -384 72"
 	editor
@@ -20970,6 +20972,7 @@ entity
 		"OnCase16" "weatherstormy,Enable,,30,-1"
 		"OnCase16" "weatherstorm,Trigger,,0,-1"
 		"OnCase01" "t2,Display,,0,-1"
+		"OnCase16" "Value,TurnOff,,0,-1"
 	}
 	"origin" "2744 -384 72"
 	editor
@@ -28698,8 +28701,8 @@ entity
 		"OnIn" "AAG_HellFire,Disable,,32,-1"
 		"OnIn" "primovictoria,PlaySound,,0,-1"
 		"OnIn" "primovictoria,StopSound,,36.25,-1"
-		"OnIn" "AACircuit,SetValueCompare,200,0,-1"
-		"OnIn" "AACircuit,SetValueCompare,4,600,-1"
+		"OnIn" "AACircuit,SetCompareValue,200,0,-1"
+		"OnIn" "AACircuit,SetCompareValue,4,600,-1"
 		"OnIn" "AAButton,Lock,,0,-1"
 	}
 	solid
@@ -30385,7 +30388,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
-	"StartDisabled" "0"
+	"StartDisabled" "1"
 	"targetname" "WeatherCloudy"
 	"origin" "14048 -8920 2048"
 	editor
@@ -30426,7 +30429,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
-	"StartDisabled" "0"
+	"StartDisabled" "1"
 	"targetname" "WeatherStormy"
 	"origin" "14048 -8920 2048"
 	editor
@@ -30457,8 +30460,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2810.87 -479.135 141.336]"
-		"look" "[2211.46 909.269 -1220.31]"
+		"position" "[2984.28 -1925.94 186.221]"
+		"look" "[4507.36 -585.456 30.1061]"
 	}
 }
 cordon
