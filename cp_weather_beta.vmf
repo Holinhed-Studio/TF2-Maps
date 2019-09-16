@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "341"
+	"mapversion" "345"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "341"
+	"mapversion" "345"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28698,6 +28698,10 @@ entity
 	{
 		"OnIn" "AAG_HellFire,Enable,,0,-1"
 		"OnIn" "AAG_HellFire,Disable,,32,-1"
+		"OnIn" "primovictoria,PlaySound,,0,-1"
+		"OnIn" "primovictoria,StopSound,,36.25,-1"
+		"OnIn" "AAButton,Lock,,0,-1"
+		"OnIn" "AAButton,Unlock,,60,-1"
 	}
 	solid
 	{
@@ -29335,13 +29339,168 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "29712"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "8"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "sabaton/panzerkampf.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "panzerkampf"
+	"volstart" "0"
+	"origin" "3053.93 -1831.32 78.754"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29715"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "8"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "sabaton/primovictoria.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "primovictoria"
+	"volstart" "0"
+	"origin" "2948.75 -1812.96 86.502"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29718"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "8"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "sabaton/panzerkampf.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "panzerkampf"
+	"volstart" "0"
+	"origin" "3056.28 -1857.06 76.7084"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29721"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "8"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "sabaton/primovictoria.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "primovictoria"
+	"volstart" "0"
+	"origin" "2951.1 -1838.7 84.4563"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "29727"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "8"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "sabaton/primovictoria.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "primovictoria"
+	"volstart" "0"
+	"origin" "2957.98 -1859.16 82.5197"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3266.14 -1887.49 243.284]"
-		"look" "[3815.2 44.8003 -82.0512]"
+		"position" "[3196.23 -1846.39 166.077]"
+		"look" "[2260.25 -66.4768 -145.227]"
 	}
 }
 cordon
