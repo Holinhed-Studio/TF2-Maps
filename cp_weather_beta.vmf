@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "359"
+	"mapversion" "361"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "359"
+	"mapversion" "361"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -21004,8 +21004,7 @@ entity
 	connections
 	{
 		"OnCase01" "WeatherStormy,Skin,1,0,-1"
-		"OnCase04" "WeatherStormy,Skin,2,0,-1"
-		"OnCase04" "WeatherBStorm,Trigger,,0,-1"
+		"OnCase02" "WeatherBStorm,Trigger,,0,-1"
 	}
 	"origin" "2720 -408 72"
 	editor
@@ -21353,21 +21352,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -14768]"
-	}
-}
-entity
-{
-	"id" "6147"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "WeatherLRain"
-	"origin" "2768 -384 65"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -30453,13 +30437,28 @@ entity
 		"logicalpos" "[0 -14768]"
 	}
 }
+entity
+{
+	"id" "32396"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "WeatherLRain"
+	"origin" "2766.75 -377.823 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[13527.2 -8345.11 1921.32]"
-		"look" "[15145.3 -9531.54 2260.69]"
+		"position" "[2810.87 -479.135 141.336]"
+		"look" "[2211.46 909.269 -1220.31]"
 	}
 }
 cordon
