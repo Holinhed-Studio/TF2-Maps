@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "403"
+	"mapversion" "409"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "403"
+	"mapversion" "409"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -38573,15 +38573,24 @@ entity
 	{
 		"OnCase01" "t1,Display,,0,-1"
 		"OnCase02" "weathersunny,Skin,1,0,-1"
-		"OnCase14" "weathersunny,Skin,2,0,-1"
+		"OnCase14" "WeatherSunny2,Skin,2,0,-1"
 		"OnCase07" "weathersunny,Skin,3,0,-1"
 		"OnCase08" "weathersunny,Skin,4,0,-1"
 		"OnCase10" "weathersunny,Disable,,30,-1"
 		"OnCase10" "weathersunny2,Enable,,30,-1"
-		"OnCase05" "weathersunny2,Skin,2,0,-1"
+		"OnCase05" "WeatherSunny,Skin,2,0,-1"
 		"OnCase12" "weathersunny2,Skin,1,0,-1"
 		"OnCase01" "value,turnon,,0,-1"
 		"OnCase10" "value,turnon,,0,-1"
+		"OnCase01" "WeatherSunny,Enable,,0,-1"
+		"OnCase01" "WeatherMcloudy,Disable,,0,-1"
+		"OnCase01" "WeatherSunny2,Disable,,0,-1"
+		"OnCase01" "WeatherStormy,Disable,,0,-1"
+		"OnCase01" "Weathercloudy,Disable,,0,-1"
+		"OnCase10" "WeatherSunny2,Disable,,30,-1"
+		"OnCase10" "WeatherMCloudy,Disable,,30,-1"
+		"OnCase10" "WeatherCloudy,Disable,,30,-1"
+		"OnCase10" "WeatherStormy,Disable,,30,-1"
 	}
 	"origin" "2720 -384 72"
 	editor
@@ -38615,10 +38624,10 @@ entity
 	"targetname" "WeatherLogic"
 	connections
 	{
-		"OnCase06" "t3,Display,,0,-1"
+		"OnCase06" "t3,Display,,30,-1"
 		"OnCase16" "t4,Display,,0,-1"
 		"OnCase01" "weathersunny2,Disable,,30,-1"
-		"OnCase01" "weathermcloudy,Enable,,30,-1"
+		"OnCase01" "WeatherSunny,Disable,,30,-1"
 		"OnCase04" "weathermcloudy,Skin,1,0,-1"
 		"OnCase06" "weathermcloudy,Disable,,30,-1"
 		"OnCase06" "weathercloudy,Enable,,30,-1"
@@ -38632,6 +38641,15 @@ entity
 		"OnCase16" "weatherstorm,Trigger,,0,-1"
 		"OnCase01" "t2,Display,,0,-1"
 		"OnCase16" "Value,TurnOff,,0,-1"
+		"OnCase16" "weathermcloudy,Disable,,0,-1"
+		"OnCase16" "WeatherSunny,Disable,,0,-1"
+		"OnCase16" "WeatherSunny2,Disable,,0,-1"
+		"OnCase01" "WeatherStormy,Disable,,30,-1"
+		"OnCase01" "weathermcloudy,Enable,,30,-1"
+		"OnCase01" "WeatherCloudy,Disable,,30,-1"
+		"OnCase06" "WeatherSunny,Disable,,30,-1"
+		"OnCase06" "WeatherSunny2,Disable,,30,-1"
+		"OnCase06" "WeatherStormy,Disable,,30,-1"
 	}
 	"origin" "2744 -384 72"
 	editor
@@ -46940,27 +46958,13 @@ entity
 	"targetname" "mortarcount"
 	connections
 	{
-		"OnHitMax" "resetcaptureaa,Disable,,0,-1"
-		"OnHitMax" "captureaa1,SetOwner,2,0,-1"
-		"OnHitMax" "captureaa1,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa*,SetOwner,1,32,-1"
 		"OnHitMax" "primovictoria,StopSound,,36.25,-1"
 		"OnHitMax" "AAG_HellFire,Disable,,32,-1"
 		"OnHitMax" "primovictoria,PlaySound,,0,-1"
 		"OnHitMax" "AAG_HellFire,Enable,,0,-1"
 		"OnHitMax" "aat*,Enable,,600,-1"
-		"OnHitMax" "mortarcount,SetValue,0,36.25,-1"
-		"OnHitMax" "captureaa2,SetOwner,1,600,-1"
-		"OnHitMax" "captureaa2,SetOwner,2,0,-1"
-		"OnHitMax" "captureaa3,SetOwner,1,600,-1"
-		"OnHitMax" "captureaa3,SetOwner,2,0,-1"
-		"OnHitMax" "captureaa4,SetOwner,1,600,-1"
-		"OnHitMax" "captureaa4,SetOwner,2,0,-1"
-		"OnHitMax" "captureaa5,SetOwner,1,600,-1"
-		"OnHitMax" "captureaa5,SetOwner,2,0,-1"
-		"OnHitMax" "captureaa6,SetOwner,1,600,-1"
-		"OnHitMax" "captureaa6,SetOwner,2,0,-1"
-		"OnHitMax" "captureaa7,SetOwner,1,600,-1"
-		"OnHitMax" "captureaa7,SetOwner,2,0,-1"
+		"OnHitMax" "mortarcount,SetValue,0,600,-1"
 	}
 	"origin" "2999.23 -1817.09 79.2218"
 	editor
@@ -47866,25 +47870,6 @@ entity
 }
 entity
 {
-	"id" "33339"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "resetcaptureaa"
-	connections
-	{
-		"OnTrigger" "captureaa,SetOwner,1,0,-1"
-	}
-	"origin" "3007.69 -1784.75 73.9416"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
 	"id" "33376"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa1"
@@ -47904,6 +47889,8 @@ entity
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
 		"OnEndCap" "aat1,Disable,,0,-1"
+		"OnEndCap" "aagun1stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun1stat0x1,ToggleSprite,,0,-1"
 	}
 	solid
 	{
@@ -48010,6 +47997,8 @@ entity
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
 		"OnEndCap" "aat2,Disable,,0,-1"
+		"OnEndCap" "aagun2stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun2stat0x1,ToggleSprite,,0,-1"
 	}
 	solid
 	{
@@ -48116,6 +48105,8 @@ entity
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
 		"OnEndCap" "aat3,Disable,,0,-1"
+		"OnEndCap" "aagun3stat0x1,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun3stat0x0,ToggleSprite,,0,-1"
 	}
 	solid
 	{
@@ -48222,6 +48213,8 @@ entity
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
 		"OnEndCap" "aat4,Disable,,0,-1"
+		"OnEndCap" "aagun4stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun4stat0x1,ToggleSprite,,0,-1"
 	}
 	solid
 	{
@@ -48328,6 +48321,8 @@ entity
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
 		"OnEndCap" "aat5,Disable,,0,-1"
+		"OnEndCap" "aagun5stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun5stat0x1,ToggleSprite,,0,-1"
 	}
 	solid
 	{
@@ -48434,6 +48429,8 @@ entity
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
 		"OnEndCap" "aat6,Disable,,0,-1"
+		"OnEndCap" "aagun6stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun6stat0x1,ToggleSprite,,0,-1"
 	}
 	solid
 	{
@@ -48540,6 +48537,8 @@ entity
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
 		"OnEndCap" "aat7,Disable,,0,-1"
+		"OnEndCap" "aagun7stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun7stat0x0,ToggleSprite,,0,-1"
 	}
 	solid
 	{
@@ -48916,13 +48915,377 @@ entity
 		"logicalpos" "[0 -7768]"
 	}
 }
+entity
+{
+	"id" "39555"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "1"
+	"targetname" "aagun7stat0x0"
+	"origin" "2466 -1909 152"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39570"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "aagun7stat0x1"
+	"origin" "2471 -1907 152"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39600"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "1"
+	"targetname" "aagun6stat0x0"
+	"origin" "2692 -1934 168.737"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39603"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "aagun6stat0x1"
+	"origin" "2697 -1932 168.737"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39636"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "aagun5stat0x1"
+	"origin" "2844 -1815 134"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39639"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "1"
+	"targetname" "aagun5stat0x0"
+	"origin" "2839 -1817 134"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39666"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "aagun4stat0x1"
+	"origin" "3188 -1756 146"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39669"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "1"
+	"targetname" "aagun4stat0x0"
+	"origin" "3183 -1758 146"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39738"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "aagun3stat0x1"
+	"origin" "3351 -1515 119"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39741"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "1"
+	"targetname" "aagun3stat0x0"
+	"origin" "3346 -1517 119"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39768"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "aagun2stat0x1"
+	"origin" "3623 -1356 135"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39771"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "1"
+	"targetname" "aagun2stat0x0"
+	"origin" "3618 -1358 135"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39804"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "aagun1stat0x1"
+	"origin" "3827 -1177 110"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
+entity
+{
+	"id" "39807"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "1"
+	"targetname" "aagun1stat0x0"
+	"origin" "3822 -1179 110"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11000 10000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2476.15 -2377.65 972.955]"
-		"look" "[2473.98 -1615.34 -913.825]"
+		"position" "[2776.86 -455.872 126.067]"
+		"look" "[1995.91 1162.3 -829.28]"
 	}
 }
 cordon
