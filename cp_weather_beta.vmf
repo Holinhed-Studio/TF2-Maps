@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "411"
+	"mapversion" "412"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "411"
+	"mapversion" "412"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -38633,7 +38633,6 @@ entity
 		"OnCase06" "weathercloudy,Enable,,30,-1"
 		"OnCase08" "weathercloudy,Skin,1,0,-1"
 		"OnCase10" "weathercloudy,Skin,2,0,-1"
-		"OnCase13" "weathercloudy,Skin,3,0,-1"
 		"OnCase11" "WeatherLRain,Trigger,,0,-1"
 		"OnCase13" "WeatherMRain,Trigger,,20,-1"
 		"OnCase16" "weathercloudy,Disable,,30,-1"
