@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "389"
+	"mapversion" "392"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "389"
+	"mapversion" "392"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -28422,7 +28422,7 @@ entity
 	"rendermode" "5"
 	"spawnflags" "14"
 	"targetname" "AAFireLight3"
-	"origin" "-400.913 1558.6 150.566"
+	"origin" "-448 1728 150.566"
 	editor
 	{
 		"color" "220 30 220"
@@ -28460,7 +28460,7 @@ entity
 	"rendermode" "5"
 	"spawnflags" "14"
 	"targetname" "AAFireLight2"
-	"origin" "80.1873 1717.5 125.611"
+	"origin" "40 1780 125.611"
 	editor
 	{
 		"color" "220 30 220"
@@ -28498,7 +28498,7 @@ entity
 	"rendermode" "5"
 	"spawnflags" "14"
 	"targetname" "AAFireLight1"
-	"origin" "512.187 2117.5 131.725"
+	"origin" "304 2116 131.725"
 	editor
 	{
 		"color" "220 30 220"
@@ -29281,8 +29281,6 @@ entity
 	"targetname" "mortarcount"
 	connections
 	{
-		"OnHitMax" "aabutton,Press,,3,-1"
-		"OnHitMax" "aabutton,Unlock,,0,-1"
 		"OnHitMax" "resetcaptureaa,Disable,,0,-1"
 		"OnHitMax" "captureaa,SetOwner,2,0,-1"
 		"OnHitMax" "captureaa,SetOwner,1,600,-1"
@@ -29290,6 +29288,7 @@ entity
 		"OnHitMax" "AAG_HellFire,Disable,,32,-1"
 		"OnHitMax" "primovictoria,PlaySound,,0,-1"
 		"OnHitMax" "AAG_HellFire,Enable,,0,-1"
+		"OnHitMax" "aat*,Enable,,600,-1"
 	}
 	"origin" "2999.23 -1817.09 79.2218"
 	editor
@@ -30219,6 +30218,7 @@ entity
 	"area_cap_point" "captureaa"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
+	"targetname" "aat1"
 	"team_cancap_2" "0"
 	"team_cancap_3" "1"
 	"team_numcap_2" "1"
@@ -30231,6 +30231,7 @@ entity
 	{
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
+		"OnEndCap" "aat1,Disable,,0,-1"
 	}
 	solid
 	{
@@ -30323,6 +30324,7 @@ entity
 	"area_cap_point" "captureaa"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
+	"targetname" "aat2"
 	"team_cancap_2" "0"
 	"team_cancap_3" "1"
 	"team_numcap_2" "1"
@@ -30335,6 +30337,7 @@ entity
 	{
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
+		"OnEndCap" "aat2,Disable,,0,-1"
 	}
 	solid
 	{
@@ -30427,6 +30430,7 @@ entity
 	"area_cap_point" "captureaa"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
+	"targetname" "aat3"
 	"team_cancap_2" "0"
 	"team_cancap_3" "1"
 	"team_numcap_2" "1"
@@ -30439,6 +30443,7 @@ entity
 	{
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
+		"OnEndCap" "aat3,Disable,,0,-1"
 	}
 	solid
 	{
@@ -30531,6 +30536,7 @@ entity
 	"area_cap_point" "captureaa"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
+	"targetname" "aat4"
 	"team_cancap_2" "0"
 	"team_cancap_3" "1"
 	"team_numcap_2" "1"
@@ -30543,6 +30549,7 @@ entity
 	{
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
+		"OnEndCap" "aat4,Disable,,0,-1"
 	}
 	solid
 	{
@@ -30635,6 +30642,7 @@ entity
 	"area_cap_point" "captureaa"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
+	"targetname" "aat5"
 	"team_cancap_2" "0"
 	"team_cancap_3" "1"
 	"team_numcap_2" "1"
@@ -30647,6 +30655,7 @@ entity
 	{
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
+		"OnEndCap" "aat5,Disable,,0,-1"
 	}
 	solid
 	{
@@ -30739,6 +30748,7 @@ entity
 	"area_cap_point" "captureaa"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
+	"targetname" "aat6"
 	"team_cancap_2" "0"
 	"team_cancap_3" "1"
 	"team_numcap_2" "1"
@@ -30751,6 +30761,7 @@ entity
 	{
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
+		"OnEndCap" "aat6,Disable,,0,-1"
 	}
 	solid
 	{
@@ -30843,6 +30854,7 @@ entity
 	"area_cap_point" "captureaa"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
+	"targetname" "aat7"
 	"team_cancap_2" "0"
 	"team_cancap_3" "1"
 	"team_numcap_2" "1"
@@ -30855,6 +30867,7 @@ entity
 	{
 		"OnEndCap" "resetcaptureaa,Trigger,,0,-1"
 		"OnEndCap" "mortarcount,Add,1,0,-1"
+		"OnEndCap" "aat7,Disable,,0,-1"
 	}
 	solid
 	{
@@ -30957,6 +30970,8 @@ entity
 	"StartDisabled" "0"
 	"targetname" "captureaa"
 	"team_bodygroup_0" "1"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "1"
 	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
 	"team_icon_2" "sprites/obj_icons/icon_obj_red"
 	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
@@ -30965,8 +30980,6 @@ entity
 	"team_model_3" "models/props_frontline/aa_gun.mdl"
 	"team_timedpoints_2" "0"
 	"team_timedpoints_3" "0"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
 	"origin" "3902.37 -1437.59 64"
 	editor
 	{
@@ -31020,8 +31033,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3856.13 -1422.9 410.505]"
-		"look" "[3120.85 347.543 -272.116]"
+		"position" "[3215.6 -2307.86 641.204]"
+		"look" "[1419.86 -2034.81 -276.308]"
 	}
 }
 cordon
