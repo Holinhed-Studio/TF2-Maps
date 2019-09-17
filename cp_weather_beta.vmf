@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "401"
+	"mapversion" "402"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "401"
+	"mapversion" "402"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -46941,14 +46941,26 @@ entity
 	connections
 	{
 		"OnHitMax" "resetcaptureaa,Disable,,0,-1"
-		"OnHitMax" "captureaa,SetOwner,2,0,-1"
-		"OnHitMax" "captureaa,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa1,SetOwner,2,0,-1"
+		"OnHitMax" "captureaa1,SetOwner,1,600,-1"
 		"OnHitMax" "primovictoria,StopSound,,36.25,-1"
 		"OnHitMax" "AAG_HellFire,Disable,,32,-1"
 		"OnHitMax" "primovictoria,PlaySound,,0,-1"
 		"OnHitMax" "AAG_HellFire,Enable,,0,-1"
 		"OnHitMax" "aat*,Enable,,600,-1"
 		"OnHitMax" "mortarcount,SetValue,0,36.25,-1"
+		"OnHitMax" "captureaa2,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa2,SetOwner,2,0,-1"
+		"OnHitMax" "captureaa3,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa3,SetOwner,2,0,-1"
+		"OnHitMax" "captureaa4,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa4,SetOwner,2,0,-1"
+		"OnHitMax" "captureaa5,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa5,SetOwner,2,0,-1"
+		"OnHitMax" "captureaa6,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa6,SetOwner,2,0,-1"
+		"OnHitMax" "captureaa7,SetOwner,1,600,-1"
+		"OnHitMax" "captureaa7,SetOwner,2,0,-1"
 	}
 	"origin" "2999.23 -1817.09 79.2218"
 	editor
@@ -47875,7 +47887,7 @@ entity
 {
 	"id" "33376"
 	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa"
+	"area_cap_point" "captureaa1"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
 	"targetname" "aat1"
@@ -47981,7 +47993,7 @@ entity
 {
 	"id" "33410"
 	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa"
+	"area_cap_point" "captureaa2"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
 	"targetname" "aat2"
@@ -48087,7 +48099,7 @@ entity
 {
 	"id" "33418"
 	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa"
+	"area_cap_point" "captureaa3"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
 	"targetname" "aat3"
@@ -48193,7 +48205,7 @@ entity
 {
 	"id" "33440"
 	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa"
+	"area_cap_point" "captureaa4"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
 	"targetname" "aat4"
@@ -48299,7 +48311,7 @@ entity
 {
 	"id" "33444"
 	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa"
+	"area_cap_point" "captureaa5"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
 	"targetname" "aat5"
@@ -48405,7 +48417,7 @@ entity
 {
 	"id" "33448"
 	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa"
+	"area_cap_point" "captureaa6"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
 	"targetname" "aat6"
@@ -48511,7 +48523,7 @@ entity
 {
 	"id" "33452"
 	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa"
+	"area_cap_point" "captureaa7"
 	"area_time_to_cap" "5"
 	"StartDisabled" "0"
 	"targetname" "aat7"
@@ -48628,7 +48640,7 @@ entity
 	"random_owner_on_restart" "0"
 	"spawnflags" "11"
 	"StartDisabled" "0"
-	"targetname" "captureaa"
+	"targetname" "captureaa1"
 	"team_bodygroup_0" "1"
 	"team_bodygroup_2" "1"
 	"team_bodygroup_3" "1"
@@ -48688,13 +48700,229 @@ entity
 		"logicalpos" "[0 -7768]"
 	}
 }
+entity
+{
+	"id" "39334"
+	"classname" "team_control_point"
+	"angles" "0 224 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "0"
+	"point_printname" "The AA Battery!"
+	"point_start_locked" "0"
+	"point_warn_on_cap" "2"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"random_owner_on_restart" "0"
+	"spawnflags" "11"
+	"StartDisabled" "0"
+	"targetname" "captureaa2"
+	"team_bodygroup_0" "1"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "1"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/props_frontline/aa_gun.mdl"
+	"team_model_2" "models/props_frontline/aa_gun.mdl"
+	"team_model_3" "models/props_frontline/aa_gun.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "3833.09 -1491.77 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "39338"
+	"classname" "team_control_point"
+	"angles" "0 224 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "0"
+	"point_printname" "The AA Battery!"
+	"point_start_locked" "0"
+	"point_warn_on_cap" "2"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"random_owner_on_restart" "0"
+	"spawnflags" "11"
+	"StartDisabled" "0"
+	"targetname" "captureaa3"
+	"team_bodygroup_0" "1"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "1"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/props_frontline/aa_gun.mdl"
+	"team_model_2" "models/props_frontline/aa_gun.mdl"
+	"team_model_3" "models/props_frontline/aa_gun.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "3727.2 -1553.44 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "39346"
+	"classname" "team_control_point"
+	"angles" "0 224 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "0"
+	"point_printname" "The AA Battery!"
+	"point_start_locked" "0"
+	"point_warn_on_cap" "2"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"random_owner_on_restart" "0"
+	"spawnflags" "11"
+	"StartDisabled" "0"
+	"targetname" "captureaa4"
+	"team_bodygroup_0" "1"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "1"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/props_frontline/aa_gun.mdl"
+	"team_model_2" "models/props_frontline/aa_gun.mdl"
+	"team_model_3" "models/props_frontline/aa_gun.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "3674.63 -1640.57 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "39350"
+	"classname" "team_control_point"
+	"angles" "0 224 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "0"
+	"point_printname" "The AA Battery!"
+	"point_start_locked" "0"
+	"point_warn_on_cap" "2"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"random_owner_on_restart" "0"
+	"spawnflags" "11"
+	"StartDisabled" "0"
+	"targetname" "captureaa5"
+	"team_bodygroup_0" "1"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "1"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/props_frontline/aa_gun.mdl"
+	"team_model_2" "models/props_frontline/aa_gun.mdl"
+	"team_model_3" "models/props_frontline/aa_gun.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "3590.19 -1720.8 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "39354"
+	"classname" "team_control_point"
+	"angles" "0 224 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "0"
+	"point_printname" "The AA Battery!"
+	"point_start_locked" "0"
+	"point_warn_on_cap" "2"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"random_owner_on_restart" "0"
+	"spawnflags" "11"
+	"StartDisabled" "0"
+	"targetname" "captureaa6"
+	"team_bodygroup_0" "1"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "1"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/props_frontline/aa_gun.mdl"
+	"team_model_2" "models/props_frontline/aa_gun.mdl"
+	"team_model_3" "models/props_frontline/aa_gun.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "3514.71 -1805.4 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "39358"
+	"classname" "team_control_point"
+	"angles" "0 224 0"
+	"point_default_owner" "2"
+	"point_group" "0"
+	"point_index" "0"
+	"point_printname" "The AA Battery!"
+	"point_start_locked" "0"
+	"point_warn_on_cap" "2"
+	"point_warn_sound" "ControlPoint.CaptureWarn"
+	"random_owner_on_restart" "0"
+	"spawnflags" "11"
+	"StartDisabled" "0"
+	"targetname" "captureaa7"
+	"team_bodygroup_0" "1"
+	"team_bodygroup_2" "1"
+	"team_bodygroup_3" "1"
+	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
+	"team_icon_2" "sprites/obj_icons/icon_obj_red"
+	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
+	"team_model_0" "models/props_frontline/aa_gun.mdl"
+	"team_model_2" "models/props_frontline/aa_gun.mdl"
+	"team_model_3" "models/props_frontline/aa_gun.mdl"
+	"team_timedpoints_2" "0"
+	"team_timedpoints_3" "0"
+	"origin" "3471.21 -1878.76 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3506.45 991.302 1494.22]"
-		"look" "[-3485.03 1844.6 -353.072]"
+		"position" "[2587.06 -2047.66 280.307]"
+		"look" "[837.355 -1044.08 11.1744]"
 	}
 }
 cordon
