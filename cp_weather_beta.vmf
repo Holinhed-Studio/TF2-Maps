@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "456"
+	"mapversion" "460"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "456"
+	"mapversion" "460"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -45988,82 +45988,6 @@ entity
 }
 entity
 {
-	"id" "28292"
-	"classname" "env_explosion"
-	"fireballsprite" "sprites/zerogxplode.spr"
-	"iMagnitude" "800"
-	"iRadiusOverride" "600"
-	"rendermode" "5"
-	"spawnflags" "14"
-	"targetname" "AAGFireLight4"
-	"origin" "-583.813 1461.5 127.397"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
-	}
-}
-entity
-{
-	"id" "28297"
-	"classname" "env_explosion"
-	"fireballsprite" "sprites/zerogxplode.spr"
-	"iMagnitude" "800"
-	"iRadiusOverride" "600"
-	"rendermode" "5"
-	"spawnflags" "14"
-	"targetname" "AAFireLight3"
-	"origin" "-448 1728 150.566"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
-	}
-}
-entity
-{
-	"id" "28302"
-	"classname" "env_explosion"
-	"fireballsprite" "sprites/zerogxplode.spr"
-	"iMagnitude" "800"
-	"iRadiusOverride" "600"
-	"rendermode" "5"
-	"spawnflags" "14"
-	"targetname" "AAGFireLight3"
-	"origin" "-215.813 1557.5 104.893"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
-	}
-}
-entity
-{
-	"id" "28307"
-	"classname" "env_explosion"
-	"fireballsprite" "sprites/zerogxplode.spr"
-	"iMagnitude" "800"
-	"iRadiusOverride" "600"
-	"rendermode" "5"
-	"spawnflags" "14"
-	"targetname" "AAFireLight2"
-	"origin" "40 1780 125.611"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
-	}
-}
-entity
-{
 	"id" "28312"
 	"classname" "env_explosion"
 	"fireballsprite" "sprites/zerogxplode.spr"
@@ -46073,25 +45997,6 @@ entity
 	"spawnflags" "14"
 	"targetname" "AAGFireLight2"
 	"origin" "296.187 1853.5 81.547"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -5768]"
-	}
-}
-entity
-{
-	"id" "28317"
-	"classname" "env_explosion"
-	"fireballsprite" "sprites/zerogxplode.spr"
-	"iMagnitude" "800"
-	"iRadiusOverride" "600"
-	"rendermode" "5"
-	"spawnflags" "14"
-	"targetname" "AAFireLight1"
-	"origin" "304 2116 131.725"
 	editor
 	{
 		"color" "220 30 220"
@@ -49086,13 +48991,342 @@ entity
 		"logicalpos" "[0 -7768]"
 	}
 }
+entity
+{
+	"id" "41671"
+	"classname" "prop_dynamic"
+	"angles" "0 148.5 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_frontline/bomb_naval_trio.mdl"
+	"modelscale" "0.3"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "2541.99 -1872.95 96.8311"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "41675"
+	"classname" "prop_dynamic"
+	"angles" "0 148.5 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_frontline/bomb_naval_trio.mdl"
+	"modelscale" "0.3"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "2570 -1839 98.7381"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "41679"
+	"classname" "prop_dynamic"
+	"angles" "0 148.5 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_frontline/bomb_naval_trio.mdl"
+	"modelscale" "0.3"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "3028.06 -1698.53 76.408"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "41683"
+	"classname" "prop_dynamic"
+	"angles" "0 148.5 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_frontline/bomb_naval_trio.mdl"
+	"modelscale" "0.3"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "3055 -1664 78.315"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "41687"
+	"classname" "prop_dynamic"
+	"angles" "0 148.5 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_frontline/bomb_naval_trio.mdl"
+	"modelscale" "0.3"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "3494.63 -1333.67 68.5555"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "41691"
+	"classname" "prop_dynamic"
+	"angles" "0 148.5 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_frontline/bomb_naval_trio.mdl"
+	"modelscale" "0.3"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "3514 -1304 70.4625"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "41717"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "AAGFireLight4"
+	"origin" "-1441.38 1963.75 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "41721"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "AAFireLight3"
+	"origin" "-537.205 1633.7 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "41725"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "AAGFireLight3"
+	"origin" "-92.4659 3056.88 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "41731"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "AAFireLight1"
+	"origin" "1376.19 3731.43 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "41752"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "AAFireLight2"
+	"origin" "-1116.09 3276.28 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[7179.96 3483.34 79.098]"
-		"look" "[6606.07 5291.72 -656.785]"
+		"position" "[-465.242 884.569 536.139]"
+		"look" "[-1178.29 2722.12 30.0675]"
 	}
 }
 cordon
