@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "428"
+	"mapversion" "429"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "428"
+	"mapversion" "429"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -23172,7 +23172,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13728 -9312 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -23409,7 +23409,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13728 -9215.75 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -23569,7 +23569,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13728 -9144 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -23729,7 +23729,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13728 -9032 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -23889,7 +23889,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13824 -9311.75 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -24049,7 +24049,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13880 -9311.75 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -24369,7 +24369,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13984 -9311.75 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -24529,7 +24529,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14080 -9311.75 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -24689,7 +24689,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13728 -8920 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -24849,7 +24849,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13728 -8808 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -25009,7 +25009,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13728 -8696 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -25169,7 +25169,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13824 -8624.25 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -25329,7 +25329,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[13919 -8624.25 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -25489,7 +25489,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14015 -8624.25 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -25649,7 +25649,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14111 -8624.25 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -25809,7 +25809,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14177 -8624.25 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -25969,7 +25969,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14272 -8624.25 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -26129,7 +26129,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14272 -8696 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -26289,7 +26289,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14272 -8808 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -26526,7 +26526,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14272 -8920 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -26686,7 +26686,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14272 -9032 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -26846,7 +26846,7 @@ world
 			{
 				"power" "3"
 				"startposition" "[14272 -9144 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -27006,7 +27006,7 @@ world
 			{
 				"power" "4"
 				"startposition" "[14272 -9311.75 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -27214,7 +27214,7 @@ world
 			{
 				"power" "4"
 				"startposition" "[14176 -9311.75 2050]"
-				"flags" "0"
+				"flags" "14"
 				"elevation" "0"
 				"subdiv" "0"
 				normals
@@ -49578,8 +49578,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[14203.1 -9181.55 2271.05]"
-		"look" "[14226.6 -7502.64 1121.37]"
+		"position" "[14302.8 -8969.92 2164.58]"
+		"look" "[14884 -10717.1 1298.15]"
 	}
 }
 cordon
