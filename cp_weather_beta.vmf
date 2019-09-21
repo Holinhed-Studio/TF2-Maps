@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "485"
+	"mapversion" "486"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "485"
+	"mapversion" "486"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -51678,22 +51678,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 4500]"
-	}
-}
-entity
-{
-	"id" "4985"
-	"classname" "info_player_teamspawn"
-	"angles" "0 90.5 0"
-	"spawnflags" "511"
-	"TeamNum" "2"
-	"origin" "2397.44 -448 72"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 15000]"
 	}
 }
 entity
@@ -119655,8 +119639,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3821.1 3745.49 631.392]"
-		"look" "[-3560.05 5706.11 152.882]"
+		"position" "[2142.17 -697.208 395.089]"
+		"look" "[3145.36 768.786 -597.697]"
 	}
 }
 cordon
