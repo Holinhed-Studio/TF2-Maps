@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "460"
+	"mapversion" "466"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "460"
+	"mapversion" "466"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -25192,6 +25192,82 @@ world
 	}
 	solid
 	{
+		"id" "41545"
+		side
+		{
+			"id" "23952"
+			"plane" "(7171 4569.5 62) (10240 6719 64) (10240 174 64)"
+			"material" "DEV/DEV_WATER2"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23953"
+			"plane" "(7166.5 2368.5 -56) (10240 174 -56) (10240 6719 -56)"
+			"material" "DEV/DEV_WATER2"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23954"
+			"plane" "(7171 4569.5 62) (7168 2368.5 62) (7166.5 2368.5 -56)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23955"
+			"plane" "(10240 6719 -56) (10240 174 -56) (10240 174 64)"
+			"material" "DEV/DEV_WATER2"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23956"
+			"plane" "(10240 6719 64) (7171 4569.5 62) (7169.5 4569.5 -56)"
+			"material" "DEV/DEV_WATER2"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23957"
+			"plane" "(10240 174 -56) (7166.5 2368.5 -56) (7168 2368.5 62)"
+			"material" "DEV/DEV_WATER2"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 106 123"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "5699"
 		side
 		{
@@ -37180,82 +37256,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
-	{
-		"id" "41545"
-		side
-		{
-			"id" "23952"
-			"plane" "(7171 4569.5 62) (10240 6719 64) (10240 174 64)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "23953"
-			"plane" "(7166.5 2368.5 -56) (10240 174 -56) (10240 6719 -56)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "23954"
-			"plane" "(7171 4569.5 62) (7168 2368.5 62) (7166.5 2368.5 -56)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "23955"
-			"plane" "(10240 6719 -56) (10240 174 -56) (10240 174 64)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "23956"
-			"plane" "(10240 6719 64) (7171 4569.5 62) (7169.5 4569.5 -56)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "23957"
-			"plane" "(10240 174 -56) (7166.5 2368.5 -56) (7168 2368.5 62)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 106 123"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	group
 	{
 		"id" "5711"
@@ -38410,11 +38410,10 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "WeatherCycleTimer"
-	"UpperRandomBound" "60"
+	"UpperRandomBound" "90"
 	"UseRandomTime" "1"
 	connections
 	{
-		"OnTimer" "dbg_timeradd,Display,,0,-1"
 		"OnTimer" "WeatherCycleClock,PickRandomShuffle,,0,-1"
 		"OnTimer" "testsound,PlaySound,,0,-1"
 	}
@@ -38744,32 +38743,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "5488"
-	"classname" "game_text"
-	"channel" "1"
-	"color" "255 0 0"
-	"color2" "240 110 0"
-	"effect" "0"
-	"fadein" "1.5"
-	"fadeout" "0.5"
-	"fxtime" "0.25"
-	"holdtime" "1.2"
-	"message" "TIME ADDED"
-	"spawnflags" "1"
-	"targetname" "dbg_timeradd"
-	"x" "-1"
-	"y" "-1"
-	"origin" "2661.5 -353.163 72"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
 	}
 }
 entity
@@ -46787,6 +46760,7 @@ entity
 		"OnHitMax" "aat*,Enable,,600,-1"
 		"OnHitMax" "mortarcount,SetValue,0,600,-1"
 		"OnHitMax" "aagun*,ToggleSprite,,0,-1"
+		"OutValue" "MortarTextCase,InValue,,0,-1"
 	}
 	"origin" "2999.23 -1817.09 79.2218"
 	editor
@@ -47542,7 +47516,7 @@ entity
 	"id" "33376"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa1"
-	"area_time_to_cap" "5"
+	"area_time_to_cap" "2"
 	"StartDisabled" "0"
 	"targetname" "aat1"
 	"team_cancap_2" "0"
@@ -47559,6 +47533,7 @@ entity
 		"OnEndCap" "aat1,Disable,,0,-1"
 		"OnEndCap" "aagun1stat0x0,ToggleSprite,,0,-1"
 		"OnEndCap" "aagun1stat0x1,ToggleSprite,,0,-1"
+		"OnStartCap" "MortarCaptured1,PlaySound,,2,-1"
 	}
 	solid
 	{
@@ -47649,7 +47624,7 @@ entity
 	"id" "33410"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa2"
-	"area_time_to_cap" "5"
+	"area_time_to_cap" "2"
 	"StartDisabled" "0"
 	"targetname" "aat2"
 	"team_cancap_2" "0"
@@ -47666,6 +47641,7 @@ entity
 		"OnEndCap" "aat2,Disable,,0,-1"
 		"OnEndCap" "aagun2stat0x0,ToggleSprite,,0,-1"
 		"OnEndCap" "aagun2stat0x1,ToggleSprite,,0,-1"
+		"OnStartCap" "MortarCaptured2,PlaySound,,2,-1"
 	}
 	solid
 	{
@@ -47756,7 +47732,7 @@ entity
 	"id" "33418"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa3"
-	"area_time_to_cap" "5"
+	"area_time_to_cap" "2"
 	"StartDisabled" "0"
 	"targetname" "aat3"
 	"team_cancap_2" "0"
@@ -47773,6 +47749,7 @@ entity
 		"OnEndCap" "aat3,Disable,,0,-1"
 		"OnEndCap" "aagun3stat0x1,ToggleSprite,,0,-1"
 		"OnEndCap" "aagun3stat0x0,ToggleSprite,,0,-1"
+		"OnStartCap" "MortarCaptured3,PlaySound,,2,-1"
 	}
 	solid
 	{
@@ -47863,7 +47840,7 @@ entity
 	"id" "33440"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa4"
-	"area_time_to_cap" "5"
+	"area_time_to_cap" "2"
 	"StartDisabled" "0"
 	"targetname" "aat4"
 	"team_cancap_2" "0"
@@ -47880,6 +47857,7 @@ entity
 		"OnEndCap" "aat4,Disable,,0,-1"
 		"OnEndCap" "aagun4stat0x0,ToggleSprite,,0,-1"
 		"OnEndCap" "aagun4stat0x1,ToggleSprite,,0,-1"
+		"OnStartCap" "MortarCaptured4,PlaySound,,2,-1"
 	}
 	solid
 	{
@@ -47970,7 +47948,7 @@ entity
 	"id" "33444"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa5"
-	"area_time_to_cap" "5"
+	"area_time_to_cap" "2"
 	"StartDisabled" "0"
 	"targetname" "aat5"
 	"team_cancap_2" "0"
@@ -47987,6 +47965,7 @@ entity
 		"OnEndCap" "aat5,Disable,,0,-1"
 		"OnEndCap" "aagun5stat0x0,ToggleSprite,,0,-1"
 		"OnEndCap" "aagun5stat0x1,ToggleSprite,,0,-1"
+		"OnStartCap" "MortarCaptured5,PlaySound,,2,-1"
 	}
 	solid
 	{
@@ -48077,7 +48056,7 @@ entity
 	"id" "33448"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa6"
-	"area_time_to_cap" "5"
+	"area_time_to_cap" "2"
 	"StartDisabled" "0"
 	"targetname" "aat6"
 	"team_cancap_2" "0"
@@ -48094,6 +48073,7 @@ entity
 		"OnEndCap" "aat6,Disable,,0,-1"
 		"OnEndCap" "aagun6stat0x0,ToggleSprite,,0,-1"
 		"OnEndCap" "aagun6stat0x1,ToggleSprite,,0,-1"
+		"OnStartCap" "MortarCaptured6,PlaySound,,2,-1"
 	}
 	solid
 	{
@@ -48184,7 +48164,7 @@ entity
 	"id" "33452"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "captureaa7"
-	"area_time_to_cap" "5"
+	"area_time_to_cap" "2"
 	"StartDisabled" "0"
 	"targetname" "aat7"
 	"team_cancap_2" "0"
@@ -49320,13 +49300,279 @@ entity
 		"logicalpos" "[0 -5768]"
 	}
 }
+entity
+{
+	"id" "42548"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "mvm/mvm_deploy_giant.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "MortarCaptured6"
+	"volstart" "0"
+	"origin" "2693 -1924 171.877"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "42554"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "mvm/mvm_deploy_giant.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "MortarCaptured4"
+	"volstart" "0"
+	"origin" "3183 -1751 144.128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "42557"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "mvm/mvm_deploy_giant.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "MortarCaptured2"
+	"volstart" "0"
+	"origin" "3618 -1351 139.579"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "42560"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weapons/sentry_move_medium1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "MortarCaptured1"
+	"volstart" "0"
+	"origin" "3825 -1174 122.725"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "42581"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weapons/sentry_move_medium2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "MortarCaptured3"
+	"volstart" "0"
+	"origin" "3348 -1512 118.727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "42596"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weapons/sentry_move_medium3.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "MortarCaptured5"
+	"volstart" "0"
+	"origin" "2842 -1815 133.912"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "42611"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weapons/sentry_move_medium1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "MortarCaptured7"
+	"volstart" "0"
+	"origin" "2471 -1910 153.919"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "42821"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "255 0 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "BLU has begun loading their mortars! Prepare for armageddon..."
+	"spawnflags" "1"
+	"targetname" "MortarCapProg"
+	"x" "-1"
+	"y" "-1"
+	"origin" "2988.59 -1850.73 70.3246"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "42841"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "3"
+	"Case03" "5"
+	"targetname" "MortarTextCase"
+	connections
+	{
+		"OnCase01" "MortarCapProg,Display,,0,-1"
+		"OnCase02" "MortarCapProg,Display,,0,-1"
+		"OnCase03" "MortarCapProg,Display,,0,-1"
+	}
+	"origin" "3001.63 -1771.24 75.189"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-465.242 884.569 536.139]"
-		"look" "[-1178.29 2722.12 30.0675]"
+		"position" "[2785.2 -622.423 548.651]"
+		"look" "[2132.01 472.701 -1037.28]"
 	}
 }
 cordon
