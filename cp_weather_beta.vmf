@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "503"
+	"mapversion" "504"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "503"
+	"mapversion" "504"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -48676,6 +48676,82 @@ world
 		editor
 		{
 			"color" "0 119 148"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "55076"
+		side
+		{
+			"id" "52697"
+			"plane" "(128 4840 -8) (640 4840 -8) (640 4328 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52698"
+			"plane" "(128 4328 -241) (640 4328 -241) (640 4840 -241)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52699"
+			"plane" "(128 4840 -8) (128 4328 -8) (128 4328 -241)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52700"
+			"plane" "(640 4840 -241) (640 4328 -241) (640 4328 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52701"
+			"plane" "(640 4840 -8) (128 4840 -8) (128 4840 -241)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "52702"
+			"plane" "(640 4328 -241) (128 4328 -241) (128 4328 -8)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 225 190"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -123243,8 +123319,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-484.236 4155.83 1250.81]"
-		"look" "[1031.57 4556.95 -46.3429]"
+		"position" "[529.944 3893.7 339.156]"
+		"look" "[302.407 5689.29 -591.032]"
 	}
 }
 cordon
