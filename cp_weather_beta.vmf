@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "510"
+	"mapversion" "512"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "510"
+	"mapversion" "512"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -127686,7 +127686,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "255 210 119 200"
+	"_light" "221 111 0 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -127789,7 +127789,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "255 210 119 200"
+	"_light" "221 111 0 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -127868,7 +127868,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "255 210 119 200"
+	"_light" "221 111 0 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -127930,7 +127930,7 @@ entity
 	"effect_name" "m_brazier_flame"
 	"flag_as_weather" "0"
 	"start_active" "1"
-	"origin" "5051 1378 -572.182"
+	"origin" "5049 1385 -572.182"
 	editor
 	{
 		"color" "220 30 220"
@@ -127947,7 +127947,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "255 210 119 200"
+	"_light" "221 111 0 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -128026,7 +128026,7 @@ entity
 	"_distance" "0"
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "255 210 119 200"
+	"_light" "221 111 0 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
@@ -128048,8 +128048,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5679.01 1241.98 -628.736]"
-		"look" "[3826.87 625.041 -54.1721]"
+		"position" "[5126.37 1404.82 -581.092]"
+		"look" "[3242.8 642.943 -467.493]"
 	}
 }
 cordon
