@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "512"
+	"mapversion" "514"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "512"
+	"mapversion" "514"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -52347,11 +52347,11 @@ world
 				normals
 				{
 					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 -1 0 0 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "0 -1 0 -0.0268416 -0.99964 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row1" "0 -1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0"
+					"row2" "0 -1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0"
+					"row3" "0 -1 0 0 -1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0"
+					"row4" "0 -1 0 0 -1 0 0 -1 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0"
+					"row5" "0 -1 0 -0.0268416 -0.99964 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0"
 					"row6" "0 -1 0 -0.0225399 -0.999746 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row7" "-0.707107 -0.707107 0 -0.0645977 -0.997911 0 0 0 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row8" "-0.437676 -0.899132 0 -0.0443736 -0.999015 0 -0.223209 -0.97477 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -52359,11 +52359,11 @@ world
 				distances
 				{
 					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "36.6902 0 0 0 0 0 0 0 0"
-					"row2" "68.2901 0 0 0 0 0 0 0 0"
-					"row3" "64.0482 67.8127 0 0 0 0 0 0 0"
-					"row4" "24.2229 117.566 47.4893 0 0 0 0 0 0"
-					"row5" "18.9834 188.643 0 0 0 0 0 0 0"
+					"row1" "36.6902 0 0 0 133.561 225.431 146.02 156.904 0"
+					"row2" "68.2901 0 0 0 163.836 274.934 404.543 185.533 0"
+					"row3" "64.0482 67.8127 0 0 150.652 301.511 314.406 228.277 0"
+					"row4" "24.2229 117.566 47.4893 0 75.4658 224.145 255.513 112.088 0"
+					"row5" "18.9834 188.643 0 0 0 34.5854 47.1724 0 0"
 					"row6" "12.2988 183.247 0 10 0 0 0 0 0"
 					"row7" "14.1421 204.534 0 0.70459 0 0 0 0 0"
 					"row8" "94.2906 225.359 134.403 50 0 0 0 0 0"
@@ -52406,8 +52406,8 @@ world
 				}
 				triangle_tags
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row0" "0 0 0 0 0 0 0 1 9 9 9 9 9 9 9 0"
+					"row1" "0 0 0 0 0 0 0 0 0 0 0 9 9 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row4" "0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0"
@@ -128043,13 +128043,566 @@ entity
 		"logicalpos" "[0 7500]"
 	}
 }
+entity
+{
+	"id" "59585"
+	"classname" "prop_static"
+	"angles" "0 149 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/torch.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3884 2765 -647.626"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "59589"
+	"classname" "info_particle_system"
+	"angles" "0 59 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_brazier_flame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "3876.29 2769.64 -627.808"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "59654"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "221 111 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "1"
+	"origin" "3845.09 2789.55 -614.659"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "59881"
+	"classname" "prop_static"
+	"angles" "0 149 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/torch.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "4160 3361 -667.337"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "59885"
+	"classname" "info_particle_system"
+	"angles" "0 59 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_brazier_flame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "4152.29 3365.64 -647.519"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "59950"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "221 111 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "1"
+	"origin" "4121.08 3385.55 -634.37"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "60103"
+	"classname" "prop_static"
+	"angles" "0 214 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/torch.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3626 4192 -647.336"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "60107"
+	"classname" "info_particle_system"
+	"angles" "0 124 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_brazier_flame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "3618.54 4186.97 -627.518"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "60172"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "221 111 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "1"
+	"origin" "3587.3 4167.11 -614.369"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "60399"
+	"classname" "prop_static"
+	"angles" "0 214 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/torch.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3124 4638 -629.065"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "60403"
+	"classname" "info_particle_system"
+	"angles" "0 124 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_brazier_flame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "3116.54 4632.97 -609.247"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "60468"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "221 111 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "1"
+	"origin" "3085.3 4613.11 -596.099"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "60695"
+	"classname" "prop_static"
+	"angles" "0 255.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/torch.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2688.49 4843 -659.454"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "60699"
+	"classname" "info_particle_system"
+	"angles" "0 165.5 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_brazier_flame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "2686.23 4834.29 -639.637"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "60764"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "221 111 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "1"
+	"origin" "2676 4798.71 -626.488"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "61139"
+	"classname" "prop_static"
+	"angles" "0 255.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/torch.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1845 4855.29 -645.213"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "61143"
+	"classname" "info_particle_system"
+	"angles" "0 165.5 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_brazier_flame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "1842.75 4846.57 -625.395"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "61208"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "221 111 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "1"
+	"origin" "1832.51 4811 -612.247"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "61361"
+	"classname" "prop_static"
+	"angles" "0 255.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/torch.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1056.49 4803 -664.278"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7000]"
+	}
+}
+entity
+{
+	"id" "61365"
+	"classname" "info_particle_system"
+	"angles" "0 165.5 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_brazier_flame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "1054.23 4794.29 -644.461"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "61430"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "221 111 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "1"
+	"origin" "1044 4758.71 -631.312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[5126.37 1404.82 -581.092]"
-		"look" "[3242.8 642.943 -467.493]"
+		"position" "[1127.78 4732.65 -629.209]"
+		"look" "[3052.81 4108.01 -416.491]"
 	}
 }
 cordon
