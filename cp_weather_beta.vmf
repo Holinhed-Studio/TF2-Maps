@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "550"
+	"mapversion" "551"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "550"
+	"mapversion" "551"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -62854,6 +62854,16 @@ entity
 		"OnCase14" "WeatherCycle,SetValue,17,0,-1"
 		"OnCase15" "WeatherCycle,SetValue,22,0,-1"
 		"OnCase16" "WeatherCycle,SetValue,17,0,-1"
+		"OnCase13" "WeatherStormy,Enable,,0.5,-1"
+		"OnCase05" "WeatherStormy,Enable,,0.5,-1"
+		"OnCase05" "WeatherCloudy,Disable,,0.25,-1"
+		"OnCase13" "WeatherCloudy,Disable,,0.25,-1"
+		"OnCase13" "WeatherMCloudy,Disable,,0.25,-1"
+		"OnCase05" "WeatherMCloudy,Disable,,0.25,-1"
+		"OnCase13" "WeatherSunny,Disable,,0.25,-1"
+		"OnCase05" "WeatherSunny,Disable,,0.25,-1"
+		"OnCase05" "WeatherSunny2,Disable,,0.25,-1"
+		"OnCase13" "WeatherSunny2,Disable,,0.25,-1"
 	}
 	"origin" "2664 -408 72"
 	editor
@@ -134772,8 +134782,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3874.01 -1332.41 118.052]"
-		"look" "[2577.38 66.4327 -591.288]"
+		"position" "[2670.7 -410.826 204.564]"
+		"look" "[2803.15 77.6187 -1766.49]"
 	}
 }
 cordon
