@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "557"
+	"mapversion" "558"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "557"
+	"mapversion" "558"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -131020,7 +131020,7 @@ entity
 		"OnCase13" "BluBomb,Kill,,0,-1"
 		"OnCase13" "blubombexplode,PlaySound,,0,-1"
 		"OnCase13" "blubombexplode2,PlaySound,,1,-1"
-		"OnCase13" "blubombexplode3,PlaySound,,5,-1"
+		"OnCase13" "blubombexplode3,PlaySound,,4,-1"
 		"OnCase13" "BluBombParticle,Start,,0,-1"
 		"OnCase13" "BluBombParticle,Stop,,20,-1"
 		"OnCase13" "nukefade,Fade,,1,-1"
@@ -134969,13 +134969,44 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
+entity
+{
+	"id" "65688"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/abomb.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "blubombexplode3"
+	"volstart" "0"
+	"origin" "1819.67 -4290.83 299"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2711.56 -416.226 241.532]"
-		"look" "[2689.99 20.2288 -1745.98]"
+		"position" "[1840.91 -4175.69 358.223]"
+		"look" "[1202 -5972.86 -351.112]"
 	}
 }
 cordon
