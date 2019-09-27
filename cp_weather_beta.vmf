@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "556"
+	"mapversion" "557"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "556"
+	"mapversion" "557"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -128232,7 +128232,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "WeatherStormyLightningTimer"
-	"UpperRandomBound" "12"
+	"UpperRandomBound" "17"
 	"UseRandomTime" "1"
 	connections
 	{
@@ -134708,6 +134708,7 @@ entity
 		"OnTrigger" "WeatherCloudy,Skin,0,0,-1"
 		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
 		"OnTrigger" "t1,Display,,0,-1"
+		"OnTrigger" "WeatherStormyLightningTimer,Disable,,0,-1"
 	}
 	"origin" "2665.63 -359.654 64.7994"
 	editor
@@ -134737,6 +134738,7 @@ entity
 		"OnTrigger" "WeatherSunny2,Skin,0,0,-1"
 		"OnTrigger" "WeatherStormy,Skin,0,0,-1"
 		"OnTrigger" "t3,Display,,0,-1"
+		"OnTrigger" "WeatherStormyLightningTimer,Disable,,0,-1"
 	}
 	"origin" "2688.89 -361.696 71.7953"
 	editor
@@ -134766,6 +134768,7 @@ entity
 		"OnTrigger" "WeatherCloudy,Skin,0,0,-1"
 		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
 		"OnTrigger" "t5,Display,,0,-1"
+		"OnTrigger" "WeatherStormyLightningTimer,Enable,,0,-1"
 	}
 	"origin" "2741.06 -360.705 71.786"
 	editor
@@ -134795,6 +134798,7 @@ entity
 		"OnTrigger" "Weathersunny,Skin,0,0,-1"
 		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
 		"OnTrigger" "t4,Display,,0,-1"
+		"OnTrigger" "WeatherStormyLightningTimer,Disable,,0,-1"
 	}
 	"origin" "2713.27 -357.297 71.791"
 	editor
@@ -134824,6 +134828,7 @@ entity
 		"OnTrigger" "WeatherCloudy,Skin,0,0,-1"
 		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
 		"OnTrigger" "t2,Display,,0,-1"
+		"OnTrigger" "WeatherStormyLightningTimer,Disable,,0,-1"
 	}
 	"origin" "2676.39 -359.122 71.7975"
 	editor
@@ -134936,6 +134941,32 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "65630"
+	"classname" "logic_timer"
+	"LowerRandomBound" "6"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "WeatherBStormyLightningTimer"
+	"UpperRandomBound" "12"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "lightning,TurnOn,,0,-1"
+		"OnTimer" "lightning,TurnOff,,0.12,-1"
+		"OnTimer" "lightning,TurnOn,,0.18,-1"
+		"OnTimer" "lightning,TurnOff,,0.25,-1"
+	}
+	"origin" "2816.01 -406.988 71.7727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras
