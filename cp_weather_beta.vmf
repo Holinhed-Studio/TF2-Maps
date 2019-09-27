@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "551"
+	"mapversion" "556"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -11,7 +11,7 @@ visgroups
 }
 viewsettings
 {
-	"bSnapToGrid" "0"
+	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "1"
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "551"
+	"mapversion" "556"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -62693,26 +62693,14 @@ entity
 	"targetname" "WeatherLogic"
 	connections
 	{
-		"OnCase01" "t1,Display,,0,-1"
 		"OnCase02" "weathersunny,Skin,1,0,-1"
 		"OnCase14" "WeatherSunny2,Skin,2,0,-1"
 		"OnCase07" "weathersunny,Skin,3,0,-1"
 		"OnCase08" "weathersunny,Skin,4,0,-1"
-		"OnCase10" "weathersunny,Disable,,30,-1"
-		"OnCase10" "weathersunny2,Enable,,30,-1"
 		"OnCase05" "WeatherSunny,Skin,2,0,-1"
 		"OnCase12" "weathersunny2,Skin,1,0,-1"
-		"OnCase01" "value,turnon,,0,-1"
-		"OnCase10" "value,turnon,,0,-1"
-		"OnCase01" "WeatherSunny,Enable,,0,-1"
-		"OnCase01" "WeatherMcloudy,Disable,,0,-1"
-		"OnCase01" "WeatherSunny2,Disable,,0,-1"
-		"OnCase01" "WeatherStormy,Disable,,0,-1"
-		"OnCase01" "Weathercloudy,Disable,,0,-1"
-		"OnCase10" "WeatherSunny2,Disable,,30,-1"
-		"OnCase10" "WeatherMCloudy,Disable,,30,-1"
-		"OnCase10" "WeatherCloudy,Disable,,30,-1"
-		"OnCase10" "WeatherStormy,Disable,,30,-1"
+		"OnCase01" "ForceWeatherSunny,Trigger,,0,-1"
+		"OnCase10" "ForceWeatherSunny2,Trigger,,0,-1"
 	}
 	"origin" "2720 -384 72"
 	editor
@@ -62746,31 +62734,27 @@ entity
 	"targetname" "WeatherLogic"
 	connections
 	{
-		"OnCase06" "t3,Display,,30,-1"
-		"OnCase16" "t4,Display,,0,-1"
-		"OnCase01" "weathersunny2,Disable,,30,-1"
-		"OnCase01" "WeatherSunny,Disable,,30,-1"
 		"OnCase04" "weathermcloudy,Skin,1,0,-1"
-		"OnCase06" "weathermcloudy,Disable,,30,-1"
-		"OnCase06" "weathercloudy,Enable,,30,-1"
 		"OnCase08" "weathercloudy,Skin,1,0,-1"
-		"OnCase11" "WeatherLRain,Trigger,,0,-1"
+		"OnCase10" "WeatherLRain,Trigger,,0,-1"
 		"OnCase13" "WeatherMRain,Trigger,,20,-1"
-		"OnCase16" "weathercloudy,Disable,,30,-1"
-		"OnCase16" "weatherstormy,Enable,,30,-1"
-		"OnCase16" "weatherstorm,Trigger,,0,-1"
-		"OnCase01" "t2,Display,,0,-1"
-		"OnCase16" "Value,TurnOff,,0,-1"
-		"OnCase16" "weathermcloudy,Disable,,0,-1"
-		"OnCase16" "WeatherSunny,Disable,,0,-1"
-		"OnCase16" "WeatherSunny2,Disable,,0,-1"
-		"OnCase01" "WeatherStormy,Disable,,30,-1"
-		"OnCase01" "weathermcloudy,Enable,,30,-1"
-		"OnCase01" "WeatherCloudy,Disable,,30,-1"
-		"OnCase06" "WeatherSunny,Disable,,30,-1"
-		"OnCase06" "WeatherSunny2,Disable,,30,-1"
-		"OnCase06" "WeatherStormy,Disable,,30,-1"
-		"OnCase10" "value,turnoff,,0,-1"
+		"OnCase16" "ForceWeatherStormy,Trigger,,0,-1"
+		"OnCase08" "value,turnoff,,0,-1"
+		"OnCase01" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase06" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase02" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase03" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase04" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase05" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase07" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase08" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase09" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase10" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase11" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase12" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase13" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase14" "ForceWeatherCloudy,Trigger,,30,-1"
+		"OnCase15" "ForceWeatherCloudy,Trigger,,30,-1"
 	}
 	"origin" "2744 -384 72"
 	editor
@@ -62854,16 +62838,22 @@ entity
 		"OnCase14" "WeatherCycle,SetValue,17,0,-1"
 		"OnCase15" "WeatherCycle,SetValue,22,0,-1"
 		"OnCase16" "WeatherCycle,SetValue,17,0,-1"
-		"OnCase13" "WeatherStormy,Enable,,0.5,-1"
-		"OnCase05" "WeatherStormy,Enable,,0.5,-1"
-		"OnCase05" "WeatherCloudy,Disable,,0.25,-1"
-		"OnCase13" "WeatherCloudy,Disable,,0.25,-1"
-		"OnCase13" "WeatherMCloudy,Disable,,0.25,-1"
-		"OnCase05" "WeatherMCloudy,Disable,,0.25,-1"
-		"OnCase13" "WeatherSunny,Disable,,0.25,-1"
-		"OnCase05" "WeatherSunny,Disable,,0.25,-1"
-		"OnCase05" "WeatherSunny2,Disable,,0.25,-1"
-		"OnCase13" "WeatherSunny2,Disable,,0.25,-1"
+		"OnCase09" "ForceWeatherCloudy,Trigger,,0.1,-1"
+		"OnCase12" "ForceWeatherCloudy,Trigger,,0.1,-1"
+		"OnCase14" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase01" "ForceWeatherCloudy,Trigger,,0,-1"
+		"OnCase02" "ForceWeatherSunny,Trigger,,0,-1"
+		"OnCase03" "ForceWeatherCloudy,Trigger,,0,-1"
+		"OnCase04" "ForceWeatherCloudy,Trigger,,0,-1"
+		"OnCase05" "ForceWeatherStormy,Trigger,,0,-1"
+		"OnCase06" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase07" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase08" "ForceWeatherMCloudy,Trigger,,0,-1"
+		"OnCase10" "ForceWeatherSunny,Trigger,,0,-1"
+		"OnCase11" "ForceWeatherSunny,Trigger,,0,-1"
+		"OnCase13" "ForceWeatherStormy,Trigger,,0,-1"
+		"OnCase15" "ForceWeatherCloudy,Trigger,,0,-1"
+		"OnCase16" "ForceWeatherMCloudy,Trigger,,0,-1"
 	}
 	"origin" "2664 -408 72"
 	editor
@@ -62921,97 +62911,19 @@ entity
 	"id" "5507"
 	"classname" "game_text"
 	"channel" "1"
-	"color" "100 100 100"
+	"color" "128 255 0"
 	"color2" "240 110 0"
 	"effect" "0"
 	"fadein" "1.5"
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
-	"message" "test: WEATHER SUNNY"
+	"message" "StormFront Engine: WEATHER SUNNY"
 	"spawnflags" "1"
 	"targetname" "t1"
-	"x" "-1"
-	"y" "-1"
+	"x" "0"
+	"y" "0"
 	"origin" "2668 -432 72"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "5509"
-	"classname" "game_text"
-	"channel" "1"
-	"color" "100 100 100"
-	"color2" "240 110 0"
-	"effect" "0"
-	"fadein" "1.5"
-	"fadeout" "0.5"
-	"fxtime" "0.25"
-	"holdtime" "1.2"
-	"message" "test: WEATHER MCLOUDY"
-	"spawnflags" "1"
-	"targetname" "t2"
-	"x" "-1"
-	"y" "-1"
-	"origin" "2692 -432 72"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "5511"
-	"classname" "game_text"
-	"channel" "1"
-	"color" "100 100 100"
-	"color2" "240 110 0"
-	"effect" "0"
-	"fadein" "1.5"
-	"fadeout" "0.5"
-	"fxtime" "0.25"
-	"holdtime" "1.2"
-	"message" "test: WEATHER CLOUDY"
-	"spawnflags" "1"
-	"targetname" "t3"
-	"x" "-1"
-	"y" "-1"
-	"origin" "2716 -432 72"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "5513"
-	"classname" "game_text"
-	"channel" "1"
-	"color" "100 100 100"
-	"color2" "240 110 0"
-	"effect" "0"
-	"fadein" "1.5"
-	"fadeout" "0.5"
-	"fxtime" "0.25"
-	"holdtime" "1.2"
-	"message" "test: WEATHER STORMY"
-	"spawnflags" "1"
-	"targetname" "t4"
-	"x" "-1"
-	"y" "-1"
-	"origin" "2740 -432 72"
 	editor
 	{
 		"color" "220 30 220"
@@ -134777,13 +134689,262 @@ entity
 		"logicalpos" "[3500 12500]"
 	}
 }
+entity
+{
+	"id" "65203"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "ForceWeatherSunny"
+	connections
+	{
+		"OnTrigger" "value,turnon,,0,-1"
+		"OnTrigger" "WeatherStormy,Disable,,0,-1"
+		"OnTrigger" "WeatherCloudy,Disable,,0,-1"
+		"OnTrigger" "WeatherMCloudy,Disable,,0,-1"
+		"OnTrigger" "WeatherSunny2,Disable,,0,-1"
+		"OnTrigger" "WeatherSunny,Enable,,0,-1"
+		"OnTrigger" "WeatherStormy,Skin,0,0,-1"
+		"OnTrigger" "WeatherSunny2,Skin,0,0,-1"
+		"OnTrigger" "WeatherCloudy,Skin,0,0,-1"
+		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
+		"OnTrigger" "t1,Display,,0,-1"
+	}
+	"origin" "2665.63 -359.654 64.7994"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 13000]"
+	}
+}
+entity
+{
+	"id" "65357"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "ForceWeatherMCloudy"
+	connections
+	{
+		"OnTrigger" "WeatherStormy,Disable,,0,-1"
+		"OnTrigger" "WeatherSunny2,Disable,,0,-1"
+		"OnTrigger" "Weathersunny,Disable,,0,-1"
+		"OnTrigger" "value,turnon,,0,-1"
+		"OnTrigger" "WeatherCloudy,Disable,,0,-1"
+		"OnTrigger" "WeatherMCloudy,Enable,,0,-1"
+		"OnTrigger" "WeatherCloudy,Skin,0,0,-1"
+		"OnTrigger" "Weathersunny,Skin,0,0,-1"
+		"OnTrigger" "WeatherSunny2,Skin,0,0,-1"
+		"OnTrigger" "WeatherStormy,Skin,0,0,-1"
+		"OnTrigger" "t3,Display,,0,-1"
+	}
+	"origin" "2688.89 -361.696 71.7953"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 13000]"
+	}
+}
+entity
+{
+	"id" "65372"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "ForceWeatherStormy"
+	connections
+	{
+		"OnTrigger" "value,turnoff,,0.5,-1"
+		"OnTrigger" "WeatherStormy,Enable,,0.5,-1"
+		"OnTrigger" "WeatherSunny2,Disable,,0.25,-1"
+		"OnTrigger" "WeatherSunny,Disable,,0.25,-1"
+		"OnTrigger" "WeatherMCloudy,Disable,,0.25,-1"
+		"OnTrigger" "WeatherCloudy,Disable,,0.25,-1"
+		"OnTrigger" "WeatherSunny2,Skin,0,0,-1"
+		"OnTrigger" "Weathersunny,Skin,0,0,-1"
+		"OnTrigger" "WeatherCloudy,Skin,0,0,-1"
+		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
+		"OnTrigger" "t5,Display,,0,-1"
+	}
+	"origin" "2741.06 -360.705 71.786"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 13000]"
+	}
+}
+entity
+{
+	"id" "65378"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "ForceWeatherCloudy"
+	connections
+	{
+		"OnTrigger" "WeatherCloudy,Enable,,0.1,-1"
+		"OnTrigger" "value,turnon,,0,-1"
+		"OnTrigger" "WeatherStormy,Disable,,0,-1"
+		"OnTrigger" "WeatherMCloudy,Disable,,0,-1"
+		"OnTrigger" "WeatherSunny2,Disable,,0,-1"
+		"OnTrigger" "WeatherSunny,Disable,,0,-1"
+		"OnTrigger" "WeatherStormy,Skin,0,0,-1"
+		"OnTrigger" "WeatherSunny2,Skin,0,0,-1"
+		"OnTrigger" "Weathersunny,Skin,0,0,-1"
+		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
+		"OnTrigger" "t4,Display,,0,-1"
+	}
+	"origin" "2713.27 -357.297 71.791"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 13000]"
+	}
+}
+entity
+{
+	"id" "65515"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "ForceWeatherSunny2"
+	connections
+	{
+		"OnTrigger" "value,turnon,,0,-1"
+		"OnTrigger" "WeatherStormy,Disable,,0,-1"
+		"OnTrigger" "WeatherCloudy,Disable,,0,-1"
+		"OnTrigger" "WeatherMCloudy,Disable,,0,-1"
+		"OnTrigger" "WeatherSunny2,Enable,,0,-1"
+		"OnTrigger" "WeatherSunny,Disable,,0,-1"
+		"OnTrigger" "WeatherStormy,Skin,0,0,-1"
+		"OnTrigger" "Weathersunny,Skin,0,0,-1"
+		"OnTrigger" "WeatherCloudy,Skin,0,0,-1"
+		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
+		"OnTrigger" "t2,Display,,0,-1"
+	}
+	"origin" "2676.39 -359.122 71.7975"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 13000]"
+	}
+}
+entity
+{
+	"id" "65551"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "128 255 255"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "StormFront Engine: WEATHER MCLOUDY"
+	"spawnflags" "1"
+	"targetname" "t3"
+	"x" "0"
+	"y" "0"
+	"origin" "2718.28 -434.469 71.7858"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "65553"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "255 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "StormFront Engine: WEATHER CLOUDY"
+	"spawnflags" "1"
+	"targetname" "t4"
+	"x" "0"
+	"y" "0"
+	"origin" "2742.28 -434.469 71.7858"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "65555"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "255 0 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "StormFront Engine: WEATHER STORMY"
+	"spawnflags" "1"
+	"targetname" "t5"
+	"x" "0"
+	"y" "0"
+	"origin" "2766.28 -434.469 71.7858"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "65567"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "128 255 255"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "StormFront Engine: WEATHER PCLOUDY"
+	"spawnflags" "1"
+	"targetname" "t2"
+	"x" "0"
+	"y" "0"
+	"origin" "2693.59 -433.614 71.7944"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2670.7 -410.826 204.564]"
-		"look" "[2803.15 77.6187 -1766.49]"
+		"position" "[2711.56 -416.226 241.532]"
+		"look" "[2689.99 20.2288 -1745.98]"
 	}
 }
 cordon
