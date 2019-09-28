@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "587"
+	"mapversion" "591"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "587"
+	"mapversion" "591"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -135526,6 +135526,16 @@ entity
 		"OnCase05" "RTank05,StartForward,,0,-1"
 		"OnCase06" "RTank06,StartForward,,0,-1"
 		"OnCase02" "TankIncoming,Display,,0,-1"
+		"OnCase07" "RTank07,StartForward,,0,-1"
+		"OnCase08" "RTank08,StartForward,,0,-1"
+		"OnCase09" "RTank09,StartForward,,0,-1"
+		"OnCase10" "RTank10,StartForward,,0,-1"
+		"OnCase11" "RTank11,StartForward,,0,-1"
+		"OnCase12" "RTank12,StartForward,,0,-1"
+		"OnCase13" "RTank13,StartForward,,0,-1"
+		"OnCase14" "RTank14,StartForward,,0,-1"
+		"OnCase15" "RTank15,StartForward,,0,-1"
+		"OnCase16" "RTank16,StartForward,,0,-1"
 	}
 	"origin" "-691.909 5783.92 65"
 	editor
@@ -136084,13 +136094,122 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "71005"
+	"classname" "trigger_soundscape"
+	"origin" "116 -278 1819"
+	"soundscape" "Root"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "RootSoundscape"
+	solid
+	{
+		"id" "71001"
+		side
+		{
+			"id" "58080"
+			"plane" "(-7187 7179 3638) (7419 7179 3638) (7419 -7735 3638)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58079"
+			"plane" "(-7187 -7735 0) (7419 -7735 0) (7419 7179 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58078"
+			"plane" "(-7187 7179 3638) (-7187 -7735 3638) (-7187 -7735 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58077"
+			"plane" "(7419 7179 0) (7419 -7735 0) (7419 -7735 3638)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58076"
+			"plane" "(7419 7179 3638) (-7187 7179 3638) (-7187 7179 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58075"
+			"plane" "(7419 -7735 0) (-7187 -7735 0) (-7187 -7735 3638)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "71018"
+	"classname" "env_soundscape_triggerable"
+	"radius" "128"
+	"soundscape" "Root"
+	"targetname" "Root"
+	"origin" "2742.71 -530.081 64.7857"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-639.412 5790.52 142.241]"
-		"look" "[-1171.12 7078.09 -1341.2]"
+		"position" "[2497.98 -423.249 178.312]"
+		"look" "[4081.5 -510.714 -1096.81]"
 	}
 }
 cordon
