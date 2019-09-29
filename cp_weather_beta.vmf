@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "595"
+	"mapversion" "601"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "595"
+	"mapversion" "601"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -129106,7 +129106,7 @@ entity
 {
 	"id" "53794"
 	"classname" "prop_dynamic"
-	"angles" "0 180 0"
+	"angles" "0 0 0"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
@@ -136215,7 +136215,7 @@ entity
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
 	"dmg" "0"
-	"height" "4"
+	"height" "-12"
 	"ManualAccelSpeed" "0"
 	"ManualDecelSpeed" "0"
 	"ManualSpeedChanges" "0"
@@ -136229,9 +136229,9 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"spawnflags" "0"
+	"spawnflags" "512"
 	"speed" "0"
-	"startspeed" "1000"
+	"startspeed" "256"
 	"target" "RTankT0x0"
 	"targetname" "RTank01-1"
 	"velocitytype" "0"
@@ -136485,7 +136485,7 @@ entity
 	"speed" "0"
 	"target" "RTankT0x3"
 	"targetname" "RTankT0x2"
-	"origin" "-957.071 6217 212"
+	"origin" "-957.071 6207 163"
 	editor
 	{
 		"color" "255 192 0"
@@ -136559,8 +136559,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-653.23 5678.51 135.133]"
-		"look" "[-1847.1 7021.31 -820.231]"
+		"position" "[-859.723 6030.76 246.998]"
+		"look" "[-1630.5 7758.72 -502.127]"
 	}
 }
 cordon
