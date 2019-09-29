@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "756"
+	"mapversion" "782"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "756"
+	"mapversion" "782"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1553,9 +1553,9 @@ world
 					"row11" "0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 					"row12" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 					"row13" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1"
-					"row14" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1"
-					"row15" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1"
-					"row16" "0 0 0.75 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1"
+					"row14" "0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1"
+					"row15" "0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1"
+					"row16" "0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1"
 				}
 				distances
 				{
@@ -1573,9 +1573,9 @@ world
 					"row11" "2.06547 15.5946 19.6552 24.1445 26.4388 27.6725 34.2773 56.4555 74.182 75.8732 30.8263 39.4025 71.9328 49.327 62.1556 27.8447 2.18385"
 					"row12" "28.7557 27.1585 11.2331 1.8404 3.94632 7.99027 8.46576 23.8093 66.0325 89.5736 82.092 40.924 4.60509 48.4238 59.984 54.431 13.5495"
 					"row13" "39.9047 48.5319 50.0438 38.9082 22.2131 1.0378 7.27747 12.2707 44.6692 81.4501 110.676 109.715 58.6274 9.83534 26.6819 39.0726 23.0357"
-					"row14" "32.0413 44.0016 54.1979 57.0293 43.6332 21.2812 5.95467 0.865608 24.2827 65.4897 109.772 126.349 110.616 56.5025 15.3034 18.6263 22.7115"
-					"row15" "18.0264 31.9559 43.9604 49.6108 45.857 31.4102 19.5462 17.9027 9.91595 45.5725 78.7248 118.752 121.437 96.9822 52.4322 6.14012 26.6785"
-					"row16" "3.22385 14.8729 31.022 37.9793 41.3717 41.7022 46.0202 61.2618 59.9463 21.8139 53.8473 90.9377 114.288 102.949 72.6997 25.4595 2.02464"
+					"row14" "22.9587 44.0016 54.1979 57.0293 43.6332 21.2812 5.95467 0.865608 24.2827 65.4897 109.772 126.349 110.616 56.5025 15.3034 18.6263 22.7115"
+					"row15" "41.9736 31.9559 43.9604 49.6108 45.857 31.4102 19.5462 17.9027 9.91595 45.5725 78.7248 118.752 121.437 96.9822 52.4322 6.14012 26.6785"
+					"row16" "2.58211 14.8729 31.022 37.9793 41.3717 41.7022 46.0202 61.2618 59.9463 21.8139 63.8473 90.9377 114.288 102.949 72.6997 25.4595 2.02464"
 				}
 				offsets
 				{
@@ -1746,18 +1746,18 @@ world
 				"subdiv" "0"
 				normals
 				{
-					"row0" "0 0 0.75 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1"
+					"row0" "0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1"
 					"row1" "0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
 					"row2" "0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
 					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
 					"row4" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1"
 					"row5" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row9" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
-					"row10" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
-					"row11" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
+					"row6" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
+					"row7" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row8" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row9" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
+					"row10" "0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
+					"row11" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
 					"row12" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 					"row13" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 					"row14" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1"
@@ -1766,18 +1766,18 @@ world
 				}
 				distances
 				{
-					"row0" "3.22385 14.8729 31.022 37.9793 41.3717 41.7022 46.0202 61.2618 59.9463 21.8139 53.8473 90.9377 114.288 102.949 72.6997 25.4595 2.02464"
+					"row0" "2.58211 14.8729 31.022 37.9793 41.3717 41.7022 46.0202 61.2618 59.9463 21.8139 63.8473 90.9377 114.288 102.949 72.6997 25.4595 2.02464"
 					"row1" "1e-05 2.21327 11.1226 9.6951 29.465 39.763 58.8208 69.9766 77.2893 97.098 18.8781 62.0101 94.0135 93.2747 80.9476 69.8982 20.9392"
-					"row2" "1e-05 5e-06 1.11216 3.74748 11.688 3.6815 11.7549 88.1261 101.8 103.484 86.2322 4.68533 84.5543 79.3817 89.6346 75.0773 47.9465"
-					"row3" "1e-05 5e-06 0 0 4.43637 15.5517 36.0225 68.801 88.836 107.392 99.7622 71.2593 0.425194 53.3946 60.6676 70.2097 30.4266"
-					"row4" "1e-05 5e-06 0 1.10936 4.5593 5.5792 60.4823 66.5551 69.364 67.0459 60.38 99.7609 57.2067 7.51092 45.2372 47.973 44.843"
-					"row5" "1e-05 5e-06 0 2.0869 13.0834 28.7022 93.0346 50.1669 44.0309 22.3479 45.536 70.67 90.516 69.2669 18.1192 28.785 62.9763"
-					"row6" "1e-05 5e-06 0 1.65704 12.0304 48.6122 33.6833 34.391 13.6669 17.951 5.22763 52.2599 109.286 105.167 75.1174 24.5236 30.5992"
-					"row7" "1e-05 5e-06 0 1.58802 9.92371 34.3018 64.3286 13.8092 35.9349 5.72327 42.5719 90.916 120.161 124.428 78.8099 58.0384 30.5291"
-					"row8" "1e-05 5e-06 0 2.14232 10.3341 22.2002 52.7889 8.36073 18.6623 16.4198 0.754074 131.789 129.041 130.002 87.0247 4.16733 25.1543"
-					"row9" "1e-05 5e-06 0 1.59454 9.85311 24.4267 39.8052 6.9852 4.29839 18.4641 105.4 131.206 138.522 137.795 92.7154 11.4758 64.796"
-					"row10" "1e-05 5e-06 0 0.553452 6.31612 17.3223 2.5876 15.9241 20.8769 38.5962 63.844 91.5881 124.838 135.276 100.476 32.3021 36.2437"
-					"row11" "1e-05 5e-06 0 0 1.66435 7.29845 7.0675 0.9767 14.4192 8.458 19.5717 38.4217 67.0753 93.5766 86.1255 41.8029 8.87575"
+					"row2" "1e-05 5e-06 1.11216 3.74748 11.688 3.6815 11.7549 88.1261 101.8 103.484 86.2322 4.68533 84.5543 79.3817 89.6346 85.0773 47.9465"
+					"row3" "1e-05 5e-06 0 0 4.43637 15.5517 36.0225 68.801 73.836 82.3921 64.7622 71.2593 0.425194 53.3946 65.6676 70.2097 30.4266"
+					"row4" "1e-05 5e-06 0 1.10936 4.5593 5.5792 60.4823 66.5551 4.36403 22.0459 25.3799 74.7609 57.2067 7.51092 45.2372 47.973 44.843"
+					"row5" "1e-05 5e-06 0 2.0869 13.0834 28.7022 93.0346 50.1669 24.0309 17.3479 20.536 40.67 90.516 69.2669 18.1192 28.785 62.9763"
+					"row6" "1e-05 5e-06 0 1.65704 12.0304 48.6122 63.6833 34.391 13.6669 17.049 39.7724 52.2599 109.286 105.167 75.1174 24.5236 30.5992"
+					"row7" "1e-05 5e-06 0 1.58802 9.92371 34.3018 39.3286 13.8092 35.9349 9.27673 42.5719 90.916 120.161 124.428 78.8099 58.0384 30.5291"
+					"row8" "1e-05 5e-06 0 2.14232 10.3341 22.2002 2.78889 8.36073 3.66228 16.4198 39.2459 131.789 129.041 130.002 87.0247 4.16733 25.1543"
+					"row9" "1e-05 5e-06 0 1.59454 9.85311 9.4267 15.1948 8.0148 0.701607 33.4641 105.4 131.206 138.522 137.795 92.7154 11.4758 64.796"
+					"row10" "1e-05 5e-06 0 0.553452 6.31612 2.6777 2.4124 5.9241 25.8769 38.5962 63.844 91.5881 124.838 135.276 100.476 32.3021 36.2437"
+					"row11" "1e-05 5e-06 0 0 1.66435 7.70155 7.0675 0.9767 14.4192 8.458 19.5717 38.4217 67.0753 93.5766 86.1255 41.8029 8.87575"
 					"row12" "1e-05 5e-06 0 0 0 1.11053 2.64294 3.26331 3.19096 2.14706 2.13514 9.22554 24.6178 40.7587 42.9548 26.9422 17.2828"
 					"row13" "1e-05 5e-06 0 0 0 0 0 0 0 0 0 1.06535 5.74881 9.25329 6.83404 7.8613 13.1623"
 					"row14" "1e-05 5e-06 0 0 0 0 0 0 0 0 0 0 0 0 0 1.66914 6.20349"
@@ -2381,9 +2381,9 @@ world
 					"row11" "0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1"
 					"row12" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
 					"row13" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row14" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 1 0 0 1"
-					"row15" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 1"
-					"row16" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0.75"
+					"row14" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 -1"
+					"row15" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1"
+					"row16" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 -1"
 				}
 				distances
 				{
@@ -2401,9 +2401,9 @@ world
 					"row11" "1e-05 1.10604 5.37556 16.197 30.0289 35.5071 40.7168 53.7221 39.2452 28.8796 50.9544 38.5879 24.4351 17.577 14.1692 3.77757 2.06547"
 					"row12" "1e-05 5e-06 0 0 2.21308 5.84013 8.6793 18.2673 9.5385 45.4858 40.8025 14.271 15.8707 15.1335 19.4301 23.9163 28.7557"
 					"row13" "1e-05 5e-06 0 0 0 15 0 0.549469 3.76395 12.3952 15.2836 3.34998 2.22263 5.84652 13.2162 16.0537 39.9047"
-					"row14" "1e-05 5e-06 0 0 0 0 0 0 0 0 0 0 0 0 9.58497 9.3758 32.0413"
-					"row15" "1e-05 0 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 15 18.8886 22.0729 18.0264"
-					"row16" "0 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 25 9.44432 3.22385"
+					"row14" "1e-05 5e-06 0 0 0 0 0 0 0 0 0 0 0 0 9.58497 20.6242 22.9587"
+					"row15" "1e-05 0 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 15 18.8886 22.0729 41.9736"
+					"row16" "0 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 25 9.44432 2.58211"
 				}
 				offsets
 				{
@@ -2574,7 +2574,7 @@ world
 				"subdiv" "0"
 				normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0.75"
+					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 -1"
 					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -2594,7 +2594,7 @@ world
 				}
 				distances
 				{
-					"row0" "0 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 25 9.44432 3.22385"
+					"row0" "0 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 1e-05 25 9.44432 2.58211"
 					"row1" "1e-05 1e-05 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 5e-06 0 1e-05"
 					"row2" "1e-05 5e-06 0 0 0 0 0 0 0 0 0 0 0 0 0 5e-06 1e-05"
 					"row3" "1e-05 5e-06 0 0 0 0 0 0 0 0 0 0 0 0 0 5e-06 1e-05"
@@ -136770,6 +136770,10 @@ entity
 	"speed" "0"
 	"target" "RTankT0x8"
 	"targetname" "RTankT0x7"
+	connections
+	{
+		"OnPass" "TankCount,Add,1,0,-1"
+	}
 	"origin" "-1056 -212 150"
 	editor
 	{
@@ -136820,6 +136824,7 @@ entity
 	connections
 	{
 		"OnPass" "RTankT1x6,ToggleAlternatePath,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "-2219 311 150"
 	editor
@@ -137208,6 +137213,7 @@ entity
 	connections
 	{
 		"OnPass" "RtankT2x7,ToggleAlternatePath,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "-1257 -377 149"
 	editor
@@ -137306,6 +137312,7 @@ entity
 		"OnPass" "RTankAnim3,Disable,,0,-1"
 		"OnPass" "RTankAnim3-1,FireTimer,,0,-1"
 		"OnPass" "RTankAnim3-1,Enable,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "-818 -69 149"
 	editor
@@ -137352,6 +137359,7 @@ entity
 		"OnPass" "RTankAnim2,Disable,,0,-1"
 		"OnPass" "RTankAnim2-1,FireTimer,,0,-1"
 		"OnPass" "RTankAnim2-1,Enable,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "-1263 -565 150"
 	editor
@@ -140270,8 +140278,9 @@ entity
 		"OnPass" "RTankAnim10-1,FireTimer,,0,-1"
 		"OnPass" "RTankAnim10-1,Enable,,0,-1"
 		"OnPass" "RTankAnim10,Disable,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
-	"origin" "1178 580 132"
+	"origin" "1178 577 149"
 	editor
 	{
 		"color" "255 192 0"
@@ -140316,6 +140325,7 @@ entity
 		"OnPass" "RTankAnim8,Disable,,0,-1"
 		"OnPass" "RTankAnim8-1,FireTimer,,0,-1"
 		"OnPass" "RTankAnim8-1,Enable,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "693 192 161"
 	editor
@@ -140761,8 +140771,9 @@ entity
 		"OnPass" "RTankAnim11,Disable,,0,-1"
 		"OnPass" "RTankAnim11-1,Enable,,0,-1"
 		"OnPass" "RTankAnim11-1,FireTimer,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
-	"origin" "1779 806 271"
+	"origin" "1779 811 191"
 	editor
 	{
 		"color" "255 192 0"
@@ -140867,7 +140878,7 @@ entity
 	{
 		"OnPass" "RTankT3x5,ToggleAlternatePath,,0,-1"
 	}
-	"origin" "1496.6 2187 108.247"
+	"origin" "1496.6 2193 149"
 	editor
 	{
 		"color" "255 192 0"
@@ -140952,6 +140963,7 @@ entity
 		"OnPass" "RTankAnim12,Disable,,0,-1"
 		"OnPass" "RTankAnim12-1,Enable,,0,-1"
 		"OnPass" "RTankAnim12-1,FireTimer,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "2142.45 1241.75 165.452"
 	editor
@@ -140998,6 +141010,7 @@ entity
 		"OnPass" "RTankAnim7-1,FireTimer,,0,-1"
 		"OnPass" "RTankAnim7-1,Enable,,0,-1"
 		"OnPass" "RTankAnim7,Disable,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "2394.19 1279 197"
 	editor
@@ -141050,6 +141063,7 @@ entity
 		"OnPass" "RTankAnim9-1,FireTimer,,0,-1"
 		"OnPass" "RTankAnim9-1,Enable,,0,-1"
 		"OnPass" "RTankAnim9,Disable,,0,-1"
+		"OnPass" "TankCount,Add,1,0,-1"
 	}
 	"origin" "1979 1053 153"
 	editor
@@ -141060,13 +141074,926 @@ entity
 		"logicalpos" "[0 2000]"
 	}
 }
+entity
+{
+	"id" "80934"
+	"classname" "math_counter"
+	"max" "12"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "TankCount"
+	connections
+	{
+		"OnHitMax" "TankWaveSpawner,Trigger,,0,-1"
+	}
+	"origin" "-723.728 5852.36 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "80951"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "TankWaveSpawner"
+	connections
+	{
+		"OnTrigger" "panzerkampf,PlaySound,,0,-1"
+		"OnTrigger" "Tank_HellFire,Enable,,0,-1"
+		"OnTrigger" "Tank_HellFire,Disable,,44,-1"
+		"OnTrigger" "Warhead,StartForward,,23.5,-1"
+		"OnTrigger" "WarheadLaunch,PlaySound,,23.5,-1"
+		"OnTrigger" "Warhead,SetSpeed,256,23.5,-1"
+		"OnTrigger" "Warhead,SetSpeed,800,28,-1"
+	}
+	"origin" "-672.682 5760.22 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "81110"
+	"classname" "env_shake"
+	"amplitude" "8"
+	"duration" "1"
+	"frequency" "128"
+	"radius" "800"
+	"spawnflags" "1"
+	"targetname" "TankShake"
+	"origin" "459.239 157.524 89.02"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "81129"
+	"classname" "logic_timer"
+	"LowerRandomBound" "0.25"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "Tank_HellFire"
+	"UpperRandomBound" "1"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "TankHellFire,Trigger,,0,-1"
+	}
+	"origin" "2904.28 -527.919 71.757"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4268]"
+	}
+}
+entity
+{
+	"id" "81139"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "TankHellFire"
+	connections
+	{
+		"OnTrigger" "TankFire9,PlaySound,,0.85,-1"
+		"OnTrigger" "TankFire1,PlaySound,,0.2,-1"
+		"OnTrigger" "TankFire3,PlaySound,,0.35,-1"
+		"OnTrigger" "TankFire5,PlaySound,,0.5,-1"
+		"OnTrigger" "TankFire5,PlaySound,,0.9,-1"
+		"OnTrigger" "TankFire7,PlaySound,,0.65,-1"
+		"OnTrigger" "TankBomb07,Explode,,1.05,-1"
+		"OnTrigger" "TankBomb06,Explode,,0.9,-1"
+		"OnTrigger" "TankBomb05,Explode,,0.8,-1"
+		"OnTrigger" "TankBomb04,Explode,,0.7,-1"
+		"OnTrigger" "TankBomb03,Explode,,0.55,-1"
+		"OnTrigger" "TankBomb02,Explode,,0.4,-1"
+		"OnTrigger" "TankBomb01,Explode,,0.25,-1"
+		"OnTrigger" "TankShake,StartShake,,0.2,-1"
+		"OnTrigger" "TankShake,StopShake,,0.3,-1"
+		"OnTrigger" "TankShake,StartShake,,0.35,-1"
+		"OnTrigger" "TankShake,StopShake,,0.45,-1"
+		"OnTrigger" "TankShake,StartShake,,0.5,-1"
+		"OnTrigger" "TankShake,StopShake,,0.6,-1"
+		"OnTrigger" "TankShake,StartShake,,0.65,-1"
+		"OnTrigger" "TankShake,StopShake,,0.75,-1"
+		"OnTrigger" "TankShake,StartShake,,0.75,-1"
+		"OnTrigger" "TankShake,StopShake,,0.85,-1"
+		"OnTrigger" "TankShake,StartShake,,1,-1"
+		"OnTrigger" "TankShake,StopShake,,1.1,-1"
+		"OnTrigger" "TankFire7,PlaySound,,1,-1"
+		"OnTrigger" "TankFire12,PlaySound,,1.1,-1"
+		"OnTrigger" "TankFire6,PlaySound,,0.95,-1"
+		"OnTrigger" "TankFire10,PlaySound,,0.85,-1"
+		"OnTrigger" "TankFire8,PlaySound,,0.72,-1"
+		"OnTrigger" "TankFire6,PlaySound,,0.56,-1"
+		"OnTrigger" "TankFire4,PlaySound,,0.44,-1"
+		"OnTrigger" "TankFire2,PlaySound,,0.26,-1"
+		"OnTrigger" "TankFire11,PlaySound,,0.92,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.1,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.2,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.3,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.4,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.5,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.6,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.7,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.8,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.9,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,1,-1"
+		"OnTrigger" "RTankM*,SetAnimation,shoot_forward,0.3,-1"
+	}
+	"origin" "2869.19 -535.093 71.7633"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5268]"
+	}
+}
+entity
+{
+	"id" "81204"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/howitzer_fire2.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire1"
+	"volstart" "0"
+	"origin" "-1457 -1238 160.985"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81255"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/ex3.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire2"
+	"volstart" "0"
+	"origin" "-1101.58 -930 148.94"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81267"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/howitzer_fire2.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire3"
+	"volstart" "0"
+	"origin" "-949.895 -783 138.545"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81279"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/ex3.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire4"
+	"volstart" "0"
+	"origin" "-719.635 -662 144.479"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81291"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/howitzer_fire2.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire5"
+	"volstart" "0"
+	"origin" "-342.884 -471 148.483"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81303"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/ex3.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire6"
+	"volstart" "0"
+	"origin" "-126.644 -184 99.8558"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81356"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/howitzer_fire2.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire7"
+	"volstart" "0"
+	"origin" "691.779 176 162.322"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81371"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/ex3.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire8"
+	"volstart" "0"
+	"origin" "1177.97 561 152.23"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81386"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/howitzer_fire2.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire9"
+	"volstart" "0"
+	"origin" "1778.96 795 192.305"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81416"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/howitzer_fire2.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire11"
+	"volstart" "0"
+	"origin" "2145.51 1225.75 166.326"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81438"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/ex3.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire10"
+	"volstart" "0"
+	"origin" "1979.97 1037 157.11"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81447"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/ex3.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "11688"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "TankFire12"
+	"volstart" "0"
+	"origin" "2390.57 1263 193.441"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81510"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "TankBomb01"
+	"origin" "4456.02 -1236.96 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81528"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "TankBomb02"
+	"origin" "4204.15 -2391.53 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81536"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "TankBomb03"
+	"origin" "2807.06 -2216.22 72.164"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81544"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "TankBomb04"
+	"origin" "1993.77 -3232.93 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81550"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "TankBomb05"
+	"origin" "655.876 -3813.15 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81558"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "TankBomb06"
+	"origin" "2460.11 -4710.07 182.879"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81566"
+	"classname" "env_explosion"
+	"fireballsprite" "sprites/zerogxplode.spr"
+	"iMagnitude" "800"
+	"iRadiusOverride" "600"
+	"rendermode" "5"
+	"spawnflags" "14"
+	"targetname" "TankBomb07"
+	"origin" "5965.15 -2721.2 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "81622"
+	"classname" "prop_dynamic"
+	"angles" "88 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_doomsday/rocket_flight_doomsday.mdl"
+	"modelscale" "2"
+	"parentname" "Warhead"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"origin" "-5674.94 8269.84 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11500]"
+	}
+}
+entity
+{
+	"id" "81649"
+	"classname" "func_tracktrain"
+	"bank" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"height" "4"
+	"ManualAccelSpeed" "0"
+	"ManualDecelSpeed" "0"
+	"ManualSpeedChanges" "0"
+	"MoveSoundMaxPitch" "200"
+	"MoveSoundMaxTime" "0"
+	"MoveSoundMinPitch" "60"
+	"MoveSoundMinTime" "0"
+	"orientationtype" "2"
+	"origin" "-5675 8270 239.8"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"startspeed" "768"
+	"target" "M1"
+	"targetname" "Warhead"
+	"velocitytype" "0"
+	"volume" "10"
+	"wheels" "50"
+	solid
+	{
+		"id" "81645"
+		side
+		{
+			"id" "58482"
+			"plane" "(-5677 8272 644.798) (-5673 8272 644.798) (-5673 8268 644.798)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58481"
+			"plane" "(-5677 8268 -165.202) (-5673 8268 -165.202) (-5673 8272 -165.202)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58480"
+			"plane" "(-5677 8272 644.798) (-5677 8268 644.798) (-5677 8268 -165.202)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58479"
+			"plane" "(-5673 8272 -165.202) (-5673 8268 -165.202) (-5673 8268 644.798)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58478"
+			"plane" "(-5673 8272 644.798) (-5677 8272 644.798) (-5677 8272 -165.202)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58477"
+			"plane" "(-5673 8268 -165.202) (-5677 8268 -165.202) (-5677 8268 644.798)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 12500]"
+	}
+}
+entity
+{
+	"id" "81669"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "M2"
+	"targetname" "M1"
+	"origin" "-5675 8270 468.334"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "81690"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "M3"
+	"targetname" "M2"
+	"origin" "-5675.37 8353 3002"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "81705"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "M4"
+	"targetname" "M3"
+	"origin" "-5497.91 7187 3479.24"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "81717"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "M5"
+	"targetname" "M4"
+	"origin" "697.729 -3061 3584"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
+entity
+{
+	"id" "81738"
+	"classname" "path_track"
+	"angles" "0 0 0"
+	"orientationtype" "1"
+	"radius" "0"
+	"spawnflags" "0"
+	"speed" "0"
+	"target" "M5"
+	"targetname" "M5"
+	"origin" "2621.98 -3890.47 72"
+	editor
+	{
+		"color" "255 192 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3736.44 1005.45 427.983]"
-		"look" "[1945.1 1924.05 130.711]"
+		"position" "[-5764.26 8072.9 1074.41]"
+		"look" "[-5375.67 8327.71 -906.797]"
 	}
 }
 cordon
