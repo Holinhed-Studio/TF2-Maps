@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "782"
+	"mapversion" "794"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "782"
+	"mapversion" "794"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -62950,6 +62950,9 @@ entity
 		"OnMapSpawn" "BluBurgLiftTemplate,ForceSpawn,,0,-1"
 		"OnMapSpawn" "RedBurgLiftTemplate,ForceSpawn,,0,-1"
 		"OnMapSpawn" "BluBombSpawner,ForceSpawn,,0,-1"
+		"OnMapSpawn" "MapSoundChoice,PickRandomShuffle,,0.05,-1"
+		"OnMapSpawn" "J_*,Kill,,0,-1"
+		"OnMapSpawn" "W_*,Kill,,0,-1"
 	}
 	"origin" "2608 -384 72"
 	editor
@@ -62973,6 +62976,10 @@ entity
 		"OnTrigger" "J_Mission10,PlaySound,,49,-1"
 		"OnTrigger" "J_Mission30,PlaySound,,29,-1"
 		"OnTrigger" "J_Mission60,PlaySound,,0,-1"
+		"OnTrigger" "W_MissionCD,PlaySound,,54,-1"
+		"OnTrigger" "W_Mission60,PlaySound,,0,-1"
+		"OnTrigger" "W_Mission30,PlaySound,,29,-1"
+		"OnTrigger" "W_Mission10,PlaySound,,49,-1"
 	}
 	"origin" "2608 -408 72"
 	editor
@@ -131129,6 +131136,24 @@ entity
 		"OnCase06" "BluBomb,Kill,,0,-1"
 		"OnCase06" "blubombhitbox,Lock,,0,-1"
 		"OnCase06" "boom,Explode,,0,-1"
+		"OnUser4" "blubombspawner,ForceSpawn,,300,-1"
+		"OnUser4" "blubombhitbox,Unlock,,300,-1"
+		"OnUser4" "radiation,Disable,,12,-1"
+		"OnUser4" "BluBombParticle,Stop,,12,-1"
+		"OnUser4" "nukeshake,StopShake,,10.2,-1"
+		"OnUser4" "WinRed,RoundWin,,7,-1"
+		"OnUser4" "BluBombParticle,Start,,7,-1"
+		"OnUser4" "BluBombParticle,Stop,,6.8,-1"
+		"OnUser4" "blubombexplode3,PlaySound,,4,-1"
+		"OnUser4" "radiation,Enable,,1.5,-1"
+		"OnUser4" "nukeshake,StartShake,,1,-1"
+		"OnUser4" "nukefade,Fade,,1,-1"
+		"OnUser4" "blubombexplode2,PlaySound,,1,-1"
+		"OnUser4" "boom,Explode,,0,-1"
+		"OnUser4" "BluBombParticle,Start,,0,-1"
+		"OnUser4" "blubombhitbox,Lock,,0,-1"
+		"OnUser4" "blubombexplode,PlaySound,,0,-1"
+		"OnUser4" "BluBomb,Kill,,0,-1"
 	}
 	"origin" "1933.65 -4186.29 64.9999"
 	editor
@@ -141764,6 +141789,7 @@ entity
 	"solid" "6"
 	"spawnflags" "0"
 	"StartDisabled" "0"
+	"targetname" "WarHeadMDL"
 	"origin" "-5674.94 8269.84 72"
 	editor
 	{
@@ -141789,7 +141815,7 @@ entity
 	"MoveSoundMaxTime" "0"
 	"MoveSoundMinPitch" "60"
 	"MoveSoundMinTime" "0"
-	"orientationtype" "2"
+	"orientationtype" "0"
 	"origin" "-5675 8270 239.8"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -141958,6 +141984,12 @@ entity
 	"speed" "0"
 	"target" "M5"
 	"targetname" "M4"
+	connections
+	{
+		"OnPass" "BluBombExplodeRandom,FireUser4,,3,-1"
+		"OnPass" "WarHeadMDL,Kill,,3,-1"
+		"OnPass" "WarHeadLaunch,StopSound,,3,-1"
+	}
 	"origin" "697.729 -3061 3584"
 	editor
 	{
@@ -141987,13 +142019,504 @@ entity
 		"logicalpos" "[0 13000]"
 	}
 }
+entity
+{
+	"id" "81853"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/60_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission60"
+	"volstart" "0"
+	"origin" "2878 -295.93 71.7592"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81856"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/30_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission30"
+	"volstart" "0"
+	"origin" "2882.69 -319.55 71.7584"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81859"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/10_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission10"
+	"volstart" "0"
+	"origin" "2889.31 -343.912 71.7572"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81862"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/countdown.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_MissionCD"
+	"volstart" "0"
+	"origin" "2895.06 -362.922 71.7562"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81865"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/countdown.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_MissionCD"
+	"volstart" "0"
+	"origin" "2915.48 -365.321 71.7525"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81868"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/10_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission10"
+	"volstart" "0"
+	"origin" "2909.73 -346.31 71.7536"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81871"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/30_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission30"
+	"volstart" "0"
+	"origin" "2903.11 -321.948 71.7547"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81874"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/60_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission60"
+	"volstart" "0"
+	"origin" "2898.42 -298.328 71.7556"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81877"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/60_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission60"
+	"volstart" "0"
+	"origin" "2922.75 -300.008 71.7503"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81880"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/30_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission30"
+	"volstart" "0"
+	"origin" "2927.45 -323.627 71.7494"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81883"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/10_seconds.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_Mission10"
+	"volstart" "0"
+	"origin" "2934.07 -347.989 71.7483"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "81886"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/wyvern/countdown.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "W_MissionCD"
+	"volstart" "0"
+	"origin" "2939.81 -367 71.7473"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "82117"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/rocket.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "WarHeadLaunch"
+	"volstart" "0"
+	"origin" "-648.824 5760.22 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "82119"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/rocket.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "WarHeadLaunch"
+	"volstart" "0"
+	"origin" "-643.651 5722.63 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "82240"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "MissionJ"
+	"Template01" "J_Mission60"
+	"Template02" "J_Mission30"
+	"Template03" "J_Mission10"
+	"Template04" "J_MissionCD"
+	"origin" "2822.63 -239.365 64.7715"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "82253"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "MissionW"
+	"Template01" "W_Mission60"
+	"Template02" "W_Mission30"
+	"Template03" "W_Mission10"
+	"Template04" "W_MissionCD"
+	"origin" "2896.5 -245.901 71.7584"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "82263"
+	"classname" "logic_case"
+	"targetname" "MapSoundChoice"
+	connections
+	{
+		"OnCase01" "MissionJ,ForceSpawn,,0,-1"
+		"OnCase02" "MissionW,ForceSpawn,,0,-1"
+	}
+	"origin" "2609.51 -433.353 71.8094"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-5764.26 8072.9 1074.41]"
-		"look" "[-5375.67 8327.71 -906.797]"
+		"position" "[2670.93 -519.854 326.653]"
+		"look" "[2873.58 739.065 -1259.28]"
 	}
 }
 cordon
