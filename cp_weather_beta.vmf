@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "624"
+	"mapversion" "627"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "624"
+	"mapversion" "627"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -128939,6 +128939,7 @@ entity
 	"mindxlevel" "0"
 	"model" "models/props_frontline/tank_animated.mdl"
 	"modelscale" "1.0"
+	"parentname" "RTank04"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -128978,6 +128979,7 @@ entity
 	"mindxlevel" "0"
 	"model" "models/props_frontline/tank_animated.mdl"
 	"modelscale" "1.0"
+	"parentname" "RTank05"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -129017,6 +129019,7 @@ entity
 	"mindxlevel" "0"
 	"model" "models/props_frontline/tank_animated.mdl"
 	"modelscale" "1.0"
+	"parentname" "RTank06"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -129041,7 +129044,7 @@ entity
 {
 	"id" "53790"
 	"classname" "prop_dynamic"
-	"angles" "0 180 0"
+	"angles" "0 0 0"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
@@ -129056,6 +129059,7 @@ entity
 	"mindxlevel" "0"
 	"model" "models/props_frontline/tank_animated.mdl"
 	"modelscale" "1.0"
+	"parentname" "RTank02"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -137243,7 +137247,7 @@ entity
 	"MoveSoundMinPitch" "60"
 	"MoveSoundMinTime" "0"
 	"orientationtype" "1"
-	"origin" "-331 6595 343.5"
+	"origin" "-331 6597 322.5"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -137262,10 +137266,10 @@ entity
 		side
 		{
 			"id" "58128"
-			"plane" "(-334 6598 424) (-328 6598 424) (-328 6592 424)"
+			"plane" "(-334 6600 403) (-328 6600 403) (-328 6594 403)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 48] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
+			"vaxis" "[0 -1 0 -12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -137273,10 +137277,10 @@ entity
 		side
 		{
 			"id" "58127"
-			"plane" "(-334 6592 263) (-328 6592 263) (-328 6598 263)"
+			"plane" "(-334 6594 242) (-328 6594 242) (-328 6600 242)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 48] 0.25"
-			"vaxis" "[0 -1 0 -20] 0.25"
+			"vaxis" "[0 -1 0 -12] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -137284,10 +137288,10 @@ entity
 		side
 		{
 			"id" "58126"
-			"plane" "(-334 6598 424) (-334 6592 424) (-334 6592 263)"
+			"plane" "(-334 6600 403) (-334 6594 403) (-334 6594 242)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 21.1721] 0.25"
+			"uaxis" "[0 1 0 12] 0.25"
+			"vaxis" "[0 0 -1 -62.8279] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -137295,10 +137299,10 @@ entity
 		side
 		{
 			"id" "58125"
-			"plane" "(-328 6598 263) (-328 6592 263) (-328 6592 424)"
+			"plane" "(-328 6600 242) (-328 6594 242) (-328 6594 403)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 20] 0.25"
-			"vaxis" "[0 0 -1 21.1721] 0.25"
+			"uaxis" "[0 1 0 12] 0.25"
+			"vaxis" "[0 0 -1 -62.8279] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -137306,10 +137310,10 @@ entity
 		side
 		{
 			"id" "58124"
-			"plane" "(-328 6598 424) (-334 6598 424) (-334 6598 263)"
+			"plane" "(-328 6600 403) (-334 6600 403) (-334 6600 242)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 48] 0.25"
-			"vaxis" "[0 0 -1 21.1721] 0.25"
+			"vaxis" "[0 0 -1 -62.8279] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -137317,10 +137321,10 @@ entity
 		side
 		{
 			"id" "58123"
-			"plane" "(-328 6592 263) (-334 6592 263) (-334 6592 424)"
+			"plane" "(-328 6594 242) (-334 6594 242) (-334 6594 403)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 48] 0.25"
-			"vaxis" "[0 0 -1 21.1721] 0.25"
+			"vaxis" "[0 0 -1 -62.8279] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -137351,7 +137355,7 @@ entity
 	"speed" "0"
 	"target" "RTankT1x0"
 	"targetname" "RTankT1x01"
-	"origin" "-351 6595 344.293"
+	"origin" "-351 6597 323.293"
 	editor
 	{
 		"color" "255 192 0"
@@ -137539,7 +137543,7 @@ entity
 	"spawnflags" "512"
 	"speed" "0"
 	"startspeed" "256"
-	"target" "RTankT3x01"
+	"target" "RTankT0x01"
 	"targetname" "RTank06"
 	"velocitytype" "0"
 	"volume" "10"
@@ -137633,8 +137637,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-741.587 5750.09 214.381]"
-		"look" "[1144.26 5500.01 -508.252]"
+		"position" "[-345.369 6232.11 372.183]"
+		"look" "[622.701 4474.61 711.558]"
 	}
 }
 cordon
