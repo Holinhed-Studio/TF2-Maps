@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "911"
+	"mapversion" "923"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "911"
+	"mapversion" "923"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
-	"skyname" "sky_day01_01"
+	"skyname" "sky_weathercloudy0x0"
 	solid
 	{
 		"id" "2"
@@ -62651,7 +62651,6 @@ entity
 	connections
 	{
 		"OnTimer" "WeatherCycleClock,PickRandomShuffle,,0,-1"
-		"OnTimer" "testsound,PlaySound,,0,-1"
 	}
 	"origin" "2664 -384 72"
 	editor
@@ -63014,37 +63013,6 @@ entity
 }
 entity
 {
-	"id" "5661"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "misc/halloween/clock_tick.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "testsound"
-	"volstart" "0"
-	"origin" "2685.91 -478.848 65"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -16268]"
-	}
-}
-entity
-{
 	"id" "5718"
 	"classname" "sky_camera"
 	"angles" "0 0 0"
@@ -63125,9 +63093,10 @@ entity
 entity
 {
 	"id" "6172"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "WeatherStorm"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "RainySpawner"
+	"Template01" "Rainy"
 	"origin" "2792 -384 72"
 	editor
 	{
@@ -69752,7 +69721,6 @@ entity
 	"targetname" "mortarcount"
 	connections
 	{
-		"OnHitMax" "captureaa*,SetOwner,1,32,-1"
 		"OnHitMax" "primovictoria,StopSound,,36.25,-1"
 		"OnHitMax" "AAG_HellFire,Disable,,32,-1"
 		"OnHitMax" "primovictoria,PlaySound,,0,-1"
@@ -69761,7 +69729,6 @@ entity
 		"OnHitMax" "mortarcount,SetValue,0,600,-1"
 		"OnHitMax" "aagun*,ToggleSprite,,0,-1"
 		"OutValue" "MortarTextCase,InValue,,0,-1"
-		"OutValue" "MortarCase,InValue,,0,-1"
 	}
 	"origin" "2999.23 -1817.09 79.2218"
 	editor
@@ -127873,6 +127840,7 @@ entity
 		"OnTimer" "lightning,TurnOff,,0.12,-1"
 		"OnTimer" "lightning,TurnOn,,0.18,-1"
 		"OnTimer" "lightning,TurnOff,,0.25,-1"
+		"OnTimer" "GlobalThunder,PickRandomShuffle,,0,-1"
 	}
 	"origin" "2814.98 -378.981 64.7729"
 	editor
@@ -134404,6 +134372,7 @@ entity
 		"OnTrigger" "WeatherMCloudy,Skin,0,0,-1"
 		"OnTrigger" "t5,Display,,0,-1"
 		"OnTrigger" "WeatherStormyLightningTimer,Enable,,0,-1"
+		"OnTrigger" "RainySpawner,ForceSpawn,,0,-1"
 	}
 	"origin" "2741.06 -360.705 71.786"
 	editor
@@ -135640,8 +135609,6 @@ entity
 		"OnHitMax" "RTankCap1,Disable,,0,-1"
 		"OnHitMax" "RTankCap1,Enable,,600,-1"
 		"OnHitMax" "tankcountuni1,SetValue,0,600,-1"
-		"OnHitMax" "tankwave,Enable,,600,-1"
-		"OnHitMax" "tankwave,Disable,,0,-1"
 		"OutValue" "TankCase,InValue,,0,-1"
 	}
 	"origin" "-736 5865 72"
@@ -135664,9 +135631,7 @@ entity
 	connections
 	{
 		"OnHitMax" "RTankCap2,Disable,,0,-1"
-		"OnHitMax" "tankwave2,Enable,,600,-1"
 		"OnHitMax" "RTankCap2,Enable,,600,-1"
-		"OnHitMax" "tankwave2,Disable,,0,-1"
 		"OnHitMax" "tankcountuni2,SetValue,0,600,-1"
 		"OutValue" "TankCase2,InValue,,0,-1"
 	}
@@ -136647,7 +136612,6 @@ entity
 {
 	"id" "74394"
 	"classname" "path_track"
-	"altpath" "RTankT1xC"
 	"angles" "0 0 0"
 	"orientationtype" "1"
 	"radius" "0"
@@ -140222,12 +140186,11 @@ entity
 		"OnTrigger" "Tank_HellFire,Disable,,44,-1"
 		"OnTrigger" "WarheadLaunch,PlaySound,,23.5,-1"
 		"OnTrigger" "Warhead,SetSpeedReal,256.0,23.5,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,2048,38,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,2048,30,-1"
 		"OnTrigger" "Warhead,SetSpeedReal,320.0,24,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,360.0,26,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,400.0,26,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,512.0,27,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,768.0,30,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,360.0,25,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,512.0,26,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,768.0,26.5,-1"
 	}
 	"origin" "-672.682 5760.22 65"
 	editor
@@ -141036,10 +140999,6 @@ entity
 	"speed" "0"
 	"target" "M3"
 	"targetname" "M2"
-	connections
-	{
-		"OnPass" "Warhead,SetSpeedReal,1024,7,-1"
-	}
 	"origin" "-5675.37 8353 3002"
 	editor
 	{
@@ -141082,9 +141041,9 @@ entity
 	"targetname" "M4"
 	connections
 	{
-		"OnPass" "BluBombExplodeRandom,FireUser4,,3,-1"
-		"OnPass" "WarHeadMDL,Kill,,3,-1"
-		"OnPass" "WarHeadLaunch,StopSound,,3,-1"
+		"OnPass" "BluBombExplodeRandom,FireUser4,,1,-1"
+		"OnPass" "WarHeadMDL,Kill,,1,-1"
+		"OnPass" "WarHeadLaunch,StopSound,,1,-1"
 	}
 	"origin" "697.729 -3061 3584"
 	editor
@@ -141175,55 +141134,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 14000]"
-	}
-}
-entity
-{
-	"id" "82451"
-	"classname" "logic_case"
-	"targetname" "MapSoundChoice"
-	connections
-	{
-		"OnCase01" "MapSetupJ,Enable,,0,-1"
-		"OnCase02" "MapSetupW,Enable,,0,-1"
-		"OnCase01" "MapSetupW,Disable,,0,-1"
-		"OnCase02" "MapSetupJ,Disable,,0,-1"
-		"OnCase03" "MapSetupW,Disable,,0,-1"
-		"OnCase03" "MapSetupJ,Enable,,0,-1"
-		"OnCase04" "MapSetupW,Enable,,0,-1"
-		"OnCase04" "MapSetupJ,Disable,,0,-1"
-		"OnCase06" "MapSetupW,Enable,,0,-1"
-		"OnCase06" "MapSetupJ,Disable,,0,-1"
-		"OnCase08" "MapSetupW,Enable,,0,-1"
-		"OnCase08" "MapSetupJ,Disable,,0,-1"
-		"OnCase05" "MapSetupW,Disable,,0,-1"
-		"OnCase05" "MapSetupJ,Enable,,0,-1"
-		"OnCase07" "MapSetupW,Disable,,0,-1"
-		"OnCase07" "MapSetupJ,Enable,,0,-1"
-		"OnCase09" "MapSetupW,Disable,,0,-1"
-		"OnCase09" "MapSetupJ,Enable,,0,-1"
-		"OnCase11" "MapSetupW,Disable,,0,-1"
-		"OnCase11" "MapSetupJ,Enable,,0,-1"
-		"OnCase13" "MapSetupW,Disable,,0,-1"
-		"OnCase13" "MapSetupJ,Enable,,0,-1"
-		"OnCase15" "MapSetupW,Disable,,0,-1"
-		"OnCase15" "MapSetupJ,Enable,,0,-1"
-		"OnCase10" "MapSetupJ,Disable,,0,-1"
-		"OnCase10" "MapSetupW,Enable,,0,-1"
-		"OnCase12" "MapSetupJ,Disable,,0,-1"
-		"OnCase12" "MapSetupW,Enable,,0,-1"
-		"OnCase14" "MapSetupJ,Disable,,0,-1"
-		"OnCase14" "MapSetupW,Enable,,0,-1"
-		"OnCase16" "MapSetupJ,Disable,,0,-1"
-		"OnCase16" "MapSetupW,Enable,,0,-1"
-	}
-	"origin" "2613.71 -412.17 71.8086"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 9500]"
 	}
 }
 entity
@@ -141483,6 +141393,7 @@ entity
 		"OnCapTeam2" "shedcp,Skin,2,0,1"
 		"OnStartCap" "GameEngine,PlayVORed,ShedWarnRed,0,-1"
 		"OnEndCap" "CapCount,Add,1,0,-1"
+		"OnCapTeam2" "ShrekRnd,PickRandomShuffle,,0,1"
 	}
 	solid
 	{
@@ -142724,7 +142635,6 @@ entity
 	connections
 	{
 		"OnSetupStart" "EngineSetup,Trigger,,7.5,-1"
-		"OnSetupStart" "MapSoundChoice,PickRandomShuffle,,0.05,-1"
 		"OnSetupFinished" "aat*,Enable,,0,-1"
 		"OnSetupFinished" "RTankCap*,Enable,,0,-1"
 		"OnSetupFinished" "BoomButton,Unlock,,0,-1"
@@ -142886,7 +142796,7 @@ entity
 {
 	"id" "85948"
 	"classname" "info_observer_point"
-	"angles" "19.4992 179.47 -0.17706"
+	"angles" "12.4995 179.488 -0.110848"
 	"defaultwelcome" "0"
 	"fov" "0"
 	"match_summary" "0"
@@ -142900,13 +142810,901 @@ entity
 		"logicalpos" "[0 -3768]"
 	}
 }
+entity
+{
+	"id" "86204"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder01"
+	"volstart" "0"
+	"origin" "2864.81 -387.318 71.764"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86210"
+	"classname" "logic_case"
+	"targetname" "GlobalThunder"
+	connections
+	{
+		"OnCase01" "GlobalThunder01,PlaySound,,0,-1"
+		"OnCase02" "GlobalThunder02,PlaySound,,0,-1"
+		"OnCase03" "GlobalThunder03,PlaySound,,0,-1"
+		"OnCase04" "GlobalThunder04,PlaySound,,0,-1"
+		"OnCase05" "GlobalThunder05,PlaySound,,0,-1"
+		"OnCase06" "GlobalThunder06,PlaySound,,0,-1"
+		"OnCase07" "GlobalThunder07,PlaySound,,0,-1"
+		"OnCase08" "GlobalThunder08,PlaySound,,0,-1"
+		"OnCase09" "GlobalThunder01,PlaySound,,0,-1"
+		"OnCase10" "GlobalThunder02,PlaySound,,0,-1"
+		"OnCase11" "GlobalThunder03,PlaySound,,0,-1"
+		"OnCase12" "GlobalThunder04,PlaySound,,0,-1"
+		"OnCase13" "GlobalThunder05,PlaySound,,0,-1"
+		"OnCase14" "GlobalThunder06,PlaySound,,0,-1"
+		"OnCase15" "GlobalThunder07,PlaySound,,0,-1"
+		"OnCase16" "GlobalThunder08,PlaySound,,0,-1"
+	}
+	"origin" "2838.32 -383.285 71.7688"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86228"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder02"
+	"volstart" "0"
+	"origin" "2881.79 -389.326 71.761"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86240"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder5.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder03"
+	"volstart" "0"
+	"origin" "2867.14 -403.766 71.7636"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86246"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder6.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder04"
+	"volstart" "0"
+	"origin" "2881.41 -402.244 71.7611"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86264"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder3.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder05"
+	"volstart" "0"
+	"origin" "2897.32 -386.848 71.7583"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86270"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder7.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder06"
+	"volstart" "0"
+	"origin" "2899.93 -399.791 71.7578"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86295"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder4.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder07"
+	"volstart" "0"
+	"origin" "2917.78 -379.057 71.7546"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86301"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder8.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder08"
+	"volstart" "0"
+	"origin" "2918.27 -396.615 71.7546"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86436"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder8.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder08"
+	"volstart" "0"
+	"origin" "2920 -431.559 71.7576"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86439"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder7.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder06"
+	"volstart" "0"
+	"origin" "2901.66 -434.735 71.7609"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86442"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder6.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder04"
+	"volstart" "0"
+	"origin" "2883.14 -437.187 71.7642"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86445"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder5.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder03"
+	"volstart" "0"
+	"origin" "2868.88 -438.71 71.7667"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86448"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder01"
+	"volstart" "0"
+	"origin" "2866.54 -422.261 71.7671"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86451"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder02"
+	"volstart" "0"
+	"origin" "2883.52 -424.27 71.7641"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86454"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder3.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder05"
+	"volstart" "0"
+	"origin" "2899.05 -421.792 71.7614"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86457"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder4.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder07"
+	"volstart" "0"
+	"origin" "2919.51 -414 71.7577"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "86514"
+	"classname" "func_precipitation"
+	"preciptype" "0"
+	"renderamt" "100"
+	"rendercolor" "100 100 100"
+	"targetname" "Rainy"
+	solid
+	{
+		"id" "86512"
+		side
+		{
+			"id" "58614"
+			"plane" "(-4943 4866 63.8844) (-6998 -144 63.8844) (-4943 -5155 63.8844)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58613"
+			"plane" "(20 6942 503.884) (4982 4866 503.884) (7037 -145 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58612"
+			"plane" "(20 6942 63.8844) (4982 4866 63.8844) (4982 4866 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58611"
+			"plane" "(4982 4866 63.8844) (7037 -145 63.8844) (7037 -145 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58610"
+			"plane" "(7037 -145 63.8844) (4982 -5155 63.8844) (4982 -5155 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58609"
+			"plane" "(4982 -5155 63.8844) (20 -7231 63.8844) (20 -7231 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58608"
+			"plane" "(20 -7231 63.8844) (-4943 -5155 63.8844) (-4943 -5155 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58607"
+			"plane" "(-4943 -5155 63.8844) (-6998 -144 63.8844) (-6998 -144 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58606"
+			"plane" "(-6998 -144 63.8844) (-4943 4866 63.8844) (-4943 4866 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58605"
+			"plane" "(-4943 4866 63.8844) (20 6942 63.8844) (20 6942 503.884)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -2268]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "86604"
+		"classname" "trigger_hurt"
+		"damage" "100"
+		"damagecap" "2000"
+		"damagemodel" "0"
+		"damagetype" "1024"
+		"filtername" "RedOnly"
+		"nodmgforce" "0"
+		"origin" "3888 3955 183.85"
+		"spawnflags" "1"
+		"StartDisabled" "1"
+		"targetname" "Shrek"
+		hidden
+		{
+			solid
+			{
+				"id" "86601"
+				side
+				{
+					"id" "58636"
+					"plane" "(3889 4246 280) (3889 3664 280) (3888 3664 280)"
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "58635"
+					"plane" "(4103 3664 87.7092) (4103 4246 87.7092) (3673 4246 87.7092)"
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "58634"
+					"plane" "(3888 3664 280) (3673 3664 87.7092) (3673 4246 87.7092)"
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "58633"
+					"plane" "(4103 3664 87.7092) (3889 3664 280) (3889 4246 280)"
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "58632"
+					"plane" "(3888 4246 280) (3673 4246 87.7092) (4103 4246 87.7092)"
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "58631"
+					"plane" "(3673 3664 87.7092) (3888 3664 280) (3889 3664 280)"
+					"material" "TOOLS/TOOLSTRIGGER"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				editor
+				{
+					"color" "220 30 220"
+					"visgroupshown" "1"
+					"visgroupautoshown" "1"
+				}
+			}
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 -768]"
+		}
+	}
+}
+entity
+{
+	"id" "86628"
+	"classname" "trigger_multiple"
+	"filtername" "RedOnly"
+	"origin" "3888 3955 183.85"
+	"spawnflags" "1"
+	"StartDisabled" "1"
+	"targetname" "Shrek"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "Shrek,Disable,,10,-1"
+		"OnStartTouch" "GameEngine,PlayVORed,S_Swamp,0,-1"
+	}
+	solid
+	{
+		"id" "86629"
+		side
+		{
+			"id" "58648"
+			"plane" "(3889 4246 280) (3889 3664 280) (3888 3664 280)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58647"
+			"plane" "(4103 3664 87.7092) (4103 4246 87.7092) (3673 4246 87.7092)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58646"
+			"plane" "(3888 3664 280) (3673 3664 87.7092) (3673 4246 87.7092)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58645"
+			"plane" "(4103 3664 87.7092) (3889 3664 280) (3889 4246 280)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58644"
+			"plane" "(3888 4246 280) (3673 4246 87.7092) (4103 4246 87.7092)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58643"
+			"plane" "(3673 3664 87.7092) (3888 3664 280) (3889 3664 280)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -768]"
+	}
+}
+entity
+{
+	"id" "86790"
+	"classname" "logic_case"
+	"targetname" "ShrekRND"
+	connections
+	{
+		"OnCase01" "Shrek,Enable,,0,-1"
+		"OnCase02" "Shrek,Disable,,0,-1"
+		"OnCase03" "Shrek,Disable,,0,-1"
+	}
+	"origin" "2658.21 -504.454 71.8007"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-4882.05 8092.63 735.133]"
-		"look" "[-6569.11 8913.04 -53.4539]"
+		"position" "[3783.48 3382.73 181.664]"
+		"look" "[5447.79 4343.62 -487.572]"
 	}
 }
 cordon
@@ -142914,4 +143712,8 @@ cordon
 	"mins" "(-1024 -1024 -1024)"
 	"maxs" "(1024 1024 1024)"
 	"active" "0"
+}
+quickhide
+{
+	"count" "3"
 }
