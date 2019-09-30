@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "905"
+	"mapversion" "911"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "905"
+	"mapversion" "911"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -140220,10 +140220,14 @@ entity
 		"OnTrigger" "panzerkampf,PlaySound,,0,-1"
 		"OnTrigger" "Tank_HellFire,Enable,,0,-1"
 		"OnTrigger" "Tank_HellFire,Disable,,44,-1"
-		"OnTrigger" "Warhead,StartForward,,23.5,-1"
 		"OnTrigger" "WarheadLaunch,PlaySound,,23.5,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,320,23.5,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,2048,35,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,256.0,23.5,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,2048,38,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,320.0,24,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,360.0,26,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,400.0,26,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,512.0,27,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,768.0,30,-1"
 	}
 	"origin" "-672.682 5760.22 65"
 	editor
@@ -141034,7 +141038,7 @@ entity
 	"targetname" "M2"
 	connections
 	{
-		"OnPass" "Warhead,SetSpeedReal,1024,5,-1"
+		"OnPass" "Warhead,SetSpeedReal,1024,7,-1"
 	}
 	"origin" "-5675.37 8353 3002"
 	editor
@@ -142882,7 +142886,7 @@ entity
 {
 	"id" "85948"
 	"classname" "info_observer_point"
-	"angles" "31.4987 179.414 -0.306397"
+	"angles" "19.4992 179.47 -0.17706"
 	"defaultwelcome" "0"
 	"fov" "0"
 	"match_summary" "0"
@@ -142901,8 +142905,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-5691.11 8245.17 2350.24]"
-		"look" "[-5628.6 8403.56 4378.08]"
+		"position" "[-4882.05 8092.63 735.133]"
+		"look" "[-6569.11 8913.04 -53.4539]"
 	}
 }
 cordon
