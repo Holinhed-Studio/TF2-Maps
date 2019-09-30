@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "869"
+	"mapversion" "872"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "869"
+	"mapversion" "872"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -141406,7 +141406,7 @@ entity
 	"id" "82812"
 	"classname" "team_control_point"
 	"angles" "0 0 0"
-	"point_default_owner" "2"
+	"point_default_owner" "0"
 	"point_index" "1"
 	"point_printname" "The Shed"
 	"point_start_locked" "0"
@@ -141417,6 +141417,7 @@ entity
 	"team_bodygroup_0" "3"
 	"team_bodygroup_2" "1"
 	"team_bodygroup_3" "1"
+	"team_icon_0" "sprites/obj_icons/icon_obj_shed_neu"
 	"team_icon_2" "sprites/obj_icons/icon_obj_shed_red"
 	"team_icon_3" "sprites/obj_icons/icon_obj_shed_blu"
 	"team_model_0" "models/effects/cappoint_hologram.mdl"
@@ -141431,7 +141432,6 @@ entity
 	"team_timedpoints_2" "0"
 	"team_timedpoints_3" "0"
 	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
 	"origin" "3888 3955 87.7752"
 	editor
 	{
@@ -141681,12 +141681,12 @@ entity
 	"StartDisabled" "0"
 	"team_cancap_2" "1"
 	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
+	"team_numcap_2" "4"
+	"team_numcap_3" "4"
 	"team_spawn_2" "0"
 	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"team_startcap_2" "3"
+	"team_startcap_3" "3"
 	connections
 	{
 		"OnStartCap" "GameEngine,PlayVORed,ArenaWarnRed,0,-1"
@@ -142331,8 +142331,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-5506.27 8090.3 308.075]"
-		"look" "[-6891.1 9561.8 67.1255]"
+		"position" "[-133.899 1650.65 376.273]"
+		"look" "[1036.82 -5.11072 546.555]"
 	}
 }
 cordon
