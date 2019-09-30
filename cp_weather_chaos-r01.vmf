@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "852"
+	"mapversion" "860"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "852"
+	"mapversion" "860"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3594,9 +3594,9 @@ world
 		{
 			"id" "4801"
 			"plane" "(-6816 -6360 64) (-4352 -5632 64) (-5696 -9464 64)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 -160] 0.25"
-			"vaxis" "[0 -1 0 -32] 0.25"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
+			"uaxis" "[1 0 0 -160] 1"
+			"vaxis" "[0 -1 0 -32] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3670,9 +3670,9 @@ world
 		{
 			"id" "4807"
 			"plane" "(-4352 -5632 64) (-6816 -6360 64) (-4864 -2496 64)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 -1 0 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3746,9 +3746,9 @@ world
 		{
 			"id" "4813"
 			"plane" "(1536 -1792 64) (-3328 -3584 64) (-4864 -2496 64)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 -1 0 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3822,9 +3822,9 @@ world
 		{
 			"id" "4819"
 			"plane" "(7168 2367.5 63) (1536 -1792 64) (1536 -240 64)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 -1 0 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -21002,9 +21002,9 @@ world
 		{
 			"id" "6011"
 			"plane" "(-5696 -9464.13 64.125) (-6374.41 -12544.1 64.125) (-10240 -12544.1 64.125)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 128] 0.25"
-			"vaxis" "[0 -1 0 -81.5] 0.25"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
+			"uaxis" "[1 0 0 128] 1"
+			"vaxis" "[0 -1 0 -81.5] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -24990,9 +24990,9 @@ world
 		{
 			"id" "23952"
 			"plane" "(7171 4569.5 62) (10240 6719 64) (10240 174 64)"
-			"material" "DEV/DEV_WATER2"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
+			"uaxis" "[1 0 0 0] 1"
+			"vaxis" "[0 -1 0 0] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -25001,7 +25001,7 @@ world
 		{
 			"id" "23953"
 			"plane" "(7166.5 2368.5 -56) (10240 174 -56) (10240 6719 -56)"
-			"material" "DEV/DEV_WATER2"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -25023,7 +25023,7 @@ world
 		{
 			"id" "23955"
 			"plane" "(10240 6719 -56) (10240 174 -56) (10240 174 64)"
-			"material" "DEV/DEV_WATER2"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -25034,7 +25034,7 @@ world
 		{
 			"id" "23956"
 			"plane" "(10240 6719 64) (7171 4569.5 62) (7169.5 4569.5 -56)"
-			"material" "DEV/DEV_WATER2"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -25045,7 +25045,7 @@ world
 		{
 			"id" "23957"
 			"plane" "(10240 174 -56) (7166.5 2368.5 -56) (7168 2368.5 62)"
-			"material" "DEV/DEV_WATER2"
+			"material" "WATER/WATER_2FORT_EXPENSIVE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -69753,6 +69753,7 @@ entity
 		"OnHitMax" "mortarcount,SetValue,0,600,-1"
 		"OnHitMax" "aagun*,ToggleSprite,,0,-1"
 		"OutValue" "MortarTextCase,InValue,,0,-1"
+		"OutValue" "MortarCase,InValue,,0,-1"
 	}
 	"origin" "2999.23 -1817.09 79.2218"
 	editor
@@ -70506,26 +70507,17 @@ entity
 entity
 {
 	"id" "33376"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa1"
-	"area_time_to_cap" "2"
+	"classname" "trigger_multiple"
+	"origin" "3876 -1212 128"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat1"
-	"team_cancap_2" "0"
-	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "mortarcount,Add,1,0,-1"
-		"OnEndCap" "aat1,Disable,,0,-1"
-		"OnEndCap" "aagun1stat0x0,ToggleSprite,,0,-1"
-		"OnEndCap" "aagun1stat0x1,ToggleSprite,,0,-1"
-		"OnStartCap" "MortarCaptured1,PlaySound,,2,-1"
+		"OnStartTouch" "MortarCaptured1,PlaySound,,2,-1"
+		"OnStartTouch" "MortarTimer,Enable,,0,-1"
+		"OnEndTouchAll" "MortarTimer,Disable,,0,-1"
 	}
 	solid
 	{
@@ -70614,26 +70606,17 @@ entity
 entity
 {
 	"id" "33410"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa2"
-	"area_time_to_cap" "2"
+	"classname" "trigger_multiple"
+	"origin" "3608 -1312 128"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat2"
-	"team_cancap_2" "0"
-	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "mortarcount,Add,1,0,-1"
-		"OnEndCap" "aat2,Disable,,0,-1"
-		"OnEndCap" "aagun2stat0x0,ToggleSprite,,0,-1"
-		"OnEndCap" "aagun2stat0x1,ToggleSprite,,0,-1"
-		"OnStartCap" "MortarCaptured2,PlaySound,,2,-1"
+		"OnStartTouch" "MortarCaptured2,PlaySound,,2,-1"
+		"OnStartTouch" "MortarTimer2,Enable,,0,-1"
+		"OnEndTouchAll" "MortarTimer2,Disable,,0,-1"
 	}
 	solid
 	{
@@ -70722,26 +70705,17 @@ entity
 entity
 {
 	"id" "33418"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa3"
-	"area_time_to_cap" "2"
+	"classname" "trigger_multiple"
+	"origin" "3380 -1532 91.39"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat3"
-	"team_cancap_2" "0"
-	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "mortarcount,Add,1,0,-1"
-		"OnEndCap" "aat3,Disable,,0,-1"
-		"OnEndCap" "aagun3stat0x1,ToggleSprite,,0,-1"
-		"OnEndCap" "aagun3stat0x0,ToggleSprite,,0,-1"
-		"OnStartCap" "MortarCaptured3,PlaySound,,2,-1"
+		"OnStartTouch" "MortarCaptured3,PlaySound,,2,-1"
+		"OnStartTouch" "MortarTimer3,Enable,,0,-1"
+		"OnEndTouchAll" "MortarTimer3,Disable,,0,-1"
 	}
 	solid
 	{
@@ -70830,26 +70804,17 @@ entity
 entity
 {
 	"id" "33440"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa4"
-	"area_time_to_cap" "2"
+	"classname" "trigger_multiple"
+	"origin" "3160 -1768 128.4"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat4"
-	"team_cancap_2" "0"
-	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "mortarcount,Add,1,0,-1"
-		"OnEndCap" "aat4,Disable,,0,-1"
-		"OnEndCap" "aagun4stat0x0,ToggleSprite,,0,-1"
-		"OnEndCap" "aagun4stat0x1,ToggleSprite,,0,-1"
-		"OnStartCap" "MortarCaptured4,PlaySound,,2,-1"
+		"OnStartTouch" "MortarCaptured4,PlaySound,,2,-1"
+		"OnStartTouch" "MortarTimer4,Enable,,0,-1"
+		"OnEndTouchAll" "MortarTimer4,Disable,,0,-1"
 	}
 	solid
 	{
@@ -70938,26 +70903,17 @@ entity
 entity
 {
 	"id" "33444"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa5"
-	"area_time_to_cap" "2"
+	"classname" "trigger_multiple"
+	"origin" "2880 -1840 146.49"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat5"
-	"team_cancap_2" "0"
-	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "mortarcount,Add,1,0,-1"
-		"OnEndCap" "aat5,Disable,,0,-1"
-		"OnEndCap" "aagun5stat0x0,ToggleSprite,,0,-1"
-		"OnEndCap" "aagun5stat0x1,ToggleSprite,,0,-1"
-		"OnStartCap" "MortarCaptured5,PlaySound,,2,-1"
+		"OnStartTouch" "MortarCaptured5,PlaySound,,2,-1"
+		"OnEndTouchAll" "MortarTimer5,Disable,,0,-1"
+		"OnStartTouch" "MortarTimer5,Enable,,0,-1"
 	}
 	solid
 	{
@@ -71046,26 +71002,17 @@ entity
 entity
 {
 	"id" "33448"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa6"
-	"area_time_to_cap" "2"
+	"classname" "trigger_multiple"
+	"origin" "2632 -1904 146.04"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat6"
-	"team_cancap_2" "0"
-	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "mortarcount,Add,1,0,-1"
-		"OnEndCap" "aat6,Disable,,0,-1"
-		"OnEndCap" "aagun6stat0x0,ToggleSprite,,0,-1"
-		"OnEndCap" "aagun6stat0x1,ToggleSprite,,0,-1"
-		"OnStartCap" "MortarCaptured6,PlaySound,,2,-1"
+		"OnStartTouch" "MortarCaptured6,PlaySound,,2,-1"
+		"OnStartTouch" "MortarTimer6,Enable,,0,-1"
+		"OnEndTouchAll" "MortarTimer6,Disable,,0,-1"
 	}
 	solid
 	{
@@ -71154,26 +71101,17 @@ entity
 entity
 {
 	"id" "33452"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "captureaa7"
-	"area_time_to_cap" "2"
+	"classname" "trigger_multiple"
+	"origin" "2380 -1912 162.93"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat7"
-	"team_cancap_2" "0"
-	"team_cancap_3" "1"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "mortarcount,Add,1,0,-1"
-		"OnEndCap" "aat7,Disable,,0,-1"
-		"OnEndCap" "aagun7stat0x0,ToggleSprite,,0,-1"
-		"OnEndCap" "aagun7stat0x1,ToggleSprite,,0,-1"
-		"OnStartCap" "MortarCaptured7,PlaySound,,5,-1"
+		"OnStartTouch" "MortarCaptured7,PlaySound,,5,-1"
+		"OnStartTouch" "MortarTimer7,Enable,,0,-1"
+		"OnEndTouchAll" "MortarTimer7,Disable,,0,-1"
 	}
 	solid
 	{
@@ -141842,275 +141780,6 @@ entity
 }
 entity
 {
-	"id" "33486"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "2"
-	"point_index" "0"
-	"point_printname" "The AA Battery!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "captureaa1"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_2_0" "captureaa1"
-	"team_previouspoint_2_1" "captureaa1"
-	"team_previouspoint_2_2" "captureaa1"
-	"team_previouspoint_3_0" "captureaa1"
-	"team_previouspoint_3_1" "captureaa1"
-	"team_previouspoint_3_2" "captureaa1"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "3902.37 -1437.59 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "39334"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "2"
-	"point_index" "0"
-	"point_printname" "The AA Battery!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "captureaa2"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_3_0" "captureaa2"
-	"team_previouspoint_3_1" "captureaa2"
-	"team_previouspoint_3_2" "captureaa2"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "3833.09 -1491.77 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "39338"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "2"
-	"point_index" "0"
-	"point_printname" "The AA Battery!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "captureaa3"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_3_0" "captureaa3"
-	"team_previouspoint_3_1" "captureaa3"
-	"team_previouspoint_3_2" "captureaa3"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "3727.2 -1553.44 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "39346"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "2"
-	"point_index" "0"
-	"point_printname" "The AA Battery!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "captureaa4"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_3_0" "captureaa4"
-	"team_previouspoint_3_1" "captureaa4"
-	"team_previouspoint_3_2" "captureaa4"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "3674.63 -1640.57 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "39350"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "2"
-	"point_index" "0"
-	"point_printname" "The AA Battery!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "captureaa5"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_3_0" "captureaa5"
-	"team_previouspoint_3_1" "captureaa5"
-	"team_previouspoint_3_2" "captureaa5"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "3590.19 -1720.8 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "39354"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "2"
-	"point_index" "0"
-	"point_printname" "The AA Battery!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "captureaa6"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_3_0" "captureaa6"
-	"team_previouspoint_3_1" "captureaa6"
-	"team_previouspoint_3_2" "captureaa6"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "3514.71 -1805.4 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "39358"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "2"
-	"point_index" "0"
-	"point_printname" "The AA Battery!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "captureaa7"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_3_0" "captureaa7"
-	"team_previouspoint_3_1" "captureaa7"
-	"team_previouspoint_3_2" "captureaa7"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "3471.21 -1878.76 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
 	"id" "74085"
 	"classname" "team_control_point"
 	"angles" "0 224 0"
@@ -142478,13 +142147,231 @@ entity
 		"logicalpos" "[0 -11768]"
 	}
 }
+entity
+{
+	"id" "84636"
+	"classname" "logic_case"
+	"targetname" "MortarCase"
+	connections
+	{
+		"OnEndCap" "aagun2stat0x1,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun2stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aat2,Disable,,0,-1"
+		"OnEndCap" "aagun3stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun3stat0x1,ToggleSprite,,0,-1"
+		"OnEndCap" "aat3,Disable,,0,-1"
+		"OnEndCap" "aagun4stat0x1,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun4stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aat4,Disable,,0,-1"
+		"OnEndCap" "aagun5stat0x1,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun5stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aat5,Disable,,0,-1"
+		"OnEndCap" "aagun6stat0x1,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun6stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aat6,Disable,,0,-1"
+		"OnEndCap" "aagun7stat0x1,ToggleSprite,,0,-1"
+		"OnEndCap" "aagun7stat0x0,ToggleSprite,,0,-1"
+		"OnEndCap" "aat7,Disable,,0,-1"
+		"OnEndCap" "mortarcount,Add,1,0,-1"
+	}
+	"origin" "2968.27 -1779.6 89.6338"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9768]"
+	}
+}
+entity
+{
+	"id" "84763"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "MortarTimer"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "mortarcount,Add,1,0,-1"
+		"OnTimer" "aat1,Disable,,0,-1"
+		"OnTimer" "aagun1stat0x0,ToggleSprite,,0,-1"
+		"OnTimer" "aagun1stat0x1,ToggleSprite,,0,-1"
+	}
+	"origin" "3993.1 -1402.78 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "84771"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "MortarTimer2"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "mortarcount,Add,1,0,-1"
+		"OnTimer" "aat2,Disable,,0,-1"
+		"OnTimer" "aagun2stat0x0,ToggleSprite,,0,-1"
+		"OnTimer" "aagun2stat0x1,ToggleSprite,,0,-1"
+	}
+	"origin" "3943.45 -1422.64 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "84779"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "MortarTimer3"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "mortarcount,Add,1,0,-1"
+		"OnTimer" "aat3,Disable,,0,-1"
+		"OnTimer" "aagun3stat0x0,ToggleSprite,,0,-1"
+		"OnTimer" "aagun3stat0x1,ToggleSprite,,0,-1"
+	}
+	"origin" "3911.76 -1448.55 72.0001"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "84802"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "MortarTimer6"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "mortarcount,Add,1,0,-1"
+		"OnTimer" "aat6,Disable,,0,-1"
+		"OnTimer" "aagun6stat0x0,ToggleSprite,,0,-1"
+		"OnTimer" "aagun6stat0x1,ToggleSprite,,0,-1"
+	}
+	"origin" "3816.82 -1540.18 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "84806"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "MortarTimer7"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "mortarcount,Add,1,0,-1"
+		"OnTimer" "aat7,Disable,,0,-1"
+		"OnTimer" "aagun7stat0x0,ToggleSprite,,0,-1"
+		"OnTimer" "aagun7stat0x1,ToggleSprite,,0,-1"
+	}
+	"origin" "3772.45 -1582.72 72.0001"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "84836"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "MortarTimer4"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "mortarcount,Add,1,0,-1"
+		"OnTimer" "aat4,Disable,,0,-1"
+		"OnTimer" "aagun4stat0x0,ToggleSprite,,0,-1"
+		"OnTimer" "aagun4stat0x1,ToggleSprite,,0,-1"
+	}
+	"origin" "3881.37 -1476.88 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
+entity
+{
+	"id" "84842"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "MortarTimer5"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "mortarcount,Add,1,0,-1"
+		"OnTimer" "aat5,Disable,,0,-1"
+		"OnTimer" "aagun5stat0x0,ToggleSprite,,0,-1"
+		"OnTimer" "aagun5stat0x1,ToggleSprite,,0,-1"
+	}
+	"origin" "3847.67 -1514.29 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1403.52 5542.75 294.943]"
-		"look" "[3412.98 5856.03 365.965]"
+		"position" "[4042.57 -1707.12 397.968]"
+		"look" "[3497.37 -413.999 -1075.7]"
 	}
 }
 cordon
