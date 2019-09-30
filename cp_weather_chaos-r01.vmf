@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "864"
+	"mapversion" "869"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "864"
+	"mapversion" "869"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -70508,6 +70508,7 @@ entity
 {
 	"id" "33376"
 	"classname" "trigger_multiple"
+	"filtername" "BlueOnly"
 	"origin" "3876 -1212 128"
 	"spawnflags" "1"
 	"StartDisabled" "1"
@@ -70607,6 +70608,7 @@ entity
 {
 	"id" "33410"
 	"classname" "trigger_multiple"
+	"filtername" "BlueOnly"
 	"origin" "3608 -1312 128"
 	"spawnflags" "1"
 	"StartDisabled" "1"
@@ -70706,6 +70708,7 @@ entity
 {
 	"id" "33418"
 	"classname" "trigger_multiple"
+	"filtername" "BlueOnly"
 	"origin" "3380 -1532 91.39"
 	"spawnflags" "1"
 	"StartDisabled" "1"
@@ -70805,6 +70808,7 @@ entity
 {
 	"id" "33440"
 	"classname" "trigger_multiple"
+	"filtername" "BlueOnly"
 	"origin" "3160 -1768 128.4"
 	"spawnflags" "1"
 	"StartDisabled" "1"
@@ -70904,6 +70908,7 @@ entity
 {
 	"id" "33444"
 	"classname" "trigger_multiple"
+	"filtername" "BlueOnly"
 	"origin" "2898.5 -1799 146.49"
 	"spawnflags" "1"
 	"StartDisabled" "1"
@@ -71003,7 +71008,8 @@ entity
 {
 	"id" "33448"
 	"classname" "trigger_multiple"
-	"origin" "2556 -1904 146.04"
+	"filtername" "BlueOnly"
+	"origin" "2676 -1904 146.04"
 	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "aat6"
@@ -71013,9 +71019,6 @@ entity
 		"OnStartTouch" "MortarCaptured6,PlaySound,,2,-1"
 		"OnStartTouch" "MortarTimer6,Enable,,0,-1"
 		"OnEndTouchAll" "MortarTimer6,Disable,,0,-1"
-		"OnEndTouchAll" "MortarTimer7,Disable,,7.1,-1"
-		"OnStartTouch" "MortarCaptured7,PlaySound,,7,-1"
-		"OnStartTouch" "MortarTimer7,Enable,,7,-1"
 	}
 	solid
 	{
@@ -71023,7 +71026,7 @@ entity
 		side
 		{
 			"id" "6766"
-			"plane" "(2328 -2032 210.035) (2328 -1776 210.035) (2784 -1776 210.035)"
+			"plane" "(2568 -2032 210.035) (2568 -1776 210.035) (2784 -1776 210.035)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -71034,7 +71037,7 @@ entity
 		side
 		{
 			"id" "6765"
-			"plane" "(2328 -1776 82.035) (2328 -2032 82.035) (2784 -2032 82.035)"
+			"plane" "(2568 -1776 82.035) (2568 -2032 82.035) (2784 -2032 82.035)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -71045,7 +71048,7 @@ entity
 		side
 		{
 			"id" "6764"
-			"plane" "(2328 -2032 82.0351) (2328 -1776 82.0351) (2328 -1776 210.037)"
+			"plane" "(2568 -2032 82.0351) (2568 -1776 82.0351) (2568 -1776 210.037)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 8.13983] 0.25"
@@ -71067,7 +71070,7 @@ entity
 		side
 		{
 			"id" "6762"
-			"plane" "(2328 -1776 82.0351) (2784 -1776 82.0351) (2784 -1776 210.037)"
+			"plane" "(2568 -1776 82.0351) (2784 -1776 82.0351) (2784 -1776 210.037)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 8.13983] 0.25"
@@ -71078,7 +71081,7 @@ entity
 		side
 		{
 			"id" "6761"
-			"plane" "(2784 -2032 82.0351) (2328 -2032 82.0351) (2328 -2032 210.037)"
+			"plane" "(2784 -2032 82.0351) (2568 -2032 82.0351) (2568 -2032 210.037)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 8.13983] 0.25"
@@ -134892,23 +134895,17 @@ entity
 entity
 {
 	"id" "65955"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "tankwave"
-	"area_time_to_cap" "5"
+	"classname" "trigger_multiple"
+	"filtername" "RedOnly"
+	"origin" "-731.5 5958 87.96"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "RTankCap1"
-	"team_cancap_2" "1"
-	"team_cancap_3" "0"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "tankwave,SetOwner,3,0,-1"
-		"OnEndCap" "tankcountuni1,Add,1,0,-1"
+		"OnStartTouch" "TankTimer,Enable,,0,-1"
+		"OnEndTouchAll" "TankTimer,Disable,,0,-1"
 	}
 	solid
 	{
@@ -134997,23 +134994,16 @@ entity
 entity
 {
 	"id" "65970"
-	"classname" "trigger_capture_area"
-	"area_cap_point" "tankwave"
-	"area_time_to_cap" "5"
+	"classname" "trigger_multiple"
+	"origin" "2033.89 5800.51 88"
+	"spawnflags" "1"
 	"StartDisabled" "1"
 	"targetname" "RTankCap2"
-	"team_cancap_2" "1"
-	"team_cancap_3" "0"
-	"team_numcap_2" "1"
-	"team_numcap_3" "1"
-	"team_spawn_2" "0"
-	"team_spawn_3" "0"
-	"team_startcap_2" "1"
-	"team_startcap_3" "1"
+	"wait" "1"
 	connections
 	{
-		"OnEndCap" "tankwave2,SetOwner,3,0,-1"
-		"OnEndCap" "tankcountuni2,Add,1,0,-1"
+		"OnStartTouch" "TankTimer2,Enable,,0,-1"
+		"OnEndTouchAll" "TankTimer2,Disable,,0,-1"
 	}
 	solid
 	{
@@ -140943,7 +140933,7 @@ entity
 	"MoveSoundMaxTime" "0"
 	"MoveSoundMinPitch" "60"
 	"MoveSoundMinTime" "0"
-	"orientationtype" "0"
+	"orientationtype" "1"
 	"origin" "-5675 8270 239.8"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -141684,81 +141674,6 @@ entity
 }
 entity
 {
-	"id" "74085"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "3"
-	"point_group" "0"
-	"point_index" "7"
-	"point_printname" "The Panzer Battalion!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "tankwave2"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_2_0" "tankwave2"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "2090.55 5720.63 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "65982"
-	"classname" "team_control_point"
-	"angles" "0 224 0"
-	"point_default_owner" "3"
-	"point_index" "7"
-	"point_printname" "The Panzer Battalion!"
-	"point_start_locked" "0"
-	"point_warn_on_cap" "2"
-	"point_warn_sound" "ControlPoint.CaptureWarn"
-	"random_owner_on_restart" "0"
-	"spawnflags" "27"
-	"StartDisabled" "0"
-	"targetname" "tankwave"
-	"team_bodygroup_0" "1"
-	"team_bodygroup_2" "1"
-	"team_bodygroup_3" "1"
-	"team_icon_0" "sprites/obj_icons/icon_obj_neutral"
-	"team_icon_2" "sprites/obj_icons/icon_obj_red"
-	"team_icon_3" "sprites/obj_icons/icon_obj_blu"
-	"team_model_0" "models/props_frontline/aa_gun.mdl"
-	"team_model_2" "models/props_frontline/aa_gun.mdl"
-	"team_model_3" "models/props_frontline/aa_gun.mdl"
-	"team_previouspoint_2_0" "tankwave"
-	"team_previouspoint_2_1" "tankwave"
-	"team_previouspoint_2_2" "tankwave"
-	"team_timedpoints_2" "0"
-	"team_timedpoints_3" "0"
-	"origin" "-661.768 5843.04 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
 	"id" "83193"
 	"classname" "trigger_capture_area"
 	"area_cap_point" "arena"
@@ -142233,13 +142148,191 @@ entity
 		"logicalpos" "[0 -10268]"
 	}
 }
+entity
+{
+	"id" "33452"
+	"classname" "trigger_multiple"
+	"filtername" "BlueOnly"
+	"origin" "2437 -1898 162.93"
+	"spawnflags" "3"
+	"StartDisabled" "1"
+	"targetname" "aat7"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "MortarCaptured7,PlaySound,,5,-1"
+		"OnStartTouch" "MortarTimer7,Enable,,0,-1"
+		"OnEndTouchAll" "MortarTimer7,Disable,,0,-1"
+	}
+	solid
+	{
+		"id" "33453"
+		side
+		{
+			"id" "58554"
+			"plane" "(2309 -2026 226.927) (2309 -1770 226.927) (2565 -1770 226.927)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -20] 0.25"
+			"vaxis" "[0 -1 0 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58553"
+			"plane" "(2309 -1770 98.9269) (2309 -2026 98.9269) (2565 -2026 98.9269)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -20] 0.25"
+			"vaxis" "[0 -1 0 -40] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58552"
+			"plane" "(2309 -2026 98.9264) (2309 -1770 98.9264) (2309 -1770 226.926)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[0 0 -1 11.7075] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58551"
+			"plane" "(2565 -1770 98.9263) (2565 -2026 98.9263) (2565 -2026 226.926)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[0 0 -1 11.7075] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58550"
+			"plane" "(2309 -1770 98.9263) (2565 -1770 98.9263) (2565 -1770 226.926)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -20] 0.25"
+			"vaxis" "[0 0 -1 11.7075] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58549"
+			"plane" "(2565 -2026 98.9264) (2309 -2026 98.9264) (2309 -2026 226.926)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -20] 0.25"
+			"vaxis" "[0 0 -1 11.7075] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "85073"
+	"classname" "filter_activator_tfteam"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "BlueOnly"
+	"TeamNum" "3"
+	"origin" "3663.02 -1837.31 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "85086"
+	"classname" "filter_activator_tfteam"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "RedOnly"
+	"TeamNum" "2"
+	"origin" "-662.028 5723.01 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9268]"
+	}
+}
+entity
+{
+	"id" "85130"
+	"classname" "logic_timer"
+	"LowerRandomBound" "3"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "TankTimer"
+	"UpperRandomBound" "10"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "tankcountuni1,Add,1,0,-1"
+	}
+	"origin" "-651.297 5878.5 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8768]"
+	}
+}
+entity
+{
+	"id" "85151"
+	"classname" "logic_timer"
+	"LowerRandomBound" "3"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "TankTimer2"
+	"UpperRandomBound" "10"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "tankcountuni2,Add,1,0,-1"
+	}
+	"origin" "-648.91 5849.59 72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -8768]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2594.75 -1860.96 695.352]"
-		"look" "[2333.58 -1545.95 -1298.06]"
+		"position" "[-5506.27 8090.3 308.075]"
+		"look" "[-6891.1 9561.8 67.1255]"
 	}
 }
 cordon
