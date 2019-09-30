@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "904"
+	"mapversion" "905"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "904"
+	"mapversion" "905"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -140222,8 +140222,8 @@ entity
 		"OnTrigger" "Tank_HellFire,Disable,,44,-1"
 		"OnTrigger" "Warhead,StartForward,,23.5,-1"
 		"OnTrigger" "WarheadLaunch,PlaySound,,23.5,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,512,23.5,-1"
-		"OnTrigger" "Warhead,SetSpeedReal,2048,28,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,320,23.5,-1"
+		"OnTrigger" "Warhead,SetSpeedReal,2048,35,-1"
 	}
 	"origin" "-672.682 5760.22 65"
 	editor
@@ -141034,7 +141034,7 @@ entity
 	"targetname" "M2"
 	connections
 	{
-		"OnPass" "Warhead,SetSpeedReal,1024,3,-1"
+		"OnPass" "Warhead,SetSpeedReal,1024,5,-1"
 	}
 	"origin" "-5675.37 8353 3002"
 	editor
@@ -142901,8 +142901,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-5919.59 7969.68 502.592]"
-		"look" "[-4788.57 9283.05 -563.701]"
+		"position" "[-5691.11 8245.17 2350.24]"
+		"look" "[-5628.6 8403.56 4378.08]"
 	}
 }
 cordon
