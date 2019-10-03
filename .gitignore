@@ -6,3 +6,11 @@
 *.prt
 
 *.vmx
+
+cp_weather_beta.vmf
+
+*.pdn
+
+StormFrontPanel.png
+
+tf2build.ttf
