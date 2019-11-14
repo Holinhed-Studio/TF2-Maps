@@ -18,3 +18,9 @@ tf2build.ttf
 cp_weather_chaos-r01.bsp.backup
 
 *.unpacked
+
+koth_harvest_event_r01.vmf
+
+*.lin
+
+pl_upward_xmas.vmf
