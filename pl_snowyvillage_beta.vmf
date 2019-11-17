@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "192"
+	"mapversion" "196"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "192"
+	"mapversion" "196"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -51898,7 +51898,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -51931,7 +51931,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -51964,7 +51964,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -51997,7 +51997,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -52030,7 +52030,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -52063,7 +52063,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -52096,7 +52096,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -52129,7 +52129,7 @@ entity
 	"parentname" "plowmdl"
 	"pitch" "100"
 	"pitchstart" "100"
-	"preset" "1"
+	"preset" "0"
 	"radius" "2500"
 	"SourceEntityName" "plowmdl"
 	"spawnflags" "48"
@@ -52157,7 +52157,7 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnTrigger" "plowairhorn,PlaySound,,0,-1"
+		"OnStartTouch" "plowairhorn,PlaySound,,0,-1"
 	}
 	solid
 	{
@@ -52255,7 +52255,7 @@ entity
 	"ManualAccelSpeed" "0"
 	"ManualDecelSpeed" "0"
 	"ManualSpeedChanges" "0"
-	"MoveSound" "physics/plastic/plastic_barrel_scrape_rough_loop1.wav"
+	"MoveSound" "ambient/machines/diesel_engine_idle1.wav"
 	"MoveSoundMaxPitch" "200"
 	"MoveSoundMaxTime" "0"
 	"MoveSoundMinPitch" "60"
@@ -52765,13 +52765,110 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "40224"
+	"classname" "trigger_hurt"
+	"damage" "10"
+	"damagecap" "200"
+	"damagemodel" "1"
+	"damagetype" "16"
+	"nodmgforce" "0"
+	"origin" "-1756.5 -208 34.9"
+	"parentname" "plowtrain"
+	"spawnflags" "3"
+	"StartDisabled" "0"
+	solid
+	{
+		"id" "40221"
+		side
+		{
+			"id" "7732"
+			"plane" "(-1762 -152 67.9006) (-1751 -152 67.9006) (-1751 -264 67.9006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7731"
+			"plane" "(-1762 -264 1.90056) (-1751 -264 1.90056) (-1751 -152 1.90056)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7730"
+			"plane" "(-1762 -152 67.9006) (-1762 -264 67.9006) (-1762 -264 1.90056)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7729"
+			"plane" "(-1751 -152 1.90056) (-1751 -264 1.90056) (-1751 -264 67.9006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7728"
+			"plane" "(-1751 -152 67.9006) (-1762 -152 67.9006) (-1762 -152 1.90056)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7727"
+			"plane" "(-1751 -264 1.90056) (-1762 -264 1.90056) (-1762 -264 67.9006)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1753.78 -154.07 105.661]"
-		"look" "[-1772.79 -164.816 103.37]"
+		"position" "[-1635.9 -259.582 91.6405]"
+		"look" "[-1656.52 -255.752 85.1515]"
 	}
 }
 cordon
