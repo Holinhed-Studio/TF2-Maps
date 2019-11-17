@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "145"
+	"mapversion" "147"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "145"
+	"mapversion" "147"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -51184,7 +51184,7 @@ entity
 {
 	"id" "24559"
 	"classname" "info_particle_system"
-	"angles" "0 0 0"
+	"angles" "0 324 -83.5"
 	"cpoint1_parent" "0"
 	"cpoint2_parent" "0"
 	"cpoint3_parent" "0"
@@ -51194,6 +51194,7 @@ entity
 	"cpoint7_parent" "0"
 	"effect_name" "plow"
 	"flag_as_weather" "0"
+	"parentname" "plowtrain"
 	"start_active" "1"
 	"origin" "-1750.99 -287.779 24.8722"
 	editor
@@ -51208,7 +51209,7 @@ entity
 {
 	"id" "24624"
 	"classname" "info_particle_system"
-	"angles" "0 0 0"
+	"angles" "0 36 84.5"
 	"cpoint1_parent" "0"
 	"cpoint2_parent" "0"
 	"cpoint3_parent" "0"
@@ -51218,6 +51219,7 @@ entity
 	"cpoint7_parent" "0"
 	"effect_name" "plow"
 	"flag_as_weather" "0"
+	"parentname" "plowtrain"
 	"start_active" "1"
 	"origin" "-1747.79 -131.263 24.8722"
 	editor
@@ -51233,8 +51235,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1597.65 -158.631 103.297]"
-		"look" "[-1614.31 -160.105 89.0651]"
+		"position" "[-1560 -169.483 200.926]"
+		"look" "[-1574.7 -169.343 184.608]"
 	}
 }
 cordon
