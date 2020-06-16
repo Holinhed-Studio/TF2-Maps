@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "312"
+	"mapversion" "333"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "312"
+	"mapversion" "333"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55470,6 +55470,25 @@ entity
 	"id" "23369"
 	"classname" "logic_case"
 	"targetname" "BG.ChaosEngine.FirstStage"
+	connections
+	{
+		"OnCase01" "BG.ChaosEngine.0x00,Trigger,,0,-1"
+		"OnCase02" "BG.ChaosEngine.0x10,Trigger,,0,-1"
+		"OnCase03" "BG.ChaosEngine.0x20,Trigger,,0,-1"
+		"OnCase04" "BG.ChaosEngine.0x30,Trigger,,0,-1"
+		"OnCase05" "BG.ChaosEngine.0x40,Trigger,,0,-1"
+		"OnCase06" "BG.ChaosEngine.0x50,Trigger,,0,-1"
+		"OnCase07" "BG.ChaosEngine.0x60,Trigger,,0,-1"
+		"OnCase08" "BG.ChaosEngine.0x70,Trigger,,0,-1"
+		"OnCase09" "BG.ChaosEngine.0x80,Trigger,,0,-1"
+		"OnCase10" "BG.ChaosEngine.0x90,Trigger,,0,-1"
+		"OnCase11" "BG.ChaosEngine.0xA0,Trigger,,0,-1"
+		"OnCase12" "BG.ChaosEngine.0xB0,Trigger,,0,-1"
+		"OnCase13" "BG.ChaosEngine.0xC0,Trigger,,0,-1"
+		"OnCase14" "BG.ChaosEngine.0xD0,Trigger,,0,-1"
+		"OnCase15" "BG.ChaosEngine.0xE0,Trigger,,0,-1"
+		"OnCase16" "BG.ChaosEngine.0xF0,Trigger,,0,-1"
+	}
 	"origin" "-280 -1120 348"
 	editor
 	{
@@ -55484,7 +55503,8 @@ entity
 	"id" "23390"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-400 -1152 348"
+	"targetname" "BG.ChaosEngine.0x00"
+	"origin" "-144 -1152 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -55498,6 +55518,7 @@ entity
 	"id" "23394"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xF0"
 	"origin" "-384 -1152 348"
 	editor
 	{
@@ -55512,6 +55533,7 @@ entity
 	"id" "23468"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xE0"
 	"origin" "-368 -1152 348"
 	editor
 	{
@@ -55526,6 +55548,7 @@ entity
 	"id" "23392"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xD0"
 	"origin" "-352 -1152 348"
 	editor
 	{
@@ -55540,6 +55563,7 @@ entity
 	"id" "23388"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xC0"
 	"origin" "-336 -1152 348"
 	editor
 	{
@@ -55554,6 +55578,7 @@ entity
 	"id" "23470"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xB0"
 	"origin" "-320 -1152 348"
 	editor
 	{
@@ -55568,6 +55593,7 @@ entity
 	"id" "23396"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xA0"
 	"origin" "-304 -1152 348"
 	editor
 	{
@@ -55582,6 +55608,7 @@ entity
 	"id" "23464"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x90"
 	"origin" "-288 -1152 348"
 	editor
 	{
@@ -55596,6 +55623,7 @@ entity
 	"id" "23466"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x80"
 	"origin" "-272 -1152 348"
 	editor
 	{
@@ -55610,6 +55638,7 @@ entity
 	"id" "23462"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x70"
 	"origin" "-256 -1152 348"
 	editor
 	{
@@ -55624,6 +55653,7 @@ entity
 	"id" "23386"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x60"
 	"origin" "-240 -1152 348"
 	editor
 	{
@@ -55638,6 +55668,7 @@ entity
 	"id" "23460"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x50"
 	"origin" "-224 -1152 348"
 	editor
 	{
@@ -55652,6 +55683,7 @@ entity
 	"id" "23384"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x40"
 	"origin" "-208 -1152 348"
 	editor
 	{
@@ -55666,6 +55698,7 @@ entity
 	"id" "23458"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x30"
 	"origin" "-192 -1152 348"
 	editor
 	{
@@ -55680,6 +55713,7 @@ entity
 	"id" "23382"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x20"
 	"origin" "-176 -1152 348"
 	editor
 	{
@@ -55694,7 +55728,13 @@ entity
 	"id" "23456"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"targetname" "BG.ChaosEngine.0x01"
+	"targetname" "BG.ChaosEngine.0x10"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,6.85,-1"
+		"OnTrigger" "BG.ChaosEngine.Pre01,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT01,Display,,0,-1"
+	}
 	"origin" "-160 -1152 348"
 	editor
 	{
@@ -55716,6 +55756,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre01.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -55723,6 +55764,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre01"
 	"volstart" "0"
 	"origin" "-160 -1176 348"
 	editor
@@ -55752,6 +55794,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre02"
 	"volstart" "0"
 	"origin" "-176 -1176 348"
 	editor
@@ -55781,6 +55824,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre03"
 	"volstart" "0"
 	"origin" "-192 -1176 348"
 	editor
@@ -55810,6 +55854,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre04"
 	"volstart" "0"
 	"origin" "-208 -1176 348"
 	editor
@@ -55839,6 +55884,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre05"
 	"volstart" "0"
 	"origin" "-224 -1176 348"
 	editor
@@ -55868,6 +55914,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre06"
 	"volstart" "0"
 	"origin" "-240 -1176 348"
 	editor
@@ -55897,6 +55944,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre07"
 	"volstart" "0"
 	"origin" "-256 -1176 348"
 	editor
@@ -55926,6 +55974,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre08"
 	"volstart" "0"
 	"origin" "-272 -1176 348"
 	editor
@@ -55955,6 +56004,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre09"
 	"volstart" "0"
 	"origin" "-288 -1176 348"
 	editor
@@ -55984,6 +56034,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre0A"
 	"volstart" "0"
 	"origin" "-304 -1176 348"
 	editor
@@ -56013,6 +56064,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre0B"
 	"volstart" "0"
 	"origin" "-320 -1176 348"
 	editor
@@ -56042,6 +56094,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre0C"
 	"volstart" "0"
 	"origin" "-336 -1176 348"
 	editor
@@ -56071,6 +56124,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre0D"
 	"volstart" "0"
 	"origin" "-352 -1176 348"
 	editor
@@ -56100,6 +56154,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre0E"
 	"volstart" "0"
 	"origin" "-368 -1176 348"
 	editor
@@ -56129,6 +56184,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre0F"
 	"volstart" "0"
 	"origin" "-384 -1176 348"
 	editor
@@ -56158,8 +56214,9 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre00"
 	"volstart" "0"
-	"origin" "-400 -1176 348"
+	"origin" "-144 -1176 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56173,7 +56230,13 @@ entity
 	"id" "23858"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"targetname" "BG.ChaosEngine.0x02"
+	"targetname" "BG.ChaosEngine.0x11"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr01,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,22,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT01,Display,,0,-1"
+	}
 	"origin" "-160 -1248 348"
 	editor
 	{
@@ -56384,7 +56447,8 @@ entity
 	"id" "23888"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-400 -1248 348"
+	"targetname" "BG.ChaosEngine.0x01"
+	"origin" "-144 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56405,6 +56469,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "vo/tyler2shots/bloodgod05.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56412,6 +56477,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr01"
 	"volstart" "0"
 	"origin" "-160 -1272 348"
 	editor
@@ -56848,7 +56914,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-400 -1272 348"
+	"origin" "-144 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56862,8 +56928,14 @@ entity
 	"id" "24146"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"targetname" "BG.ChaosEngine.0x03"
-	"origin" "-160 -1320 348"
+	"targetname" "BG.ChaosEngine.0x12"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Post01,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT01,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0x13,Trigger,,15.3,-1"
+	}
+	"origin" "-160 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56877,7 +56949,7 @@ entity
 	"id" "24148"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-176 -1320 348"
+	"origin" "-176 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56891,7 +56963,7 @@ entity
 	"id" "24150"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-192 -1320 348"
+	"origin" "-192 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56905,7 +56977,7 @@ entity
 	"id" "24152"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-208 -1320 348"
+	"origin" "-208 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56919,7 +56991,7 @@ entity
 	"id" "24154"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-224 -1320 348"
+	"origin" "-224 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56933,7 +57005,7 @@ entity
 	"id" "24156"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-240 -1320 348"
+	"origin" "-240 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56947,7 +57019,7 @@ entity
 	"id" "24158"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-256 -1320 348"
+	"origin" "-256 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56961,7 +57033,7 @@ entity
 	"id" "24160"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-272 -1320 348"
+	"origin" "-272 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56975,7 +57047,7 @@ entity
 	"id" "24162"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-288 -1320 348"
+	"origin" "-288 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56989,7 +57061,7 @@ entity
 	"id" "24164"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-304 -1320 348"
+	"origin" "-304 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57003,7 +57075,7 @@ entity
 	"id" "24166"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-320 -1320 348"
+	"origin" "-320 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57017,7 +57089,7 @@ entity
 	"id" "24168"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-336 -1320 348"
+	"origin" "-336 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57031,7 +57103,7 @@ entity
 	"id" "24170"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-352 -1320 348"
+	"origin" "-352 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57045,7 +57117,7 @@ entity
 	"id" "24172"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-368 -1320 348"
+	"origin" "-368 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57059,7 +57131,7 @@ entity
 	"id" "24174"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-384 -1320 348"
+	"origin" "-384 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57073,7 +57145,8 @@ entity
 	"id" "24176"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-400 -1320 348"
+	"targetname" "BG.ChaosEngine.0x02"
+	"origin" "-144 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57094,6 +57167,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post01.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57101,8 +57175,9 @@ entity
 	"spawnflags" "48"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post01"
 	"volstart" "0"
-	"origin" "-160 -1344 348"
+	"origin" "-160 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57131,7 +57206,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-176 -1344 348"
+	"origin" "-176 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57160,7 +57235,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-192 -1344 348"
+	"origin" "-192 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57189,7 +57264,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-208 -1344 348"
+	"origin" "-208 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57218,7 +57293,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-224 -1344 348"
+	"origin" "-224 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57247,7 +57322,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-240 -1344 348"
+	"origin" "-240 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57276,7 +57351,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-256 -1344 348"
+	"origin" "-256 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57305,7 +57380,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-272 -1344 348"
+	"origin" "-272 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57334,7 +57409,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-288 -1344 348"
+	"origin" "-288 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57363,7 +57438,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-304 -1344 348"
+	"origin" "-304 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57392,7 +57467,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-320 -1344 348"
+	"origin" "-320 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57421,7 +57496,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-336 -1344 348"
+	"origin" "-336 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57450,7 +57525,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-352 -1344 348"
+	"origin" "-352 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57479,7 +57554,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-368 -1344 348"
+	"origin" "-368 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57508,7 +57583,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-384 -1344 348"
+	"origin" "-384 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57537,7 +57612,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-400 -1344 348"
+	"origin" "-144 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57558,7 +57633,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre01: Skillet - Hero"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT01"
 	"x" "0"
 	"y" "0"
 	"origin" "-160 -1200 348"
@@ -57919,9 +57996,10 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT00"
 	"x" "0"
 	"y" "0"
-	"origin" "-400 -1200 348"
+	"origin" "-144 -1200 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57943,9 +58021,10 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT01"
 	"x" "0"
 	"y" "0"
-	"origin" "-160 -1368 348"
+	"origin" "-160 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57969,7 +58048,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-176 -1368 348"
+	"origin" "-176 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57993,7 +58072,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-192 -1368 348"
+	"origin" "-192 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58017,7 +58096,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-208 -1368 348"
+	"origin" "-208 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58041,7 +58120,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-224 -1368 348"
+	"origin" "-224 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58065,7 +58144,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-240 -1368 348"
+	"origin" "-240 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58089,7 +58168,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-256 -1368 348"
+	"origin" "-256 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58113,7 +58192,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-272 -1368 348"
+	"origin" "-272 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58137,7 +58216,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-288 -1368 348"
+	"origin" "-288 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58161,7 +58240,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-304 -1368 348"
+	"origin" "-304 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58185,7 +58264,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-320 -1368 348"
+	"origin" "-320 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58209,7 +58288,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-336 -1368 348"
+	"origin" "-336 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58233,7 +58312,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-352 -1368 348"
+	"origin" "-352 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58257,7 +58336,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-368 -1368 348"
+	"origin" "-368 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58281,7 +58360,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-384 -1368 348"
+	"origin" "-384 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58305,7 +58384,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-400 -1368 348"
+	"origin" "-144 -1392 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58319,7 +58398,8 @@ entity
 	"id" "25132"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-400 -1391 348"
+	"targetname" "BG.ChaosEngine.0x03"
+	"origin" "-144 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58333,7 +58413,7 @@ entity
 	"id" "25134"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-368 -1391 348"
+	"origin" "-368 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58347,7 +58427,7 @@ entity
 	"id" "25136"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-384 -1391 348"
+	"origin" "-384 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58361,7 +58441,7 @@ entity
 	"id" "25138"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-352 -1391 348"
+	"origin" "-352 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58375,7 +58455,7 @@ entity
 	"id" "25140"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-336 -1391 348"
+	"origin" "-336 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58389,7 +58469,7 @@ entity
 	"id" "25142"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-320 -1391 348"
+	"origin" "-320 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58403,7 +58483,7 @@ entity
 	"id" "25144"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-304 -1391 348"
+	"origin" "-304 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58417,7 +58497,7 @@ entity
 	"id" "25146"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-288 -1391 348"
+	"origin" "-288 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58431,7 +58511,7 @@ entity
 	"id" "25148"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-272 -1391 348"
+	"origin" "-272 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58445,7 +58525,7 @@ entity
 	"id" "25150"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-256 -1391 348"
+	"origin" "-256 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58459,7 +58539,7 @@ entity
 	"id" "25152"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-224 -1391 348"
+	"origin" "-224 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58473,7 +58553,7 @@ entity
 	"id" "25154"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-240 -1391 348"
+	"origin" "-240 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58487,7 +58567,7 @@ entity
 	"id" "25156"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-208 -1391 348"
+	"origin" "-208 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58501,7 +58581,7 @@ entity
 	"id" "25158"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-192 -1391 348"
+	"origin" "-192 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58515,7 +58595,7 @@ entity
 	"id" "25160"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-176 -1391 348"
+	"origin" "-176 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58529,8 +58609,8 @@ entity
 	"id" "25162"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"targetname" "BG.ChaosEngine.0x04"
-	"origin" "-160 -1391 348"
+	"targetname" "BG.ChaosEngine.0x13"
+	"origin" "-160 -1415 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58543,7 +58623,26 @@ entity
 {
 	"id" "25584"
 	"classname" "logic_case"
-	"targetname" "BG.ChaosEngine.FirstStage"
+	"targetname" "BG.ChaosEngine.SecondStage"
+	connections
+	{
+		"OnCase15" "BG.ChaosEngine.0xE1,Trigger,,0,-1"
+		"OnCase14" "BG.ChaosEngine.0xD1,Trigger,,0,-1"
+		"OnCase13" "BG.ChaosEngine.0xC1,Trigger,,0,-1"
+		"OnCase12" "BG.ChaosEngine.0xB1,Trigger,,0,-1"
+		"OnCase11" "BG.ChaosEngine.0xA1,Trigger,,0,-1"
+		"OnCase10" "BG.ChaosEngine.0x91,Trigger,,0,-1"
+		"OnCase09" "BG.ChaosEngine.0x81,Trigger,,0,-1"
+		"OnCase08" "BG.ChaosEngine.0x71,Trigger,,0,-1"
+		"OnCase07" "BG.ChaosEngine.0x61,Trigger,,0,-1"
+		"OnCase06" "BG.ChaosEngine.0x51,Trigger,,0,-1"
+		"OnCase05" "BG.ChaosEngine.0x41,Trigger,,0,-1"
+		"OnCase04" "BG.ChaosEngine.0x31,Trigger,,0,-1"
+		"OnCase03" "BG.ChaosEngine.0x21,Trigger,,0,-1"
+		"OnCase02" "BG.ChaosEngine.0x11,Trigger,,0,-1"
+		"OnCase01" "BG.ChaosEngine.0x01,Trigger,,0,-1"
+		"OnCase16" "BG.ChaosEngine.0xF1,Trigger,,0,-1"
+	}
 	"origin" "-280 -1223 348"
 	editor
 	{
@@ -58557,8 +58656,27 @@ entity
 {
 	"id" "25590"
 	"classname" "logic_case"
-	"targetname" "BG.ChaosEngine.FirstStage"
-	"origin" "-280 -1296 348"
+	"targetname" "BG.ChaosEngine.ThirdStage"
+	connections
+	{
+		"OnCase15" "BG.ChaosEngine.0xE2,Trigger,,0,-1"
+		"OnCase14" "BG.ChaosEngine.0xD2,Trigger,,0,-1"
+		"OnCase13" "BG.ChaosEngine.0xC2,Trigger,,0,-1"
+		"OnCase12" "BG.ChaosEngine.0xB2,Trigger,,0,-1"
+		"OnCase11" "BG.ChaosEngine.0xA2,Trigger,,0,-1"
+		"OnCase10" "BG.ChaosEngine.0x92,Trigger,,0,-1"
+		"OnCase09" "BG.ChaosEngine.0x82,Trigger,,0,-1"
+		"OnCase08" "BG.ChaosEngine.0x72,Trigger,,0,-1"
+		"OnCase07" "BG.ChaosEngine.0x62,Trigger,,0,-1"
+		"OnCase06" "BG.ChaosEngine.0x52,Trigger,,0,-1"
+		"OnCase05" "BG.ChaosEngine.0x42,Trigger,,0,-1"
+		"OnCase04" "BG.ChaosEngine.0x32,Trigger,,0,-1"
+		"OnCase03" "BG.ChaosEngine.0x22,Trigger,,0,-1"
+		"OnCase02" "BG.ChaosEngine.0x12,Trigger,,0,-1"
+		"OnCase01" "BG.ChaosEngine.0x02,Trigger,,0,-1"
+		"OnCase16" "BG.ChaosEngine.0xF2,Trigger,,0,-1"
+	}
+	"origin" "-280 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58567,13 +58685,399 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "25860"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr01: Tyler2shots"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT01"
+	"x" "0"
+	"y" "0"
+	"origin" "-160 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "25862"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-176 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "25864"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-192 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "25866"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-208 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "25868"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-224 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "25870"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-240 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "25872"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-256 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "25874"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-272 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "25876"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-288 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "25878"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-304 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "25880"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-320 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "25882"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-336 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "25884"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-352 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "25886"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-368 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "25888"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-384 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "25890"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-144 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-291.679 -1247.67 625.578]"
-		"look" "[-291.679 -1247.67 593.145]"
+		"position" "[-342.693 -1162.1 544.755]"
+		"look" "[-334.214 -1162.75 513.456]"
 	}
 }
 cordon
