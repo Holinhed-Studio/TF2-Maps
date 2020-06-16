@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "302"
+	"mapversion" "303"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "302"
+	"mapversion" "303"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -50589,7 +50589,7 @@ entity
 	{
 		"OnPass" "bg.meteorite4,Kill,,0,-1"
 		"OnPass" "BG.MeteorCrash,PlaySound,,0,-1"
-		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.25,-1"
+		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.5,-1"
 		"OnPass" "BG.MeteorCrashShake04,StartShake,,0,-1"
 		"OnPass" "BG.MeteorExplode04,Explode,,0,-1"
 	}
@@ -51641,7 +51641,7 @@ entity
 	"targetname" "meteor1x2"
 	connections
 	{
-		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.25,-1"
+		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.5,-1"
 		"OnPass" "BG.MeteorExplode01,Explode,,0,-1"
 		"OnPass" "BG.MeteorCrashShake04,StartShake,,0,-1"
 		"OnPass" "BG.MeteorCrashAlt,PlaySound,,0,-1"
@@ -52479,7 +52479,7 @@ entity
 	"targetname" "meteor2x2"
 	connections
 	{
-		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.25,-1"
+		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.5,-1"
 		"OnPass" "BG.MeteorExplode02,Explode,,0,-1"
 		"OnPass" "BG.MeteorCrashShake04,StartShake,,0,-1"
 		"OnPass" "BG.MeteorCrash,PlaySound,,0,-1"
@@ -53296,7 +53296,7 @@ entity
 	"targetname" "meteor3x2"
 	connections
 	{
-		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.25,-1"
+		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.5,-1"
 		"OnPass" "BG.MeteorExplode03,Explode,,0,-1"
 		"OnPass" "BG.MeteorCrashShake04,StartShake,,0,-1"
 		"OnPass" "BG.MeteorCrash,PlaySound,,0,-1"
@@ -53483,7 +53483,7 @@ entity
 	"targetname" "meteor5x2"
 	connections
 	{
-		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.25,-1"
+		"OnPass" "BG.MeteorCrashShake04,StopShake,,0.5,-1"
 		"OnPass" "BG.Meteorite5,Kill,,0,-1"
 		"OnPass" "BG.MeteorCrashAlt,PlaySound,,0,-1"
 		"OnPass" "BG.MeteorCrashShake04,StartShake,,0,-1"
@@ -55445,8 +55445,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3123.16 -1935.24 59.4274]"
-		"look" "[-3129.52 -1962.36 42.818]"
+		"position" "[-2966.65 -2333.62 119.718]"
+		"look" "[-2977.7 -2320.45 92.2095]"
 	}
 }
 cordon
