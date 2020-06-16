@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "350"
+	"mapversion" "352"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "350"
+	"mapversion" "352"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55414,59 +55414,6 @@ entity
 }
 entity
 {
-	"id" "23355"
-	"classname" "logic_timer"
-	"LowerRandomBound" "1"
-	"spawnflags" "0"
-	"StartDisabled" "1"
-	"targetname" "BG.ChaosEngine.Core"
-	"UpperRandomBound" "5"
-	"UseRandomTime" "1"
-	connections
-	{
-		"OnTimer" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
-		"OnTimer" "BG.ChaosEngine.Core,Disable,,0,-1"
-	}
-	"origin" "-280 -1088 348"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "23351"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BloodPocalypse"
-	connections
-	{
-		"OnTrigger" "BloodBurg,Enable,,5,-1"
-		"OnTrigger" "BloodGodActivated,PlaySound,,0,-1"
-		"OnTrigger" "BloodShake,StartShake,,4.2,-1"
-		"OnTrigger" "BloodNado,Start,,7.62,-1"
-		"OnTrigger" "BloodBurgTrain,SetSpeed,1,5.1,-1"
-		"OnTrigger" "BloodShake,Frequency,1,7.62,-1"
-		"OnTrigger" "BloodShake,StopShake,,12,-1"
-		"OnTrigger" "Penta0*,TurnOn,,0,-1"
-		"OnTrigger" "Rotating01,SetSpeed,0.25,0,-1"
-		"OnTrigger" "BloodWind,Enable,,8.4,-1"
-		"OnTrigger" "BG.ChaosEngine.Core,Enable,,50,-1"
-	}
-	"origin" "-248 -1088 348"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "23369"
 	"classname" "logic_case"
 	"targetname" "BG.ChaosEngine.FirstStage"
@@ -59143,13 +59090,800 @@ entity
 		"logicalpos" "[0 3000]"
 	}
 }
+entity
+{
+	"id" "27022"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "BG.ChaosEngine.Core"
+	"UpperRandomBound" "5"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnTimer" "BG.ChaosEngine.Core,Disable,,0,-1"
+	}
+	"origin" "-280 -1048 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "27024"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BloodPocalypse"
+	connections
+	{
+		"OnTrigger" "BloodBurg,Enable,,5,-1"
+		"OnTrigger" "BloodGodActivated,PlaySound,,0,-1"
+		"OnTrigger" "BloodShake,StartShake,,4.2,-1"
+		"OnTrigger" "BloodNado,Start,,7.62,-1"
+		"OnTrigger" "BloodBurgTrain,SetSpeed,1,5.1,-1"
+		"OnTrigger" "BloodShake,Frequency,1,7.62,-1"
+		"OnTrigger" "BloodShake,StopShake,,12,-1"
+		"OnTrigger" "Penta0*,TurnOn,,0,-1"
+		"OnTrigger" "Rotating01,SetSpeed,0.25,0,-1"
+		"OnTrigger" "BloodWind,Enable,,8.4,-1"
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,50,-1"
+	}
+	"origin" "-248 -1048 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "27038"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.PreProcessor"
+	connections
+	{
+		"OnCase01" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnCase02" "BG.ChaosEngine.Special,PickRandom,,0,-1"
+		"OnCase03" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnCase04" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnCase05" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnCase06" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnCase07" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnCase08" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnCase09" "BG.ChaosEngine.Special,PickRandom,,0,-1"
+	}
+	"origin" "-256 -1120 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "27064"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.Special"
+	connections
+	{
+		"OnCase01" "BG.ChaosEngine.0x00,Trigger,,0,-1"
+		"OnCase02" "BG.ChaosEngine.0x10,Trigger,,0,-1"
+		"OnCase03" "BG.ChaosEngine.0x20,Trigger,,0,-1"
+		"OnCase04" "BG.ChaosEngine.0x30,Trigger,,0,-1"
+		"OnCase05" "BG.ChaosEngine.0x40,Trigger,,0,-1"
+		"OnCase06" "BG.ChaosEngine.0x50,Trigger,,0,-1"
+		"OnCase07" "BG.ChaosEngine.0x60,Trigger,,0,-1"
+		"OnCase08" "BG.ChaosEngine.0x70,Trigger,,0,-1"
+		"OnCase09" "BG.ChaosEngine.0x80,Trigger,,0,-1"
+		"OnCase10" "BG.ChaosEngine.0x90,Trigger,,0,-1"
+		"OnCase11" "BG.ChaosEngine.0xA0,Trigger,,0,-1"
+		"OnCase12" "BG.ChaosEngine.0xB0,Trigger,,0,-1"
+		"OnCase13" "BG.ChaosEngine.0xC0,Trigger,,0,-1"
+		"OnCase14" "BG.ChaosEngine.0xD0,Trigger,,0,-1"
+		"OnCase15" "BG.ChaosEngine.0xE0,Trigger,,0,-1"
+		"OnCase16" "BG.ChaosEngine.0xF0,Trigger,,0,-1"
+	}
+	"origin" "-304 -1120 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "27142"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x00"
+	"origin" "-408 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27144"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre10"
+	"volstart" "0"
+	"origin" "-408 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27147"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-408 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27149"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x01"
+	"origin" "-408 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27151"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr10"
+	"volstart" "0"
+	"origin" "-408 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27154"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-408 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27156"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x02"
+	"origin" "-408 -1344 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27158"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post10"
+	"volstart" "0"
+	"origin" "-408 -1368 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27161"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-408 -1392 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27163"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x03"
+	"origin" "-408 -1415 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27328"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x00"
+	"origin" "-424 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27330"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre10"
+	"volstart" "0"
+	"origin" "-424 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27333"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-424 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27335"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x01"
+	"origin" "-424 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27337"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr10"
+	"volstart" "0"
+	"origin" "-424 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27340"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-424 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27342"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x02"
+	"origin" "-424 -1344 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27344"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post10"
+	"volstart" "0"
+	"origin" "-424 -1368 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27347"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-424 -1392 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27349"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x03"
+	"origin" "-424 -1415 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27466"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x00"
+	"origin" "-440 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27468"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Pre10"
+	"volstart" "0"
+	"origin" "-440 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27471"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-440 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27473"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x01"
+	"origin" "-440 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27475"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr10"
+	"volstart" "0"
+	"origin" "-440 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27478"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-440 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27480"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x02"
+	"origin" "-440 -1344 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27482"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post10"
+	"volstart" "0"
+	"origin" "-440 -1368 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27485"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT10"
+	"x" "0"
+	"y" "0"
+	"origin" "-440 -1392 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "27487"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.1x03"
+	"origin" "-440 -1415 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-233.631 -1279.12 801.655]"
-		"look" "[-230.503 -1278.64 769.377]"
+		"position" "[-364.949 -1174.47 804.435]"
+		"look" "[-363.371 -1174.32 772.04]"
 	}
 }
 cordon
