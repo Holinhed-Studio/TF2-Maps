@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "333"
+	"mapversion" "335"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "333"
+	"mapversion" "335"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55504,6 +55504,11 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x00"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre00,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT00,Display,,0,-1"
+	}
 	"origin" "-144 -1152 348"
 	editor
 	{
@@ -57660,6 +57665,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT02"
 	"x" "0"
 	"y" "0"
 	"origin" "-176 -1200 348"
@@ -57684,6 +57690,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT03"
 	"x" "0"
 	"y" "0"
 	"origin" "-192 -1200 348"
@@ -57708,6 +57715,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT04"
 	"x" "0"
 	"y" "0"
 	"origin" "-208 -1200 348"
@@ -57732,6 +57740,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT05"
 	"x" "0"
 	"y" "0"
 	"origin" "-224 -1200 348"
@@ -57756,6 +57765,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT06"
 	"x" "0"
 	"y" "0"
 	"origin" "-240 -1200 348"
@@ -57780,6 +57790,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT07"
 	"x" "0"
 	"y" "0"
 	"origin" "-256 -1200 348"
@@ -57804,6 +57815,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT08"
 	"x" "0"
 	"y" "0"
 	"origin" "-272 -1200 348"
@@ -57828,6 +57840,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT09"
 	"x" "0"
 	"y" "0"
 	"origin" "-288 -1200 348"
@@ -57852,6 +57865,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT0A"
 	"x" "0"
 	"y" "0"
 	"origin" "-304 -1200 348"
@@ -57876,6 +57890,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT0B"
 	"x" "0"
 	"y" "0"
 	"origin" "-320 -1200 348"
@@ -57900,6 +57915,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT0C"
 	"x" "0"
 	"y" "0"
 	"origin" "-336 -1200 348"
@@ -57924,6 +57940,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT0D"
 	"x" "0"
 	"y" "0"
 	"origin" "-352 -1200 348"
@@ -57948,6 +57965,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT0E"
 	"x" "0"
 	"y" "0"
 	"origin" "-368 -1200 348"
@@ -57972,6 +57990,7 @@ entity
 	"fxtime" "0.25"
 	"holdtime" "1.2"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PreTXT0F"
 	"x" "0"
 	"y" "0"
 	"origin" "-384 -1200 348"
@@ -59076,8 +59095,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-342.693 -1162.1 544.755]"
-		"look" "[-334.214 -1162.75 513.456]"
+		"position" "[-320.432 -1150.78 663.703]"
+		"look" "[-320.432 -1150.78 631.269]"
 	}
 }
 cordon
