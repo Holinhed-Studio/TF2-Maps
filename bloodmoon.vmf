@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "310"
+	"mapversion" "311"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "310"
+	"mapversion" "311"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -58311,13 +58311,237 @@ entity
 		"logicalpos" "[0 3000]"
 	}
 }
+entity
+{
+	"id" "25132"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-400 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "25134"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-368 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "25136"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-384 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "25138"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-352 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "25140"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-336 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "25142"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-320 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "25144"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-304 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "25146"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-288 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "25148"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-272 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "25150"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-256 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "25152"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-224 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "25154"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-240 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "25156"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-208 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "25158"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-192 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "25160"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-176 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "25162"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-160 -1343 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-403.773 -1219.33 719.608]"
-		"look" "[-393.124 -1218.73 688.979]"
+		"position" "[-337.003 -1270.09 606.991]"
+		"look" "[-331.394 -1269.57 575.05]"
 	}
 }
 cordon
