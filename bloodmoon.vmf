@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "311"
+	"mapversion" "312"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "311"
+	"mapversion" "312"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55694,6 +55694,7 @@ entity
 	"id" "23456"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x01"
 	"origin" "-160 -1152 348"
 	editor
 	{
@@ -56172,7 +56173,8 @@ entity
 	"id" "23858"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-160 -1224 348"
+	"targetname" "BG.ChaosEngine.0x02"
+	"origin" "-160 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56186,7 +56188,7 @@ entity
 	"id" "23860"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-176 -1224 348"
+	"origin" "-176 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56200,7 +56202,7 @@ entity
 	"id" "23862"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-192 -1224 348"
+	"origin" "-192 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56214,7 +56216,7 @@ entity
 	"id" "23864"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-208 -1224 348"
+	"origin" "-208 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56228,7 +56230,7 @@ entity
 	"id" "23866"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-224 -1224 348"
+	"origin" "-224 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56242,7 +56244,7 @@ entity
 	"id" "23868"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-240 -1224 348"
+	"origin" "-240 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56256,7 +56258,7 @@ entity
 	"id" "23870"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-256 -1224 348"
+	"origin" "-256 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56270,7 +56272,7 @@ entity
 	"id" "23872"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-272 -1224 348"
+	"origin" "-272 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56284,7 +56286,7 @@ entity
 	"id" "23874"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-288 -1224 348"
+	"origin" "-288 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56298,7 +56300,7 @@ entity
 	"id" "23876"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-304 -1224 348"
+	"origin" "-304 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56312,7 +56314,7 @@ entity
 	"id" "23878"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-320 -1224 348"
+	"origin" "-320 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56326,7 +56328,7 @@ entity
 	"id" "23880"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-336 -1224 348"
+	"origin" "-336 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56340,7 +56342,7 @@ entity
 	"id" "23882"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-352 -1224 348"
+	"origin" "-352 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56354,7 +56356,7 @@ entity
 	"id" "23884"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-368 -1224 348"
+	"origin" "-368 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56368,7 +56370,7 @@ entity
 	"id" "23886"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-384 -1224 348"
+	"origin" "-384 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56382,7 +56384,7 @@ entity
 	"id" "23888"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-400 -1224 348"
+	"origin" "-400 -1248 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56411,7 +56413,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-160 -1248 348"
+	"origin" "-160 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56440,7 +56442,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-176 -1248 348"
+	"origin" "-176 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56469,7 +56471,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-192 -1248 348"
+	"origin" "-192 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56498,7 +56500,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-208 -1248 348"
+	"origin" "-208 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56527,7 +56529,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-224 -1248 348"
+	"origin" "-224 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56556,7 +56558,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-240 -1248 348"
+	"origin" "-240 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56585,7 +56587,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-256 -1248 348"
+	"origin" "-256 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56614,7 +56616,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-272 -1248 348"
+	"origin" "-272 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56643,7 +56645,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-288 -1248 348"
+	"origin" "-288 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56672,7 +56674,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-304 -1248 348"
+	"origin" "-304 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56701,7 +56703,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-320 -1248 348"
+	"origin" "-320 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56730,7 +56732,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-336 -1248 348"
+	"origin" "-336 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56759,7 +56761,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-352 -1248 348"
+	"origin" "-352 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56788,7 +56790,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-368 -1248 348"
+	"origin" "-368 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56817,7 +56819,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-384 -1248 348"
+	"origin" "-384 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56846,7 +56848,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-400 -1248 348"
+	"origin" "-400 -1272 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56860,7 +56862,8 @@ entity
 	"id" "24146"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-160 -1272 348"
+	"targetname" "BG.ChaosEngine.0x03"
+	"origin" "-160 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56874,7 +56877,7 @@ entity
 	"id" "24148"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-176 -1272 348"
+	"origin" "-176 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56888,7 +56891,7 @@ entity
 	"id" "24150"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-192 -1272 348"
+	"origin" "-192 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56902,7 +56905,7 @@ entity
 	"id" "24152"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-208 -1272 348"
+	"origin" "-208 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56916,7 +56919,7 @@ entity
 	"id" "24154"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-224 -1272 348"
+	"origin" "-224 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56930,7 +56933,7 @@ entity
 	"id" "24156"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-240 -1272 348"
+	"origin" "-240 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56944,7 +56947,7 @@ entity
 	"id" "24158"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-256 -1272 348"
+	"origin" "-256 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56958,7 +56961,7 @@ entity
 	"id" "24160"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-272 -1272 348"
+	"origin" "-272 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56972,7 +56975,7 @@ entity
 	"id" "24162"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-288 -1272 348"
+	"origin" "-288 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -56986,7 +56989,7 @@ entity
 	"id" "24164"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-304 -1272 348"
+	"origin" "-304 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57000,7 +57003,7 @@ entity
 	"id" "24166"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-320 -1272 348"
+	"origin" "-320 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57014,7 +57017,7 @@ entity
 	"id" "24168"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-336 -1272 348"
+	"origin" "-336 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57028,7 +57031,7 @@ entity
 	"id" "24170"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-352 -1272 348"
+	"origin" "-352 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57042,7 +57045,7 @@ entity
 	"id" "24172"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-368 -1272 348"
+	"origin" "-368 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57056,7 +57059,7 @@ entity
 	"id" "24174"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-384 -1272 348"
+	"origin" "-384 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57070,7 +57073,7 @@ entity
 	"id" "24176"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-400 -1272 348"
+	"origin" "-400 -1320 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57099,7 +57102,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-160 -1296 348"
+	"origin" "-160 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57128,7 +57131,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-176 -1296 348"
+	"origin" "-176 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57157,7 +57160,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-192 -1296 348"
+	"origin" "-192 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57186,7 +57189,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-208 -1296 348"
+	"origin" "-208 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57215,7 +57218,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-224 -1296 348"
+	"origin" "-224 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57244,7 +57247,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-240 -1296 348"
+	"origin" "-240 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57273,7 +57276,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-256 -1296 348"
+	"origin" "-256 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57302,7 +57305,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-272 -1296 348"
+	"origin" "-272 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57331,7 +57334,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-288 -1296 348"
+	"origin" "-288 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57360,7 +57363,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-304 -1296 348"
+	"origin" "-304 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57389,7 +57392,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-320 -1296 348"
+	"origin" "-320 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57418,7 +57421,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-336 -1296 348"
+	"origin" "-336 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57447,7 +57450,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-352 -1296 348"
+	"origin" "-352 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57476,7 +57479,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-368 -1296 348"
+	"origin" "-368 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57505,7 +57508,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-384 -1296 348"
+	"origin" "-384 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57534,7 +57537,7 @@ entity
 	"spindown" "0"
 	"spinup" "0"
 	"volstart" "0"
-	"origin" "-400 -1296 348"
+	"origin" "-400 -1344 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57942,7 +57945,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-160 -1320 348"
+	"origin" "-160 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57966,7 +57969,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-176 -1320 348"
+	"origin" "-176 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -57990,7 +57993,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-192 -1320 348"
+	"origin" "-192 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58014,7 +58017,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-208 -1320 348"
+	"origin" "-208 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58038,7 +58041,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-224 -1320 348"
+	"origin" "-224 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58062,7 +58065,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-240 -1320 348"
+	"origin" "-240 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58086,7 +58089,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-256 -1320 348"
+	"origin" "-256 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58110,7 +58113,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-272 -1320 348"
+	"origin" "-272 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58134,7 +58137,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-288 -1320 348"
+	"origin" "-288 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58158,7 +58161,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-304 -1320 348"
+	"origin" "-304 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58182,7 +58185,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-320 -1320 348"
+	"origin" "-320 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58206,7 +58209,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-336 -1320 348"
+	"origin" "-336 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58230,7 +58233,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-352 -1320 348"
+	"origin" "-352 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58254,7 +58257,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-368 -1320 348"
+	"origin" "-368 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58278,7 +58281,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-384 -1320 348"
+	"origin" "-384 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58302,7 +58305,7 @@ entity
 	"spawnflags" "1"
 	"x" "0"
 	"y" "0"
-	"origin" "-400 -1320 348"
+	"origin" "-400 -1368 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58316,7 +58319,7 @@ entity
 	"id" "25132"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-400 -1343 348"
+	"origin" "-400 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58330,7 +58333,7 @@ entity
 	"id" "25134"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-368 -1343 348"
+	"origin" "-368 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58344,7 +58347,7 @@ entity
 	"id" "25136"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-384 -1343 348"
+	"origin" "-384 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58358,7 +58361,7 @@ entity
 	"id" "25138"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-352 -1343 348"
+	"origin" "-352 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58372,7 +58375,7 @@ entity
 	"id" "25140"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-336 -1343 348"
+	"origin" "-336 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58386,7 +58389,7 @@ entity
 	"id" "25142"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-320 -1343 348"
+	"origin" "-320 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58400,7 +58403,7 @@ entity
 	"id" "25144"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-304 -1343 348"
+	"origin" "-304 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58414,7 +58417,7 @@ entity
 	"id" "25146"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-288 -1343 348"
+	"origin" "-288 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58428,7 +58431,7 @@ entity
 	"id" "25148"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-272 -1343 348"
+	"origin" "-272 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58442,7 +58445,7 @@ entity
 	"id" "25150"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-256 -1343 348"
+	"origin" "-256 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58456,7 +58459,7 @@ entity
 	"id" "25152"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-224 -1343 348"
+	"origin" "-224 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58470,7 +58473,7 @@ entity
 	"id" "25154"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-240 -1343 348"
+	"origin" "-240 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58484,7 +58487,7 @@ entity
 	"id" "25156"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-208 -1343 348"
+	"origin" "-208 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58498,7 +58501,7 @@ entity
 	"id" "25158"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-192 -1343 348"
+	"origin" "-192 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58512,7 +58515,7 @@ entity
 	"id" "25160"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-176 -1343 348"
+	"origin" "-176 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58526,7 +58529,8 @@ entity
 	"id" "25162"
 	"classname" "logic_relay"
 	"spawnflags" "0"
-	"origin" "-160 -1343 348"
+	"targetname" "BG.ChaosEngine.0x04"
+	"origin" "-160 -1391 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -58535,13 +58539,41 @@ entity
 		"logicalpos" "[0 1000]"
 	}
 }
+entity
+{
+	"id" "25584"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.FirstStage"
+	"origin" "-280 -1223 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "25590"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.FirstStage"
+	"origin" "-280 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-337.003 -1270.09 606.991]"
-		"look" "[-331.394 -1269.57 575.05]"
+		"position" "[-291.679 -1247.67 625.578]"
+		"look" "[-291.679 -1247.67 593.145]"
 	}
 }
 cordon
