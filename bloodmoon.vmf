@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "301"
+	"mapversion" "302"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "301"
+	"mapversion" "302"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55429,7 +55429,7 @@ entity
 	{
 		"OnTrigger" "BG.GayFrog,Enable,,0,-1"
 		"OnTrigger" "gayfrogs,PlaySound,,0,-1"
-		"OnTrigger" "BG.GayFrog,Disable,,10,-1"
+		"OnTrigger" "BG.GayFrog,Disable,,5,-1"
 	}
 	"origin" "-3136.31 -1964.1 2.79166"
 	editor
@@ -55445,8 +55445,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3454.92 -1758.45 219.029]"
-		"look" "[-3434.67 -1779.42 204.809]"
+		"position" "[-3123.16 -1935.24 59.4274]"
+		"look" "[-3129.52 -1962.36 42.818]"
 	}
 }
 cordon
