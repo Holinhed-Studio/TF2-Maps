@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "303"
+	"mapversion" "310"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "303"
+	"mapversion" "310"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11457,34 +11457,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1500 -4768]"
-	}
-}
-entity
-{
-	"id" "6971"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BloodPocalypse"
-	connections
-	{
-		"OnTrigger" "BloodBurg,Enable,,5,-1"
-		"OnTrigger" "BloodGodActivated,PlaySound,,0,-1"
-		"OnTrigger" "BloodShake,StartShake,,4.2,-1"
-		"OnTrigger" "BloodNado,Start,,10,-1"
-		"OnTrigger" "BloodBurgTrain,SetSpeed,1,5.1,-1"
-		"OnTrigger" "BloodShake,Frequency,1,7.62,-1"
-		"OnTrigger" "BloodShake,StopShake,,12,-1"
-		"OnTrigger" "Penta0*,TurnOn,,0,-1"
-		"OnTrigger" "Rotating01,SetSpeed,0.25,0,-1"
-		"OnTrigger" "BloodWind,Enable,,10,-1"
-	}
-	"origin" "-2776.78 -2445.74 -8.00012"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -55440,13 +55412,2912 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "23355"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "BG.ChaosEngine.Core"
+	"UpperRandomBound" "5"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
+		"OnTimer" "BG.ChaosEngine.Core,Disable,,0,-1"
+	}
+	"origin" "-280 -1088 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23351"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BloodPocalypse"
+	connections
+	{
+		"OnTrigger" "BloodBurg,Enable,,5,-1"
+		"OnTrigger" "BloodGodActivated,PlaySound,,0,-1"
+		"OnTrigger" "BloodShake,StartShake,,4.2,-1"
+		"OnTrigger" "BloodNado,Start,,7.62,-1"
+		"OnTrigger" "BloodBurgTrain,SetSpeed,1,5.1,-1"
+		"OnTrigger" "BloodShake,Frequency,1,7.62,-1"
+		"OnTrigger" "BloodShake,StopShake,,12,-1"
+		"OnTrigger" "Penta0*,TurnOn,,0,-1"
+		"OnTrigger" "Rotating01,SetSpeed,0.25,0,-1"
+		"OnTrigger" "BloodWind,Enable,,8.4,-1"
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,50,-1"
+	}
+	"origin" "-248 -1088 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23369"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.FirstStage"
+	"origin" "-280 -1120 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "23390"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-400 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "23394"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-384 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23468"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-368 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23392"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-352 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23388"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-336 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23470"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-320 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23396"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-304 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23464"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-288 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23466"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-272 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "23462"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-256 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23386"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-240 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23460"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-224 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23384"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-208 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23458"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-192 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23382"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-176 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23456"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-160 -1152 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23602"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-160 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23604"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-176 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23606"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-192 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23608"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-208 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23610"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-224 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23612"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-240 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23614"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-256 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23616"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-272 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "23618"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-288 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23620"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-304 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23622"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-320 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23624"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-336 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23626"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-352 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23628"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-368 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23630"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-384 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23632"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-400 -1176 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "23858"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-160 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23860"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-176 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23862"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-192 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23864"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-208 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23866"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-224 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23868"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-240 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23870"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-256 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23872"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-272 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "23874"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-288 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23876"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-304 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23878"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-320 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23880"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-336 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23882"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-352 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23884"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-368 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23886"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-384 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23888"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-400 -1224 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "23922"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-160 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23924"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-176 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "23926"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-192 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23928"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-208 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "23930"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-224 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23932"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-240 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "23934"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-256 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23936"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-272 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "23938"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-288 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23940"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-304 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "23942"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-320 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23944"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-336 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "23946"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-352 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "23948"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-368 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23950"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-384 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "23952"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-400 -1248 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24146"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-160 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24148"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-176 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24150"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-192 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24152"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-208 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24154"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-224 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24156"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-240 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24158"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-256 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24160"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-272 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24162"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-288 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24164"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-304 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24166"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-320 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24168"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-336 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24170"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-352 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24172"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-368 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24174"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-384 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24176"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"origin" "-400 -1272 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24242"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-160 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24244"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-176 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24246"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-192 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24248"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-208 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24250"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-224 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24252"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-240 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24254"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-256 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24256"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-272 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24258"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-288 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24260"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-304 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24262"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-320 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24264"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-336 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24266"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-352 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24268"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-368 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24270"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-384 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24272"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"volstart" "0"
+	"origin" "-400 -1296 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24578"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-160 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24580"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-176 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24582"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-192 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24584"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-208 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24586"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-224 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24588"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-240 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24590"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-256 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24592"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-272 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24594"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-288 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24596"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-304 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24598"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-320 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24600"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-336 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24602"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-352 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24604"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-368 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24606"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-384 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24608"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-400 -1200 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24850"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-160 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24852"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-176 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "24854"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-192 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24856"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-208 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "24858"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-224 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24860"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-240 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "24862"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-256 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24864"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-272 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "24866"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-288 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24868"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-304 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "24870"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-320 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24872"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-336 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "24874"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-352 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "24876"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-368 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24878"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-384 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "24880"
+	"classname" "game_text"
+	"channel" "1"
+	"color" "100 100 100"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" "1.5"
+	"fadeout" "0.5"
+	"fxtime" "0.25"
+	"holdtime" "1.2"
+	"spawnflags" "1"
+	"x" "0"
+	"y" "0"
+	"origin" "-400 -1320 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[4590.62 2165.56 1546.61]"
-		"look" "[4612.83 2187.93 1538.98]"
+		"position" "[-403.773 -1219.33 719.608]"
+		"look" "[-393.124 -1218.73 688.979]"
 	}
 }
 cordon
