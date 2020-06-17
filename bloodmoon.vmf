@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "422"
+	"mapversion" "424"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "422"
+	"mapversion" "424"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55487,6 +55487,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xE0"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre0E,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT0E,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,13,-1"
+	}
 	"origin" "-368 -1152 348"
 	editor
 	{
@@ -56184,6 +56190,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre0E.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56541,6 +56548,7 @@ entity
 	"id" "23884"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xE1"
 	"origin" "-368 -1248 348"
 	editor
 	{
@@ -58241,6 +58249,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre0E: Alestorm - 1741 The Battle of Cartagena"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.PreTXT0E"
 	"x" "0"
@@ -60222,8 +60231,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-365.695 -1286.48 582.011]"
-		"look" "[-362.76 -1286.64 549.712]"
+		"position" "[-368.595 -1235.67 582.011]"
+		"look" "[-368.595 -1235.67 549.579]"
 	}
 }
 cordon
