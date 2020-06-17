@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "431"
+	"mapversion" "437"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "431"
+	"mapversion" "437"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -56413,7 +56413,7 @@ entity
 	{
 		"OnTrigger" "BG.ChaosEngine.Intr07,PlaySound,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.IntrTXT07,Display,,0,-1"
-		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,14.5,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,7,-1"
 	}
 	"origin" "-256 -1248 348"
 	editor
@@ -56600,7 +56600,7 @@ entity
 	"targetname" "BG.ChaosEngine.0x01"
 	connections
 	{
-		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,1.1,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,1.1,-1"
 		"OnTrigger" "BG.ChaosEngine.Intr00,PlaySound,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.IntrTXT00,Display,,0,-1"
 	}
@@ -58603,7 +58603,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post0A: Skillet - Hero"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT0A"
 	"x" "0"
 	"y" "0"
 	"origin" "-304 -1392 348"
@@ -58795,6 +58797,7 @@ entity
 	"id" "25134"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xE3"
 	connections
 	{
 		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
@@ -59308,6 +59311,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr07: Wind Rose"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.IntrTXT07"
 	"x" "0"
@@ -60347,8 +60351,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-406.625 -1426.09 969.1]"
-		"look" "[-391.205 -1425.66 940.57]"
+		"position" "[-334.679 -1321.08 876.269]"
+		"look" "[-334.679 -1321.08 843.836]"
 	}
 }
 cordon
