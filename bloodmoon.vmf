@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "386"
+	"mapversion" "392"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "386"
+	"mapversion" "392"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55577,6 +55577,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x80"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre08,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT08,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,15,-1"
+	}
 	"origin" "-272 -1152 348"
 	editor
 	{
@@ -55962,6 +55968,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre08.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56373,6 +56380,12 @@ entity
 	"id" "23872"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr08,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT08,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,1.2,-1"
+	}
 	"origin" "-272 -1248 348"
 	editor
 	{
@@ -56730,6 +56743,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "ddo/incoming.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56737,6 +56751,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr08"
 	"volstart" "0"
 	"origin" "-272 -1272 348"
 	editor
@@ -57133,6 +57148,13 @@ entity
 	"id" "24160"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x82"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Post08,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT08,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0x83,Trigger,,18.5,-1"
+	}
 	"origin" "-272 -1344 348"
 	editor
 	{
@@ -57459,6 +57481,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post07.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57466,6 +57489,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post07"
 	"volstart" "0"
 	"origin" "-256 -1368 348"
 	editor
@@ -57488,6 +57512,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post08.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57495,6 +57520,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post08"
 	"volstart" "0"
 	"origin" "-272 -1368 348"
 	editor
@@ -57933,6 +57959,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre08: Powerwolf - Incense and Iron"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.PreTXT08"
 	"x" "0"
@@ -58315,7 +58342,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post07: Wind Rose - Diggy Diggy Hole"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT07"
 	"x" "0"
 	"y" "0"
 	"origin" "-256 -1392 348"
@@ -58339,7 +58368,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post08: Powerwolf - Incense and Iron"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT08"
 	"x" "0"
 	"y" "0"
 	"origin" "-272 -1392 348"
@@ -58663,6 +58694,7 @@ entity
 	"id" "25148"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x83"
 	"origin" "-272 -1415 348"
 	editor
 	{
@@ -59036,7 +59068,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr08: DDO Kobold - Incoming!"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT08"
 	"x" "0"
 	"y" "0"
 	"origin" "-272 -1296 348"
@@ -60034,8 +60068,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-137.235 -1293.67 693.43]"
-		"look" "[-140.047 -1301.23 662.016]"
+		"position" "[-279.082 -1269.89 672.265]"
+		"look" "[-278.177 -1269.86 639.845]"
 	}
 }
 cordon
