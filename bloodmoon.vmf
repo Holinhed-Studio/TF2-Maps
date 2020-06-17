@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "424"
+	"mapversion" "431"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "424"
+	"mapversion" "431"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55472,6 +55472,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xF0"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre0F,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT0F,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,13.3,-1"
+	}
 	"origin" "-384 -1152 348"
 	editor
 	{
@@ -56221,6 +56227,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre0F.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56549,6 +56556,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xE1"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr0E,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT0E,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,0.85,-1"
+	}
 	"origin" "-368 -1248 348"
 	editor
 	{
@@ -56563,6 +56576,13 @@ entity
 	"id" "23886"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xF1"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr0F,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT0F,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,1.6,-1"
+	}
 	"origin" "-384 -1248 348"
 	editor
 	{
@@ -57008,6 +57028,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "vo/spongebob/hihowareya.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57015,6 +57036,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr0E"
 	"volstart" "0"
 	"origin" "-368 -1272 348"
 	editor
@@ -57037,6 +57059,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "vo/fowlmouth/fcku.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57044,6 +57067,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr0F"
 	"volstart" "0"
 	"origin" "-384 -1272 348"
 	editor
@@ -57363,6 +57387,13 @@ entity
 	"id" "24172"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xE2"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.0xE3,Trigger,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.Post0E,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT0E,Display,,0,-1"
+	}
 	"origin" "-368 -1344 348"
 	editor
 	{
@@ -57377,6 +57408,13 @@ entity
 	"id" "24174"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xF2"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Post0F,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT0F,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0xF3,Trigger,,16.3,-1"
+	}
 	"origin" "-384 -1344 348"
 	editor
 	{
@@ -57822,6 +57860,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post0E.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57829,6 +57868,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post0E"
 	"volstart" "0"
 	"origin" "-368 -1368 348"
 	editor
@@ -57851,6 +57891,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post0F.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57858,6 +57899,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post0F"
 	"volstart" "0"
 	"origin" "-384 -1368 348"
 	editor
@@ -58275,6 +58317,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre0F: Kiss - Rock and Roll All Night"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.PreTXT0F"
 	"x" "0"
@@ -58662,7 +58705,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post0E: Alestorm - Captain Morgans Revenge"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT0E"
 	"x" "0"
 	"y" "0"
 	"origin" "-368 -1392 348"
@@ -58686,7 +58731,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post0F: Kiss - Rock and Roll All Night"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT0F"
 	"x" "0"
 	"y" "0"
 	"origin" "-384 -1392 348"
@@ -58730,6 +58777,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x03"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-144 -1415 348"
 	editor
 	{
@@ -58744,6 +58795,10 @@ entity
 	"id" "25134"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-368 -1415 348"
 	editor
 	{
@@ -58758,6 +58813,11 @@ entity
 	"id" "25136"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xF3"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-384 -1415 348"
 	editor
 	{
@@ -58773,6 +58833,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xD3"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-352 -1415 348"
 	editor
 	{
@@ -58788,6 +58852,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xC3"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-336 -1415 348"
 	editor
 	{
@@ -58803,6 +58871,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xB3"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-320 -1415 348"
 	editor
 	{
@@ -58818,6 +58890,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xA3"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-304 -1415 348"
 	editor
 	{
@@ -58833,6 +58909,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x93"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-288 -1415 348"
 	editor
 	{
@@ -58848,6 +58928,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x83"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-272 -1415 348"
 	editor
 	{
@@ -58863,6 +58947,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x73"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-256 -1415 348"
 	editor
 	{
@@ -58878,6 +58966,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x53"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-224 -1415 348"
 	editor
 	{
@@ -58893,6 +58985,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x63"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-240 -1415 348"
 	editor
 	{
@@ -58908,6 +59004,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x43"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-208 -1415 348"
 	editor
 	{
@@ -58923,6 +59023,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x33"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-192 -1415 348"
 	editor
 	{
@@ -58938,6 +59042,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x23"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-176 -1415 348"
 	editor
 	{
@@ -58953,6 +59061,10 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x13"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+	}
 	"origin" "-160 -1415 348"
 	editor
 	{
@@ -59377,7 +59489,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr0E: SpongeBob SquarePants"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT0E"
 	"x" "0"
 	"y" "0"
 	"origin" "-368 -1296 348"
@@ -59401,7 +59515,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr0F: Fowl Mouth"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT0F"
 	"x" "0"
 	"y" "0"
 	"origin" "-384 -1296 348"
@@ -60231,8 +60347,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-368.595 -1235.67 582.011]"
-		"look" "[-368.595 -1235.67 549.579]"
+		"position" "[-406.625 -1426.09 969.1]"
+		"look" "[-391.205 -1425.66 940.57]"
 	}
 }
 cordon
