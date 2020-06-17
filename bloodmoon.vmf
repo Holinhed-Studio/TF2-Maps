@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "396"
+	"mapversion" "412"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "396"
+	"mapversion" "412"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55532,6 +55532,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xB0"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre0B,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT0B,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,12,-1"
+	}
 	"origin" "-320 -1152 348"
 	editor
 	{
@@ -55547,6 +55553,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0xA0"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre0A,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT0A,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,13.8,-1"
+	}
 	"origin" "-304 -1152 348"
 	editor
 	{
@@ -56036,6 +56048,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre0A.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56066,6 +56079,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre0B.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56429,6 +56443,13 @@ entity
 	"id" "23876"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xA1"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr0A,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT0A,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,5.6,-1"
+	}
 	"origin" "-304 -1248 348"
 	editor
 	{
@@ -56443,6 +56464,13 @@ entity
 	"id" "23878"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xB1"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr0B,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT0B,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,1.6,-1"
+	}
 	"origin" "-320 -1248 348"
 	editor
 	{
@@ -56820,6 +56848,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "vo/joeyghost/whathaveyoudone.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56827,6 +56856,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr0A"
 	"volstart" "0"
 	"origin" "-304 -1272 348"
 	editor
@@ -56849,6 +56879,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/intr0B"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56856,6 +56887,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr0B"
 	"volstart" "0"
 	"origin" "-320 -1272 348"
 	editor
@@ -57207,6 +57239,13 @@ entity
 	"id" "24164"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xA2"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Post0A,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT0A,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0xA3,Trigger,,93.3,-1"
+	}
 	"origin" "-304 -1344 348"
 	editor
 	{
@@ -57221,6 +57260,13 @@ entity
 	"id" "24166"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xB2"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Post0B,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT0B,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0xB3,Trigger,,19.4,-1"
+	}
 	"origin" "-320 -1344 348"
 	editor
 	{
@@ -57598,6 +57644,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post0A.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57605,6 +57652,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post0A"
 	"volstart" "0"
 	"origin" "-304 -1368 348"
 	editor
@@ -57627,6 +57675,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post0B.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57634,6 +57683,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post0B"
 	"volstart" "0"
 	"origin" "-320 -1368 348"
 	editor
@@ -58037,6 +58087,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre0A: Undercode - Freedom"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.PreTXT0A"
 	"x" "0"
@@ -58062,6 +58113,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre0B: Alestorm - Wolves of the Sea"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.PreTXT0B"
 	"x" "0"
@@ -58471,7 +58523,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post0B: Alestorm - Captain Morgans Revenge [10th Edition]"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT0B"
 	"x" "0"
 	"y" "0"
 	"origin" "-320 -1392 348"
@@ -58681,6 +58735,7 @@ entity
 	"id" "25142"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xB3"
 	"origin" "-320 -1415 348"
 	editor
 	{
@@ -58695,6 +58750,7 @@ entity
 	"id" "25144"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0xA3"
 	"origin" "-304 -1415 348"
 	editor
 	{
@@ -59150,7 +59206,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr0A: JoeyGhost"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT0A"
 	"x" "0"
 	"y" "0"
 	"origin" "-304 -1296 348"
@@ -59174,7 +59232,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr0B: DovahkiWarrior"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT0B"
 	"x" "0"
 	"y" "0"
 	"origin" "-320 -1296 348"
@@ -60100,8 +60160,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-277.623 -1364.82 517.511]"
-		"look" "[-276.943 -1364.83 485.086]"
+		"position" "[-354.426 -1270.06 635.663]"
+		"look" "[-354.201 -1270.04 603.232]"
 	}
 }
 cordon
