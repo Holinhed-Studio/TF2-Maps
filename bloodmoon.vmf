@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "392"
+	"mapversion" "396"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "392"
+	"mapversion" "396"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55562,6 +55562,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x90"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre09,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT09,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,9.3,-1"
+	}
 	"origin" "-288 -1152 348"
 	editor
 	{
@@ -55999,6 +56005,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre09.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56380,6 +56387,7 @@ entity
 	"id" "23872"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x81"
 	connections
 	{
 		"OnTrigger" "BG.ChaosEngine.Intr08,PlaySound,,0,-1"
@@ -56400,6 +56408,13 @@ entity
 	"id" "23874"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x91"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr09,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT09,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,2,-1"
+	}
 	"origin" "-288 -1248 348"
 	editor
 	{
@@ -56774,6 +56789,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "vo/spongebob/boom.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56781,6 +56797,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr09"
 	"volstart" "0"
 	"origin" "-288 -1272 348"
 	editor
@@ -57169,6 +57186,13 @@ entity
 	"id" "24162"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x92"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Post09,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT09,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0x93,Trigger,,53,-1"
+	}
 	"origin" "-288 -1344 348"
 	editor
 	{
@@ -57543,6 +57567,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/post09.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -57550,6 +57575,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Post09"
 	"volstart" "0"
 	"origin" "-288 -1368 348"
 	editor
@@ -57985,6 +58011,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre09: Skillet - Whispers In The Dark"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.PreTXT09"
 	"x" "0"
@@ -58394,7 +58421,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post09: Skillet - Whispers In The Dark"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT09"
 	"x" "0"
 	"y" "0"
 	"origin" "-288 -1392 348"
@@ -58680,6 +58709,7 @@ entity
 	"id" "25146"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x93"
 	"origin" "-288 -1415 348"
 	editor
 	{
@@ -59094,7 +59124,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Intr09: Sandy Cheeks"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.IntrTXT09"
 	"x" "0"
 	"y" "0"
 	"origin" "-288 -1296 348"
@@ -60068,8 +60100,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-279.082 -1269.89 672.265]"
-		"look" "[-278.177 -1269.86 639.845]"
+		"position" "[-277.623 -1364.82 517.511]"
+		"look" "[-276.943 -1364.83 485.086]"
 	}
 }
 cordon
