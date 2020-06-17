@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "380"
+	"mapversion" "385"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "380"
+	"mapversion" "385"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55592,6 +55592,12 @@ entity
 	"classname" "logic_relay"
 	"spawnflags" "0"
 	"targetname" "BG.ChaosEngine.0x70"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Pre07,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PreTXT07,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.SecondStage,PickRandom,,22.9,-1"
+	}
 	"origin" "-256 -1152 348"
 	editor
 	{
@@ -55925,6 +55931,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "bloodgod/pre07.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56345,6 +56352,13 @@ entity
 	"id" "23870"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x71"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Intr07,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.IntrTXT07,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.ThirdStage,PickRandom,,14.5,-1"
+	}
 	"origin" "-256 -1248 348"
 	editor
 	{
@@ -56685,6 +56699,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
+	"message" "vo/windrose/rejoice.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -56692,6 +56707,7 @@ entity
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
+	"targetname" "BG.ChaosEngine.Intr07"
 	"volstart" "0"
 	"origin" "-256 -1272 348"
 	editor
@@ -57096,6 +57112,13 @@ entity
 	"id" "24158"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x72"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Post07,PlaySound,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.PostTXT07,Display,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0x73,Trigger,,57.2,-1"
+	}
 	"origin" "-256 -1344 348"
 	editor
 	{
@@ -57884,6 +57907,7 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Pre07: Wind Rose - Diggy Diggy Hole"
 	"spawnflags" "1"
 	"targetname" "BG.ChaosEngine.PreTXT07"
 	"x" "0"
@@ -58265,7 +58289,9 @@ entity
 	"fadeout" "0.5"
 	"fxtime" "0.25"
 	"holdtime" "1.2"
+	"message" "[ChaosEngine] Post06: Powerwolf - Stossgebet"
 	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.PostTXT06"
 	"x" "0"
 	"y" "0"
 	"origin" "-240 -1392 348"
@@ -58651,6 +58677,7 @@ entity
 	"id" "25150"
 	"classname" "logic_relay"
 	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.0x73"
 	"origin" "-256 -1415 348"
 	editor
 	{
@@ -60007,8 +60034,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-326.39 -1320.26 824.051]"
-		"look" "[-315.523 -1320.79 793.498]"
+		"position" "[-263.939 -1192.71 589.869]"
+		"look" "[-263.939 -1192.71 557.436]"
 	}
 }
 cordon
