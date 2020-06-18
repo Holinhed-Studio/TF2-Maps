@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "478"
+	"mapversion" "483"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "478"
+	"mapversion" "483"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -59371,6 +59371,9 @@ entity
 		"OnTrigger" "BloodWind,Enable,,8.4,-1"
 		"OnTrigger" "BG.ChaosEngine.Core,Enable,,50,-1"
 		"OnTrigger" "BG.SummonLightning,PickRandom,,10.25,-1"
+		"OnTrigger" "BG.SummonLightning,PickRandom,,10.6,-1"
+		"OnTrigger" "BG.LightningTimer,Enable,,0,-1"
+		"OnTrigger" "BG.LightningTimer,Disable,,48,-1"
 	}
 	"origin" "-248 -1048 348"
 	editor
@@ -64223,6 +64226,38 @@ entity
 		"OnCase10" "BG.LightningSource.0x02,TurnOn,,0,-1"
 		"OnCase09" "BG.LightningSource.0x01,TurnOff,,0.16,-1"
 		"OnCase09" "BG.LightningSource.0x01,TurnOn,,0,-1"
+		"OnCase16" "BG.LightningSource.0xFF,TurnOff,,0.2,-1"
+		"OnCase16" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase15" "BG.LightningSource.0xFF,TurnOff,,0.2,-1"
+		"OnCase15" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase14" "BG.LightningSource.0xFF,TurnOff,,0.2,-1"
+		"OnCase14" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase13" "BG.LightningSource.0xFF,TurnOff,,0.2,-1"
+		"OnCase13" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase12" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase12" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase11" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase11" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase10" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase10" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase09" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase09" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase08" "BG.LightningSource.0xFF,TurnOff,,0.24,-1"
+		"OnCase08" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase07" "BG.LightningSource.0xFF,TurnOff,,0.24,-1"
+		"OnCase07" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase06" "BG.LightningSource.0xFF,TurnOff,,0.24,-1"
+		"OnCase06" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase05" "BG.LightningSource.0xFF,TurnOff,,0.24,-1"
+		"OnCase05" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase04" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase04" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase03" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase03" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase02" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase02" "BG.LightningSource.0xFF,TurnOn,,0,-1"
+		"OnCase01" "BG.LightningSource.0xFF,TurnOff,,0.16,-1"
+		"OnCase01" "BG.LightningSource.0xFF,TurnOn,,0,-1"
 	}
 	"origin" "-100.22 -1053.07 324"
 	editor
@@ -64233,13 +64268,62 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "33959"
+	"classname" "light"
+	"_constant_attn" "1"
+	"_distance" "0"
+	"_fifty_percent_distance" "851"
+	"_hardfalloff" "0"
+	"_light" "255 233 164 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0"
+	"_zero_percent_distance" "1250"
+	"spawnflags" "1"
+	"style" "0"
+	"targetname" "BG.LightningSource.0xFF"
+	"origin" "-1131.91 -3890.79 6943.63"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "33989"
+	"classname" "logic_timer"
+	"LowerRandomBound" "2"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "BG.LightningTimer"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "BG.SummonLightning,PickRandom,,0,-1"
+	}
+	"origin" "-95.8063 -1088.03 317"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-188.321 -1084.14 451.306]"
-		"look" "[-173.804 -1077.31 423.066]"
+		"position" "[-327.648 -1114.25 593.446]"
+		"look" "[-309.101 -1110.58 567.037]"
 	}
 }
 cordon
