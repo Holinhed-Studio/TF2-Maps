@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "487"
+	"mapversion" "491"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "487"
+	"mapversion" "491"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11598,68 +11598,6 @@ entity
 }
 entity
 {
-	"id" "7428"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "vo/tyler2shots/BloodGodIntro.mp3"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "BloodGodActivated"
-	"volstart" "0"
-	"origin" "-2832.54 -2465.11 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "7437"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "vo/tyler2shots/BloodGodIntro.mp3"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "BloodGodActivated"
-	"volstart" "0"
-	"origin" "-2829.62 -2497.02 -8.00002"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "7599"
 	"classname" "env_shake"
 	"amplitude" "16"
@@ -12169,37 +12107,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "7772"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "gbombs5/tsar_detonate.mp3"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "BloodNuke"
-	"volstart" "0"
-	"origin" "-2727.12 -2502.35 -8"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
 	}
 }
 entity
@@ -50344,87 +50251,6 @@ entity
 }
 entity
 {
-	"id" "20013"
-	"classname" "env_shake"
-	"amplitude" "8"
-	"duration" "5"
-	"frequency" "32"
-	"radius" "6144"
-	"spawnflags" "25"
-	"targetname" "BG.MeteorCrashShake04"
-	"origin" "-3012.23 -2310.4 -3.71899"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "20025"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weapons/mortar/mortar_explode2.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "5600"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "BG.MeteorCrashAlt"
-	"volstart" "0"
-	"origin" "-3040.84 -2277.87 -1.3571"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2500]"
-	}
-}
-entity
-{
-	"id" "20028"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weapons/mortar/mortar_explode1.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "BG.MeteorCrash"
-	"volstart" "0"
-	"origin" "-3029.38 -2296.48 -2.29443"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
 	"id" "20049"
 	"classname" "env_explosion"
 	"fireballsprite" "sprites/zerogxplode.spr"
@@ -50440,141 +50266,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
-	}
-}
-entity
-{
-	"id" "20139"
-	"classname" "logic_case"
-	"targetname" "BG.SpawnMeteor"
-	connections
-	{
-		"OnCase01" "BG.Meteor.01,Trigger,,0,-1"
-		"OnCase02" "BG.Meteor.02,Trigger,,0,-1"
-		"OnCase03" "BG.Meteor.03,Trigger,,0,-1"
-		"OnCase04" "BG.Meteor.04,Trigger,,0,-1"
-		"OnCase05" "BG.Meteor.05,Trigger,,0,-1"
-		"OnCase06" "BG.Meteor.01,Trigger,,0,-1"
-		"OnCase06" "BG.Meteor.03,Trigger,,0,-1"
-		"OnCase07" "BG.Meteor.02,Trigger,,0,-1"
-		"OnCase07" "BG.Meteor.04,Trigger,,0,-1"
-		"OnCase07" "BG.Meteor.05,Trigger,,0,-1"
-		"OnCase08" "BG.Meteor.01,Trigger,,0,-1"
-		"OnCase08" "BG.Meteor.03,Trigger,,0,-1"
-		"OnCase08" "BG.Meteor.05,Trigger,,0,-1"
-		"OnCase09" "BG.Meteor.01,Trigger,,0,-1"
-		"OnCase09" "BG.Meteor.02,Trigger,,0,-1"
-		"OnCase09" "BG.Meteor.03,Trigger,,0,-1"
-		"OnCase09" "BG.Meteor.04,Trigger,,0,-1"
-		"OnCase09" "BG.Meteor.05,Trigger,,0,-1"
-	}
-	"origin" "-3024.22 -2151.28 -0.77533"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8000]"
-	}
-}
-entity
-{
-	"id" "20153"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BG.Meteor.04"
-	connections
-	{
-		"OnTrigger" "BG.Meteorites4,ForceSpawn,,0,-1"
-		"OnTrigger" "BG.Meteorite4,StartForward,,0.1,-1"
-	}
-	"origin" "-3041.38 -2185.91 -0.485901"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
-	"id" "20159"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BG.Meteor.03"
-	connections
-	{
-		"OnTrigger" "BG.Meteorites3,ForceSpawn,,0,-1"
-		"OnTrigger" "bg.meteorite3,StartForward,,0.1,-1"
-	}
-	"origin" "-3015.85 -2184.53 -1.66623"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
-	"id" "20167"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BG.Meteor.02"
-	connections
-	{
-		"OnTrigger" "BG.Meteorites2,ForceSpawn,,0,-1"
-		"OnTrigger" "bg.meteorite2,StartForward,,0.1,-1"
-	}
-	"origin" "-2994.01 -2181.6 -2.64972"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
-	"id" "20171"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BG.Meteor.01"
-	connections
-	{
-		"OnTrigger" "BG.Meteorites1,ForceSpawn,,0,-1"
-		"OnTrigger" "bg.meteorite1,StartForward,,0.1,-1"
-	}
-	"origin" "-2964.49 -2178.56 -3.99323"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
-	}
-}
-entity
-{
-	"id" "20175"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BG.Meteor.05"
-	connections
-	{
-		"OnTrigger" "BG.Meteorites5,ForceSpawn,,0,-1"
-		"OnTrigger" "bg.meteorite5,StartForward,,0.1,-1"
-	}
-	"origin" "-3067 -2189.48 0.665848"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7500]"
 	}
 }
 entity
@@ -53093,86 +52784,6 @@ entity
 }
 entity
 {
-	"id" "21385"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "BG.Meteorites1"
-	"Template01" "bg.meteorite1"
-	"origin" "-2949.4 -2261.31 -5.94022"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
-	}
-}
-entity
-{
-	"id" "21395"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "BG.Meteorites2"
-	"Template01" "BG.Meteorite2"
-	"origin" "-2972.57 -2268.22 -4.95364"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
-	}
-}
-entity
-{
-	"id" "21404"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "bg.meteorites4"
-	"Template01" "bg.meteorite4"
-	"origin" "-3040.44 -2310.81 -2.3981"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
-	}
-}
-entity
-{
-	"id" "21412"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "BG.Meteorites3"
-	"Template01" "BG.Meteorite3"
-	"origin" "-2999.49 -2281.93 -3.89258"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
-	}
-}
-entity
-{
-	"id" "21422"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "BG.Meteorites5"
-	"Template01" "BG.Meteorite5"
-	"origin" "-3063.7 -2307.55 -1.25507"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
-	}
-}
-entity
-{
 	"id" "21433"
 	"classname" "path_track"
 	"angles" "0 0 0"
@@ -55120,58 +54731,6 @@ entity
 			"visgroupautoshown" "1"
 		}
 	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22933"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "alexjones/gayfrogs.mp3"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "7000"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "gayfrogs"
-	"volstart" "0"
-	"origin" "-3198.63 -2005.2 1.1196"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22947"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"targetname" "BG.Meme.GayFrogs"
-	connections
-	{
-		"OnTrigger" "BG.GayFrog,Enable,,0,-1"
-		"OnTrigger" "gayfrogs,PlaySound,,0,-1"
-		"OnTrigger" "BG.GayFrog,Disable,,5,-1"
-	}
-	"origin" "-3136.31 -1964.1 2.79166"
 	editor
 	{
 		"color" "220 30 220"
@@ -59342,7 +58901,7 @@ entity
 		"OnTimer" "BG.ChaosEngine.FirstStage,PickRandom,,0,-1"
 		"OnTimer" "BG.ChaosEngine.Core,Disable,,0,-1"
 	}
-	"origin" "-280 -1048 348"
+	"origin" "-280 -1096 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -59375,7 +58934,7 @@ entity
 		"OnTrigger" "BG.LightningTimer,Enable,,0,-1"
 		"OnTrigger" "BG.LightningTimer,Disable,,48,-1"
 	}
-	"origin" "-248 -1048 348"
+	"origin" "-256 -1096 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -64189,7 +63748,553 @@ entity
 }
 entity
 {
-	"id" "33935"
+	"id" "33959"
+	"classname" "light"
+	"_constant_attn" "1"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 233 164 20000"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0"
+	"_zero_percent_distance" "0"
+	"spawnflags" "1"
+	"style" "0"
+	"targetname" "BG.LightningSource.0xFF"
+	"origin" "-1131.91 -3895 6919"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "34047"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder3.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder05"
+	"volstart" "0"
+	"origin" "-144 -1064 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34050"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder4.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder07"
+	"volstart" "0"
+	"origin" "-128 -1064 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34053"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder8.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder08"
+	"volstart" "0"
+	"origin" "-128 -1080 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34056"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder7.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder06"
+	"volstart" "0"
+	"origin" "-144 -1080 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34059"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder3.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder05"
+	"volstart" "0"
+	"origin" "-144 -1096 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34062"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder4.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder07"
+	"volstart" "0"
+	"origin" "-128 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34065"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder8.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder08"
+	"volstart" "0"
+	"origin" "-128 -1112 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34068"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder7.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder06"
+	"volstart" "0"
+	"origin" "-144 -1112 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34071"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder6.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder04"
+	"volstart" "0"
+	"origin" "-160 -1112 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34074"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder5.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder03"
+	"volstart" "0"
+	"origin" "-176 -1112 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34077"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder01"
+	"volstart" "0"
+	"origin" "-176 -1096 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34080"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder02"
+	"volstart" "0"
+	"origin" "-160 -1096 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34083"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder6.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder04"
+	"volstart" "0"
+	"origin" "-160 -1080 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34086"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder5.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder03"
+	"volstart" "0"
+	"origin" "-176 -1080 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34089"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder01"
+	"volstart" "0"
+	"origin" "-176 -1064 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34092"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weather/thunder2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "GlobalThunder02"
+	"volstart" "0"
+	"origin" "-160 -1064 348.01"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3268]"
+	}
+}
+entity
+{
+	"id" "34227"
+	"classname" "logic_timer"
+	"LowerRandomBound" "5"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "BG.LightningTimer"
+	"UpperRandomBound" "12"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "BG.SummonLightning,PickRandom,,0,-1"
+		"OnTimer" "BG.SummonLightning,PickRandom,,0.2,-1"
+	}
+	"origin" "-160 -1048 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "34233"
 	"classname" "logic_case"
 	"targetname" "BG.SummonLightning"
 	connections
@@ -64275,7 +64380,7 @@ entity
 		"OnCase09" "GlobalThunder01,PlaySound,,0,-1"
 		"OnCase01" "GlobalThunder01,PlaySound,,0,-1"
 	}
-	"origin" "-100.22 -1053.07 324"
+	"origin" "-144 -1048 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -64286,22 +64391,255 @@ entity
 }
 entity
 {
-	"id" "33959"
-	"classname" "light"
-	"_constant_attn" "1"
-	"_distance" "0"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
-	"_light" "255 233 164 20000"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "0"
-	"_zero_percent_distance" "0"
-	"spawnflags" "1"
-	"style" "0"
-	"targetname" "BG.LightningSource.0xFF"
-	"origin" "-1131.91 -3895 6919"
+	"id" "34254"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "gbombs5/tsar_detonate.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BloodNuke"
+	"volstart" "0"
+	"origin" "-336 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "34276"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/tyler2shots/BloodGodIntro.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BloodGodActivated"
+	"volstart" "0"
+	"origin" "-320 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "34285"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "vo/tyler2shots/BloodGodIntro.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BloodGodActivated"
+	"volstart" "0"
+	"origin" "-304 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "34408"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.Meteor.05"
+	connections
+	{
+		"OnTrigger" "BG.Meteorites5,ForceSpawn,,0,-1"
+		"OnTrigger" "bg.meteorite5,StartForward,,0.1,-1"
+	}
+	"origin" "-216 -1056 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "34410"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.Meteor.04"
+	connections
+	{
+		"OnTrigger" "BG.Meteorites4,ForceSpawn,,0,-1"
+		"OnTrigger" "BG.Meteorite4,StartForward,,0.1,-1"
+	}
+	"origin" "-216 -1072 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "34412"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.Meteor.03"
+	connections
+	{
+		"OnTrigger" "BG.Meteorites3,ForceSpawn,,0,-1"
+		"OnTrigger" "bg.meteorite3,StartForward,,0.1,-1"
+	}
+	"origin" "-216 -1088 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "34414"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.Meteor.02"
+	connections
+	{
+		"OnTrigger" "BG.Meteorites2,ForceSpawn,,0,-1"
+		"OnTrigger" "bg.meteorite2,StartForward,,0.1,-1"
+	}
+	"origin" "-216 -1104 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "34416"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.Meteor.01"
+	connections
+	{
+		"OnTrigger" "BG.Meteorites1,ForceSpawn,,0,-1"
+		"OnTrigger" "bg.meteorite1,StartForward,,0.1,-1"
+	}
+	"origin" "-216 -1120 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 7500]"
+	}
+}
+entity
+{
+	"id" "34418"
+	"classname" "logic_case"
+	"targetname" "BG.SpawnMeteor"
+	connections
+	{
+		"OnCase01" "BG.Meteor.01,Trigger,,0,-1"
+		"OnCase02" "BG.Meteor.02,Trigger,,0,-1"
+		"OnCase03" "BG.Meteor.03,Trigger,,0,-1"
+		"OnCase04" "BG.Meteor.04,Trigger,,0,-1"
+		"OnCase05" "BG.Meteor.05,Trigger,,0,-1"
+		"OnCase06" "BG.Meteor.01,Trigger,,0,-1"
+		"OnCase06" "BG.Meteor.03,Trigger,,0,-1"
+		"OnCase07" "BG.Meteor.02,Trigger,,0,-1"
+		"OnCase07" "BG.Meteor.04,Trigger,,0,-1"
+		"OnCase07" "BG.Meteor.05,Trigger,,0,-1"
+		"OnCase08" "BG.Meteor.01,Trigger,,0,-1"
+		"OnCase08" "BG.Meteor.03,Trigger,,0,-1"
+		"OnCase08" "BG.Meteor.05,Trigger,,0,-1"
+		"OnCase09" "BG.Meteor.01,Trigger,,0,-1"
+		"OnCase09" "BG.Meteor.02,Trigger,,0,-1"
+		"OnCase09" "BG.Meteor.03,Trigger,,0,-1"
+		"OnCase09" "BG.Meteor.04,Trigger,,0,-1"
+		"OnCase09" "BG.Meteor.05,Trigger,,0,-1"
+	}
+	"origin" "-200 -1076 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 8000]"
+	}
+}
+entity
+{
+	"id" "34468"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weapons/mortar/mortar_explode1.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.MeteorCrash"
+	"volstart" "0"
+	"origin" "-200 -1056 349.425"
 	editor
 	{
 		"color" "220 30 220"
@@ -64312,20 +64650,46 @@ entity
 }
 entity
 {
-	"id" "34041"
-	"classname" "logic_timer"
-	"LowerRandomBound" "5"
-	"spawnflags" "0"
-	"StartDisabled" "1"
-	"targetname" "BG.LightningTimer"
-	"UpperRandomBound" "12"
-	"UseRandomTime" "1"
-	connections
+	"id" "34480"
+	"classname" "env_shake"
+	"amplitude" "8"
+	"duration" "5"
+	"frequency" "32"
+	"radius" "6144"
+	"spawnflags" "25"
+	"targetname" "BG.MeteorCrashShake04"
+	"origin" "-200 -1120 348"
+	editor
 	{
-		"OnTimer" "BG.SummonLightning,PickRandom,,0,-1"
-		"OnTimer" "BG.SummonLightning,PickRandom,,0.2,-1"
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
 	}
-	"origin" "-96.7802 -1091.15 324"
+}
+entity
+{
+	"id" "34501"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "weapons/mortar/mortar_explode2.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "5600"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "BG.MeteorCrashAlt"
+	"volstart" "0"
+	"origin" "-200 -1100 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -64336,193 +64700,108 @@ entity
 }
 entity
 {
-	"id" "34047"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder3.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder05"
-	"volstart" "0"
-	"origin" "-187.469 -1056.29 348"
+	"id" "34533"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "BG.Meteorites5"
+	"Template01" "BG.Meteorite5"
+	"origin" "-232 -1056 352.685"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
+		"logicalpos" "[0 7000]"
 	}
 }
 entity
 {
-	"id" "34050"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder4.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder07"
-	"volstart" "0"
-	"origin" "-167.009 -1048.49 348"
+	"id" "34535"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "bg.meteorites4"
+	"Template01" "bg.meteorite4"
+	"origin" "-232 -1072 351.542"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
+		"logicalpos" "[0 7000]"
 	}
 }
 entity
 {
-	"id" "34053"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder8.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder08"
-	"volstart" "0"
-	"origin" "-166.519 -1066.05 348"
+	"id" "34537"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "BG.Meteorites3"
+	"Template01" "BG.Meteorite3"
+	"origin" "-232 -1088 350.048"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
+		"logicalpos" "[0 7000]"
 	}
 }
 entity
 {
-	"id" "34056"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder7.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder06"
-	"volstart" "0"
-	"origin" "-184.859 -1069.23 348"
+	"id" "34539"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "BG.Meteorites2"
+	"Template01" "BG.Meteorite2"
+	"origin" "-232 -1104 348.987"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
+		"logicalpos" "[0 7000]"
 	}
 }
 entity
 {
-	"id" "34059"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder3.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder05"
-	"volstart" "0"
-	"origin" "-185.739 -1091.23 348.01"
+	"id" "34541"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "BG.Meteorites1"
+	"Template01" "bg.meteorite1"
+	"origin" "-232 -1120 348"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
+		"logicalpos" "[0 7000]"
 	}
 }
 entity
 {
-	"id" "34062"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder4.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder07"
-	"volstart" "0"
-	"origin" "-165.279 -1083.44 348"
+	"id" "34639"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.Meme.GayFrogs"
+	connections
+	{
+		"OnTrigger" "BG.GayFrog,Enable,,0,-1"
+		"OnTrigger" "gayfrogs,PlaySound,,0,-1"
+		"OnTrigger" "BG.GayFrog,Disable,,5,-1"
+	}
+	"origin" "-360 -1096 349.672"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
 {
-	"id" "34065"
+	"id" "34641"
 	"classname" "ambient_generic"
 	"cspinup" "0"
 	"fadeinsecs" "0"
@@ -64532,302 +64811,23 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "weather/thunder8.wav"
+	"message" "alexjones/gayfrogs.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
-	"radius" "1250"
+	"radius" "7000"
 	"spawnflags" "49"
 	"spindown" "0"
 	"spinup" "0"
-	"targetname" "GlobalThunder08"
+	"targetname" "gayfrogs"
 	"volstart" "0"
-	"origin" "-164.789 -1101 348"
+	"origin" "-376 -1096 348"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34068"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder7.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder06"
-	"volstart" "0"
-	"origin" "-183.129 -1104.17 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34071"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder6.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder04"
-	"volstart" "0"
-	"origin" "-201.649 -1106.62 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34074"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder5.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder03"
-	"volstart" "0"
-	"origin" "-215.909 -1108.15 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34077"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder1.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder01"
-	"volstart" "0"
-	"origin" "-218.249 -1091.7 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34080"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder2.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder02"
-	"volstart" "0"
-	"origin" "-201.269 -1093.71 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34083"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder6.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder04"
-	"volstart" "0"
-	"origin" "-203.379 -1071.68 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34086"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder5.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder03"
-	"volstart" "0"
-	"origin" "-217.649 -1073.2 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34089"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder1.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder01"
-	"volstart" "0"
-	"origin" "-219.979 -1056.76 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
-	}
-}
-entity
-{
-	"id" "34092"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "weather/thunder2.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1250"
-	"spawnflags" "49"
-	"spindown" "0"
-	"spinup" "0"
-	"targetname" "GlobalThunder02"
-	"volstart" "0"
-	"origin" "-202.999 -1058.76 348.01"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -3268]"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
@@ -64835,8 +64835,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-125.715 -1078.42 542.872]"
-		"look" "[-125.715 -1078.42 510.394]"
+		"position" "[-307.434 -1187.16 765.438]"
+		"look" "[-307.207 -1187.16 732.962]"
 	}
 }
 cordon
