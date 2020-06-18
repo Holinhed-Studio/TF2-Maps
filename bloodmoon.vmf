@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "483"
+	"mapversion" "484"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "483"
+	"mapversion" "484"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -64274,18 +64274,18 @@ entity
 	"classname" "light"
 	"_constant_attn" "1"
 	"_distance" "0"
-	"_fifty_percent_distance" "851"
+	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
-	"_light" "255 233 164 200"
+	"_light" "255 233 164 20000"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "0"
-	"_zero_percent_distance" "1250"
+	"_zero_percent_distance" "0"
 	"spawnflags" "1"
 	"style" "0"
 	"targetname" "BG.LightningSource.0xFF"
-	"origin" "-1131.91 -3890.79 6943.63"
+	"origin" "-1131.91 -3895 6919"
 	editor
 	{
 		"color" "220 30 220"
@@ -64322,8 +64322,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-327.648 -1114.25 593.446]"
-		"look" "[-309.101 -1110.58 567.037]"
+		"position" "[-266.1 -1143.78 479.125]"
+		"look" "[-243.021 -1130.67 460.404]"
 	}
 }
 cordon
