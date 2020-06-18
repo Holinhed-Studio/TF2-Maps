@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "512"
+	"mapversion" "513"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "512"
+	"mapversion" "513"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55095,11 +55095,23 @@ entity
 		"OnTrigger" "BG.TERROR,Enable,,3.6,-1"
 		"OnTrigger" "BG.TERROR,Disable,,3.7,-1"
 		"OnTrigger" "BG.TERROR,Enable,,3.8,-1"
-		"OnTrigger" "BG.TERROR,Disable,,3.85,-1"
+		"OnTrigger" "BG.TERROR,Disable,,6.5,-1"
 		"OnTrigger" "BG.TERROR,Enable,,4,-1"
-		"OnTrigger" "BG.TERROR,Disable,,4.1,-1"
+		"OnTrigger" "BG.TERROR,Disable,,6.7,-1"
 		"OnTrigger" "BG.TERROR,Enable,,4.2,-1"
+		"OnTrigger" "BG.TERROR,Disable,,6.9,-1"
 		"OnTrigger" "BG.TERROR,Disable,,4.3,-1"
+		"OnTrigger" "BG.TERROR,Enable,,6.8,-1"
+		"OnTrigger" "BG.QuickFade.Black,Fade,,6.8,-1"
+		"OnTrigger" "BG.TERROR,Disable,,4.1,-1"
+		"OnTrigger" "BG.TERROR,Enable,,6.6,-1"
+		"OnTrigger" "BG.QuickFade.Black,Fade,,6.6,-1"
+		"OnTrigger" "BG.TERROR,Disable,,3.85,-1"
+		"OnTrigger" "BG.TERROR,Enable,,6.4,-1"
+		"OnTrigger" "BG.QuickFade.Black,Fade,,6.4,-1"
+		"OnTrigger" "BG.TERROR,Disable,,6.3,-1"
+		"OnTrigger" "BG.TERROR,Enable,,6.2,-1"
+		"OnTrigger" "BG.QuickFade.Black,Fade,,6.2,-1"
 	}
 	"origin" "-160 -1152 348"
 	editor
@@ -65514,8 +65526,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-131.184 -1178.44 641.879]"
-		"look" "[-130.958 -1178.44 609.455]"
+		"position" "[-187.672 -1159.87 550.493]"
+		"look" "[-181.381 -1159.57 518.685]"
 	}
 }
 cordon
