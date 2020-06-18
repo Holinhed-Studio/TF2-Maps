@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "486"
+	"mapversion" "487"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "486"
+	"mapversion" "487"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -64314,11 +64314,11 @@ entity
 {
 	"id" "34041"
 	"classname" "logic_timer"
-	"LowerRandomBound" "2"
+	"LowerRandomBound" "5"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "BG.LightningTimer"
-	"UpperRandomBound" "7"
+	"UpperRandomBound" "12"
 	"UseRandomTime" "1"
 	connections
 	{
