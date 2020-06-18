@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7937"
-	"mapversion" "437"
+	"editorbuild" "8610"
+	"mapversion" "440"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "437"
+	"mapversion" "440"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -57224,7 +57224,7 @@ entity
 	{
 		"OnTrigger" "BG.ChaosEngine.Post06,PlaySound,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.PostTXT06,Display,,0,-1"
-		"OnTrigger" "BG.ChaosEngine.0x63,Trigger,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.0x63,Trigger,,35,-1"
 	}
 	"origin" "-240 -1344 348"
 	editor
@@ -60351,8 +60351,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-334.679 -1321.08 876.269]"
-		"look" "[-334.679 -1321.08 843.836]"
+		"position" "[-447.048 -1271.25 779.77]"
+		"look" "[-433.133 -1272.91 750.521]"
 	}
 }
 cordon
