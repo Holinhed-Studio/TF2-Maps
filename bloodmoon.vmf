@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "509"
+	"mapversion" "510"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "509"
+	"mapversion" "510"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -55089,17 +55089,17 @@ entity
 		"OnTrigger" "BG.ChaosEngine.Pre01,PlaySound,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.PreTXT01,Display,,0,-1"
 		"OnTrigger" "BG.QuickFade.Black,Fade,,3.6,-1"
-		"OnTrigger" "BG.QuickFade.Black,Fade,,3.9,-1"
-		"OnTrigger" "BG.QuickFade.Black,Fade,,4.2,-1"
-		"OnTrigger" "BG.QuickFade.Black,Fade,,4.5,-1"
+		"OnTrigger" "BG.QuickFade.Black,Fade,,3.8,-1"
+		"OnTrigger" "BG.QuickFade.Black,Fade,,4.1,-1"
+		"OnTrigger" "BG.QuickFade.Black,Fade,,4.4,-1"
 		"OnTrigger" "BG.TERROR,Enable,,3.6,-1"
 		"OnTrigger" "BG.TERROR,Disable,,3.7,-1"
-		"OnTrigger" "BG.TERROR,Enable,,3.9,-1"
-		"OnTrigger" "BG.TERROR,Disable,,4,-1"
-		"OnTrigger" "BG.TERROR,Enable,,4.2,-1"
-		"OnTrigger" "BG.TERROR,Disable,,4.3,-1"
-		"OnTrigger" "BG.TERROR,Enable,,4.5,-1"
-		"OnTrigger" "BG.TERROR,Disable,,4.6,-1"
+		"OnTrigger" "BG.TERROR,Enable,,3.8,-1"
+		"OnTrigger" "BG.TERROR,Disable,,3.9,-1"
+		"OnTrigger" "BG.TERROR,Enable,,4.1,-1"
+		"OnTrigger" "BG.TERROR,Disable,,4.2,-1"
+		"OnTrigger" "BG.TERROR,Enable,,4.4,-1"
+		"OnTrigger" "BG.TERROR,Disable,,4.5,-1"
 	}
 	"origin" "-160 -1152 348"
 	editor
