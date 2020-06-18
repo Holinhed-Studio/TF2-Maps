@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "513"
+	"mapversion" "517"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "513"
+	"mapversion" "517"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -65521,13 +65521,49 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "37292"
+	"classname" "logic_timer"
+	"LowerRandomBound" "2"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.MemeMachine"
+	"UpperRandomBound" "4"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "BG.ChaosEngine.RandomMeme,PickRandom,,0,-1"
+	}
+	"origin" "-408 -1128 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "37300"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.RandomMeme"
+	"origin" "-424 -1128 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-187.672 -1159.87 550.493]"
-		"look" "[-181.381 -1159.57 518.685]"
+		"position" "[-435.082 -1126.99 599.324]"
+		"look" "[-435.082 -1126.99 566.898]"
 	}
 }
 cordon
