@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "517"
+	"mapversion" "526"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "517"
+	"mapversion" "526"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -59712,7 +59712,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes01"
+	"targetname" "BG.Memes0x0C"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -59815,7 +59815,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes02"
+	"targetname" "BG.Memes0x01"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -59918,7 +59918,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x0A"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60021,7 +60021,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x0F"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60124,7 +60124,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x00"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60227,7 +60227,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes02"
+	"targetname" "BG.Memes0x02"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60330,7 +60330,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x04"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60433,7 +60433,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes01"
+	"targetname" "BG.Memes0x07"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60536,7 +60536,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes02"
+	"targetname" "BG.Memes0x05"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60639,7 +60639,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes01"
+	"targetname" "BG.Memes0x13"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60742,7 +60742,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x0E"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60845,7 +60845,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x03"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -60948,7 +60948,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes02"
+	"targetname" "BG.Memes0x11"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61051,7 +61051,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x12"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61154,7 +61154,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes01"
+	"targetname" "BG.Memes0x0B"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61257,7 +61257,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes01"
+	"targetname" "BG.Memes0x06"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61360,7 +61360,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes01"
+	"targetname" "BG.Memes0x15"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61463,7 +61463,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes02"
+	"targetname" "BG.Memes0x09"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61566,7 +61566,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x0D"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61772,7 +61772,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x16"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61875,7 +61875,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x17"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -61978,7 +61978,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x14"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -62081,7 +62081,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x10"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -62184,7 +62184,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "1"
-	"targetname" "BG.Memes03"
+	"targetname" "BG.Memes0x08"
 	"vrad_brush_cast_shadows" "0"
 	solid
 	{
@@ -65527,14 +65527,15 @@ entity
 	"classname" "logic_timer"
 	"LowerRandomBound" "2"
 	"spawnflags" "0"
+	"StartDisabled" "1"
 	"targetname" "BG.ChaosEngine.MemeMachine"
 	"UpperRandomBound" "4"
-	"UseRandomTime" "0"
+	"UseRandomTime" "1"
 	connections
 	{
 		"OnTimer" "BG.ChaosEngine.RandomMeme,PickRandom,,0,-1"
 	}
-	"origin" "-408 -1128 348"
+	"origin" "-392 -1128 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -65548,7 +65549,108 @@ entity
 	"id" "37300"
 	"classname" "logic_case"
 	"targetname" "BG.ChaosEngine.RandomMeme"
+	connections
+	{
+		"OnCase01" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase02" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase03" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase04" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase05" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase06" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase07" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase08" "BG.ChaosEngine.Meme01,PickRandom,,0,-1"
+		"OnCase09" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+		"OnCase10" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+		"OnCase11" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+		"OnCase12" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+		"OnCase13" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+		"OnCase14" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+		"OnCase15" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+		"OnCase16" "BG.ChaosEngine.Meme02,PickRandom,,0,-1"
+	}
+	"origin" "-408 -1128 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "38083"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.Meme01"
+	connections
+	{
+		"OnCase01" "BG.Memes0x00,Enable,,0,-1"
+		"OnCase02" "BG.Memes0x01,Enable,,0,-1"
+		"OnCase02" "BG.Memes0x01,Disable,,0.5,-1"
+		"OnCase03" "BG.Memes0x02,Enable,,0,-1"
+		"OnCase03" "BG.Memes0x02,Disable,,0.5,-1"
+		"OnCase04" "BG.Memes0x03,Enable,,0,-1"
+		"OnCase04" "BG.Memes0x03,Disable,,0.5,-1"
+		"OnCase05" "BG.Memes0x04,Enable,,0,-1"
+		"OnCase05" "BG.Memes0x04,Disable,,0.5,-1"
+		"OnCase06" "BG.Memes0x05,Enable,,0,-1"
+		"OnCase06" "BG.Memes0x05,Disable,,0.5,-1"
+		"OnCase07" "BG.Memes0x06,Enable,,0,-1"
+		"OnCase07" "BG.Memes0x06,Disable,,0.5,-1"
+		"OnCase08" "BG.Memes0x07,Enable,,0,-1"
+		"OnCase08" "BG.Memes0x07,Disable,,0.5,-1"
+		"OnCase09" "BG.Memes0x08,Enable,,0,-1"
+		"OnCase09" "BG.Memes0x08,Disable,,0.5,-1"
+		"OnCase01" "BG.Memes0x00,Disable,,0.5,-1"
+		"OnCase10" "BG.Memes0x09,Enable,,0,-1"
+		"OnCase10" "BG.Memes0x09,Disable,,0.5,-1"
+		"OnCase11" "BG.Memes0x0A,Enable,,0,-1"
+		"OnCase11" "BG.Memes0x0A,Disable,,0.5,-1"
+		"OnCase12" "BG.Memes0x0B,Enable,,0,-1"
+		"OnCase12" "BG.Memes0x0B,Disable,,0.5,-1"
+		"OnCase13" "BG.Memes0x0C,Enable,,0,-1"
+		"OnCase13" "BG.Memes0x0C,Disable,,0.5,-1"
+		"OnCase14" "BG.Memes0x0D,Enable,,0,-1"
+		"OnCase14" "BG.Memes0x0D,Disable,,0.5,-1"
+		"OnCase15" "BG.Memes0x0E,Enable,,0,-1"
+		"OnCase15" "BG.Memes0x0E,Disable,,0.5,-1"
+		"OnCase16" "BG.Memes0x0F,Enable,,0,-1"
+		"OnCase16" "BG.Memes0x0F,Disable,,0.5,-1"
+	}
 	"origin" "-424 -1128 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "38097"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.Meme02"
+	connections
+	{
+		"OnCase01" "BG.Memes0x10,Enable,,0,-1"
+		"OnCase02" "BG.Memes0x11,Enable,,0,-1"
+		"OnCase02" "BG.Memes0x11,Disable,,0.5,-1"
+		"OnCase03" "BG.Memes0x12,Enable,,0,-1"
+		"OnCase03" "BG.Memes0x12,Disable,,0.5,-1"
+		"OnCase04" "BG.Memes0x13,Enable,,0,-1"
+		"OnCase04" "BG.Memes0x13,Disable,,0.5,-1"
+		"OnCase05" "BG.Memes0x14,Enable,,0,-1"
+		"OnCase05" "BG.Memes0x14,Disable,,0.5,-1"
+		"OnCase06" "BG.Memes0x15,Enable,,0,-1"
+		"OnCase06" "BG.Memes0x15,Disable,,0.5,-1"
+		"OnCase07" "BG.Memes0x16,Enable,,0,-1"
+		"OnCase07" "BG.Memes0x16,Disable,,0.5,-1"
+		"OnCase08" "BG.Memes0x17,Enable,,0,-1"
+		"OnCase08" "BG.Memes0x17,Disable,,0.5,-1"
+		"OnCase01" "BG.Memes0x10,Disable,,0.5,-1"
+	}
+	"origin" "-440 -1128 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -65562,8 +65664,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-435.082 -1126.99 599.324]"
-		"look" "[-435.082 -1126.99 566.898]"
+		"position" "[-427.169 -1168.57 527.58]"
+		"look" "[-426.039 -1168.5 495.178]"
 	}
 }
 cordon
