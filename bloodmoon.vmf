@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "559"
+	"mapversion" "566"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "559"
+	"mapversion" "566"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -56461,6 +56461,14 @@ entity
 		"OnTrigger" "BG.ChaosEngine.Post01,PlaySound,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.PostTXT01,Display,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.0x13,Trigger,,15.3,-1"
+		"OnTrigger" "BG.SpawnMeteor,PickRandom,,0,-1"
+		"OnTrigger" "BG.TimedMeteors,Enable,,0,-1"
+		"OnTrigger" "BG.LightningTimer,Enable,,0,-1"
+		"OnTrigger" "BG.SpawnMeteor,PickRandom,,4,-1"
+		"OnTrigger" "BG.SpawnMeteor,PickRandom,,6,-1"
+		"OnTrigger" "BG.SpawnMeteor,PickRandom,,8,-1"
+		"OnTrigger" "BG.SpawnMeteor,PickRandom,,12,-1"
+		"OnTrigger" "BG.SpawnMeteor,PickRandom,,3,-1"
 	}
 	"origin" "-160 -1344 348"
 	editor
@@ -56505,6 +56513,7 @@ entity
 		"OnTrigger" "BG.ChaosEngine.0x33,Trigger,,48,-1"
 		"OnTrigger" "BG.ChaosEngine.ScreenShake,Trigger,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.Quake,FireTimer,,0.13,-1"
+		"OnTrigger" "BG.TimedMeteors,Enable,,8.25,-1"
 	}
 	"origin" "-192 -1344 348"
 	editor
@@ -58372,6 +58381,8 @@ entity
 	connections
 	{
 		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+		"OnTrigger" "BG.TimedMeteors,Disable,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.Quake,Disable,,0,-1"
 	}
 	"origin" "-192 -1415 348"
 	editor
@@ -58410,6 +58421,8 @@ entity
 	connections
 	{
 		"OnTrigger" "BG.ChaosEngine.Core,Enable,,0,-1"
+		"OnTrigger" "BG.LightningTimer,Disable,,0,-1"
+		"OnTrigger" "BG.TimedMeteors,Disable,,0,-1"
 	}
 	"origin" "-160 -1415 348"
 	editor
@@ -58956,6 +58969,8 @@ entity
 		"OnTrigger" "BG.ChaosEngine.Rumble,StartShake,,12.1,-1"
 		"OnTrigger" "BG.ChaosEngine.Rumble,StartShake,,25,-1"
 		"OnTrigger" "BG.ChaosEngine.Rumble,StopShake,,24.95,-1"
+		"OnTrigger" "BG.TimedMeteors,Enable,,4.2,-1"
+		"OnTrigger" "BG.TimedMeteors,Disable,,48,-1"
 	}
 	"origin" "-256 -1096 348"
 	editor
@@ -66227,8 +66242,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-349.637 -1106.99 811.34]"
-		"look" "[-341.66 -1108.17 779.937]"
+		"position" "[-175.549 -1409.1 520.219]"
+		"look" "[-175.549 -1409.1 487.797]"
 	}
 }
 cordon
