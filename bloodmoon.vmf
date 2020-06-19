@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "545"
+	"mapversion" "557"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "545"
+	"mapversion" "557"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -56503,6 +56503,8 @@ entity
 		"OnTrigger" "BG.ChaosEngine.Post03,PlaySound,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.PostTXT03,Display,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.0x33,Trigger,,48,-1"
+		"OnTrigger" "BG.ChaosEngine.ScreenShake,Trigger,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.Quake,FireTimer,,0.13,-1"
 	}
 	"origin" "-192 -1344 348"
 	editor
@@ -58951,6 +58953,9 @@ entity
 		"OnTrigger" "BG.SpawnMeteor,PickRandom,,20,-1"
 		"OnTrigger" "BG.SpawnMeteor,PickRandom,,26,-1"
 		"OnTrigger" "BG.SpawnMeteor,PickRandom,,32,-1"
+		"OnTrigger" "BG.ChaosEngine.Rumble,StartShake,,12.1,-1"
+		"OnTrigger" "BG.ChaosEngine.Rumble,StartShake,,25,-1"
+		"OnTrigger" "BG.ChaosEngine.Rumble,StopShake,,24.95,-1"
 	}
 	"origin" "-256 -1096 348"
 	editor
@@ -66124,7 +66129,7 @@ entity
 	"radius" "6144"
 	"spawnflags" "25"
 	"targetname" "BG.ChaosEngine.Jerk"
-	"origin" "-336 -1088 348"
+	"origin" "-329 -1104 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -66137,18 +66142,17 @@ entity
 {
 	"id" "38654"
 	"classname" "logic_timer"
-	"LowerRandomBound" "3"
+	"LowerRandomBound" "24"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "BG.ChaosEngine.Quake"
-	"UpperRandomBound" "7"
+	"UpperRandomBound" "32"
 	"UseRandomTime" "1"
 	connections
 	{
 		"OnTimer" "BG.ChaosEngine.Jerk,StartShake,,0,-1"
-		"OnTimer" "BG.ChaosEngine.Jerk,StopShake,,8,-1"
 	}
-	"origin" "-320 -1088 341"
+	"origin" "-329 -1088 341"
 	editor
 	{
 		"color" "220 30 220"
@@ -66167,7 +66171,7 @@ entity
 	{
 		"OnTrigger" "BG.ChaosEngine.Quake,Enable,,0,-1"
 	}
-	"origin" "-320 -1072 348"
+	"origin" "-329 -1072 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -66176,13 +66180,54 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "38750"
+	"classname" "env_shake"
+	"amplitude" "4"
+	"duration" "30"
+	"frequency" "48"
+	"radius" "6144"
+	"spawnflags" "25"
+	"targetname" "BG.ChaosEngine.Rumble"
+	"origin" "-302.003 -1097.46 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "38794"
+	"classname" "logic_timer"
+	"RefireTime" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "BG.TimedMeteors"
+	"UseRandomTime" "0"
+	connections
+	{
+		"OnTimer" "BG.SpawnMeteor,PickRandom,,0,-1"
+	}
+	"origin" "-300 -1040 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-305.64 -1188.96 679.865]"
-		"look" "[-305.64 -1188.96 647.443]"
+		"position" "[-349.637 -1106.99 811.34]"
+		"look" "[-341.66 -1108.17 779.937]"
 	}
 }
 cordon
