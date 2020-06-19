@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "539"
+	"mapversion" "541"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "539"
+	"mapversion" "541"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -65525,11 +65525,11 @@ entity
 {
 	"id" "37292"
 	"classname" "logic_timer"
-	"LowerRandomBound" "0.75"
+	"LowerRandomBound" "0.3"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "BG.ChaosEngine.MemeMachineTurbo"
-	"UpperRandomBound" "1.5"
+	"UpperRandomBound" "1"
 	"UseRandomTime" "1"
 	connections
 	{
@@ -66119,8 +66119,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-335.778 -1205.99 721.267]"
-		"look" "[-334.195 -1205.95 688.884]"
+		"position" "[-395.479 -1127.61 470.162]"
+		"look" "[-386.313 -1125.66 439.123]"
 	}
 }
 cordon
