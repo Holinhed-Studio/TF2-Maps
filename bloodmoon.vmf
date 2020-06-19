@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "571"
+	"mapversion" "572"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "571"
+	"mapversion" "572"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -56660,7 +56660,7 @@ entity
 	{
 		"OnTrigger" "BG.ChaosEngine.Post0A,PlaySound,,0,-1"
 		"OnTrigger" "BG.ChaosEngine.PostTXT0A,Display,,0,-1"
-		"OnTrigger" "BG.ChaosEngine.0xA3,Trigger,,93.3,-1"
+		"OnTrigger" "BG.ChaosEngine.0xA3,Trigger,,86.2,-1"
 	}
 	"origin" "-304 -1344 348"
 	editor
