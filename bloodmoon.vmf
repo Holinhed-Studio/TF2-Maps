@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "543"
+	"mapversion" "545"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "543"
+	"mapversion" "545"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66116,30 +66116,11 @@ entity
 }
 entity
 {
-	"id" "38621"
-	"classname" "env_shake"
-	"amplitude" "8"
-	"duration" "30"
-	"frequency" "120"
-	"radius" "6144"
-	"spawnflags" "25"
-	"targetname" "BG.ChaosEngine.Shake"
-	"origin" "-336 -1073 348"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
 	"id" "38639"
 	"classname" "env_shake"
-	"amplitude" "8"
-	"duration" "5"
-	"frequency" "0.1"
+	"amplitude" "16"
+	"duration" "50"
+	"frequency" "48"
 	"radius" "6144"
 	"spawnflags" "25"
 	"targetname" "BG.ChaosEngine.Jerk"
@@ -66185,7 +66166,6 @@ entity
 	connections
 	{
 		"OnTrigger" "BG.ChaosEngine.Quake,Enable,,0,-1"
-		"OnTrigger" "BG.ChaosEngine.Shake,StartShake,,0,-1"
 	}
 	"origin" "-320 -1072 348"
 	editor
@@ -66201,8 +66181,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-375.213 -1075.72 834.462]"
-		"look" "[-371.606 -1077.03 802.267]"
+		"position" "[-305.64 -1188.96 679.865]"
+		"look" "[-305.64 -1188.96 647.443]"
 	}
 }
 cordon
