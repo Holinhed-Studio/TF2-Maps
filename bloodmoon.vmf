@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "526"
+	"mapversion" "530"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "526"
+	"mapversion" "530"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -65579,6 +65579,39 @@ entity
 }
 entity
 {
+	"id" "38097"
+	"classname" "logic_case"
+	"targetname" "BG.ChaosEngine.Meme02"
+	connections
+	{
+		"OnCase01" "BG.Memes0x10,Enable,,0,-1"
+		"OnCase02" "BG.Memes0x11,Enable,,0,-1"
+		"OnCase02" "BG.Memes0x11,Disable,,0.5,-1"
+		"OnCase03" "BG.Memes0x12,Enable,,0,-1"
+		"OnCase03" "BG.Memes0x12,Disable,,0.5,-1"
+		"OnCase04" "BG.Memes0x13,Enable,,0,-1"
+		"OnCase04" "BG.Memes0x13,Disable,,0.5,-1"
+		"OnCase05" "BG.Memes0x14,Enable,,0,-1"
+		"OnCase05" "BG.Memes0x14,Disable,,0.5,-1"
+		"OnCase06" "BG.Memes0x15,Enable,,0,-1"
+		"OnCase06" "BG.Memes0x15,Disable,,0.5,-1"
+		"OnCase07" "BG.Memes0x16,Enable,,0,-1"
+		"OnCase07" "BG.Memes0x16,Disable,,0.5,-1"
+		"OnCase08" "BG.Memes0x17,Enable,,0,-1"
+		"OnCase08" "BG.Memes0x17,Disable,,0.5,-1"
+		"OnCase01" "BG.Memes0x10,Disable,,0.5,-1"
+	}
+	"origin" "-440 -1128 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "38083"
 	"classname" "logic_case"
 	"targetname" "BG.ChaosEngine.Meme01"
@@ -65616,6 +65649,22 @@ entity
 		"OnCase15" "BG.Memes0x0E,Disable,,0.5,-1"
 		"OnCase16" "BG.Memes0x0F,Enable,,0,-1"
 		"OnCase16" "BG.Memes0x0F,Disable,,0.5,-1"
+		"OnCase01" "BG.ChaosEngine.MemeTXT0x00,Display,,0,-1"
+		"OnCase02" "BG.ChaosEngine.MemeTXT0x01,Display,,0,-1"
+		"OnCase03" "BG.ChaosEngine.MemeTXT0x02,Display,,0,-1"
+		"OnCase04" "BG.ChaosEngine.MemeTXT0x03,Display,,0,-1"
+		"OnCase05" "BG.ChaosEngine.MemeTXT0x04,Display,,0,-1"
+		"OnCase06" "BG.ChaosEngine.MemeTXT0x05,Display,,0,-1"
+		"OnCase07" "BG.ChaosEngine.MemeTXT0x06,Display,,0,-1"
+		"OnCase08" "BG.ChaosEngine.MemeTXT0x07,Display,,0,-1"
+		"OnCase09" "BG.ChaosEngine.MemeTXT0x08,Display,,0,-1"
+		"OnCase10" "BG.ChaosEngine.MemeTXT0x09,Display,,0,-1"
+		"OnCase11" "BG.ChaosEngine.MemeTXT0x0A,Display,,0,-1"
+		"OnCase12" "BG.ChaosEngine.MemeTXT0x0B,Display,,0,-1"
+		"OnCase13" "BG.ChaosEngine.MemeTXT0x0C,Display,,0,-1"
+		"OnCase14" "BG.ChaosEngine.MemeTXT0x0D,Display,,0,-1"
+		"OnCase15" "BG.ChaosEngine.MemeTXT0x0E,Display,,0,-1"
+		"OnCase16" "BG.ChaosEngine.MemeTXT0x0F,Display,,0,-1"
 	}
 	"origin" "-424 -1128 348"
 	editor
@@ -65628,35 +65677,418 @@ entity
 }
 entity
 {
-	"id" "38097"
-	"classname" "logic_case"
-	"targetname" "BG.ChaosEngine.Meme02"
-	connections
-	{
-		"OnCase01" "BG.Memes0x10,Enable,,0,-1"
-		"OnCase02" "BG.Memes0x11,Enable,,0,-1"
-		"OnCase02" "BG.Memes0x11,Disable,,0.5,-1"
-		"OnCase03" "BG.Memes0x12,Enable,,0,-1"
-		"OnCase03" "BG.Memes0x12,Disable,,0.5,-1"
-		"OnCase04" "BG.Memes0x13,Enable,,0,-1"
-		"OnCase04" "BG.Memes0x13,Disable,,0.5,-1"
-		"OnCase05" "BG.Memes0x14,Enable,,0,-1"
-		"OnCase05" "BG.Memes0x14,Disable,,0.5,-1"
-		"OnCase06" "BG.Memes0x15,Enable,,0,-1"
-		"OnCase06" "BG.Memes0x15,Disable,,0.5,-1"
-		"OnCase07" "BG.Memes0x16,Enable,,0,-1"
-		"OnCase07" "BG.Memes0x16,Disable,,0.5,-1"
-		"OnCase08" "BG.Memes0x17,Enable,,0,-1"
-		"OnCase08" "BG.Memes0x17,Disable,,0.5,-1"
-		"OnCase01" "BG.Memes0x10,Disable,,0.5,-1"
-	}
-	"origin" "-440 -1128 348"
+	"id" "38184"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ EE407C0E"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x00"
+	"x" "1"
+	"y" "0"
+	"origin" "-392 -1064 348"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38192"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 0ED65BC6"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x01"
+	"x" "1"
+	"y" "0"
+	"origin" "-392 -1080 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38202"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 95138088"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x02"
+	"x" "1"
+	"y" "0"
+	"origin" "-392 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38212"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 790AFF0B"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x03"
+	"x" "1"
+	"y" "0"
+	"origin" "-392 -1112 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38222"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 0D3F1873"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x04"
+	"x" "1"
+	"y" "0"
+	"origin" "-408 -1064 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38232"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 106EA034"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x05"
+	"x" "1"
+	"y" "0"
+	"origin" "-408 -1080 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38242"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ A864B138"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x06"
+	"x" "1"
+	"y" "0"
+	"origin" "-408 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38252"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 0E9676AB"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x07"
+	"x" "1"
+	"y" "0"
+	"origin" "-408 -1112 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38262"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ E2D7C72E"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x08"
+	"x" "1"
+	"y" "0"
+	"origin" "-424 -1064 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38272"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ AB076A8F"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x09"
+	"x" "1"
+	"y" "0"
+	"origin" "-424 -1080 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38282"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 12398310"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x0A"
+	"x" "1"
+	"y" "0"
+	"origin" "-424 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38292"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 0A604F03"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x0B"
+	"x" "1"
+	"y" "0"
+	"origin" "-424 -1112 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38306"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ B59B44DE"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x0C"
+	"x" "1"
+	"y" "0"
+	"origin" "-440 -1064 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38316"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 7FA4C638"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x0D"
+	"x" "1"
+	"y" "0"
+	"origin" "-440 -1080 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38326"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ BB13E3FC"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x0E"
+	"x" "1"
+	"y" "0"
+	"origin" "-440 -1096 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "38336"
+	"classname" "game_text"
+	"channel" "2"
+	"color" "0 255 0"
+	"color2" "240 110 0"
+	"effect" "0"
+	"fadein" ".75"
+	"fadeout" "0.25"
+	"fxtime" "0.25"
+	"holdtime" ".06"
+	"message" "MemEtest64 @ 388F0ED8"
+	"spawnflags" "1"
+	"targetname" "BG.ChaosEngine.MemeTXT0x0F"
+	"x" "1"
+	"y" "0"
+	"origin" "-440 -1112 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
 	}
 }
 cameras
@@ -65664,8 +66096,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-427.169 -1168.57 527.58]"
-		"look" "[-426.039 -1168.5 495.178]"
+		"position" "[-460.896 -1116.14 431.388]"
+		"look" "[-448.318 -1118.36 401.588]"
 	}
 }
 cordon
