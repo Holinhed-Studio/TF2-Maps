@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "557"
+	"mapversion" "559"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "557"
+	"mapversion" "559"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66203,11 +66203,12 @@ entity
 {
 	"id" "38794"
 	"classname" "logic_timer"
-	"RefireTime" "1"
+	"LowerRandomBound" "1"
 	"spawnflags" "0"
 	"StartDisabled" "1"
 	"targetname" "BG.TimedMeteors"
-	"UseRandomTime" "0"
+	"UpperRandomBound" "2"
+	"UseRandomTime" "1"
 	connections
 	{
 		"OnTimer" "BG.SpawnMeteor,PickRandom,,0,-1"
