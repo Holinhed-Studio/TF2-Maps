@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "541"
+	"mapversion" "543"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "541"
+	"mapversion" "543"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66114,13 +66114,95 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "38621"
+	"classname" "env_shake"
+	"amplitude" "8"
+	"duration" "30"
+	"frequency" "120"
+	"radius" "6144"
+	"spawnflags" "25"
+	"targetname" "BG.ChaosEngine.Shake"
+	"origin" "-336 -1073 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "38639"
+	"classname" "env_shake"
+	"amplitude" "8"
+	"duration" "5"
+	"frequency" "0.1"
+	"radius" "6144"
+	"spawnflags" "25"
+	"targetname" "BG.ChaosEngine.Jerk"
+	"origin" "-336 -1088 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "38654"
+	"classname" "logic_timer"
+	"LowerRandomBound" "3"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "BG.ChaosEngine.Quake"
+	"UpperRandomBound" "7"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "BG.ChaosEngine.Jerk,StartShake,,0,-1"
+		"OnTimer" "BG.ChaosEngine.Jerk,StopShake,,8,-1"
+	}
+	"origin" "-320 -1088 341"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "38672"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "BG.ChaosEngine.ScreenShake"
+	connections
+	{
+		"OnTrigger" "BG.ChaosEngine.Quake,Enable,,0,-1"
+		"OnTrigger" "BG.ChaosEngine.Shake,StartShake,,0,-1"
+	}
+	"origin" "-320 -1072 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-395.479 -1127.61 470.162]"
-		"look" "[-386.313 -1125.66 439.123]"
+		"position" "[-375.213 -1075.72 834.462]"
+		"look" "[-371.606 -1077.03 802.267]"
 	}
 }
 cordon
