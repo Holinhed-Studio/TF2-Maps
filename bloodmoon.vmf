@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "530"
+	"mapversion" "539"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "530"
+	"mapversion" "539"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -64429,7 +64429,7 @@ entity
 	"spinup" "0"
 	"targetname" "BloodNuke"
 	"volstart" "0"
-	"origin" "-336 -1096 348"
+	"origin" "-284 -1072 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -64460,7 +64460,7 @@ entity
 	"spinup" "0"
 	"targetname" "BloodGodActivated"
 	"volstart" "0"
-	"origin" "-320 -1096 348"
+	"origin" "-252 -1072 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -64491,7 +64491,7 @@ entity
 	"spinup" "0"
 	"targetname" "BloodGodActivated"
 	"volstart" "0"
-	"origin" "-304 -1096 348"
+	"origin" "-268 -1072 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -64808,7 +64808,7 @@ entity
 		"OnTrigger" "gayfrogs,PlaySound,,0,-1"
 		"OnTrigger" "BG.GayFrog,Disable,,5,-1"
 	}
-	"origin" "-360 -1096 349.672"
+	"origin" "-368 -1064 349.672"
 	editor
 	{
 		"color" "220 30 220"
@@ -64839,7 +64839,7 @@ entity
 	"spinup" "0"
 	"targetname" "gayfrogs"
 	"volstart" "0"
-	"origin" "-376 -1096 348"
+	"origin" "-368 -1080 348"
 	editor
 	{
 		"color" "220 30 220"
@@ -65525,11 +65525,11 @@ entity
 {
 	"id" "37292"
 	"classname" "logic_timer"
-	"LowerRandomBound" "2"
+	"LowerRandomBound" "0.75"
 	"spawnflags" "0"
 	"StartDisabled" "1"
-	"targetname" "BG.ChaosEngine.MemeMachine"
-	"UpperRandomBound" "4"
+	"targetname" "BG.ChaosEngine.MemeMachineTurbo"
+	"UpperRandomBound" "1.5"
 	"UseRandomTime" "1"
 	connections
 	{
@@ -65586,20 +65586,20 @@ entity
 	{
 		"OnCase01" "BG.Memes0x10,Enable,,0,-1"
 		"OnCase02" "BG.Memes0x11,Enable,,0,-1"
-		"OnCase02" "BG.Memes0x11,Disable,,0.5,-1"
+		"OnCase02" "BG.Memes0x11,Disable,,1.25,-1"
 		"OnCase03" "BG.Memes0x12,Enable,,0,-1"
-		"OnCase03" "BG.Memes0x12,Disable,,0.5,-1"
+		"OnCase03" "BG.Memes0x12,Disable,,1.25,-1"
 		"OnCase04" "BG.Memes0x13,Enable,,0,-1"
-		"OnCase04" "BG.Memes0x13,Disable,,0.5,-1"
+		"OnCase04" "BG.Memes0x13,Disable,,1.25,-1"
 		"OnCase05" "BG.Memes0x14,Enable,,0,-1"
-		"OnCase05" "BG.Memes0x14,Disable,,0.5,-1"
+		"OnCase05" "BG.Memes0x14,Disable,,1.25,-1"
 		"OnCase06" "BG.Memes0x15,Enable,,0,-1"
-		"OnCase06" "BG.Memes0x15,Disable,,0.5,-1"
+		"OnCase06" "BG.Memes0x15,Disable,,1.25,-1"
 		"OnCase07" "BG.Memes0x16,Enable,,0,-1"
-		"OnCase07" "BG.Memes0x16,Disable,,0.5,-1"
+		"OnCase07" "BG.Memes0x16,Disable,,1.25,-1"
 		"OnCase08" "BG.Memes0x17,Enable,,0,-1"
-		"OnCase08" "BG.Memes0x17,Disable,,0.5,-1"
-		"OnCase01" "BG.Memes0x10,Disable,,0.5,-1"
+		"OnCase08" "BG.Memes0x17,Disable,,1.25,-1"
+		"OnCase01" "BG.Memes0x10,Disable,,1.25,-1"
 	}
 	"origin" "-440 -1128 348"
 	editor
@@ -65619,36 +65619,36 @@ entity
 	{
 		"OnCase01" "BG.Memes0x00,Enable,,0,-1"
 		"OnCase02" "BG.Memes0x01,Enable,,0,-1"
-		"OnCase02" "BG.Memes0x01,Disable,,0.5,-1"
+		"OnCase02" "BG.Memes0x01,Disable,,1.25,-1"
 		"OnCase03" "BG.Memes0x02,Enable,,0,-1"
-		"OnCase03" "BG.Memes0x02,Disable,,0.5,-1"
+		"OnCase03" "BG.Memes0x02,Disable,,1.25,-1"
 		"OnCase04" "BG.Memes0x03,Enable,,0,-1"
-		"OnCase04" "BG.Memes0x03,Disable,,0.5,-1"
+		"OnCase04" "BG.Memes0x03,Disable,,1.25,-1"
 		"OnCase05" "BG.Memes0x04,Enable,,0,-1"
-		"OnCase05" "BG.Memes0x04,Disable,,0.5,-1"
+		"OnCase05" "BG.Memes0x04,Disable,,1.25,-1"
 		"OnCase06" "BG.Memes0x05,Enable,,0,-1"
-		"OnCase06" "BG.Memes0x05,Disable,,0.5,-1"
+		"OnCase06" "BG.Memes0x05,Disable,,1.25,-1"
 		"OnCase07" "BG.Memes0x06,Enable,,0,-1"
-		"OnCase07" "BG.Memes0x06,Disable,,0.5,-1"
+		"OnCase07" "BG.Memes0x06,Disable,,1.25,-1"
 		"OnCase08" "BG.Memes0x07,Enable,,0,-1"
-		"OnCase08" "BG.Memes0x07,Disable,,0.5,-1"
+		"OnCase08" "BG.Memes0x07,Disable,,1.25,-1"
 		"OnCase09" "BG.Memes0x08,Enable,,0,-1"
-		"OnCase09" "BG.Memes0x08,Disable,,0.5,-1"
-		"OnCase01" "BG.Memes0x00,Disable,,0.5,-1"
+		"OnCase09" "BG.Memes0x08,Disable,,1.25,-1"
+		"OnCase01" "BG.Memes0x00,Disable,,1.25,-1"
 		"OnCase10" "BG.Memes0x09,Enable,,0,-1"
-		"OnCase10" "BG.Memes0x09,Disable,,0.5,-1"
+		"OnCase10" "BG.Memes0x09,Disable,,1.25,-1"
 		"OnCase11" "BG.Memes0x0A,Enable,,0,-1"
-		"OnCase11" "BG.Memes0x0A,Disable,,0.5,-1"
+		"OnCase11" "BG.Memes0x0A,Disable,,1.25,-1"
 		"OnCase12" "BG.Memes0x0B,Enable,,0,-1"
-		"OnCase12" "BG.Memes0x0B,Disable,,0.5,-1"
+		"OnCase12" "BG.Memes0x0B,Disable,,1.25,-1"
 		"OnCase13" "BG.Memes0x0C,Enable,,0,-1"
-		"OnCase13" "BG.Memes0x0C,Disable,,0.5,-1"
+		"OnCase13" "BG.Memes0x0C,Disable,,1.25,-1"
 		"OnCase14" "BG.Memes0x0D,Enable,,0,-1"
-		"OnCase14" "BG.Memes0x0D,Disable,,0.5,-1"
+		"OnCase14" "BG.Memes0x0D,Disable,,1.25,-1"
 		"OnCase15" "BG.Memes0x0E,Enable,,0,-1"
-		"OnCase15" "BG.Memes0x0E,Disable,,0.5,-1"
+		"OnCase15" "BG.Memes0x0E,Disable,,1.25,-1"
 		"OnCase16" "BG.Memes0x0F,Enable,,0,-1"
-		"OnCase16" "BG.Memes0x0F,Disable,,0.5,-1"
+		"OnCase16" "BG.Memes0x0F,Disable,,1.25,-1"
 		"OnCase01" "BG.ChaosEngine.MemeTXT0x00,Display,,0,-1"
 		"OnCase02" "BG.ChaosEngine.MemeTXT0x01,Display,,0,-1"
 		"OnCase03" "BG.ChaosEngine.MemeTXT0x02,Display,,0,-1"
@@ -66091,13 +66091,36 @@ entity
 		"logicalpos" "[0 4000]"
 	}
 }
+entity
+{
+	"id" "38477"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "BG.ChaosEngine.MemeMachine"
+	"UpperRandomBound" "3"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "BG.ChaosEngine.RandomMeme,PickRandom,,0,-1"
+	}
+	"origin" "-376 -1128 348"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-460.896 -1116.14 431.388]"
-		"look" "[-448.318 -1118.36 401.588]"
+		"position" "[-335.778 -1205.99 721.267]"
+		"look" "[-334.195 -1205.95 688.884]"
 	}
 }
 cordon
