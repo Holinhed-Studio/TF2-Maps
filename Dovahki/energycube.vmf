@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "681"
 	"classname" "worldspawn"
 	"skyname" "sky_day01_01"
 	"maxpropscreenwidth" "-1"
@@ -97,7 +97,7 @@ world
 		}
 		editor
 		{
-			"color" "0 122 127"
+			"color" "0 152 241"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -173,7 +173,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -250,7 +250,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -327,7 +327,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -404,7 +404,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -481,7 +481,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -558,7 +558,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -635,7 +635,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -712,7 +712,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -789,7 +789,7 @@ world
 		}
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"groupid" "63"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
@@ -866,7 +866,7 @@ world
 		}
 		editor
 		{
-			"color" "0 244 161"
+			"color" "0 172 177"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -876,7 +876,7 @@ world
 		"id" "63"
 		editor
 		{
-			"color" "196 157 0"
+			"color" "0 210 183"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
