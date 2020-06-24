@@ -13,3 +13,7 @@ Battle_grounds.vmf
 hmm.vmf
 Dovahki/redman.vmf_ToSmd.log
 Dovahki/serverrack.vmf_ToSmd.log
+*.unpacked
+*.log
+*.prt
+NHBL/nhbl_vcg_superdome_9shc.vmf
