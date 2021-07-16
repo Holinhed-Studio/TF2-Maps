@@ -1,0 +1,56 @@
+sound/vo/mvm_get_to_upgrade01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade01.mp3
+sound/vo/mvm_get_to_upgrade02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade02.mp3
+sound/vo/mvm_get_to_upgrade03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade03.mp3
+sound/vo/mvm_get_to_upgrade04.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade04.mp3
+sound/vo/mvm_get_to_upgrade05.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade05.mp3
+sound/vo/mvm_get_to_upgrade06.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade06.mp3
+sound/vo/mvm_get_to_upgrade07.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade07.mp3
+sound/vo/mvm_get_to_upgrade08.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade08.mp3
+sound/vo/mvm_get_to_upgrade09.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade09.mp3
+sound/vo/mvm_get_to_upgrade10.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade10.mp3
+sound/vo/mvm_get_to_upgrade11.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki/sound/vo/mvm_get_to_upgrade11.mp3
+sound/vo/salvatoreganacci/trytorelax_anus.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\salvatoreganacci\trytorelax_anus.wav
+sound/vo/markiplier/areyoukiddingme.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\markiplier\areyoukiddingme.wav
+sound/vo/ddo/koboldincoming.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\ddo\koboldincoming.wav
+sound/vo/mvm_mann_up_mode01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_mann_up_mode01.mp3
+sound/vo/eee/kevinheyincoming.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\kevinheyincoming.wav
+sound/vo/eee/rolfmanydoors.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\rolfmanydoors.wav
+sound/vo/eee/eddykissurmom.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\eddykissurmom.wav
+sound/vo/announcer_begins_5sec.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\announcer_begins_5sec.mp3
+sound/vo/announcer_begins_4sec.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\announcer_begins_4sec.mp3
+sound/vo/announcer_begins_3sec.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\announcer_begins_3sec.mp3
+sound/vo/announcer_begins_2sec.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\announcer_begins_2sec.mp3
+sound/vo/announcer_begins_1sec.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\announcer_begins_1sec.mp3
+sound/mvm/sentrybuster/mvm_sentrybuster_spin.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\sentrybuster\mvm_sentrybuster_spin.wav
+sound/vo/eee/rolfhello.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\rolfhello.wav
+sound/mvm/mvm_tank_deploy.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_deploy.wav
+sound/mvm/mvm_tank_horn.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_horn.wav
+sound/mvm/mvm_tank_explode.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_explode.wav
