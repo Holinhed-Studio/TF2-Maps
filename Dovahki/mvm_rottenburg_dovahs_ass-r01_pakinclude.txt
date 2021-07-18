@@ -30,8 +30,8 @@ sound/vo/mvm_mann_up_mode01.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_mann_up_mode01.mp3
 sound/vo/eee/kevinheyincoming.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\kevinheyincoming.wav
-sound/vo/eee/rolfmanydoors.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\rolfmanydoors.wav
+sound/vo/eee/rolfmanydoors.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\rolfmanydoors.mp3
 sound/vo/eee/eddykissurmom.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\eddykissurmom.wav
 sound/vo/announcer_begins_5sec.mp3
@@ -54,3 +54,23 @@ sound/mvm/mvm_tank_horn.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_horn.wav
 sound/mvm/mvm_tank_explode.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_explode.wav
+sound/mvm/mvm_player_died.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_player_died.wav
+sound/dovahki/memes/babyshark/baby.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\baby.mp3
+sound/dovahki/memes/babyshark/baby02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\baby02.mp3
+sound/dovahki/memes/babyshark/doot01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\doot01.mp3
+sound/dovahki/memes/babyshark/doot02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\doot02.mp3
+sound/dovahki/memes/babyshark/doot03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\doot03.mp3
+sound/dovahki/memes/babyshark/doot04.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\doot04.mp3
+sound/dovahki/memes/babyshark/shark.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\shark.mp3
+sound/dovahki/memes/babyshark/shark02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\babyshark\shark02.mp3
+scripts/mvm_level_sound_tweaks.txt
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\scripts\mvm_level_sound_tweaks.txt
