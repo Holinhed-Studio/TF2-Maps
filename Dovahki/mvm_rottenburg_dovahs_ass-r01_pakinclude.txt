@@ -66,8 +66,6 @@ sound/vo/salvatoreganacci/trytorelax_anus.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\salvatoreganacci\trytorelax_anus.wav
 sound/vo/markiplier/areyoukiddingme.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\markiplier\areyoukiddingme.wav
-sound/vo/ddo/koboldincoming.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\ddo\koboldincoming.wav
 sound/vo/eee/kevinheyincoming.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\kevinheyincoming.wav
 sound/vo/eee/rolfmanydoors.mp3
@@ -80,8 +78,6 @@ sound/mvm/sentrybuster/mvm_sentrybuster_spin.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\sentrybuster\mvm_sentrybuster_spin.wav
 sound/mvm/mvm_tank_deploy.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_deploy.wav
-sound/mvm/mvm_tank_horn.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_horn.wav
 sound/mvm/mvm_tank_explode.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\mvm_tank_explode.wav
 sound/mvm/mvm_player_died.wav
