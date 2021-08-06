@@ -84,6 +84,8 @@ sound/vo/eee/rolfhello.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\rolfhello.wav
 sound/dovahki/memes/manscreaming.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\manscreaming.mp3
+sound/vo/spy_scream.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\spy_scream.mp3
 sound/mvm/sentrybuster/mvm_sentrybuster_spin.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\sentrybuster\mvm_sentrybuster_spin.wav
 sound/mvm/mvm_tank_deploy.wav
