@@ -364,9 +364,7 @@ sound/vo/pauling/plng_give_contract_spy_08.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\pauling\plng_give_contract_spy_08.mp3
 materials/particle/fluidexplosions/fluidexplosion.vtf
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials\particle\fluidexplosions\fluidexplosion.vtf
-materials/particle/fluidexplosion/fluidexplosion_cartoony.vtf
+materials/particle/fluidexplosions/fluidexplosion_cartoony.vtf
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials\particle\fluidexplosions\fluidexplosion_cartoony.vtf
 materials/particles/explosion/explosionfiresmoke.vtf
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials\particles\explosion\explosionfiresmoke.vtf
-particles/mvm.pcf
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\particles\mvm.pcf
