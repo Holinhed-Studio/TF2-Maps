@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8610"
-	"mapversion" "58"
+	"mapversion" "59"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "58"
+	"mapversion" "59"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detail_trainyard.vbsp"
 	"detailvbsp" "detail.vbsp"
@@ -11801,8 +11801,8 @@ world
 		{
 			"id" "3195"
 			"plane" "(2720 1648 1008) (2720 1392 1008) (2720 1392 384)"
-			"material" "CONCRETE/COMPUTERWALL002"
-			"uaxis" "[0 -1 0 165] 0.484375"
+			"material" "CONCRETE/COMPUTERWALL003D"
+			"uaxis" "[0 1 0 -165.323] 0.484375"
 			"vaxis" "[0 0 -1 630] 0.609375"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -47363,8 +47363,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2543.45 657.799 644.094]"
-		"look" "[-2535.87 690.514 649.534]"
+		"position" "[2686.73 1270.15 466.071]"
+		"look" "[2696.46 1302.71 464.41]"
 	}
 }
 cordon
