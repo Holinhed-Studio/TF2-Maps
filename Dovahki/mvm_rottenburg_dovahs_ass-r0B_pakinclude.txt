@@ -656,3 +656,7 @@ materials/models/player/medic/medic_backpack_blue_csf.vtf
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Zombie_players\materials/models/player/medic/medic_backpack_blue_csf.vtf
 materials/models/player/medic/medic_backpack_blue_csf.vmt
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Zombie_players\materials/models/player/medic/medic_backpack_blue_csf.vmt
+sound/mvm/mvm_bomb_warning.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\sound/mvm/mvm_bomb_warning.wav
+sound/mvm/mvm_warning.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\sound/mvm/mvm_warning.wav
