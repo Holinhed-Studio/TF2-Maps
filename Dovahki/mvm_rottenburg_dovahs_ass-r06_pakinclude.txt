@@ -84,6 +84,8 @@ sound/vo/eee/rolfhello.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\eee\rolfhello.wav
 sound/dovahki/memes/manscreaming.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\dovahki\memes\manscreaming.mp3
+sound/vo/spy_scream.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\spy_scream.mp3
 sound/mvm/sentrybuster/mvm_sentrybuster_spin.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\mvm\sentrybuster\mvm_sentrybuster_spin.wav
 sound/mvm/mvm_tank_deploy.wav
@@ -344,3 +346,9 @@ sound/vo/pauling/plng_give_contract_spy_07.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\pauling\plng_give_contract_spy_07.mp3
 sound/vo/pauling/plng_give_contract_spy_08.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\pauling\plng_give_contract_spy_08.mp3
+materials/particle/fluidexplosions/fluidexplosion.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials\particle\fluidexplosions\fluidexplosion.vtf
+materials/particle/fluidexplosion/fluidexplosion_cartoony.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials\particle\fluidexplosions\fluidexplosion_cartoony.vtf
+materials/particles/explosion/explosionfiresmoke.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials\particles\explosion\explosionfiresmoke.vtf
