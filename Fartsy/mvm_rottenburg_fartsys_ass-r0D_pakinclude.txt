@@ -692,3 +692,89 @@ sound/vo/demoman_cloakedspyidentify02.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\dovahki\sound/vo/demoman_cloakedspyidentify02.mp3
 sound/vo/soldier_cloakedspyidentify05.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\dovahki\sound/vo/soldier_cloakedspyidentify05.mp3
+materials\effects\red.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\effects\red.vtf
+materials\effects\rgb.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\effects\rgb.vtf
+materials\effects\yellow.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\effects\yellow.vtf
+materials\models\bots\boss_bot\tankbody1.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1.vtf
+materials\models\bots\boss_bot\tankbody1_damage1.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1_damage1.vtf
+materials\models\bots\boss_bot\tankbody1_damage2.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1_damage2.vtf
+materials\models\bots\boss_bot\tankbody1_damage3.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1_damage3.vtf
+materials\models\bots\boss_bot\tankbody2.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody2.vtf
+materials\models\bots\demo\demo_bot_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_blue.vtf
+materials\models\bots\demo\demo_bot_exp.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_exp.vtf
+materials\models\bots\demo\demo_bot_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_head_blue.vtf
+materials\models\bots\demo\demo_bot_head_blue_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_head_blue_invun.vtf
+materials\models\bots\demo\demo_buster.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_buster.vtf
+materials\models\bots\demo\demo_buster_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_buster_invun.vtf
+materials\models\bots\engineer\engineer_bot_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_blue.vtf
+materials\models\bots\engineer\engineer_bot_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_head_blue.vtf
+materials\models\bots\engineer\engineer_bot_head_blue_invuln.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_head_blue_invuln.vtf
+materials\models\bots\engineer\engineer_bot_head_normal.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_head_normal.vtf
+materials\models\bots\heavy\heavy_bot_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\heavy\heavy_bot_blue.vtf
+materials\models\bots\heavy\heavy_bot_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\heavy\heavy_bot_head_blue.vtf
+materials\models\bots\heavy\heavy_bot_head_blue_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\heavy\heavy_bot_head_blue_invun.vtf
+materials\models\bots\medic\bot_medic_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\medic\bot_medic_blue.vtf
+materials\models\bots\medic\bot_medic_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\medic\bot_medic_head_blue.vtf
+materials\models\bots\medic\bot_medic_head_blue_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\medic\bot_medic_head_blue_invun.vtf
+materials\models\bots\pyro\bot_pyro_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\pyro\bot_pyro_blue.vtf
+materials\models\bots\pyro\pyro_bot_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\pyro\pyro_bot_head_blue.vtf
+materials\models\bots\pyro\pyro_bot_head_blue_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\pyro\pyro_bot_head_blue_invun.vtf
+materials\models\bots\scout\bot_scout_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\scout\bot_scout_blue.vtf
+materials\models\bots\scout\bot_scout_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\scout\bot_scout_head_blue.vtf
+materials\models\bots\scout\bot_scout_head_blue_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\scout\bot_scout_head_blue_invun.vtf
+materials\models\bots\sniper\sniper_bot_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\sniper\sniper_bot_blue.vtf
+materials\models\bots\sniper\sniper_bot_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\sniper\sniper_bot_head_blue.vtf
+materials\models\bots\sniper\sniper_bot_head_blue_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\sniper\sniper_bot_head_blue_invun.vtf
+materials\models\bots\soldier\bot_soldier_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\soldier\bot_soldier_blue.vtf
+materials\models\bots\soldier\bot_soldier_blue_invun_reuv.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\soldier\bot_soldier_blue_invun_reuv.vtf
+materials\models\bots\soldier\bot_soldier_head_blue_reuv.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\soldier\bot_soldier_head_blue_reuv.vtf
+materials\models\bots\spy\spy_bot_body_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\spy\spy_bot_body_blue.vtf
+materials\models\bots\spy\spy_bot_head_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\spy\spy_bot_head_blue.vtf
+materials\models\bots\spy\spy_bot_head_blue_invun.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\spy\spy_bot_head_blue_invun.vtf
+materials\models\effects\invulnfx_blue.vmt
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnfx_blue.vmt
+materials\models\effects\invulnfx_red.vmt
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnfx_red.vmt
+materials\models\effects\invulnerability\invulnerability_blue.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnerability\invulnerability_blue.vtf
+materials\models\effects\invulnerability\invulnerability_red.vtf
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnerability\invulnerability_red.vtf
