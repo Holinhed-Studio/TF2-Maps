@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9109"
-	"mapversion" "27"
+	"mapversion" "28"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "27"
+	"mapversion" "28"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -108,10 +108,10 @@ world
 		side
 		{
 			"id" "246"
-			"plane" "(-4225 -3347 3819) (-4225 2374 3819) (3924 2374 3819)"
+			"plane" "(-4225 -3450 3819) (-4225 2880 3819) (3924 2880 3819)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -119,9 +119,9 @@ world
 		side
 		{
 			"id" "245"
-			"plane" "(-4225 2374 3721.32) (-4225 2374 3819) (-4225 -3347 3819)"
+			"plane" "(-4225 2880 3721.32) (-4225 2880 3819) (-4225 -3450 3819)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -130,9 +130,9 @@ world
 		side
 		{
 			"id" "244"
-			"plane" "(3924 -3347 3721.32) (3924 -3347 3819) (3924 2374 3819)"
+			"plane" "(3924 -3450 3721.32) (3924 -3450 3819) (3924 2880 3819)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -141,7 +141,7 @@ world
 		side
 		{
 			"id" "243"
-			"plane" "(3924 2374 3721.32) (3924 2374 3819) (-4225 2374 3819)"
+			"plane" "(3924 2880 3721.32) (3924 2880 3819) (-4225 2880 3819)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -152,7 +152,7 @@ world
 		side
 		{
 			"id" "242"
-			"plane" "(-4225 -3347 3721.32) (-4225 -3347 3819) (3924 -3347 3819)"
+			"plane" "(-4225 -3450 3721.32) (-4225 -3450 3819) (3924 -3450 3819)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -163,10 +163,10 @@ world
 		side
 		{
 			"id" "241"
-			"plane" "(-4225 2374 3721.32) (-4225 -3347 3721.32) (3924 -3347 3721.32)"
+			"plane" "(-4225 2880 3721.32) (-4225 -3450 3721.32) (3924 -3450 3721.32)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 124] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -185,10 +185,10 @@ world
 		side
 		{
 			"id" "252"
-			"plane" "(-4225 2374 -491) (-4225 -3347 -491) (3924 -3347 -491)"
+			"plane" "(-4225 2880 -491) (-4225 -3450 -491) (3924 -3450 -491)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -196,9 +196,9 @@ world
 		side
 		{
 			"id" "251"
-			"plane" "(-4225 -3347 -393.323) (-4225 -3347 -491) (-4225 2374 -491)"
+			"plane" "(-4225 -3450 -393.324) (-4225 -3450 -491) (-4225 2880 -491)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -207,9 +207,9 @@ world
 		side
 		{
 			"id" "250"
-			"plane" "(3924 2374 -393.323) (3924 2374 -491) (3924 -3347 -491)"
+			"plane" "(3924 2880 -393.324) (3924 2880 -491) (3924 -3450 -491)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -218,7 +218,7 @@ world
 		side
 		{
 			"id" "249"
-			"plane" "(-4225 2374 -393.323) (-4225 2374 -491) (3924 2374 -491)"
+			"plane" "(-4225 2880 -393.324) (-4225 2880 -491) (3924 2880 -491)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -229,7 +229,7 @@ world
 		side
 		{
 			"id" "248"
-			"plane" "(3924 -3347 -393.323) (3924 -3347 -491) (-4225 -3347 -491)"
+			"plane" "(3924 -3450 -393.324) (3924 -3450 -491) (-4225 -3450 -491)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -240,10 +240,10 @@ world
 		side
 		{
 			"id" "247"
-			"plane" "(-4225 -3347 -393.323) (-4225 2374 -393.323) (3924 2374 -393.323)"
+			"plane" "(-4225 -3450 -393.323) (-4225 2880 -393.323) (3924 2880 -393.323)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 124] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -262,9 +262,9 @@ world
 		side
 		{
 			"id" "258"
-			"plane" "(-4225 -3347 3721.32) (-4225 -3347 -393.323) (-4225 2374 -393.323)"
+			"plane" "(-4225 -3450 3721.32) (-4225 -3450 -393.323) (-4225 2880 -393.324)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -273,7 +273,7 @@ world
 		side
 		{
 			"id" "257"
-			"plane" "(-4225 2374 3721.32) (-4225 2374 -393.323) (-4185.57 2374 -393.323)"
+			"plane" "(-4225 2880 3721.32) (-4225 2880 -393.323) (-4185.57 2880 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -284,7 +284,7 @@ world
 		side
 		{
 			"id" "256"
-			"plane" "(-4185.57 -3347 -393.323) (-4225 -3347 -393.323) (-4225 -3347 3721.32)"
+			"plane" "(-4185.57 -3450 -393.324) (-4225 -3450 -393.324) (-4225 -3450 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -295,10 +295,10 @@ world
 		side
 		{
 			"id" "255"
-			"plane" "(-4185.57 -3347 3721.32) (-4225 -3347 3721.32) (-4225 2374 3721.32)"
+			"plane" "(-4185.57 -3450 3721.32) (-4225 -3450 3721.32) (-4225 2880 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -306,10 +306,10 @@ world
 		side
 		{
 			"id" "254"
-			"plane" "(-4185.57 2374 -393.323) (-4225 2374 -393.323) (-4225 -3347 -393.323)"
+			"plane" "(-4185.57 2880 -393.323) (-4225 2880 -393.323) (-4225 -3450 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -317,9 +317,9 @@ world
 		side
 		{
 			"id" "253"
-			"plane" "(-4185.57 2374 3721.32) (-4185.57 2374 -393.323) (-4185.57 -3347 -393.323)"
+			"plane" "(-4185.57 2880 3721.32) (-4185.57 2880 -393.323) (-4185.57 -3450 -393.324)"
 			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -124] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -339,9 +339,9 @@ world
 		side
 		{
 			"id" "264"
-			"plane" "(3924 2374 3721.32) (3924 2374 -393.323) (3924 -3347 -393.323)"
+			"plane" "(3924 2880 3721.32) (3924 2880 -393.323) (3924 -3450 -393.324)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -350,7 +350,7 @@ world
 		side
 		{
 			"id" "263"
-			"plane" "(3884.57 2374 -393.323) (3924 2374 -393.323) (3924 2374 3721.32)"
+			"plane" "(3884.57 2880 -393.324) (3924 2880 -393.324) (3924 2880 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -361,7 +361,7 @@ world
 		side
 		{
 			"id" "262"
-			"plane" "(3924 -3347 3721.32) (3924 -3347 -393.323) (3884.57 -3347 -393.323)"
+			"plane" "(3924 -3450 3721.32) (3924 -3450 -393.323) (3884.57 -3450 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -372,10 +372,10 @@ world
 		side
 		{
 			"id" "261"
-			"plane" "(3884.57 2374 3721.32) (3924 2374 3721.32) (3924 -3347 3721.32)"
+			"plane" "(3884.57 2880 3721.32) (3924 2880 3721.32) (3924 -3450 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -383,10 +383,10 @@ world
 		side
 		{
 			"id" "260"
-			"plane" "(3884.57 -3347 -393.323) (3924 -3347 -393.323) (3924 2374 -393.323)"
+			"plane" "(3884.57 -3450 -393.323) (3924 -3450 -393.323) (3924 2880 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -394,9 +394,9 @@ world
 		side
 		{
 			"id" "259"
-			"plane" "(3884.57 -3347 3721.32) (3884.57 -3347 -393.323) (3884.57 2374 -393.323)"
+			"plane" "(3884.57 -3450 3721.32) (3884.57 -3450 -393.323) (3884.57 2880 -393.324)"
 			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -124] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -416,7 +416,7 @@ world
 		side
 		{
 			"id" "270"
-			"plane" "(-4185.57 2374 -393.323) (3884.57 2374 -393.323) (3884.57 2374 3721.32)"
+			"plane" "(-4185.57 2880 -393.324) (3884.57 2880 -393.324) (3884.57 2880 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -427,10 +427,10 @@ world
 		side
 		{
 			"id" "269"
-			"plane" "(-4185.57 2342 3721.32) (-4185.57 2374 3721.32) (3884.57 2374 3721.32)"
+			"plane" "(-4185.57 2844.59 3721.32) (-4185.57 2880 3721.32) (3884.57 2880 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -438,10 +438,10 @@ world
 		side
 		{
 			"id" "268"
-			"plane" "(3884.57 2374 -393.323) (-4185.57 2374 -393.323) (-4185.57 2342 -393.323)"
+			"plane" "(3884.57 2880 -393.323) (-4185.57 2880 -393.323) (-4185.57 2844.59 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -449,9 +449,9 @@ world
 		side
 		{
 			"id" "267"
-			"plane" "(-4185.57 2342 -393.323) (-4185.57 2374 -393.323) (-4185.57 2374 3721.32)"
+			"plane" "(-4185.57 2844.59 -393.324) (-4185.57 2880 -393.324) (-4185.57 2880 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -460,9 +460,9 @@ world
 		side
 		{
 			"id" "266"
-			"plane" "(3884.57 2374 3721.32) (3884.57 2374 -393.323) (3884.57 2342 -393.323)"
+			"plane" "(3884.57 2880 3721.32) (3884.57 2880 -393.323) (3884.57 2844.59 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -471,7 +471,7 @@ world
 		side
 		{
 			"id" "265"
-			"plane" "(3884.57 2342 -393.323) (-4185.57 2342 -393.323) (-4185.57 2342 3721.32)"
+			"plane" "(3884.57 2844.59 -393.324) (-4185.57 2844.59 -393.324) (-4185.57 2844.59 3721.32)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -493,7 +493,7 @@ world
 		side
 		{
 			"id" "276"
-			"plane" "(3884.57 -3347 -393.323) (-4185.57 -3347 -393.323) (-4185.57 -3347 3721.32)"
+			"plane" "(3884.57 -3450 -393.324) (-4185.57 -3450 -393.324) (-4185.57 -3450 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -504,10 +504,10 @@ world
 		side
 		{
 			"id" "275"
-			"plane" "(3884.57 -3347 3721.32) (-4185.57 -3347 3721.32) (-4185.57 -3315 3721.32)"
+			"plane" "(3884.57 -3450 3721.32) (-4185.57 -3450 3721.32) (-4185.57 -3414.59 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -515,10 +515,10 @@ world
 		side
 		{
 			"id" "274"
-			"plane" "(-4185.57 -3315 -393.323) (-4185.57 -3347 -393.323) (3884.57 -3347 -393.323)"
+			"plane" "(-4185.57 -3414.59 -393.323) (-4185.57 -3450 -393.323) (3884.57 -3450 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -526,9 +526,9 @@ world
 		side
 		{
 			"id" "273"
-			"plane" "(-4185.57 -3347 3721.32) (-4185.57 -3347 -393.323) (-4185.57 -3315 -393.323)"
+			"plane" "(-4185.57 -3450 3721.32) (-4185.57 -3450 -393.323) (-4185.57 -3414.59 -393.323)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -537,9 +537,9 @@ world
 		side
 		{
 			"id" "272"
-			"plane" "(3884.57 -3315 -393.323) (3884.57 -3347 -393.323) (3884.57 -3347 3721.32)"
+			"plane" "(3884.57 -3414.59 -393.324) (3884.57 -3450 -393.324) (3884.57 -3450 3721.32)"
 			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
+			"uaxis" "[0 1 0 -60] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -548,7 +548,7 @@ world
 		side
 		{
 			"id" "271"
-			"plane" "(-4185.57 -3315 -393.323) (3884.57 -3315 -393.323) (3884.57 -3315 3721.32)"
+			"plane" "(-4185.57 -3414.59 -393.324) (3884.57 -3414.59 -393.324) (3884.57 -3414.59 3721.32)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -742,96 +742,6 @@ entity
 }
 entity
 {
-	"id" "430"
-	"classname" "prop_static"
-	"angles" "0 320 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3707 -431 297"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "434"
-	"classname" "prop_static"
-	"angles" "0 320 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3764 647 297"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "438"
-	"classname" "prop_static"
-	"angles" "0 320 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3135 838 297"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "442"
 	"classname" "prop_static"
 	"angles" "0 260 0"
@@ -892,96 +802,6 @@ entity
 }
 entity
 {
-	"id" "450"
-	"classname" "prop_static"
-	"angles" "0 320 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3635 1075 297"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "454"
-	"classname" "prop_static"
-	"angles" "0 320 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3309 166 297"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "458"
-	"classname" "prop_static"
-	"angles" "0 320 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-3456 -1063 297"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "462"
 	"classname" "prop_static"
 	"angles" "0 320 0"
@@ -1002,6 +822,306 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"origin" "-403 -2734 266"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "511"
+	"classname" "prop_static"
+	"angles" "8.7859 220.976 17.8032"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2637 -1018 264"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "665"
+	"classname" "prop_static"
+	"angles" "9.77039 203.208 19.2069"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2199 -1865 283"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "815"
+	"classname" "prop_static"
+	"angles" "8.7859 40.976 17.8032"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-2470 794 264"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "819"
+	"classname" "prop_static"
+	"angles" "9.77039 23.208 19.2069"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-2032 1641 283"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "823"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-1228 2208 267"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "827"
+	"classname" "prop_static"
+	"angles" "0 160.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-355 2515 266"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "831"
+	"classname" "prop_static"
+	"angles" "0 140 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "570 2510 266"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "835"
+	"classname" "prop_static"
+	"angles" "0 120 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1437 2185 267"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "839"
+	"classname" "prop_static"
+	"angles" "0 100 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2140 1584 266"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "843"
+	"classname" "prop_static"
+	"angles" "0 80 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/fartsy/ffxiv/a8_0x0.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2597 778 267"
 	editor
 	{
 		"color" "255 255 0"
