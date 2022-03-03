@@ -1,0 +1,15 @@
+GREENVILLE CBT
+
+{
+    Tunnels linking all areas together so there are no visual glitches --in-progress
+    Retexture all areas to match with new stormy skybox
+    Optimize all areas by loading .prt file
+    Link up all path tracks properly and add in checkpoints
+    Add sub checkpoints that play random sounds or do random effects
+    Add master effect timer that randomly picks an effect or mashes up a song and releases some chaos
+    Tornado that yeets current payload?
+    Progressively stronger payloads, up to nukes
+    Final payload being giant kissone raining from the sky with multiple events following and total calamity
+    Perhaps integrate MvM pkop file to map
+    End map with Alexander Burden of the Son?
+}
