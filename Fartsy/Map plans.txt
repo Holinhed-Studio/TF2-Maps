@@ -1,8 +1,9 @@
 GREENVILLE CBT
 
 {
-    Tunnels linking all areas together so there are no visual glitches --in-progress
-    Retexture all areas to match with new stormy skybox
+    Tunnels linking all areas together so there are no visual glitches --test
+    Retexture all areas to match each other
+    New stormy skybox
     Optimize all areas by loading .prt file
     Link up all path tracks properly and add in checkpoints
     Add sub checkpoints that play random sounds or do random effects
@@ -12,4 +13,7 @@ GREENVILLE CBT
     Final payload being giant kissone raining from the sky with multiple events following and total calamity
     Perhaps integrate MvM pkop file to map
     End map with Alexander Burden of the Son?
+    SFX/Intros playing during song?
 }
+
+taco bell gong as wave start for taco bell edition
