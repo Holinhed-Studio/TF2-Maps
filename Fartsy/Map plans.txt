@@ -1,5 +1,4 @@
-GREENVILLE CBT
-
+GreenvilleMcDonalds_CBT
 {
     Tunnels linking all areas together so there are no visual glitches --test
     Retexture all areas to match each other
@@ -17,3 +16,9 @@ GREENVILLE CBT
 }
 
 taco bell gong as wave start for taco bell edition
+
+
+Ideas to commit to mvm:
+
+Random sound effects / shit from the hall of fame while fighting robots (TACO BELL ONLY??)?
+Taco bell is shorter (less robots per wave) but more difficult, more damage and more health?
