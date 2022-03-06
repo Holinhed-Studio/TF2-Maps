@@ -15,19 +15,18 @@ GreenvilleMcDonalds_CBT
             54 func_areaportal
             37 env_soundscape_proxy
             27 func_brush
+            23 func_occluder
+            23 func_door
+            16 move_rope
+            13 env_lightglow
             7 ambient_generic
-            2 env_tonemap_controller
             1 color_correction
             2 dispenser_touch_trigger
             5 func_areaportalwindow
-            1 env_fog_controller
             1 func_breakable
-            13 env_lightglow
             7 env_soundscape
-            23 func_door
             7 func_nobuild
             2 env_spark
-            23 func_occluder
             1 env_sprite
             10 func_regenerate
             6 func_respawnroom
@@ -45,7 +44,6 @@ GreenvilleMcDonalds_CBT
             1 mapobj_cart_dispenser
             13 keyframe_rope
             1 monster_resource
-            16 move_rope
             1 prop_physics
             1 scene_manager
             1 player
@@ -86,3 +84,4 @@ Ideas to commit to mvm:
 
 Random sound effects / shit from the hall of fame while fighting robots (TACO BELL ONLY??)?
 Taco bell is shorter (less robots per wave) but more difficult, more damage and more health?
+Add light glow to the volumetric lighting in FC bar
