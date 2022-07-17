@@ -1,0 +1,16 @@
+sound/vo/mvm_wave_start12.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_wave_start12.mp3
+sound/vo/mvm_mann_up_mode04.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_mann_up_mode04.mp3
+sound/vo/mvm_final_wave_end01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_final_wave_end01.mp3
+sound/vo/mvm_final_wave_end02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_final_wave_end02.mp3
+sound/vo/mvm_final_wave_end03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_final_wave_end03.mp3
+sound/vo/mvm_final_wave_end04.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_final_wave_end04.mp3
+sound/vo/mvm_final_wave_end05.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_final_wave_end05.mp3
+sound/vo/mvm_final_wave_end06.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\sound\vo\mvm_final_wave_end06.mp3

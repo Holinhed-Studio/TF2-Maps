@@ -1,6 +1,0 @@
-materials/particle/fluidexplosions/fluidexplosion.vtf
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials/particle/fluidexplosions/fluidexplosion.vtf
-materials/particle/fluidexplosions/fluidexplosion_cartoony.vtf
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials/particle/fluidexplosions/fluidexplosion_cartoony.vtf
-materials/particles/explosion/explosionfiresmoke.vtf
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\Dovahki\materials\particles\explosion\explosionfiresmoke.vtf
