@@ -90,6 +90,7 @@ IMPORTANT{
     retex medic shield
     song that plays in ff14 with the imperial thingy in the desert dungeon
     calamity // final days?
+    Don't forget to pack the train horn this time...
 }
 
 soontm
