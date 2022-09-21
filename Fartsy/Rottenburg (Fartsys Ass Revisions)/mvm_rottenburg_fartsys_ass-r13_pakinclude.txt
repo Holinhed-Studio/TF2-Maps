@@ -800,3 +800,7 @@ sound\fartsy\memes\babyshark\shark02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\shark02.mp3
 sound\fartsy\wtfboom.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\wtfboom.mp3
+sound\mvm\mvm_tank_horn.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\mvm\mvm_tank_horn.wav
+sound\fartsy\fallingback\bgm.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\fallingback\bgm.mp3
