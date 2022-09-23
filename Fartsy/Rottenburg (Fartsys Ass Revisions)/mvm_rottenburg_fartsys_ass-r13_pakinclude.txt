@@ -718,8 +718,8 @@ sound\fartsy\ffxiv\bgm\tornfromtheheavens.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\bgm\tornfromtheheavens.mp3
 sound\fartsy\ffxiv\bgm\metalbrutejusticemode.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\bgm\metalbrutejusticemode.mp3
-sound\fartsy\ffxiv\bgm\grandmadestruction.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\bgm\grandmadestruction.mp3
+sound\fartsy\ffxiv\bgm\penitus.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\bgm\penitus.mp3
 sound\fartsy\ffxiv\bgm\revengetwofold.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\bgm\revengetwofold.mp3
 sound\fartsy\ffxiv\bgm\undertheweight.mp3
@@ -764,22 +764,6 @@ sound\fartsy\misc\countdown.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\countdown.wav
 sound\fartsy\fallingback\attack.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\fallingback\attack.mp3
-sound\fartsy\weather\thunder1.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder1.wav
-sound\fartsy\weather\thunder2.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder2.wav
-sound\fartsy\weather\thunder3.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder3.wav
-sound\fartsy\weather\thunder4.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder4.wav
-sound\fartsy\weather\thunder5.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder5.wav
-sound\fartsy\weather\thunder6.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder6.wav
-sound\fartsy\weather\thunder7.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder7.wav
-sound\fartsy\weather\thunder8.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder8.wav
 sound\vo\fartsy\goobbue.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo\fartsy\goobbue.mp3
 sound\fartsy\memes\babyshark\baby.mp3
