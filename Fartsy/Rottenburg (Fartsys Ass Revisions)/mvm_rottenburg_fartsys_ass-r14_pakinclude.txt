@@ -788,8 +788,6 @@ sound\fartsy\fallingback\bgm.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\fallingback\bgm.mp3
 sound\fartsy\misc\murica.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\murica.mp3
-sound\fartsy\bl2\grenade_detonate.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\bl2\grenade_detonate.mp3
 sound\fartsy\gbombs5\t_12.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\gbombs5\t_12.mp3
 sound\fartsy\misc\majorkong.mp3
