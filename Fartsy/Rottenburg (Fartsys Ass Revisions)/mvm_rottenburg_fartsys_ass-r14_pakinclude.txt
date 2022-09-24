@@ -816,3 +816,5 @@ sound\fartsy\misc\shroom.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\shroom.mp3
 sound\fartsy\vo\inurat\nuclearwaffle.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\inurat\nuclearwaffle.mp3
+materials\effects\animatedcaustic\caustic.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\effects\animatedcaustic\caustic.vtf
