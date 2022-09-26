@@ -83,51 +83,39 @@ done{
     Check if music plays properly after each wave is cleared.  --done
     swap bomb warning with clock bell from majoras mask --done
     Enable SpecTimer (move spectimer) after fat man is pushed --done
+    Add light glow to the volumetric lighting in FC bar --notneeded
+    bombexploshark is only the timer for the mini sharks. ExploLarge can be removed. --done
+    Normal BGM is done.
+    Bombs are done.
+    Sacrifice Points are done for now.
+    FB.RobotLauncher needs enabled for 7.5 seconds while iswave and on a random timer between 5 and 30 seconds. --done
+    OnSacPointsMax play ClockBell sound --notneeded
+    UI hud for sacpoints and bomb status --done
+    fb_hindenboom --not needed, new system implemented
+    Make background music quieter so that thomas the tank engine is more obvious? --done
+    retex medic shield --done
+    song that plays in ff14 with the imperial thingy in the desert dungeon --replaced with penitus.
+    Don't forget to pack the train horn this time... --done
+    Admin Spotlight (In the theme of a monitor)    <Name>    Reason--done
 }
 
 IMPORTANT{
-    Make background music quieter so that thomas the tank engine is more obvious? --done
-    retex medic shield
-    song that plays in ff14 with the imperial thingy in the desert dungeon
-    calamity // final days?
-    Don't forget to pack the train horn this time...
+
 }
 
 soontm
 {
     taco bell gong as wave start for taco bell edition
-
-
     Ideas to commit to mvm:
-
-    Random sound effects / shit from the hall of fame while fighting robots (TACO BELL ONLY??)?
+    Random sound effects / shit from the hall of fame while fighting robots (TACO BELL ONLY)
     Taco bell is shorter (less robots per wave) but more difficult, more damage and more health?
-    Add light glow to the volumetric lighting in FC bar
     Massive graphical update for effects in mvm -- mainly flashing effects / tracers and flying clocks in the skybox when 72323 is sent. Consider smash bros map clock easter egg.
-
-    
-
-
     Going into the teleport causes a massive drop from skybox to ground in a private chamber that plays falling back from brute justice mode.
     make stage collapse into lava with pillars for survival?
     to fix summonerschaos: disable first stop target on rift's tanktrain, Update dovahkiinwarrior with professorfartsalot instead, Remove secret functions below map. Change sky texture to sky_rift .
     add engi mod from brawler to dovahs ass rottenburg 11 and to tower map from o8pc
     add spirit bomb from hbm to dovahs ass 11 -- scratch that, instead it's a giant smug  sayaki playing kissonelovania.
-    turn all of map into plugin --inprogress
+    turn all of map into plugin --done
     make it possible for the bomb to prematurely explode?
-    bombexploshark is only the timer for the mini sharks. ExploLarge can remain for now.
-
-    Normal BGM is done.
-    Bombs are done.
-    Sacrifice Points are done for now.
-    FB.RobotLauncher needs enabled for 7.5 seconds while iswave and on a random timer between 5 and 30 seconds. --done
-    OnSacPointsMax play ClockBell sound --soontm
-
-    Crusader?
-    fb_hindenburg to unlock hindenburg?
-    fb_hindenboom --soontm
-
-
     For Chipotle - Start everyone with a ton of money, they MUST invest in protection or die. Give bots 5000% power, spawn spies all about.
-
 }
