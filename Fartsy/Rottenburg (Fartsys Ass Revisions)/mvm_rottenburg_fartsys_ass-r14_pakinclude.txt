@@ -850,6 +850,27 @@ sound\vo\spy_medic03.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\spy_medic03.mp3
 materials\vgui\mvm_background_map.vtf
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\vgui\mvm_background_map.vtf
-
-*giant robot destroyed sounds here*
-*code in the admin system!!!*
+sound\mvm\sentrybuster\mvm_sentrybuster_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\mvm\sentrybuster\mvm_sentrybuster_explode.wav
+sound\mvm\mvm_bomb_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\mvm\mvm_bomb_explode.wav
+materials\hud\bomb_carrier_upgrade_base.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\bomb_carrier_upgrade_base.vtf
+materials\hud\bomb_carrier_upgrade_frame.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\bomb_carrier_upgrade_frame.vtf
+materials\hud\bomb_carrier_upgrade_meter.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\bomb_carrier_upgrade_meter.vtf
+materials\hud\objectives_flagpanel_compass_grey.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\objectives_flagpanel_compass_grey.vtf
+materials\hud\objectives_flagpanel_compass_grey_with_red.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\objectives_flagpanel_compass_grey_with_red.vtf
+materials\hud\hud_mvm_bomb_upgrade_1_disabled.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_1_disabled.vtf
+materials\hud\hud_mvm_bomb_upgrade_1.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_1.vtf
+materials\hud\hud_mvm_bomb_upgrade_2_disabled.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2_disabled.vtf
+materials\hud\hud_mvm_bomb_upgrade_2.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2.vtf
+materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
