@@ -430,14 +430,10 @@ sound\mvm\mvm_warning.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\mvm\mvm_warning.wav
 sound\vo\engineer_incoming02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\mvm_sentry_buster_alerts01.mp3
-sound\vo\heavy_medic02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\heavy_medic02.mp3
 sound\vo\engineer_autobuildingdispenser01.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\engineer_autobuildingdispenser01.mp3
 sound\vo\engineer_autobuildingdispenser02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\engineer_autobuildingdispenser02.mp3
-sound\vo\soldier_medic01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\soldier_medic01.mp3
 sound\vo\medic_autochargeready01.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\medic_autochargeready01.mp3
 sound\vo\medic\autochargeready03.mp3
@@ -816,3 +812,44 @@ sound\fartsy\vo\inurat\nuclearwaffle.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\inurat\nuclearwaffle.mp3
 materials\effects\animatedcaustic\caustic.vtf
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\effects\animatedcaustic\caustic.vtf
+materials\models\effects\cappoint_beam_blue.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\cappoint_beam_blue.vmt
+materials\models\effects\cappoint_beam_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\cappoint_beam_blue.vtf
+materials\models\effects\cappoint_beam_lines_b.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\cappoint_beam_lines_b.vtf
+materials\models\effects\robo_marker_dark.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\robo_marker_dark.vmt
+materials\models\effects\robo_marker.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\robo_marker.vmt
+materials\models\effects\robo_marker.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\robo_marker.vtf
+sound\vo\scout_medic01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\scout_medic01.mp3
+sound\vo\soldier_medic01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\soldier_medic01.mp3
+sound\vo\soldier_medic02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\soldier_medic02.mp3
+sound\vo\soldier_LaughLong01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\soldier_LaughLong01.mp3
+sound\vo\pyro_medic01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pyro_medic01.mp3
+sound\vo\demoman_medic03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\demoman_medic03.mp3
+sound\vo\heavy_medic01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\heavy_medic01.mp3
+sound\vo\heavy_medic02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\heavy_medic02.mp3
+sound\vo\medic_medic03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\medic_medic03.mp3
+sound\vo\sniper_medic01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\sniper_medic01.mp3
+sound\vo\spy_medic01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\spy_medic01.mp3
+sound\vo\spy_medic03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\spy_medic03.mp3
+materials\vgui\mvm_background_map.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\vgui\mvm_background_map.vtf
+
+*giant robot destroyed sounds here*
+*code in the admin system!!!*
