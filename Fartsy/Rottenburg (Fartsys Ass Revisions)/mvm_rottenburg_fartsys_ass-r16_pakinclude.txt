@@ -670,6 +670,10 @@ sound\music\class_menu_bg.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_bg.wav
 sound\music\mvm_end_wave.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\mvm_end_wave.wav
+sound\music\mvm_end_mid_wave.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\mvm_end_wave.wav
+sound\music\mvm_end_tank_wave.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\mvm_end_wave.wav
 sound\fartsy\misc\triggerscore.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
 sound\fartsy\misc\clock_tick.wav
@@ -874,3 +878,7 @@ materials\hud\hud_mvm_bomb_upgrade_2.vtf
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2.vtf
 materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
+sound\mvm\mvm_revive.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\mvm\mvm_revive.wav
+sound\mvm\mvm_tank_smash.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\mvm\mvm_tank_smash.wav
