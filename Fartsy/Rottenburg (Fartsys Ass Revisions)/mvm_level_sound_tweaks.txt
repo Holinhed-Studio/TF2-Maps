@@ -1,7 +1,4 @@
 //This file was created by Professor Fartsalot (Fartsy#8998) for the Fartsy's Ass MvM Revisions. Please do not modify.
-// ------------------------------------------------------------------------------------ //
-// MvM Ready Sounds
-// ------------------------------------------------------------------------------------ //
 "Demoman.ReadyMvM"
 {
 	"channel"	"CHAN_VOICE"
@@ -180,7 +177,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"			"fartsy/vo/kissone/yurdoingudlad.mp3"
+	"wave"			"fartsy/vo/kissone/demoman_yurdoingudlad.mp3"
 }
 
 "Demoman.Medic03"
@@ -771,7 +768,7 @@
 	"soundlevel"	"SNDLVL_95dB"
     "rndWave"
 	{
-		"wave"		"fartsy/vo/explodingcookie/scout_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/scout_PainCrticialDeath03.mp3"
 	}
 }
 
@@ -918,7 +915,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_100dB"
-	"wave"			"mvm/sentrybuster/mvm_sentrybuster_loop.wav"
+	"wave"			"fartsy/sentrybuster/mvm_sentrybuster_loop.wav"
 }
 
 "MVM.SentryBusterIntro"
