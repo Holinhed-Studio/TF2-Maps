@@ -386,7 +386,8 @@ sound\fartsy\memes\manscreaming.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\memes\manscreaming.mp3
 sound\vo\spy_scream.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\spy_scream.mp3
-
+scripts\mvm_level_sound_tweaks.txt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\scripts\mvm_level_sound_tweaks.txt
 sound\vo\mvm\norm\demoman_mvm_paincrticialdeath01.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\mvm\norm\demoman_mvm_paincrticialdeath01.mp3
 sound\vo\mvm\norm\demoman_mvm_paincrticialdeath02.mp3
