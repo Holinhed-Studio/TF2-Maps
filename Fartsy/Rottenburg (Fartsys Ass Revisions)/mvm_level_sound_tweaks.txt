@@ -832,6 +832,48 @@
 }
 
 //MvM SFX
+"MVM.BombExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			"fartsy/misc/shartsplosion.wav"
+}
+
+"MVM.BombWarning"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_104dB"
+	"wave"			"fartsy/misc/lozclocktowerbell.wav"
+}
+
+"MVM.GiantCommonExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_125dB"
+	"rndwave"
+	{
+		"wave"	")fartsy/misc/fart_reverb.wav"
+	}	
+}
+
+"MVM.GiantHeavyExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_125dB"
+	"rndwave"
+	{
+		"wave"	")fartsy/misc/fart_reverb.wav"
+	}	
+}
+
 "MVM.PlayerDied"
 {
     "channel"    "CHAN_STATIC"
@@ -839,9 +881,123 @@
     "pitch"      "PITCH_NORM"
     "soundlevel" "SNDLVL_NONE"
 
-    "wave"       "ui/system_message_alert.wav"
+    "wave"       "#*fartsy/memes/priceisright_fail.wav"
 }
 
+"MVM.PlayerRevived"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_90dB"
+
+	"wave"			"fartsy/misc/poke.wav"
+}
+
+"MVM.SentryBusterExplode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_130dB"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_explode.wav"
+}
+
+"MVM.SentryBusterSpin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_130dB"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_spin.wav"
+}
+
+"MVM.SentryBusterLoop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_100dB"
+	"wave"			"mvm/sentrybuster/mvm_sentrybuster_loop.wav"
+}
+
+"MVM.SentryBusterIntro"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_intro.wav"
+}
+
+"MVM.SentryBusterStep"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_01.wav"
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_02.wav"
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_03.wav"
+		"wave"		"^mvm/sentrybuster/mvm_sentrybuster_step_04.wav"
+	}
+}
+
+"MVM.TankPing"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			"fartsy/eee/the_horn.wav"
+}
+
+"MVM.TankEngineLoop"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.89"
+	"pitch"		"100"
+	"soundlevel"  "SNDLVL_85dB"
+	"wave"		"^fartsy/misc/mvm_tank_loop.wav"
+}
+
+"MVM.TankSmash"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_150dB"
+	"wave"			")fartsy/misc/mvm_tank_smash.wav"
+}
+
+"MVM.TankDeploy"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_140dB"
+	"wave"			"fartsy/misc/mvm_tank_deploy.wav"
+}
+
+"MVM.TankExplodes"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.85"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	"wave"			")fartsy/misc/mvm_tank_explode.wav"
+}
+"MVM.Warning"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.500"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+
+	"wave"			"fartsy/misc/fart.wav"
+}
 //MvM VOs
 "Announcer.MVM_First_Wave_Start"
 {
@@ -856,13 +1012,14 @@
 		"wave"	"fartsy/vo/reveredd/smell.mp3"
 		"wave"	"fartsy/vo/fartsy/whatyousignedupfor.mp3"
 		"wave"	"fartsy/vo/jeffy/welcometodovahsass.mp3"
-		"wave"	"fartsy/vo/fartsy/broughttoyouby.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
 		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass01.mp3"
 		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass02.mp3"
         "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass03.mp3"
         "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass04.mp3"
         "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass05.mp3"
-		"wave"	"fartsy/vo/markiplier/whatisthat.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
+		"wave"	"fartsy/vo/markiplier/wthisthat.mp3"
 		"wave"	"fartsy/vo/kissone/welcometodovahsass.mp3"
 	}
 }
@@ -881,14 +1038,17 @@
 		"wave"	"fartsy/vo/sathie/evilvoice.mp3"
 		"wave"	"fartsy/vo/jeffy/welcometodovahsass.mp3"
 		"wave"	"fartsy/vo/sathie/myvoiceisshot.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
 		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass01.mp3"
 		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass02.mp3"
-        "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass04.mp3"
+        "wave"  "fartsy/vo/joeyghost/nowpresentingdovahsass03.mp3"
+		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass04.mp3"
 		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass05.mp3"
-		"wave"	"fartsy/vo/joeyghost/nowpresentingdovahsass06.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
 		"wave"	"fartsy/vo/coburn/weinterruptthisprogramme.mp3"
 		"wave"	"vo/mvm_wave_start11.mp3"
 		"wave"	"fartsy/vo/kissone/welcometodovahsass.mp3"
+        "wave"	"fartsy/vo/reveredd/smell.mp3"
 	}
 }
 //"Announcer.MVM_Wave_End"
@@ -1030,7 +1190,7 @@
 		"wave"	"fartsy/vo/salvatoreganacci/trytorelaxyouranus.mp3"
 		"wave"	"fartsy/vo/celdamage/fowlmouth_fyou.mp3"
 		"wave"	"fartsy/vo/joeyghost/ohno.mp3"
-		"wave"	"fartsy/vo/spongebob/patricknothisispatrick.mp3"
+		"wave"	"fartsy/vo/spongebob/patrick_thisispatrick.mp3"
 	}
 }
 
