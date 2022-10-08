@@ -484,8 +484,14 @@ sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
 sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
+
+
+
 sound\music\conga_sketch_167bpm_01-04.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\CongaMod\sound\music\conga_sketch_167bpm_01-04.wav
+
+
+
 sound\weapons\gatling_shoot.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\BrassDoom\sound\weapons\gatling_shoot.wav
 sound\weapons\gatling_shoot_crit.wav
