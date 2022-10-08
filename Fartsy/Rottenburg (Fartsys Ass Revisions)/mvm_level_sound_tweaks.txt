@@ -2275,3 +2275,38 @@
 //	"pitch"			"PITCH_NORM"
 //	"wave"	")fartsy/brawler/music/taunt_bumpkins_banjo_music_stop.wav"
 //}
+
+//Weapons
+//Brass Beast
+"Weapon_Gatling.Spin"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_spin.wav"
+}
+
+"Weapon_Gatling.WindUp"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_wind_up.wav"
+}
+
+
+"Weapon_Gatling.Fire"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_shoot.wav"
+}
+
+"Weapon_Gatling.FireCrit"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/doom/gatling_shoot_crit.wav"
+}
