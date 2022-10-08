@@ -474,6 +474,7 @@ sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
 sound\fartsy\music\brawler\shadyc\overdrive.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\shadyc\overdrive.wav
+
 sound\items\taunts\killer_solo\killer_solo_01.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\items\taunts\killer_solo\killer_solo_01.mp3
 sound\items\taunts\killer_solo\killer_solo_02.mp3
