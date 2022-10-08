@@ -236,8 +236,24 @@ sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath02.mp3
 sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath03.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath03.mp3
+sound\fartsy\vo\fartsy\demo_owmedic.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\demo_owmedic.mp3
+sound\fartsy\vo\fartsy\engineer_gottamnope.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\engineer_gottamnope.mp3
+sound\fartsy\vo\fartsy\spy_wtf.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\spy_wtf.mp3
+sound\fartsy\vo\fartsy\engineer_dummysappin.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\engineer_dummysappin.mp3
 sound\fartsy\vo\fartsy\engineer_erectinpingas.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\engineer_erectinpingas.mp3
+sound\fartsy\vo\fartsy\heavy_iamded.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\heavy_iamded.mp3
+sound\fartsy\vo\fartsy\medic_iamfullydead.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\medic_iamfullydead.mp3
+sound\fartsy\vo\fartsy\medic_stupidhat.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\medic_stupidhat.mp3
+sound\fartsy\vo\fartsy\soldier_owmyanus.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\soldier_owmyanus.mp3
 sound\fartsy\vo\fartsy\soldier_reversescream.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\soldier_reversescream.mp3
 sound\fartsy\vo\fartsy\whatyousignedupfor.mp3
