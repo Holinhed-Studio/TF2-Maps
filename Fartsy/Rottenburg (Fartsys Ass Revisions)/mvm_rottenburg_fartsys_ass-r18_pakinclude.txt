@@ -126,6 +126,8 @@ materials\hud\hud_mvm_bomb_upgrade_2.vtf
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2.vtf
 materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
+scripts\mvm_level_sound_tweaks.txt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\scripts\mvm_level_sound_tweaks.txt
 sound\fartsy\eee\the_horn.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\eee\the_horn.wav
 sound\fartsy\memes\babyshark\baby.mp3
@@ -398,8 +400,6 @@ sound\fartsy\vo\eee\rolfhello.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\eee\rolfhello.wav
 sound\fartsy\memes\manscreaming.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\memes\manscreaming.mp3
-scripts\mvm_level_sound_tweaks.txt
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\scripts\mvm_level_sound_tweaks.txt
 sound\vo\mvm\norm\demoman_mvm_paincrticialdeath01.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\mvm\norm\demoman_mvm_paincrticialdeath01.mp3
 sound\vo\mvm\norm\demoman_mvm_paincrticialdeath02.mp3
@@ -470,150 +470,6 @@ sound\vo\mvm\norm\spy_mvm_paincrticialdeath02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\mvm\norm\spy_mvm_paincrticialdeath02.mp3
 sound\vo\mvm\norm\spy_mvm_paincrticialdeath03.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\mvm\norm\spy_mvm_paincrticialdeath03.mp3
-sound\vo\pauling\plng_give_contract_scout_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_01.mp3
-sound\vo\pauling\plng_give_contract_scout_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_02.mp3
-sound\vo\pauling\plng_give_contract_scout_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_03.mp3
-sound\vo\pauling\plng_give_contract_scout_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_04.mp3
-sound\vo\pauling\plng_give_contract_scout_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_05.mp3
-sound\vo\pauling\plng_give_contract_scout_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_06.mp3
-sound\vo\pauling\plng_give_contract_scout_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_07.mp3
-sound\vo\pauling\plng_give_contract_scout_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_scout_08.mp3
-sound\vo\pauling\plng_give_contract_soldier_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_01.mp3
-sound\vo\pauling\plng_give_contract_soldier_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_02.mp3
-sound\vo\pauling\plng_give_contract_soldier_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_03.mp3
-sound\vo\pauling\plng_give_contract_soldier_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_04.mp3
-sound\vo\pauling\plng_give_contract_soldier_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_05.mp3
-sound\vo\pauling\plng_give_contract_soldier_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_06.mp3
-sound\vo\pauling\plng_give_contract_soldier_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_07.mp3
-sound\vo\pauling\plng_give_contract_soldier_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_soldier_08.mp3
-sound\vo\pauling\plng_give_contract_pyro_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_01.mp3
-sound\vo\pauling\plng_give_contract_pyro_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_02.mp3
-sound\vo\pauling\plng_give_contract_pyro_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_03.mp3
-sound\vo\pauling\plng_give_contract_pyro_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_04.mp3
-sound\vo\pauling\plng_give_contract_pyro_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_05.mp3
-sound\vo\pauling\plng_give_contract_pyro_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_06.mp3
-sound\vo\pauling\plng_give_contract_pyro_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_07.mp3
-sound\vo\pauling\plng_give_contract_pyro_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_pyro_08.mp3
-sound\vo\pauling\plng_give_contract_demo_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_01.mp3
-sound\vo\pauling\plng_give_contract_demo_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_02.mp3
-sound\vo\pauling\plng_give_contract_demo_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_03.mp3
-sound\vo\pauling\plng_give_contract_demo_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_04.mp3
-sound\vo\pauling\plng_give_contract_demo_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_05.mp3
-sound\vo\pauling\plng_give_contract_demo_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_06.mp3
-sound\vo\pauling\plng_give_contract_demo_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_07.mp3
-sound\vo\pauling\plng_give_contract_demo_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_demo_08.mp3
-sound\vo\pauling\plng_give_contract_heavy_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_01.mp3
-sound\vo\pauling\plng_give_contract_heavy_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_02.mp3
-sound\vo\pauling\plng_give_contract_heavy_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_03.mp3
-sound\vo\pauling\plng_give_contract_heavy_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_04.mp3
-sound\vo\pauling\plng_give_contract_heavy_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_05.mp3
-sound\vo\pauling\plng_give_contract_heavy_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_06.mp3
-sound\vo\pauling\plng_give_contract_heavy_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_07.mp3
-sound\vo\pauling\plng_give_contract_heavy_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_heavy_08.mp3
-sound\vo\pauling\plng_give_contract_engie_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_01.mp3
-sound\vo\pauling\plng_give_contract_engie_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_02.mp3
-sound\vo\pauling\plng_give_contract_engie_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_03.mp3
-sound\vo\pauling\plng_give_contract_engie_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_04.mp3
-sound\vo\pauling\plng_give_contract_engie_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_05.mp3
-sound\vo\pauling\plng_give_contract_engie_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_06.mp3
-sound\vo\pauling\plng_give_contract_engie_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_07.mp3
-sound\vo\pauling\plng_give_contract_engie_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_engie_08.mp3
-sound\vo\pauling\plng_give_contract_medic_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_01.mp3
-sound\vo\pauling\plng_give_contract_medic_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_02.mp3
-sound\vo\pauling\plng_give_contract_medic_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_03.mp3
-sound\vo\pauling\plng_give_contract_medic_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_04.mp3
-sound\vo\pauling\plng_give_contract_medic_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_05.mp3
-sound\vo\pauling\plng_give_contract_medic_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_06.mp3
-sound\vo\pauling\plng_give_contract_medic_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_07.mp3
-sound\vo\pauling\plng_give_contract_medic_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_medic_08.mp3
-sound\vo\pauling\plng_give_contract_sniper_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_01.mp3
-sound\vo\pauling\plng_give_contract_sniper_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_02.mp3
-sound\vo\pauling\plng_give_contract_sniper_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_03.mp3
-sound\vo\pauling\plng_give_contract_sniper_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_04.mp3
-sound\vo\pauling\plng_give_contract_sniper_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_05.mp3
-sound\vo\pauling\plng_give_contract_sniper_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_06.mp3
-sound\vo\pauling\plng_give_contract_sniper_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_07.mp3
-sound\vo\pauling\plng_give_contract_sniper_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_sniper_08.mp3
-sound\vo\pauling\plng_give_contract_spy_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_01.mp3
-sound\vo\pauling\plng_give_contract_spy_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_02.mp3
-sound\vo\pauling\plng_give_contract_spy_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_03.mp3
-sound\vo\pauling\plng_give_contract_spy_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_04.mp3
-sound\vo\pauling\plng_give_contract_spy_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_05.mp3
-sound\vo\pauling\plng_give_contract_spy_06.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_06.mp3
-sound\vo\pauling\plng_give_contract_spy_07.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_07.mp3
-sound\vo\pauling\plng_give_contract_spy_08.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\vo\pauling\plng_give_contract_spy_08.mp3
 sound\player\taunt_bumpkins_banjo_music.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\BanjoMod\sound\player\taunt_bumpkins_banjo_music.wav
 sound\player\taunt_bumpkins_banjo_music_fast.wav
