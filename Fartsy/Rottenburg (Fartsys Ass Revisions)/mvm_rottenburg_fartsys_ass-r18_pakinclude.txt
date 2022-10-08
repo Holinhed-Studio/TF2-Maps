@@ -200,6 +200,8 @@ sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
 sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
+sound\fartsy\music\brawler\kilroy0901\autopilot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\kilroy0901\autopilot.wav
 sound\fartsy\music\brawler\shadyc\overdrive.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\shadyc\overdrive.wav
 sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
@@ -508,9 +510,6 @@ sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath02.mp3
 sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
-
-sound\music\conga_sketch_167bpm_01-04.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\CongaMod\sound\music\conga_sketch_167bpm_01-04.wav
 
 sound\weapons\dispenser_explode.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EngiPDABuildingsMods\sound\weapons\dispenser_explode.wav
