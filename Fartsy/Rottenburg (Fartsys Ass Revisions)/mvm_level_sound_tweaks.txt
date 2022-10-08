@@ -2234,6 +2234,21 @@
 }
 
 //Taunts
+"sniper.killer_solo_music"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_01.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_02.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_03.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_04.mp3"
+		"wave"		"fartsy/music/brawler/epicsaxguy/epicsax_05.mp3"
+	}
+}
+
 "Taunt.BumpkinsBanjoMusic"
 {
 	"channel"	"CHAN_BODY"
