@@ -130,12 +130,14 @@ scripts\mvm_level_sound_tweaks.txt
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\scripts\mvm_level_sound_tweaks.txt
 sound\fartsy\eee\the_horn.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\eee\the_horn.wav
-sound\fartsy\fallingback\attack.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fartsyscrusader_attack.mp3
-sound\fartsy\fallingback\bgm.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fartsyscrusader_bgm_locus.mp3
+sound\fartsy\ffxiv\return.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\return.mp3
+sound\fartsy\ffxiv\returnsuccess.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\returnsuccess.mp3
 sound\fartsy\gbombs5\t_12.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\gbombs5\t_12.mp3
+sound\fartsy\gbombs5\tsar_detonate.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\gbombs5\tsar_detonate.mp3
 sound\fartsy\memes\babyshark\baby.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\baby.mp3
 sound\fartsy\memes\babyshark\baby02.mp3
@@ -190,6 +192,10 @@ sound\fartsy\misc\fart.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fart.wav
 sound\fartsy\misc\fart_reverb.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fart_reverb.wav
+sound\fartsy\fallingback\attack.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fartsyscrusader_attack.mp3
+sound\fartsy\fallingback\bgm.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fartsyscrusader_bgm_locus.mp3
 sound\fartsy\misc\lozclocktowerbell.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\lozclocktowerbell.wav
 sound\fartsy\misc\majorkong.mp3
@@ -334,6 +340,8 @@ sound\fartsy\vo\cray\nutbuster.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\cray\nutbuster.mp3
 sound\fartsy\vo\ddd\woahhh.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\ddd\woahhh.mp3
+sound\fartsy\vo\ddo\koboldincoming.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\ddo\koboldincoming.wav
 sound\fartsy\vo\eee\eddykissurmom.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\eee\eddykissurmom.wav
 sound\fartsy\vo\eee\kevinheyincoming.wav
@@ -448,6 +456,8 @@ sound\fartsy\vo\fartsy\demo_owmedic.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\demo_owmedic.mp3
 sound\fartsy\vo\fartsy\engineer_gottamnope.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\engineer_gottamnope.mp3
+sound\fartsy\vo\fartsy\goobbue.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\goobbue.mp3
 sound\fartsy\vo\fartsy\spy_wtf.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\spy_wtf.mp3
 sound\fartsy\vo\fartsy\engineer_dummysappin.mp3
@@ -518,6 +528,8 @@ sound\fartsy\vo\fartsy_fifteenai\spongebob_anothersentrybuster.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\spongebob_anothersentrybuster.mp3
 sound\fartsy\vo\fartsy_fifteenai\spongebob_sentrybuster.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\spongebob_sentrybuster.mp3
+sound\fartsy\vo\inurat\nuclearwaffle.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\inurat\nuclearwaffle.mp3
 sound\fartsy\vo\jeffy\buyupgrades.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\buyupgrades.mp3
 sound\fartsy\vo\jeffy\cdfive.mp3
@@ -530,6 +542,8 @@ sound\fartsy\vo\jeffy\cdtwo.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\cdtwo.mp3
 sound\fartsy\vo\jeffy\cdone.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\cdone.mp3
+sound\fartsy\vo\jeffy\hinden.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\hinden.wav
 sound\fartsy\vo\jeffy\welcometodovahsass.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\welcometodovahsass.mp3
 sound\fartsy\vo\jigglypuff\jigglypuff.mp3
@@ -604,6 +618,8 @@ sound\fartsy\vo\sathie\myvoiceisshot.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\sathie\myvoiceisshot.mp3
 sound\fartsy\vo\shialabeouf\doit.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\shialabeouf\doit.mp3
+sound\fartsy\vo\spongebob\boom.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\boom.mp3
 sound\fartsy\vo\spongebob\hihowareya.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\hihowareya.mp3
 sound\fartsy\vo\spongebob\mrkrabsilikemoney.mp3
@@ -618,8 +634,6 @@ sound\fartsy\vo\spy_scream.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spy_scream.mp3
 sound\fartsy\vo\wario\wheee.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\wario\wheee.mp3
-
-
 
 sound\weapons\sentry_damage1.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\sentry_damage1.wav
@@ -679,20 +693,3 @@ sound\weapons\rocket_ll_shoot_crit.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\rocket_ll_shoot_crit.wav
 sound\weapons\explode1.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\explode1.wav
-
-sound\fartsy\vo\spongebob\boom.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\boom.mp3
-sound\fartsy\gbombs5\tsar_detonate.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\gbombs5\tsar_detonate.mp3
-sound\fartsy\vo\jeffy\hinden.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\hinden.wav
-sound\fartsy\vo\ddo\koboldincoming.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\ddo\koboldincoming.wav
-sound\fartsy\ffxiv\return.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\return.mp3
-sound\fartsy\ffxiv\returnsuccess.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\returnsuccess.mp3
-sound\fartsy\vo\fartsy\goobbue.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\goobbue.mp3
-sound\fartsy\vo\inurat\nuclearwaffle.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\inurat\nuclearwaffle.mp3
