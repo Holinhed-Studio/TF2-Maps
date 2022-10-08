@@ -772,6 +772,166 @@
 	}
 }
 
+//Deaths (MvM Robots)
+"Demoman.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath04.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/demoman_mvm_PainCrticialDeath05.mp3"
+	}
+}
+
+"Engineer.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_95dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath04.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath05.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/engineer_mvm_PainCrticialDeath06.mp3"
+	}
+}
+
+"Heavy.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/heavy_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/heavy_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/heavy_mvm_PainCrticialDeath03.mp3"
+	}
+}
+
+"Medic.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/medic_mvm_PainCrticialDeath04.mp3"
+	}
+}
+
+"Pyro.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/pyro_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/pyro_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/pyro_mvm_PainCrticialDeath03.mp3"
+	}
+}
+
+"Scout.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/scout_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/scout_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/scout_mvm_PainCrticialDeath03.mp3"
+	}
+}
+
+"Sniper.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/sniper_mvm_PainCrticialDeath04.mp3"
+	}
+}
+
+"Soldier.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath03.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/soldier_mvm_PainCrticialDeath04.mp3"
+	}
+}
+
+"Spy.MVM_CritDeath"
+{
+	"channel"		"CHAN_VOICE"
+//	"volume"		"VOL_NORM"
+	"volume"	"0.86"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_80dB"
+
+	"rndwave"			
+	{
+		"wave"		"fartsy/vo/explodingcookie/mvm/spy_mvm_PainCrticialDeath01.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/spy_mvm_PainCrticialDeath02.mp3"
+		"wave"		"fartsy/vo/explodingcookie/mvm/spy_mvm_PainCrticialDeath03.mp3"
+	}
+}
 //Generic VOs
 "Announcer.RoundBegins5Seconds"
 {
@@ -2072,3 +2232,31 @@
 
 	 }
 }
+
+//Taunts
+"Taunt.BumpkinsBanjoMusic"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_84dB"
+	"pitch"			"PITCH_NORM"
+	"wave"	")fartsy/music/brawler/simpsonshr/banjo_music.wav"
+}
+
+"Taunt.BumpkinsBanjoMusicFast"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_84dB"
+	"pitch"			"PITCH_NORM"
+	"wave"	")fartsy/music/brawler/shadyc/overdrive.wav"
+}
+
+//"Taunt.BumpkinsBanjoMusicStop"
+//{
+//	"channel"	"CHAN_BODY"
+//	"volume"	".85"
+//	"soundlevel"  	"SNDLVL_84dB"
+//	"pitch"			"PITCH_NORM"
+//	"wave"	")fartsy/brawler/music/taunt_bumpkins_banjo_music_stop.wav"
+//}
