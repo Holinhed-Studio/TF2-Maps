@@ -2310,3 +2310,28 @@
 	"volume"	"1.0"
 	"wave"		")fartsy/music/brawler/doom/gatling_shoot_crit.wav"
 }
+
+//Huo long heater
+"Dragon_Minigun.Spin"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/dragonforce/dragon_gun_motor_loop_dry.wav"
+}
+
+"Dragon_Minigun.Fire"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/dragonforce/dragon_gun_motor_loop.wav"
+}
+
+"Dragon_Minigun.FireCrit"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/music/brawler/dragonforce/dragon_gun_motor_loop_crit.wav"
+}

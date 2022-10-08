@@ -146,6 +146,10 @@ sound\fartsy\memes\babyshark\shark.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\shark.mp3
 sound\fartsy\memes\babyshark\shark02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\shark02.mp3
+sound\fartsy\misc\bell.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\bell.wav
+sound\fartsy\misc\clock_tick.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\clock_tick.wav
 sound\fartsy\memes\priceisright_fail.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\priceisright_fail.wav
 sound\fartsy\misc\donkey.mp3
@@ -168,6 +172,40 @@ sound\fartsy\misc\poke.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\poke.wav
 sound\fartsy\misc\shartsplosion.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\shartsplosion.wav
+sound\fartsy\misc\strongman_bell.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\strongman_bell.wav
+sound\fartsy\misc\triggerscore.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
+sound\fartsy\music\brawler\doom\gatling_shoot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_shoot.wav
+sound\fartsy\music\brawler\doom\gatling_shoot_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_shoot_crit.wav
+sound\fartsy\music\brawler\doom\gatling_spin.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_spin.wav
+sound\fartsy\music\brawler\doom\gatling_wind_up.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_wind_up.wav
+sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop.wav
+sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_crit.wav
+sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_dry.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_dry.wav
+sound\fartsy\music\brawler\epicsaxguy\epicsax_01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_01.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_02.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_03.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
+sound\fartsy\music\brawler\shadyc\overdrive.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\shadyc\overdrive.wav
+sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
+sound\fartsy\music\projectmremix_edit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\projectmremix_edit.wav
 sound\fartsy\sentrybuster\mvm_sentrybuster_explode.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_explode.wav
 sound\fartsy\sentrybuster\mvm_sentrybuster_intro.wav
@@ -470,42 +508,10 @@ sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath02.mp3
 sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
-sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
-sound\fartsy\music\brawler\shadyc\overdrive.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\shadyc\overdrive.wav
-sound\fartsy\music\brawler\epicsaxguy\epicsax_01.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\fartsy\music\brawler\epicsaxguy\epicsax_01.mp3
-sound\fartsy\music\brawler\epicsaxguy\epicsax_02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\fartsy\music\brawler\epicsaxguy\epicsax_02.mp3
-sound\fartsy\music\brawler\epicsaxguy\epicsax_03.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\fartsy\music\brawler\epicsaxguy\epicsax_03.mp3
-sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
-sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EpicSax\sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
-
-
 
 sound\music\conga_sketch_167bpm_01-04.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\CongaMod\sound\music\conga_sketch_167bpm_01-04.wav
 
-
-
-sound\weapons\gatling_shoot.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\BrassDoom\sound\weapons\gatling_shoot.wav
-sound\weapons\gatling_shoot_crit.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\BrassDoom\sound\weapons\gatling_shoot_crit.wav
-sound\weapons\gatling_spin.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\BrassDoom\sound\weapons\gatling_spin.wav
-sound\weapons\gatling_wind_up.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\BrassDoom\sound\weapons\gatling_wind_up.wav
-sound\weapons\dragon_gun_motor_loop.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\DragonHeater\sound\weapons\dragon_gun_motor_loop.wav
-sound\weapons\dragon_gun_motor_loop_crit.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\DragonHeater\sound\weapons\dragon_gun_motor_loop_crit.wav
-sound\weapons\dragon_gun_motor_loop_dry.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\DragonHeater\sound\weapons\dragon_gun_motor_loop_dry.wav
 sound\weapons\dispenser_explode.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EngiPDABuildingsMods\sound\weapons\dispenser_explode.wav
 sound\weapons\sentry_explode.wav
@@ -578,16 +584,6 @@ sound\music\class_menu_09.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_09.wav
 sound\music\class_menu_bg.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_bg.wav
-sound\fartsy\music\projectmremix_edit.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\projectmremix_edit.wav
-sound\fartsy\misc\triggerscore.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
-sound\fartsy\misc\clock_tick.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\clock_tick.wav
-sound\fartsy\misc\bell.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\bell.wav
-sound\fartsy\misc\strongman_bell.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\strongman_bell.wav
 sound\weapons\minifun_shoot.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\minifun_shoot.wav
 sound\weapons\minifun_shoot_crit.wav
