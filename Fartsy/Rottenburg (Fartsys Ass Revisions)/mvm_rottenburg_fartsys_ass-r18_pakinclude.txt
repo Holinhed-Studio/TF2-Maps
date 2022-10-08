@@ -146,6 +146,24 @@ sound\fartsy\memes\babyshark\shark.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\shark.mp3
 sound\fartsy\memes\babyshark\shark02.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\shark02.mp3
+sound\fartsy\misc\brawler\dispenser_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\dispenser_explode.wav
+sound\fartsy\misc\brawler\kissone_railgun_double_kill.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\kissone_railgun_double_kill.wav
+sound\fartsy\misc\brawler\kissone_recharged.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\kissone_recharged.wav
+sound\fartsy\misc\brawler\pl_impact_airblast1.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast1.wav
+sound\fartsy\misc\brawler\pl_impact_airblast2.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast2.wav
+sound\fartsy\misc\brawler\pl_impact_airblast3.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast3.wav
+sound\fartsy\misc\brawler\pl_impact_airblast4.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast4.wav
+sound\fartsy\misc\brawler\sentry_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\sentry_explode.wav
+sound\fartsy\misc\brawler\teleporter_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\teleporter_explode.wav
 sound\fartsy\misc\bell.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\bell.wav
 sound\fartsy\misc\clock_tick.wav
@@ -206,6 +224,26 @@ sound\fartsy\music\brawler\shadyc\overdrive.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\shadyc\overdrive.wav
 sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
+sound\fartsy\music\class_menu_01.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_01.wav
+sound\fartsy\music\class_menu_02.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_02.wav
+sound\fartsy\music\class_menu_03.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_03.wav
+sound\fartsy\music\class_menu_04.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_04.wav
+sound\fartsy\music\class_menu_05.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_05.wav
+sound\fartsy\music\class_menu_06.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_06.wav
+sound\fartsy\music\class_menu_07.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_07.wav
+sound\fartsy\music\class_menu_08.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_08.wav
+sound\fartsy\music\class_menu_09.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_09.wav
+sound\fartsy\music\class_menu_bg.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_bg.wav
 sound\fartsy\music\projectmremix_edit.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\projectmremix_edit.wav
 sound\fartsy\sentrybuster\mvm_sentrybuster_explode.wav
@@ -511,24 +549,6 @@ D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\v
 sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
 
-sound\weapons\dispenser_explode.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EngiPDABuildingsMods\sound\weapons\dispenser_explode.wav
-sound\weapons\sentry_explode.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EngiPDABuildingsMods\sound\weapons\sentry_explode.wav
-sound\weapons\teleporter_explode.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\EngiPDABuildingsMods\sound\weapons\teleporter_explode.wav
-sound\player\pl_impact_airblast1.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\player\pl_impact_airblast1.wav
-sound\player\pl_impact_airblast2.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\player\pl_impact_airblast2.wav
-sound\player\pl_impact_airblast3.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\player\pl_impact_airblast3.wav
-sound\player\pl_impact_airblast4.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\player\pl_impact_airblast4.wav
-sound\misc\sniper_railgun_double_kill.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\misc\sniper_railgun_double_kill.wav
-sound\player\recharged.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\player\recharged.wav
 sound\weapons\sentry_damage1.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\sentry_damage1.wav
 sound\weapons\sentry_damage2.wav
@@ -561,30 +581,6 @@ sound\weapons\sentry_spot.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\sentry_spot.wav
 sound\weapons\sentry_spot_client.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\sentry_spot_client.wav
-
-sound\music\class_menu_01.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_01.wav
-sound\music\class_menu_02.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_02.wav
-sound\music\class_menu_03.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_03.wav
-sound\music\class_menu_04.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_04.wav
-sound\music\class_menu_05.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_05.wav
-sound\music\class_menu_06.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_06.wav
-sound\music\class_menu_07.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_07.wav
-sound\music\class_menu_07db.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_07db.wav
-sound\music\class_menu_08.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_08.wav
-sound\music\class_menu_09.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_09.wav
-sound\music\class_menu_bg.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_bg.wav
-
 sound\weapons\minifun_shoot.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\minifun_shoot.wav
 sound\weapons\minifun_shoot_crit.wav

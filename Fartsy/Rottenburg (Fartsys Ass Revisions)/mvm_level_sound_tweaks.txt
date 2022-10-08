@@ -988,6 +988,62 @@
 	"wave"			"fartsy/vo/jeffy/cdone.mp3"
 }
 
+//Misc. SFX
+"Building_Dispenser.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/brawler/dispenser_explode.wav"
+}
+
+"Building_Sentry.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/brawler/sentry_explode.wav"
+}
+
+"Building_Teleporter.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/brawler/teleporter_explode.wav"
+}
+
+"Game.PenetrationKill"
+{
+	"channel"	"CHAN_STATIC"
+ 	"volume"	"0.8"
+ 	"pitch"		"100"
+ 	"soundlevel"   "SNDLVL_NORM"
+	"wave"	"fartsy/misc/brawler/kissone_railgun_double_kill.wav"
+}
+
+"TFPlayer.AirBlastImpact"
+{
+	"soundlevel"		"SNDLVL_75dB"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast1.wav"
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast2.wav"
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast3.wav"
+		"wave"		"fartsy/misc/brawler/pl_impact_airblast4.wav"
+	}
+}
+
+"TFPlayer.ReCharged"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_75dB"
+	"wave"		"fartsy/misc/brawler/kissone_recharged.wav"
+}
+
 //MvM BGM
 "music.mvm_start_wave"
 {
@@ -1050,6 +1106,164 @@
 	"soundlevel"		"SNDLVL_NONE"
 	"volume"		"0.6"
 	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+"music.class_menu"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_bg.wav"
+}
+
+"music.class_menu_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_01.wav"
+}
+
+"music.class_menu_02"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_08.wav"
+}
+
+"music.class_menu_03"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_02.wav"
+}
+
+"music.class_menu_04"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_04.wav"
+}
+
+"music.class_menu_05"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_07.wav"
+}
+
+"music.class_menu_06"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_05.wav"
+}
+
+"music.class_menu_07"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_03.wav"
+}
+
+"music.class_menu_08"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_09.wav"
+}
+
+"music.class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/class_menu_06.wav"
+}
+"music.mvm_class_menu"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.45"
+	"wave"		"#*fartsy/music/class_menu_bg.wav"
+}
+
+"music.mvm_class_menu_01"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_01.wav"
+}
+
+"music.mvm_class_menu_02"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_08.wav"
+}
+
+"music.mvm_class_menu_03"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_02.wav"
+}
+
+"music.mvm_class_menu_04"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_04.wav"
+}
+
+"music.mvm_class_menu_05"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_07.wav"
+}
+
+"music.mvm_class_menu_06"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_05.wav"
+}
+
+"music.mvm_class_menu_07"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_03.wav"
+}
+
+"music.mvm_class_menu_08"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_09.wav"
+}
+
+"music.mvm_class_menu_09"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.28"
+	"wave"		"#*fartsy/music/class_menu_06.wav"
 }
 
 //MvM SFX
