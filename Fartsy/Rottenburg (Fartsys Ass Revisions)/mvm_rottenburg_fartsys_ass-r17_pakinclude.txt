@@ -170,8 +170,6 @@ sound\fartsy\sentrybuster\mvm_sentrybuster_explode.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_explode.wav
 sound\fartsy\sentrybuster\mvm_sentrybuster_intro.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_intro.wav
-sound\fartsy\sentrybuster\mvm_sentrybuster_loop.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_loop.wav
 sound\fartsy\sentrybuster\mvm_sentrybuster_spin.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_spin.wav
 sound\fartsy\vo\brawler\demoman_meem.mp3
@@ -701,7 +699,7 @@ D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\cl
 sound\music\class_menu_bg.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_bg.wav
 sound\fartsy\music\projectmremix_edit.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\projectmremix_edit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\projectmremix_edit.wav
 sound\fartsy\misc\triggerscore.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
 sound\fartsy\misc\clock_tick.wav
