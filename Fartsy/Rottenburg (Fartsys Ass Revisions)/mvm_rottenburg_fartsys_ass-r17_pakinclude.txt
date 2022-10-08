@@ -147,7 +147,7 @@ D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\m
 sound\fartsy\memes\priceisright_fail.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\priceisright_fail.wav
 sound\fartsy\misc\donkey.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sound\fartsy\misc\donkey.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\donkey.mp3
 sound\fartsy\misc\fart.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fart.wav
 sound\fartsy\misc\fart_reverb.wav
@@ -220,8 +220,8 @@ sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath01.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath01.mp3
 sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath04.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath04.mp3
-sound\fartsy\vo\explodingcookie\pyro_PainCrticialDeath02.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\pyro_PainCrticialDeath02.mp3
+sound\fartsy\vo\explodingcookie\pyro_PainCrticialDeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\pyro_PainCrticialDeath01.mp3
 sound\fartsy\vo\explodingcookie\scout_PainCrticialDeath03.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\scout_PainCrticialDeath03.mp3
 sound\fartsy\vo\explodingcookie\sniper_PainCrticialDeath04.mp3
@@ -362,14 +362,12 @@ sound\fartsy\vo\spongebob\patrick_thisispatrick.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\patrick_thisispatrick.mp3
 sound\fartsy\vo\spy_scream.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spy_scream.mp3
-sound\music\mvm_start_wave.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\music\mvm_start_wave.wav
-sound\music\mvm_start_mid_wave.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\music\mvm_start_mid_wave.wav
-sound\music\mvm_start_tank_wave.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\music\mvm_start_tank_wave.wav
-sound\music\mvm_start_last_wave.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\music\mvm_start_last_wave.wav
+sound\fartsy\music\solstice_krab.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\music\solstice_krab.wav
+sound\fartsy\music\rideofthevalkries.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\music\rideofthevalkries.wav
+sound\fartsy\music\megalovania_intro.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\music\megalovania_intro.wav
 sound\fartsy\vo\salvatoreganacci\trytorelax_anus.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\salvatoreganacci\trytorelax_anus.wav
 sound\fartsy\vo\markiplier\areyoukiddingme.wav
@@ -702,12 +700,8 @@ sound\music\class_menu_09.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_09.wav
 sound\music\class_menu_bg.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_bg.wav
-sound\music\mvm_end_wave.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\mvm_end_wave.wav
-sound\music\mvm_end_mid_wave.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\mvm_end_wave.wav
-sound\music\mvm_end_tank_wave.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\mvm_end_wave.wav
+sound\fartsy\music\projectmremix_edit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\projectmremix_edit.wav
 sound\fartsy\misc\triggerscore.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
 sound\fartsy\misc\clock_tick.wav
@@ -800,8 +794,6 @@ sound\fartsy\fallingback\attack.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\fallingback\attack.mp3
 sound\fartsy\misc\wtfboom.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\wtfboom.mp3
-sound\mvm\mvm_tank_horn.wav
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\mvm\mvm_tank_horn.wav
 sound\fartsy\fallingback\bgm.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\fallingback\bgm.mp3
 sound\fartsy\misc\murica.mp3

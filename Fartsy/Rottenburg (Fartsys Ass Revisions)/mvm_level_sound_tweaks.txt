@@ -398,7 +398,7 @@
 	"wave"			"fartsy/vo/brawler/pyro_meem.mp3"
 }
 
-"Pyro.PainCrticialDeath02"
+"Pyro.PainCrticialDeath01"
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"VOL_NORM"
@@ -406,7 +406,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"wave"			"fartsy/vo/explodingcookie/pyro_PainCrticialDeath02.mp3"
+	"wave"			"fartsy/vo/explodingcookie/pyro_PainCrticialDeath01.mp3"
 }
 
 "Scout.Medic01"
@@ -693,7 +693,7 @@
 
 	"soundlevel"	"SNDLVL_95dB"
 
-	"rndwave"			
+	"rndwave"
 	{
 		"wave"		"fartsy/vo/explodingcookie/pyro_PainCrticialDeath01.mp3"
 	}
@@ -828,6 +828,70 @@
 	"wave"			"fartsy/vo/jeffy/cdone.mp3"
 }
 
+//MvM BGM
+"music.mvm_start_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.48"
+	"wave"		"#*fartsy/music/solstice_krab.wav"
+}
+
+"music.mvm_start_mid_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*fartsy/music/solstice_krab.wav"
+}
+"music.mvm_start_tank_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.39"
+	"wave"		"#*fartsy/music/rideofthevalkries.wav"
+}
+
+"music.mvm_start_last_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*fartsy/music/megalovania_intro.wav"
+}
+
+"music.mvm_end_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.55"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+
+"music.mvm_end_tank_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.36"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+
+"music.mvm_end_mid_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.58"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+
+"music.mvm_end_last_wave"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0.6"
+	"wave"		"#*fartsy/music/projectmremix_edit.wav"
+}
+
 //MvM SFX
 "MVM.BombExplodes"
 {
@@ -915,7 +979,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_100dB"
-	"wave"			"fartsy/sentrybuster/mvm_sentrybuster_loop.wav"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_loop.wav"
 }
 
 "MVM.SentryBusterIntro"
@@ -948,7 +1012,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_150dB"
-	"wave"			"fartsy/eee/the_horn.wav"
+	"wave"			")fartsy/eee/the_horn.wav"
 }
 
 "MVM.TankEngineLoop"
