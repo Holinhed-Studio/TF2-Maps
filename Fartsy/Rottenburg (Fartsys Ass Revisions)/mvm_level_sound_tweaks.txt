@@ -989,6 +989,14 @@
 }
 
 //Misc. SFX
+"Building_Dispenser.Build21"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			"fartsy/misc/sentry_empty.wav"
+}
+
 "Building_Dispenser.Explode"
 {
 	"channel"		"CHAN_STATIC"
@@ -997,12 +1005,123 @@
 	"wave"			"fartsy/misc/brawler/dispenser_explode.wav"
 }
 
+"Building_MiniSentrygun.Fire"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot_mini.wav"
+}
+
+"Building_Sentrygun.Alert"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_88dB"
+	"wave"			"fartsy/misc/sentry_spot.wav"
+}
+
+"Building_Sentrygun.AlertTarget"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_88dB"
+	"wave"			"fartsy/misc/sentry_spot_client.wav"
+}
+
+"Building_Sentrygun.Built"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_74dB"
+	"wave"			")fartsy/misc/sentry_finish.wav"
+}
+
+"Building_Sentry.Damage"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"soundlevel"		"SNDLVL_94dB"
+	"rndwave"
+	{
+		"wave"		"fartsy/misc/sentry_damage1.wav"
+		"wave"		"fartsy/misc/sentry_damage2.wav"
+		"wave"		"fartsy/misc/sentry_damage3.wav"
+		"wave"		"fartsy/misc/sentry_damage4.wav"
+	}
+}
+
+"Building_Sentrygun.Empty"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"fartsy/misc/sentry_empty.wav"
+}
+
 "Building_Sentry.Explode"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1.0"
 	"soundlevel"		"SNDLVL_74dB"
 	"wave"			"fartsy/misc/brawler/sentry_explode.wav"
+}
+
+"Building_Sentrygun.Fire"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot.wav"
+}
+
+"Building_Sentrygun.Fire2"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot2.wav"
+}
+
+"Building_Sentrygun.Fire3"	
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/sentry_shoot3.wav"
+}
+
+"Building_Sentrygun.FireRocket"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+
+	"wave"		")fartsy/misc/sentry_rocket.wav"
+}
+
+"Building_Sentrygun.Idle"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".75"
+	"soundlevel"		"SNDLVL_84dB"
+	"wave"			"fartsy/misc/sentry_scan.wav"
+}
+
+"Building_Sentrygun.Idle2"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".75"
+	"soundlevel"		"SNDLVL_84dB"
+	"wave"			"fartsy/misc/sentry_scan2.wav"
+}
+
+"Building_Sentrygun.Idle3"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		".75"
+	"soundlevel"		"SNDLVL_84dB"
+	"wave"			"fartsy/misc/sentry_scan3.wav"
 }
 
 "Building_Teleporter.Explode"
@@ -2499,6 +2618,53 @@
 //}
 
 //Weapons
+//Base explosion sound
+"BaseExplosionEffect.Sound"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+			"wave"	")weapons/explode2.wav"
+			"wave"	")weapons/explode3.wav"
+			"wave"	")fartsy/misc/elephant.wav"
+	}
+}
+
+//Black Box
+"Weapon_RPG_BlackBox.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_blackbox_shoot.wav"
+}
+
+"Weapon_RPG_BlackBox.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_blackbox_shoot_crit.wav"
+}
+
+"Weapon_RPG_BlackBox.Explode"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_95dB"
+	"volume"	"1.0"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		")fartsy/misc/rocket_blackbox_explode1.wav"
+		"wave"		")weapons/rocket_blackbox_explode2.wav"
+		"wave"		")fartsy/misc/rocket_blackbox_explode3.wav"
+	}
+}
+
 //Brass Beast
 "Weapon_Gatling.Spin"	
 {
@@ -2533,6 +2699,15 @@
 	"wave"		")fartsy/music/brawler/doom/gatling_shoot_crit.wav"
 }
 
+//Cow Mangler
+"Weapon_CowMangler.SingleCharged"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"wave"		")fartsy/misc/brawler/cow_mangler_lazor.wav"
+}
+
 //Huo long heater
 "Dragon_Minigun.Spin"	
 {
@@ -2556,4 +2731,72 @@
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
 	"wave"		")fartsy/music/brawler/dragonforce/dragon_gun_motor_loop_crit.wav"
+}
+
+//Liberty Launcher
+"Weapon_Liberty_Launcher.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")farsty/misc/rocket_ll_shoot.wav"
+}
+
+"Weapon_Liberty_Launcher.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")farsty/misc/rocket_ll_shoot_crit.wav"
+}
+
+//Medic Shield (yes this is a weapon)
+"WeaponMedi_Shield.Deploy"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		")fartsy/ffxiv/teleport_sync.wav"
+}
+
+//Natascha
+"Weapon_Minifun.Spin"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/minifun_spin.wav"
+}
+
+"Weapon_Minifun.Fire"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/minifun_shoot.wav"
+}
+
+"Weapon_Minifun.FireCrit"	
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")fartsy/misc/minifun_shoot_crit.wav"
+}
+
+//Rocket Launcher
+"Weapon_RPG.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_shoot.wav"
+}
+
+"Weapon_RPG.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_94dB"
+	"wave"		")fartsy/misc/rocket_shoot_crit.wav"
 }
