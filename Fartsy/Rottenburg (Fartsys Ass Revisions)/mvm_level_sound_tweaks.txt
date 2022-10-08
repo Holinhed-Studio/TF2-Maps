@@ -979,7 +979,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_100dB"
-	"wave"			")mvm/mvm_sentrybuster_loop.wav"
+	"wave"			")fartsy/sentrybuster/mvm_sentrybuster_loop.wav"
 }
 
 "MVM.SentryBusterIntro"
