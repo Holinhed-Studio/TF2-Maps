@@ -561,6 +561,7 @@ sound\weapons\sentry_spot.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\sentry_spot.wav
 sound\weapons\sentry_spot_client.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\sentry_spot_client.wav
+
 sound\music\class_menu_01.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_01.wav
 sound\music\class_menu_02.wav
@@ -583,6 +584,7 @@ sound\music\class_menu_09.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_09.wav
 sound\music\class_menu_bg.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\music\class_menu_bg.wav
+
 sound\weapons\minifun_shoot.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\weapons\minifun_shoot.wav
 sound\weapons\minifun_shoot_crit.wav
