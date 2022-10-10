@@ -1,0 +1,696 @@
+materials\particle\fluidexplosions\fluidexplosion.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\particle\fluidexplosions\fluidexplosion.vtf
+materials\particle\fluidexplosions\fluidexplosion_cartoony.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\particle\fluidexplosions\fluidexplosion_cartoony.vtf
+materials\particles\explosion\explosionfiresmoke.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\particles\explosion\explosionfiresmoke.vtf
+materials\effects\red.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\effects\red.vtf
+materials\effects\purple.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\effects\rgb.vtf
+materials\effects\yellow.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\effects\yellow.vtf
+materials\models\bots\boss_bot\tankbody1.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1.vtf
+materials\models\bots\boss_bot\tankbody1_damage1.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1_damage1.vtf
+materials\models\bots\boss_bot\tankbody1_damage2.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1_damage2.vtf
+materials\models\bots\boss_bot\tankbody1_damage3.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody1_damage3.vtf
+materials\models\bots\boss_bot\tankbody2.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\boss_bot\tankbody2.vtf
+materials\models\bots\demo\demo_bot_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_blue.vtf
+materials\models\bots\demo\demo_bot_exp.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_exp.vtf
+materials\models\bots\demo\demo_bot_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_head_blue.vtf
+materials\models\bots\demo\demo_bot_head_blue_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_bot_head_blue_invun.vtf
+materials\models\bots\demo\demo_buster.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_buster.vtf
+materials\models\bots\demo\demo_buster_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\demo\demo_buster_invun.vtf
+materials\models\bots\engineer\engineer_bot_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_blue.vtf
+materials\models\bots\engineer\engineer_bot_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_head_blue.vtf
+materials\models\bots\engineer\engineer_bot_head_blue_invuln.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_head_blue_invuln.vtf
+materials\models\bots\engineer\engineer_bot_head_normal.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\engineer\engineer_bot_head_normal.vtf
+materials\models\bots\heavy\heavy_bot_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\heavy\heavy_bot_blue.vtf
+materials\models\bots\heavy\heavy_bot_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\heavy\heavy_bot_head_blue.vtf
+materials\models\bots\heavy\heavy_bot_head_blue_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\heavy\heavy_bot_head_blue_invun.vtf
+materials\models\bots\medic\bot_medic_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\medic\bot_medic_blue.vtf
+materials\models\bots\medic\bot_medic_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\medic\bot_medic_head_blue.vtf
+materials\models\bots\medic\bot_medic_head_blue_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\medic\bot_medic_head_blue_invun.vtf
+materials\models\bots\pyro\bot_pyro_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\pyro\bot_pyro_blue.vtf
+materials\models\bots\pyro\pyro_bot_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\pyro\pyro_bot_head_blue.vtf
+materials\models\bots\pyro\pyro_bot_head_blue_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\pyro\pyro_bot_head_blue_invun.vtf
+materials\models\bots\scout\bot_scout_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\scout\bot_scout_blue.vtf
+materials\models\bots\scout\bot_scout_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\scout\bot_scout_head_blue.vtf
+materials\models\bots\scout\bot_scout_head_blue_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\scout\bot_scout_head_blue_invun.vtf
+materials\models\bots\sniper\sniper_bot_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\sniper\sniper_bot_blue.vtf
+materials\models\bots\sniper\sniper_bot_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\sniper\sniper_bot_head_blue.vtf
+materials\models\bots\sniper\sniper_bot_head_blue_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\sniper\sniper_bot_head_blue_invun.vtf
+materials\models\bots\soldier\bot_soldier_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\soldier\bot_soldier_blue.vtf
+materials\models\bots\soldier\bot_soldier_blue_invun_reuv.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\soldier\bot_soldier_blue_invun_reuv.vtf
+materials\models\bots\soldier\bot_soldier_head_blue_reuv.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\soldier\bot_soldier_head_blue_reuv.vtf
+materials\models\bots\spy\spy_bot_body_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\spy\spy_bot_body_blue.vtf
+materials\models\bots\spy\spy_bot_head_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\spy\spy_bot_head_blue.vtf
+materials\models\bots\spy\spy_bot_head_blue_invun.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\bots\spy\spy_bot_head_blue_invun.vtf
+materials\models\effects\invulnfx_blue.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnfx_blue.vmt
+materials\models\effects\invulnfx_red.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnfx_red.vmt
+materials\models\effects\invulnerability\invulnerability_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnerability\invulnerability_blue.vtf
+materials\models\effects\invulnerability\invulnerability_red.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\alexander bots\materials\models\effects\invulnerability\invulnerability_red.vtf
+materials\effects\animatedcaustic\caustic.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\effects\animatedcaustic\caustic.vtf
+materials\models\effects\cappoint_beam_blue.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\cappoint_beam_blue.vmt
+materials\models\effects\cappoint_beam_blue.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\cappoint_beam_blue.vtf
+materials\models\effects\cappoint_beam_lines_b.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\cappoint_beam_lines_b.vtf
+materials\models\effects\robo_marker_dark.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\robo_marker_dark.vmt
+materials\models\effects\robo_marker.vmt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\robo_marker.vmt
+materials\models\effects\robo_marker.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\effects\robo_marker.vtf
+materials\vgui\mvm_background_map.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\vgui\mvm_background_map.vtf
+materials\hud\bomb_carrier_upgrade_base.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\bomb_carrier_upgrade_base.vtf
+materials\hud\bomb_carrier_upgrade_frame.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\bomb_carrier_upgrade_frame.vtf
+materials\hud\bomb_carrier_upgrade_meter.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\bomb_carrier_upgrade_meter.vtf
+materials\hud\objectives_flagpanel_compass_grey.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\objectives_flagpanel_compass_grey.vtf
+materials\hud\objectives_flagpanel_compass_grey_with_red.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\objectives_flagpanel_compass_grey_with_red.vtf
+materials\hud\hud_mvm_bomb_upgrade_1_disabled.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_1_disabled.vtf
+materials\hud\hud_mvm_bomb_upgrade_1.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_1.vtf
+materials\hud\hud_mvm_bomb_upgrade_2_disabled.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2_disabled.vtf
+materials\hud\hud_mvm_bomb_upgrade_2.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2.vtf
+materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
+scripts\mvm_level_sound_tweaks.txt
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\scripts\mvm_level_sound_tweaks.txt
+sound\fartsy\eee\the_horn.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\eee\the_horn.wav
+sound\fartsy\ffxiv\return.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\return.mp3
+sound\fartsy\ffxiv\returnsuccess.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\returnsuccess.mp3
+sound\fartsy\ffxiv\teleport_sync.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\teleport_sync.wav
+sound\fartsy\gbombs5\t_12.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\gbombs5\t_12.mp3
+sound\fartsy\gbombs5\tsar_detonate.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\gbombs5\tsar_detonate.mp3
+sound\fartsy\memes\babyshark\baby.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\baby.mp3
+sound\fartsy\memes\babyshark\baby02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\baby02.mp3
+sound\fartsy\memes\babyshark\doot01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\doot01.mp3
+sound\fartsy\memes\babyshark\doot02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\doot02.mp3
+sound\fartsy\memes\babyshark\doot03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\doot03.mp3
+sound\fartsy\memes\babyshark\doot04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\doot04.mp3
+sound\fartsy\memes\babyshark\shark.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\shark.mp3
+sound\fartsy\memes\babyshark\shark02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\babyshark\shark02.mp3
+sound\fartsy\memes\manscreaming.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\memes\manscreaming.mp3
+sound\fartsy\memes\priceisright_fail.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\memes\priceisright_fail.wav
+sound\fartsy\misc\antimatter.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\antimatter.mp3
+sound\fartsy\misc\brawler\cow_mangler_lazor.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\cow_mangler_lazor.wav
+sound\fartsy\misc\brawler\dispenser_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\dispenser_explode.wav
+sound\fartsy\misc\brawler\kissone_railgun_double_kill.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\kissone_railgun_double_kill.wav
+sound\fartsy\misc\brawler\kissone_recharged.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\kissone_recharged.wav
+sound\fartsy\misc\brawler\pl_impact_airblast1.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast1.wav
+sound\fartsy\misc\brawler\pl_impact_airblast2.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast2.wav
+sound\fartsy\misc\brawler\pl_impact_airblast3.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast3.wav
+sound\fartsy\misc\brawler\pl_impact_airblast4.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_impact_airblast4.wav
+sound\fartsy\misc\brawler\sentry_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\sentry_explode.wav
+sound\fartsy\misc\brawler\teleporter_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\teleporter_explode.wav
+sound\fartsy\misc\bell.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\bell.wav
+sound\fartsy\misc\clock_tick.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\clock_tick.wav
+sound\fartsy\misc\countdown.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\countdown.wav
+sound\fartsy\misc\donkey.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\donkey.mp3
+sound\fartsy\misc\elephant.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\elephant.wav
+sound\fartsy\misc\explosiveparadise.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\explosiveparadise.mp3
+sound\fartsy\misc\fart.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fart.wav
+sound\fartsy\misc\fart_reverb.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fart_reverb.wav
+sound\fartsy\misc\fartsyscrusader_attack.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fartsyscrusader_attack.mp3
+sound\fartsy\misc\fartsyscrusader_bgm_locus.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\fartsyscrusader_bgm_locus.mp3
+sound\fartsy\misc\lozclocktowerbell.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\lozclocktowerbell.wav
+sound\fartsy\misc\majorkong.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\majorkong.mp3
+sound\fartsy\misc\minifun_shoot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\minifun_shoot.wav
+sound\fartsy\misc\minifun_shoot_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\minifun_shoot_crit.wav
+sound\fartsy\misc\minifun_spin.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\minifun_spin.wav
+sound\fartsy\misc\murica.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\murica.mp3
+sound\fartsy\misc\mvm_tank_deploy.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\mvm_tank_deploy.wav
+sound\fartsy\misc\mvm_tank_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\mvm_tank_explode.wav
+sound\fartsy\misc\mvm_tank_loop.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\mvm_tank_loop.wav
+sound\fartsy\misc\mvm_tank_smash.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\mvm_tank_smash.wav
+sound\fartsy\misc\poke.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\poke.wav
+sound\fartsy\misc\rocket_shoot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_shoot.wav
+sound\fartsy\misc\rocket_shoot_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_shoot_crit.wav
+sound\fartsy\misc\rocket_blackbox_shoot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_blackbox_shoot.wav
+sound\fartsy\misc\rocket_blackbox_shoot_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_blackbox_shoot_crit.wav
+sound\fartsy\misc\rocket_blackbox_explode1.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_blackbox_explode1.wav
+sound\fartsy\misc\rocket_blackbox_explode3.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_blackbox_explode3.wav
+sound\fartsy\misc\rocket_ll_shoot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_ll_shoot.wav
+sound\fartsy\misc\rocket_ll_shoot_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\rocket_ll_shoot_crit.wav
+sound\fartsy\misc\sentry_damage1.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_damage1.wav
+sound\fartsy\misc\sentry_damage2.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_damage2.wav
+sound\fartsy\misc\sentry_damage3.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_damage3.wav
+sound\fartsy\misc\sentry_damage4.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_damage4.wav
+sound\fartsy\misc\sentry_empty.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_empty.wav
+sound\fartsy\misc\sentry_finish.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_finish.wav
+sound\fartsy\misc\sentry_rocket.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_rocket.wav
+sound\fartsy\misc\sentry_scan.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_scan.wav
+sound\fartsy\misc\sentry_scan2.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_scan2.wav
+sound\fartsy\misc\sentry_scan3.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_scan3.wav
+sound\fartsy\misc\sentry_shoot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_shoot.wav
+sound\fartsy\misc\sentry_shoot2.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_shoot2.wav
+sound\fartsy\misc\sentry_shoot3.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_shoot3.wav
+sound\fartsy\misc\sentry_shoot_mini.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_shoot_mini.wav
+sound\fartsy\misc\sentry_spot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_spot.wav
+sound\fartsy\misc\sentry_spot_client.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\sentry_spot_client.wav
+sound\fartsy\misc\shartsplosion.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\shartsplosion.wav
+sound\fartsy\misc\shroom.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\shroom.mp3
+sound\fartsy\misc\strongman_bell.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\strongman_bell.wav
+sound\fartsy\misc\triggerscore.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
+sound\fartsy\misc\wtfboom.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\wtfboom.mp3
+sound\fartsy\music\brawler\doom\gatling_shoot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_shoot.wav
+sound\fartsy\music\brawler\doom\gatling_shoot_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_shoot_crit.wav
+sound\fartsy\music\brawler\doom\gatling_spin.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_spin.wav
+sound\fartsy\music\brawler\doom\gatling_wind_up.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_wind_up.wav
+sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop.wav
+sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_crit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_crit.wav
+sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_dry.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\dragonforce\dragon_gun_motor_loop_dry.wav
+sound\fartsy\music\brawler\epicsaxguy\epicsax_01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_01.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_02.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_03.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_04.mp3
+sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\epicsaxguy\epicsax_05.mp3
+sound\fartsy\music\brawler\kilroy0901\autopilot.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\kilroy0901\autopilot.wav
+sound\fartsy\music\brawler\shadyc\overdrive.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\shadyc\overdrive.wav
+sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\simpsonshr\banjo_music.wav
+sound\fartsy\music\class_menu_01.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_01.wav
+sound\fartsy\music\class_menu_02.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_02.wav
+sound\fartsy\music\class_menu_03.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_03.wav
+sound\fartsy\music\class_menu_04.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_04.wav
+sound\fartsy\music\class_menu_05.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_05.wav
+sound\fartsy\music\class_menu_06.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_06.wav
+sound\fartsy\music\class_menu_07.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_07.wav
+sound\fartsy\music\class_menu_08.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_08.wav
+sound\fartsy\music\class_menu_09.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_09.wav
+sound\fartsy\music\class_menu_bg.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_bg.wav
+sound\fartsy\music\ffxiv\locus.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\locus.mp3
+sound\fartsy\music\ffxiv\metal.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\metal.mp3
+sound\fartsy\music\ffxiv\exponentialentropy.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\exponentialentropy.mp3
+sound\fartsy\music\ffxiv\tornfromtheheavens.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\tornfromtheheavens.mp3
+sound\fartsy\music\ffxiv\metalbrutejusticemode.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\metalbrutejusticemode.mp3
+sound\fartsy\music\ffxiv\penitus.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\penitus.mp3
+sound\fartsy\music\ffxiv\revengetwofold.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\revengetwofold.mp3
+sound\fartsy\music\ffxiv\undertheweight.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\undertheweight.mp3
+sound\fartsy\music\ffxiv\thesilentregardofstars.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\thesilentregardofstars.mp3
+sound\fartsy\music\ffxiv\knowledgeneversleeps.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\knowledgeneversleeps.mp3
+sound\fartsy\music\megalovania_intro.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\music\megalovania_intro.wav
+sound\fartsy\music\projectmremix_edit.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\projectmremix_edit.wav
+sound\fartsy\music\rideofthevalkries.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\music\rideofthevalkries.wav
+sound\fartsy\music\solstice_krab.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\music\solstice_krab.wav
+sound\fartsy\sentrybuster\mvm_sentrybuster_explode.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_explode.wav
+sound\fartsy\sentrybuster\mvm_sentrybuster_intro.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_intro.wav
+sound\fartsy\sentrybuster\mvm_sentrybuster_loop.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_loop.wav
+sound\fartsy\sentrybuster\mvm_sentrybuster_spin.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sentrybuster\mvm_sentrybuster_spin.wav
+sound\fartsy\vo\brawler\demoman_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\demoman_meem.mp3
+sound\fartsy\vo\brawler\engineer_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\engineer_meem.mp3
+sound\fartsy\vo\brawler\heavy_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\heavy_meem.mp3
+sound\fartsy\vo\brawler\medic_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\medic_meem.mp3
+sound\fartsy\vo\brawler\pyro_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\pyro_meem.mp3
+sound\fartsy\vo\brawler\scout_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\scout_meem.mp3
+sound\fartsy\vo\brawler\sniper_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\sniper_meem.mp3
+sound\fartsy\vo\brawler\soldier_cursedlaugh.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\soldier_cursedlaugh.mp3
+sound\fartsy\vo\brawler\soldier_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\soldier_meem.mp3
+sound\fartsy\vo\brawler\spy_meem.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\spy_meem.mp3
+sound\fartsy\vo\brawler_fifteenai\medic_stopstealingipaddrs.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler_fifteenai\medic_stopstealingipaddrs.mp3
+sound\fartsy\vo\brawler_fifteenai\soldier_stopdoxing.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler_fifteenai\soldier_stopdoxing.mp3
+sound\fartsy\vo\celdamage\fowlmouth_fyou.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\celdamage\fowlmouth_fyou.mp3
+sound\fartsy\vo\coburn\weinterruptthisprogramme.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\coburn\weinterruptthisprogramme.mp3
+sound\fartsy\vo\cray\nutbuster.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\cray\nutbuster.mp3
+sound\fartsy\vo\ddd\woahhh.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\ddd\woahhh.mp3
+sound\fartsy\vo\ddo\koboldincoming.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\ddo\koboldincoming.wav
+sound\fartsy\vo\eee\eddykissurmom.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\eee\eddykissurmom.wav
+sound\fartsy\vo\eee\kevinheyincoming.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\eee\kevinheyincoming.wav
+sound\fartsy\vo\eee\rolfhello.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\eee\rolfhello.wav
+sound\fartsy\vo\eee\rolfmanydoors.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\eee\rolfmanydoors.mp3
+sound\fartsy\vo\eee\rolfmanydoorsyes.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\eee\rolfmanydoorsyes.mp3
+sound\fartsy\vo\eee\yodel.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\eee\yodel.mp3
+sound\fartsy\vo\explodingcookie\demoman_PainCrticialDeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\demoman_PainCrticialDeath03.mp3
+sound\fartsy\vo\explodingcookie\demoman_PainCrticialDeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\demoman_PainCrticialDeath04.mp3
+sound\fartsy\vo\explodingcookie\engineer_PainCrticialDeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\engineer_PainCrticialDeath04.mp3
+sound\fartsy\vo\explodingcookie\heavy_PainCrticialDeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\heavy_PainCrticialDeath03.mp3
+sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath01.mp3
+sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\medic_PainCrticialDeath04.mp3
+sound\fartsy\vo\explodingcookie\pyro_PainCrticialDeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\pyro_PainCrticialDeath01.mp3
+sound\fartsy\vo\explodingcookie\scout_PainCrticialDeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\scout_PainCrticialDeath03.mp3
+sound\fartsy\vo\explodingcookie\sniper_PainCrticialDeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\sniper_PainCrticialDeath04.mp3
+sound\fartsy\vo\explodingcookie\soldier_PainCrticialDeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\soldier_PainCrticialDeath02.mp3
+sound\fartsy\vo\explodingcookie\soldier_PainCrticialDeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\soldier_PainCrticialDeath03.mp3
+sound\fartsy\vo\explodingcookie\soldier_PainCrticialDeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\soldier_PainCrticialDeath04.mp3
+sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath02.mp3
+sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\explodingcookie\spy_PainCrticialDeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath04.mp3
+sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath05.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\demoman_mvm_paincrticialdeath05.mp3
+sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath04.mp3
+sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath05.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath05.mp3
+sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath06.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\engineer_mvm_paincrticialdeath06.mp3
+sound\fartsy\vo\explodingcookie\mvm\heavy_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\heavy_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\heavy_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\heavy_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\heavy_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\heavy_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\medic_mvm_paincrticialdeath04.mp3
+sound\fartsy\vo\explodingcookie\mvm\pyro_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\pyro_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\pyro_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\pyro_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\pyro_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\pyro_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\scout_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\scout_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\scout_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\scout_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\scout_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\scout_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\sniper_mvm_paincrticialdeath04.mp3
+sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\soldier_mvm_paincrticialdeath04.mp3
+sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath01.mp3
+sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath02.mp3
+sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\explodingcookie\mvm\spy_mvm_paincrticialdeath03.mp3
+sound\fartsy\vo\fartsy\demo_owmedic.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\demo_owmedic.mp3
+sound\fartsy\vo\fartsy\engineer_gottamnope.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\engineer_gottamnope.mp3
+sound\fartsy\vo\fartsy\goobbue.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\goobbue.mp3
+sound\fartsy\vo\fartsy\spy_wtf.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\spy_wtf.mp3
+sound\fartsy\vo\fartsy\engineer_dummysappin.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\engineer_dummysappin.mp3
+sound\fartsy\vo\fartsy\engineer_erectinpingas.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\engineer_erectinpingas.mp3
+sound\fartsy\vo\fartsy\heavy_iamded.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\heavy_iamded.mp3
+sound\fartsy\vo\fartsy\medic_iamfullydead.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\medic_iamfullydead.mp3
+sound\fartsy\vo\fartsy\medic_stupidhat.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\medic_stupidhat.mp3
+sound\fartsy\vo\fartsy\soldier_owmyanus.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\soldier_owmyanus.mp3
+sound\fartsy\vo\fartsy\soldier_reversescream.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\soldier_reversescream.mp3
+sound\fartsy\vo\fartsy\whatyousignedupfor.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy\whatyousignedupfor.mp3
+sound\fartsy\vo\fartsy_fifteenai\demoman_tank.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\demoman_tank.mp3
+sound\fartsy\vo\fartsy_fifteenai\engineer_anothersentrybuster.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\engineer_anothersentrybuster.mp3
+sound\fartsy\vo\fartsy_fifteenai\engineer_anothertank.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\engineer_anothertank.mp3
+sound\fartsy\vo\fartsy_fifteenai\engineer_gogogadgetdispenser.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\engineer_gogogadgetdispenser.mp3
+sound\fartsy\vo\fartsy_fifteenai\heavy_abouttobedeployed.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\heavy_abouttobedeployed.mp3
+sound\fartsy\vo\fartsy_fifteenai\heavy_stopthosetanks01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\heavy_stopthosetanks01.mp3
+sound\fartsy\vo\fartsy_fifteenai\heavy_stopthosetanks02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\heavy_stopthosetanks02.mp3
+sound\fartsy\vo\fartsy_fifteenai\medic_drugsfullycharged.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\medic_drugsfullycharged.mp3
+sound\fartsy\vo\fartsy_fifteenai\medic_enjoystench.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\medic_enjoystench.mp3
+sound\fartsy\vo\fartsy_fifteenai\medic_getready.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\medic_getready.mp3
+sound\fartsy\vo\fartsy_fifteenai\medic_readytoripafart.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\medic_readytoripafart.mp3
+sound\fartsy\vo\fartsy_fifteenai\medic_smellofprofsass.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\medic_smellofprofsass.mp3
+sound\fartsy\vo\fartsy_fifteenai\pauling_abouttobedeployed.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\pauling_abouttobedeployed.mp3
+sound\fartsy\vo\fartsy_fifteenai\scout_notreadytank.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\scout_notreadytank.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_abouttobedeployed01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_abouttobedeployed01.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_abouttobedeployed02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_abouttobedeployed02.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_sentrybusters.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_sentrybusters.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_stenchcalamity.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_stenchcalamity.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_stopthattank.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_stopthattank.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_whojustsigned.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_whojustsigned.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_whotfisntready.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_whotfisntready.mp3
+sound\fartsy\vo\fartsy_fifteenai\soldier_whotfspawnedthat.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\soldier_whotfspawnedthat.mp3
+sound\fartsy\vo\fartsy_fifteenai\spongebob_abouttobedeployed01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\spongebob_abouttobedeployed01.mp3
+sound\fartsy\vo\fartsy_fifteenai\spongebob_abouttobedeployed02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\spongebob_abouttobedeployed02.mp3
+sound\fartsy\vo\fartsy_fifteenai\spongebob_anothersentrybuster.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\spongebob_anothersentrybuster.mp3
+sound\fartsy\vo\fartsy_fifteenai\spongebob_sentrybuster.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\fartsy_fifteenai\spongebob_sentrybuster.mp3
+sound\fartsy\vo\inurat\nuclearwaffle.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\inurat\nuclearwaffle.mp3
+sound\fartsy\vo\jeffy\buyupgrades.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\buyupgrades.mp3
+sound\fartsy\vo\jeffy\cdfive.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\cdfive.mp3
+sound\fartsy\vo\jeffy\cdfour.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\cdfour.mp3
+sound\fartsy\vo\jeffy\cdthree.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\cdthree.mp3
+sound\fartsy\vo\jeffy\cdtwo.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\cdtwo.mp3
+sound\fartsy\vo\jeffy\cdone.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\cdone.mp3
+sound\fartsy\vo\jeffy\hinden.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\hinden.wav
+sound\fartsy\vo\jeffy\welcometodovahsass.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\welcometodovahsass.mp3
+sound\fartsy\vo\jigglypuff\jigglypuff.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jigglypuff\jigglypuff.mp3
+sound\fartsy\vo\joeyghost\nowpresentingdovahsass01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\joeyghost\nowpresentingdovahsass01.mp3
+sound\fartsy\vo\joeyghost\nowpresentingdovahsass02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\joeyghost\nowpresentingdovahsass02.mp3
+sound\fartsy\vo\joeyghost\nowpresentingdovahsass03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\joeyghost\nowpresentingdovahsass03.mp3
+sound\fartsy\vo\joeyghost\nowpresentingdovahsass04.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\joeyghost\nowpresentingdovahsass04.mp3
+sound\fartsy\vo\joeyghost\nowpresentingdovahsass05.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\joeyghost\nowpresentingdovahsass05.mp3
+sound\fartsy\vo\joeyghost\ohno.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\joeyghost\ohno.mp3
+sound\fartsy\vo\kirby\eeeahhhh.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\kirby\eeeahhhh.mp3
+sound\fartsy\vo\kissone\demoman_yurdoingudlad.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\kissone\demoman_yurdoingudlad.mp3
+sound\fartsy\vo\kissone\multipletanks.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\kissone\multipletanks.mp3
+sound\fartsy\vo\kissone\sentrybustercoming.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\kissone\sentrybustercoming.mp3
+sound\fartsy\vo\kissone\soldier_demomanscock.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\kissone\soldier_demomanscock.mp3
+sound\fartsy\vo\kissone\thankyouforplaying.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\kissone\thankyouforplaying.mp3
+sound\fartsy\vo\kissone\welcometodovahsass.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\kissone\welcometodovahsass.mp3
+sound\fartsy\vo\l4d2\billfall02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\billfall02.mp3
+sound\fartsy\vo\l4d2\coachfall02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\coachfall02.mp3
+sound\fartsy\vo\l4d2\ellisfall01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\ellisfall01.mp3
+sound\fartsy\vo\l4d2\francisfall02.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\francisfall02.mp3
+sound\fartsy\vo\l4d2\louisfall01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\louisfall01.mp3
+sound\fartsy\vo\l4d2\louisfall03.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\louisfall03.mp3
+sound\fartsy\vo\l4d2\nickfall01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\nickfall01.mp3
+sound\fartsy\vo\l4d2\zoeyfall01.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\l4d2\zoeyfall01.mp3
+sound\fartsy\vo\lixian\abouttobedeployed.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\lixian\abouttobedeployed.mp3
+sound\fartsy\vo\lixian\multipletanks.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\lixian\multipletanks.mp3
+sound\fartsy\vo\lixian\tank.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\lixian\tank.mp3
+sound\fartsy\vo\luigi\ohohohohoo.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\luigi\ohohohohoo.mp3
+sound\fartsy\vo\mario\wahahahaha.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\mario\wahahahaha.mp3
+sound\fartsy\vo\mario\wowww.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\mario\wowww.mp3
+sound\fartsy\vo\markiplier\areyoukiddingme.wav
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\Fartsy\sound\fartsy\vo\markiplier\areyoukiddingme.wav
+sound\fartsy\vo\markiplier\wthisthat.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\markiplier\wthisthat.mp3
+sound\fartsy\vo\pika\pikapika.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\pika\pikapika.mp3
+sound\fartsy\vo\reveredd\smell.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\reveredd\smell.mp3
+sound\fartsy\vo\salvatoreganacci\trytorelaxyouranus.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\salvatoreganacci\trytorelaxyouranus.mp3
+sound\fartsy\vo\sathie\evilvoice.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\sathie\evilvoice.mp3
+sound\fartsy\vo\sathie\myvoiceisshot.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\sathie\myvoiceisshot.mp3
+sound\fartsy\vo\shialabeouf\doit.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\shialabeouf\doit.mp3
+sound\fartsy\vo\spongebob\boom.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\boom.mp3
+sound\fartsy\vo\spongebob\hihowareya.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\hihowareya.mp3
+sound\fartsy\vo\spongebob\mrkrabsilikemoney.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\mrkrabsilikemoney.mp3
+sound\fartsy\vo\spongebob\patrick_deadagain.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\patrick_deadagain.mp3
+sound\fartsy\vo\spongebob\patrick_finland.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\patrick_finland.mp3
+sound\fartsy\vo\spongebob\patrick_thisispatrick.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spongebob\patrick_thisispatrick.mp3
+sound\fartsy\vo\spy_scream.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spy_scream.mp3
+sound\fartsy\vo\wario\wheee.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\wario\wheee.mp3
