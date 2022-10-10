@@ -282,10 +282,10 @@ sound\fartsy\misc\triggerscore.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
 sound\fartsy\misc\wtfboom.mp3
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\wtfboom.mp3
-sound\fartsy\music\brawler\battle.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\battle.mp3
-sound\fartsy\music\brawler\battle_intro.mp3
-D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\battle_intro.mp3
+sound\fartsy\music\brawler\xbc2\battle.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc2\battle.mp3
+sound\fartsy\music\brawler\xbc2\battle_intro.mp3
+D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc2\battle_intro.mp3
 sound\fartsy\music\brawler\doom\gatling_shoot.wav
 D:\SteamLibrary\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_shoot.wav
 sound\fartsy\music\brawler\doom\gatling_shoot_crit.wav
