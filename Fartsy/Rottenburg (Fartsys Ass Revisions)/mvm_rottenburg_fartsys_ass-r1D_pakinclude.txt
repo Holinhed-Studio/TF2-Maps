@@ -350,8 +350,8 @@ sound\fartsy\music\ffxiv\penitus.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\penitus.mp3
 sound\fartsy\music\ffxiv\revengetwofold.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\revengetwofold.mp3
-sound\fartsy\music\ffxiv\undertheweight.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\undertheweight.mp3
+sound\fartsy\music\ffxiv\landslide.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\landslide.mp3
 sound\fartsy\music\ffxiv\thesilentregardofstars.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\thesilentregardofstars.mp3
 sound\fartsy\music\ffxiv\knowledgeneversleeps.mp3
@@ -698,3 +698,13 @@ sound\fartsy\vo\spy_scream.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\spy_scream.mp3
 sound\fartsy\vo\wario\wheee.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\wario\wheee.mp3
+sound\fartsy\music\brawler\onewingedangel.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\onewingedangel.mp3
+sound\fartsy\music\brawler\onewingedintro.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\onewingedintro.mp3
+sound\fartsy\ffxiv\bossfatejoin.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\bossfatejoin.mp3
+sound\fartsy\ffxivvictoryedit.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxivvictoryedit.mp3
+sound\fartsy\vo\sephiroth\memory.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\sephiroth\memory.mp3
