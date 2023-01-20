@@ -708,3 +708,5 @@ sound\fartsy\ffxivvictoryedit.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxivvictoryedit.mp3
 sound\fartsy\vo\sephiroth\memory.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\sephiroth\memory.mp3
+sound\fartsy\amongus\emergency.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\amongus\emergency.mp3
