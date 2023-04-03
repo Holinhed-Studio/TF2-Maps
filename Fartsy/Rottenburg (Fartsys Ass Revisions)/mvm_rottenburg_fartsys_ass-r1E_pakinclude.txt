@@ -710,3 +710,63 @@ sound\fartsy\vo\sephiroth\memory.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\sephiroth\memory.mp3
 sound\fartsy\amongus\emergency.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\amongus\emergency.mp3
+models\bots\boss_bot\boss_tank.dx80.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.dx80.vtx
+models\bots\boss_bot\boss_tank.dx90.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.dx90.vtx
+models\bots\boss_bot\boss_tank.mdl
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.mdl
+models\bots\boss_bot\boss_tank.phy
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.phy
+models\bots\boss_bot\boss_tank.sw.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.sw.vtx
+models\bots\boss_bot\boss_tank.vvd
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.vvd
+models\bots\boss_bot\boss_tank_damage1.dx80.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage1.dx80.vtx
+models\bots\boss_bot\boss_tank_damage1.dx90.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage1.dx90.vtx
+models\bots\boss_bot\boss_tank_damage1.mdl
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage1.mdl
+models\bots\boss_bot\boss_tank_damage1.phy
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage1.phy
+models\bots\boss_bot\boss_tank_damage1.sw.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage1.sw.vtx
+models\bots\boss_bot\boss_tank_damage1.vvd
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage1.vvd
+models\bots\boss_bot\boss_tank_damage2.dx80.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage2.dx80.vtx
+models\bots\boss_bot\boss_tank_damage2.dx90.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage2.dx90.vtx
+models\bots\boss_bot\boss_tank_damage2.mdl
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage2.mdl
+models\bots\boss_bot\boss_tank_damage2.phy
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage2.phy
+models\bots\boss_bot\boss_tank_damage2.sw.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage2.sw.vtx
+models\bots\boss_bot\boss_tank_damage2.vvd
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage2.vvd
+models\bots\boss_bot\boss_tank_damage3.dx80.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage3.dx80.vtx
+models\bots\boss_bot\boss_tank_damage3.dx90.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage3.dx90.vtx
+models\bots\boss_bot\boss_tank_damage3.mdl
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage3.mdl
+models\bots\boss_bot\boss_tank_damage3.phy
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage3.phy
+models\bots\boss_bot\boss_tank_damage3.sw.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage3.sw.vtx
+models\bots\boss_bot\boss_tank_damage3.vvd
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage3.vvd
+models\bots\boss_bot\boss_tank_part1_destruction.ani
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.ani
+models\bots\boss_bot\boss_tank_part1_destruction.dx80.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.dx80.vtx
+models\bots\boss_bot\boss_tank_part1_destruction.dx90.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.dx90.vtx
+models\bots\boss_bot\boss_tank_part1_destruction.mdl
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.mdl
+models\bots\boss_bot\boss_tank_part1_destruction.sw.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.sw.vtx
+models\bots\boss_bot\boss_tank_part1_destruction.vvd
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.vvd
