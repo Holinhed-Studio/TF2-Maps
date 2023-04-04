@@ -770,3 +770,19 @@ models\bots\boss_bot\boss_tank_part1_destruction.sw.vtx
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.sw.vtx
 models\bots\boss_bot\boss_tank_part1_destruction.vvd
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_part1_destruction.vvd
+models\bots\demo\bot_sentry_buster.dx80.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.dx80.vtx
+models\bots\demo\bot_sentry_buster.dx90.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.dx90.vtx
+models\bots\demo\bot_sentry_buster.mdl
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.mdl
+models\bots\demo\bot_sentry_buster.phy
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.phy
+models\bots\demo\bot_sentry_buster.sw.vtx
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.sw.vtx
+models\bots\demo\bot_sentry_buster.vvd
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.vvd
+materials\models\fartsy\luigi\luigi.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\fartsy\luigi\luigi.vmt
+materials\models\fartsy\luigi\luigi.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\fartsy\luigi\luigi.vtf
