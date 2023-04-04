@@ -124,6 +124,8 @@ materials\hud\hud_mvm_bomb_upgrade_2_disabled.vtf
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2_disabled.vtf
 materials\hud\hud_mvm_bomb_upgrade_2.vtf
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_2.vtf
+materials\hud\hud_mvm_bomb_upgrade_3.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_3.vtf
 materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\Fartsy\materials\hud\hud_mvm_bomb_upgrade_3_disabled.vtf
 scripts\mvm_level_sound_tweaks.txt
