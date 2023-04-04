@@ -782,6 +782,10 @@ models\bots\demo\bot_sentry_buster.sw.vtx
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.sw.vtx
 models\bots\demo\bot_sentry_buster.vvd
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\demo\bot_sentry_buster.vvd
+sound\fartsy\music\ffxiv\TornColossusPhase1.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\TornColossusPhase1.mp3
+sound\fartsy\music\ffxiv\TornColossusPhase2.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\TornColossusPhase2.mp3
 materials\models\fartsy\luigi\luigi.vmt
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\fartsy\luigi\luigi.vmt
 materials\models\fartsy\luigi\luigi.vtf
