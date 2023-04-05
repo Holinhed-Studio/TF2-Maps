@@ -712,18 +712,6 @@ sound\fartsy\vo\sephiroth\memory.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\sephiroth\memory.mp3
 sound\fartsy\amongus\emergency.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\amongus\emergency.mp3
-models\bots\boss_bot\boss_tank.dx80.vtx
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.dx80.vtx
-models\bots\boss_bot\boss_tank.dx90.vtx
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.dx90.vtx
-models\bots\boss_bot\boss_tank.mdl
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.mdl
-models\bots\boss_bot\boss_tank.phy
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.phy
-models\bots\boss_bot\boss_tank.sw.vtx
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.sw.vtx
-models\bots\boss_bot\boss_tank.vvd
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank.vvd
 models\bots\boss_bot\boss_tank_damage1.dx80.vtx
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\models\bots\boss_bot\boss_tank_damage1.dx80.vtx
 models\bots\boss_bot\boss_tank_damage1.dx90.vtx
