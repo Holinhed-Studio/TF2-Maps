@@ -794,3 +794,7 @@ materials\models\fartsy\luigi\luigi.vtf
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\materials\models\fartsy\luigi\luigi.vtf
 sound\fartsy\vo\scout_copypasta.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\scout_copypasta.mp3
+sound\fartsy\music\ffxiv\frommud.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\frommud.mp3
+sound\fartsy\music\brawler\xbc\youwillknowournames.mp3
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc\youwillknowournames.mp3
