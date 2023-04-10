@@ -1104,7 +1104,8 @@ population
         {
             Name "Increment Music Phase"
             TotalCount 0
-	        SpawnCount 0        
+	        SpawnCount 0
+			WaitForAllDead W5_02    
             DoneOutput
             {
                 Target music_relay
@@ -1217,6 +1218,18 @@ population
 			}
 		}
 		WaveSpawn
+        {
+            Name "Increment Music Phase"
+            TotalCount 0
+	        SpawnCount 0
+			WaitForAllDead W5_05  
+            DoneOutput
+            {
+                Target music_relay
+                Action FireUser1
+            }
+        }
+		WaveSpawn
 		{
 			Name	W5_06
 			TotalCurrency 200
@@ -1251,17 +1264,6 @@ population
 				}
 			}
 		}
-		WaveSpawn
-        {
-            Name "Increment Music Phase"
-            TotalCount 0
-	        SpawnCount 0        
-            DoneOutput
-            {
-                Target music_relay
-                Action FireUser1
-            }
-        }
 		WaveSpawn
 		{
 			Name	W5_07
