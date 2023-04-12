@@ -1,2 +1,0 @@
-fix being able to get outside of map via the roof left building in the front of the map (map origin / 0 0 0)
-fix glitched texture https://steamcommunity.com/sharedfiles/filedetails/?id=2716434049

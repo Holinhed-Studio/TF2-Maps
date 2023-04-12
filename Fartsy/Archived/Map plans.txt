@@ -1,0 +1,121 @@
+GreenvilleMcDonalds_CBT
+{
+    Critical problems:
+    {
+        Doors do not work. Blue move forward/back instead of L/R
+        Cart is backwards
+        Cart cannot be pushed after setup
+        Broken door (see DJBaphomet for reference embed_)
+        Edicts usage:
+        {
+            -- Count Classname   35  --
+            1 ai_network
+            122 path_track
+            66 prop_dynamic
+            54 func_areaportal
+            37 env_soundscape_proxy
+            27 func_brush
+            23 func_occluder
+            23 func_door
+            16 move_rope
+            13 env_lightglow
+            7 ambient_generic
+            1 color_correction
+            2 dispenser_touch_trigger
+            5 func_areaportalwindow
+            1 func_breakable
+            7 env_soundscape
+            7 func_nobuild
+            2 env_spark
+            1 env_sprite
+            10 func_regenerate
+            6 func_respawnroom
+            10 func_respawnroomvisualizer
+            1 func_tracktrain
+            2 game_round_win
+            3 item_ammopack_full
+            5 info_observer_point
+            12 item_ammopack_medium
+            2 info_player_teamspawn
+            1 item_ammopack_small
+            9 item_healthkit_medium
+            1 logic_auto
+            7 item_healthkit_small
+            1 mapobj_cart_dispenser
+            13 keyframe_rope
+            1 monster_resource
+            1 prop_physics
+            1 scene_manager
+            1 player
+            3 shadow_control
+            1 soundent
+            2 team_control_point
+            2 team_control_point_master
+            11 trigger_multiple
+            1 team_control_point_round
+            1 vote_controller
+            2 team_round_timer
+            1 water_lod_control
+            1 team_train_watcher
+            1 worldspawn
+            1 tf_gamerules
+        }
+    }
+
+    Tunnels linking all areas together so there are no visual glitches --test
+    Retexture all areas to match each other
+    New stormy skybox
+    Optimize all areas by loading .prt file
+    Link up all path tracks properly and add in checkpoints
+    Add sub checkpoints that play random sounds or do random effects
+    Add master effect timer that randomly picks an effect or mashes up a song and releases some chaos
+    Tornado that yeets current payload?
+    Progressively stronger payloads, up to nukes
+    Final payload being giant kissone raining from the sky with multiple events following and total calamity
+    Perhaps integrate MvM pkop file to map
+    End map with Alexander Burden of the Son?
+    SFX/Intros playing during song?
+}
+
+MVM:
+done{
+    Die Geheimwaffe - Start countdown on stream in red LED font, screen flashes red as crusader flies into view. --done
+    Check if music plays properly after each wave is cleared.  --done
+    swap bomb warning with clock bell from majoras mask --done
+    Enable SpecTimer (move spectimer) after fat man is pushed --done
+    Add light glow to the volumetric lighting in FC bar --notneeded
+    bombexploshark is only the timer for the mini sharks. ExploLarge can be removed. --done
+    Normal BGM is done.
+    Bombs are done.
+    Sacrifice Points are done for now.
+    FB.RobotLauncher needs enabled for 7.5 seconds while iswave and on a random timer between 5 and 30 seconds. --done
+    OnSacPointsMax play ClockBell sound --notneeded
+    UI hud for sacpoints and bomb status --done
+    fb_hindenboom --not needed, new system implemented
+    Make background music quieter so that thomas the tank engine is more obvious? --done
+    retex medic shield --done
+    song that plays in ff14 with the imperial thingy in the desert dungeon --replaced with penitus.
+    Don't forget to pack the train horn this time... --done
+    Admin Spotlight (In the theme of a monitor)    <Name>    Reason--done
+}
+
+IMPORTANT{
+
+}
+
+soontm
+{
+    taco bell gong as wave start for taco bell edition
+    Ideas to commit to mvm:
+    Random sound effects / shit from the hall of fame while fighting robots (TACO BELL ONLY)
+    Taco bell is shorter (less robots per wave) but more difficult, more damage and more health?
+    Massive graphical update for effects in mvm -- mainly flashing effects / tracers and flying clocks in the skybox when 72323 is sent. Consider smash bros map clock easter egg.
+    Going into the teleport causes a massive drop from skybox to ground in a private chamber that plays falling back from brute justice mode.
+    make stage collapse into lava with pillars for survival?
+    to fix summonerschaos: disable first stop target on rift's tanktrain, Update dovahkiinwarrior with professorfartsalot instead, Remove secret functions below map. Change sky texture to sky_rift .
+    add engi mod from brawler to dovahs ass rottenburg 11 and to tower map from o8pc
+    add spirit bomb from hbm to dovahs ass 11 -- scratch that, instead it's a giant smug  sayaki playing kissonelovania.
+    turn all of map into plugin --done
+    make it possible for the bomb to prematurely explode?
+    For Chipotle - Start everyone with a ton of money, they MUST invest in protection or die. Give bots 5000% power, spawn spies all about.
+}
