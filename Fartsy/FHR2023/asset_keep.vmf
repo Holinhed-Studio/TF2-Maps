@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "165"
+	"mapversion" "166"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "165"
+	"mapversion" "166"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -120926,13 +120926,451 @@ entity
 		"logicalpos" "[0 13500]"
 	}
 }
+entity
+{
+	"id" "188027"
+	"classname" "info_particle_system"
+	"angles" "0 32.5 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_torchflame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "437.772 -1716.39 639.922"
+	editor
+	{
+		"color" "0 252 193"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10000]"
+	}
+}
+entity
+{
+	"id" "188093"
+	"classname" "prop_static"
+	"angles" "0 32.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1200"
+	"fademindist" "1100"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/sconce.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "430.306 -1721 629.316"
+	editor
+	{
+		"color" "0 242 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 -13768]"
+	}
+}
+entity
+{
+	"id" "188097"
+	"classname" "light"
+	"_fifty_percent_distance" "96"
+	"_light" "244 201 121 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "360"
+	"angles" "-0 90 0"
+	"origin" "461 -1687.63 651.316"
+	editor
+	{
+		"color" "0 130 135"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9500]"
+	}
+}
+entity
+{
+	"id" "188102"
+	"classname" "prop_static"
+	"angles" "0 32.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1200"
+	"fademindist" "1100"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/sconce.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "318.83 -1542.15 629.316"
+	editor
+	{
+		"color" "0 218 231"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 -13268]"
+	}
+}
+entity
+{
+	"id" "188106"
+	"classname" "info_particle_system"
+	"angles" "0 32.5 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_torchflame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "326.296 -1537.53 639.922"
+	editor
+	{
+		"color" "0 144 213"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11000]"
+	}
+}
+entity
+{
+	"id" "188172"
+	"classname" "light"
+	"_fifty_percent_distance" "97"
+	"_light" "244 201 121 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "360"
+	"angles" "-0 90 0"
+	"origin" "349.524 -1508.77 651.316"
+	editor
+	{
+		"color" "0 224 249"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10500]"
+	}
+}
+entity
+{
+	"id" "190506"
+	"classname" "prop_static"
+	"angles" "0 302.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1200"
+	"fademindist" "1100"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/sconce.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "1097.75 -358.848 629.316"
+	editor
+	{
+		"color" "0 218 231"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 -13268]"
+	}
+}
+entity
+{
+	"id" "190510"
+	"classname" "info_particle_system"
+	"angles" "0 302.5 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_torchflame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "1102.37 -366.314 639.922"
+	editor
+	{
+		"color" "0 144 213"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11000]"
+	}
+}
+entity
+{
+	"id" "190576"
+	"classname" "light"
+	"_fifty_percent_distance" "97"
+	"_light" "244 201 121 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "360"
+	"angles" "-0 90 0"
+	"origin" "1131.12 -389.542 651.316"
+	editor
+	{
+		"color" "0 224 249"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10500]"
+	}
+}
+entity
+{
+	"id" "190581"
+	"classname" "info_particle_system"
+	"angles" "0 302.5 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_torchflame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "923.511 -477.79 639.922"
+	editor
+	{
+		"color" "0 252 193"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10000]"
+	}
+}
+entity
+{
+	"id" "190647"
+	"classname" "prop_static"
+	"angles" "0 302.5 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1200"
+	"fademindist" "1100"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/sconce.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "918.899 -470.324 629.316"
+	editor
+	{
+		"color" "0 242 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 -13768]"
+	}
+}
+entity
+{
+	"id" "190651"
+	"classname" "light"
+	"_fifty_percent_distance" "96"
+	"_light" "244 201 121 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "360"
+	"angles" "-0 90 0"
+	"origin" "952.269 -501.018 651.316"
+	editor
+	{
+		"color" "0 130 135"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9500]"
+	}
+}
+entity
+{
+	"id" "190656"
+	"classname" "info_particle_system"
+	"angles" "0 240 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_torchflame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "1512.05 -375.586 639.922"
+	editor
+	{
+		"color" "0 252 193"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10000]"
+	}
+}
+entity
+{
+	"id" "190722"
+	"classname" "prop_static"
+	"angles" "0 240 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1200"
+	"fademindist" "1100"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/sconce.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "1516.55 -368.047 629.316"
+	editor
+	{
+		"color" "0 242 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 -13768]"
+	}
+}
+entity
+{
+	"id" "190726"
+	"classname" "light"
+	"_fifty_percent_distance" "96"
+	"_light" "244 201 121 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "360"
+	"angles" "-0 90 0"
+	"origin" "1504.73 -411.82 651.316"
+	editor
+	{
+		"color" "0 130 135"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 9500]"
+	}
+}
+entity
+{
+	"id" "190731"
+	"classname" "light"
+	"_fifty_percent_distance" "96"
+	"_light" "244 201 121 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" ".5"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "360"
+	"angles" "-0 90 0"
+	"origin" "1684.08 -523.791 651.316"
+	editor
+	{
+		"color" "0 224 249"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 10500]"
+	}
+}
+entity
+{
+	"id" "190736"
+	"classname" "info_particle_system"
+	"angles" "0 240 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"effect_name" "m_torchflame"
+	"flag_as_weather" "0"
+	"start_active" "1"
+	"origin" "1691.41 -487.564 639.922"
+	editor
+	{
+		"color" "0 144 213"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 11000]"
+	}
+}
+entity
+{
+	"id" "190802"
+	"classname" "prop_static"
+	"angles" "0 240 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1200"
+	"fademindist" "1100"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_medieval/sconce.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "1695.9 -480.018 629.316"
+	editor
+	{
+		"color" "0 218 231"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5500 -13268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[528.434 -1120.12 692.62]"
-		"look" "[-1208.4 -459.197 -464.966]"
+		"position" "[689.404 -1786.81 761.55]"
+		"look" "[-154.573 -3733.06 220.054]"
 	}
 }
 cordons
