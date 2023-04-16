@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "169"
+	"mapversion" "171"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -78,7 +78,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "169"
+	"mapversion" "171"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -89688,13 +89688,13 @@ entity
 		side
 		{
 			"id" "44547"
-			"plane" "(2360 -1480 992) (2160 -1800 992) (2120 -1800 992)"
+			"plane" "(2160 -1800 992) (2112 -1800 992) (2320 -1480 992)"
 			vertices_plus
 			{
-				"v" "2360 -1480 992"
 				"v" "2160 -1800 992"
-				"v" "2120 -1800 992"
+				"v" "2112 -1800 992"
 				"v" "2320 -1480 992"
+				"v" "2360 -1480 992"
 			}
 			"material" "MEDIEVAL/STONETRIM001A"
 			"uaxis" "[0.484138 0.77462 -0.406907 560.503] 0.25"
@@ -89706,13 +89706,13 @@ entity
 		side
 		{
 			"id" "44546"
-			"plane" "(2160 -1800 960) (2360 -1480 960) (2320 -1480 960)"
+			"plane" "(2360 -1480 960) (2320 -1480 960) (2112 -1800 960)"
 			vertices_plus
 			{
-				"v" "2160 -1800 960"
 				"v" "2360 -1480 960"
 				"v" "2320 -1480 960"
-				"v" "2120 -1800 960"
+				"v" "2112 -1800 960"
+				"v" "2160 -1800 960"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-0 -1 0 -32] 0.25"
@@ -89724,13 +89724,13 @@ entity
 		side
 		{
 			"id" "44545"
-			"plane" "(2120 -1800 992) (2120 -1800 960) (2320 -1480 960)"
+			"plane" "(2112 -1800 960) (2320 -1480 960) (2320 -1480 992)"
 			vertices_plus
 			{
-				"v" "2120 -1800 992"
-				"v" "2120 -1800 960"
+				"v" "2112 -1800 960"
 				"v" "2320 -1480 960"
 				"v" "2320 -1480 992"
+				"v" "2112 -1800 992"
 			}
 			"material" "MEDIEVAL/STONETRIM001A"
 			"uaxis" "[0.529999 0.847998 0 485.875] 0.25"
@@ -89742,13 +89742,13 @@ entity
 		side
 		{
 			"id" "44544"
-			"plane" "(2160 -1800 960) (2160 -1800 992) (2360 -1480 992)"
+			"plane" "(2160 -1800 992) (2360 -1480 992) (2360 -1480 960)"
 			vertices_plus
 			{
-				"v" "2160 -1800 960"
 				"v" "2160 -1800 992"
 				"v" "2360 -1480 992"
 				"v" "2360 -1480 960"
+				"v" "2160 -1800 960"
 			}
 			"material" "MEDIEVAL/STONETRIM001A"
 			"uaxis" "[0.139081 0.990281 0 407.939] 0.25"
@@ -89760,13 +89760,13 @@ entity
 		side
 		{
 			"id" "44543"
-			"plane" "(2320 -1480 992) (2320 -1480 960) (2360 -1480 960)"
+			"plane" "(2320 -1480 960) (2360 -1480 960) (2360 -1480 992)"
 			vertices_plus
 			{
-				"v" "2320 -1480 992"
 				"v" "2320 -1480 960"
 				"v" "2360 -1480 960"
 				"v" "2360 -1480 992"
+				"v" "2320 -1480 992"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 -0 0 0] 0.25"
@@ -89778,13 +89778,13 @@ entity
 		side
 		{
 			"id" "44542"
-			"plane" "(2120 -1800 960) (2120 -1800 992) (2160 -1800 992)"
+			"plane" "(2112 -1800 992) (2160 -1800 992) (2160 -1800 960)"
 			vertices_plus
 			{
-				"v" "2120 -1800 960"
-				"v" "2120 -1800 992"
+				"v" "2112 -1800 992"
 				"v" "2160 -1800 992"
 				"v" "2160 -1800 960"
+				"v" "2112 -1800 960"
 			}
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 -0 0 0] 0.25"
@@ -92093,133 +92093,32 @@ entity
 }
 entity
 {
-	"id" "106903"
-	"classname" "func_detail"
-	solid
-	{
-		"id" "106904"
-		side
-		{
-			"id" "35296"
-			"plane" "(1135 -1185 840) (1135 -1175 840) (1145 -1175 840)"
-			vertices_plus
-			{
-				"v" "1135 -1185 840"
-				"v" "1135 -1175 840"
-				"v" "1145 -1175 840"
-				"v" "1145 -1185 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[1 0 0 -0] 0.3125"
-			"vaxis" "[0 -1 0 -0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35295"
-			"plane" "(1135 -1175 720) (1135 -1185 720) (1145 -1185 720)"
-			vertices_plus
-			{
-				"v" "1135 -1175 720"
-				"v" "1135 -1185 720"
-				"v" "1145 -1185 720"
-				"v" "1145 -1175 720"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[-1 0 0 0] 0.3125"
-			"vaxis" "[0 -1 0 -0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35294"
-			"plane" "(1135 -1185 720) (1135 -1175 720) (1135 -1175 840)"
-			vertices_plus
-			{
-				"v" "1135 -1185 720"
-				"v" "1135 -1175 720"
-				"v" "1135 -1175 840"
-				"v" "1135 -1185 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[0 -1 0 -0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35293"
-			"plane" "(1145 -1175 720) (1145 -1185 720) (1145 -1185 840)"
-			vertices_plus
-			{
-				"v" "1145 -1175 720"
-				"v" "1145 -1185 720"
-				"v" "1145 -1185 840"
-				"v" "1145 -1175 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[0 1 0 0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35292"
-			"plane" "(1135 -1175 720) (1145 -1175 720) (1145 -1175 840)"
-			vertices_plus
-			{
-				"v" "1135 -1175 720"
-				"v" "1145 -1175 720"
-				"v" "1145 -1175 840"
-				"v" "1135 -1175 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[-1 0 0 0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35291"
-			"plane" "(1145 -1185 720) (1135 -1185 720) (1135 -1185 840)"
-			vertices_plus
-			{
-				"v" "1145 -1185 720"
-				"v" "1135 -1185 720"
-				"v" "1135 -1185 840"
-				"v" "1145 -1185 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[1 0 0 -0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 180 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"id" "194170"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_construction/construction_fence_pole.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1459 -1500 708"
 	editor
 	{
-		"color" "0 180 0"
-		"visgroupid" "20"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
+		"logicalpos" "[4000 16000]"
 	}
 }
 entity
@@ -92660,133 +92559,43 @@ entity
 }
 entity
 {
-	"id" "106899"
-	"classname" "func_detail"
-	solid
-	{
-		"id" "106900"
-		side
-		{
-			"id" "35284"
-			"plane" "(1455 -1185 840) (1455 -1175 840) (1465 -1175 840)"
-			vertices_plus
-			{
-				"v" "1455 -1185 840"
-				"v" "1455 -1175 840"
-				"v" "1465 -1175 840"
-				"v" "1465 -1185 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[1 0 0 -0] 0.3125"
-			"vaxis" "[0 -1 0 -0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35283"
-			"plane" "(1455 -1175 720) (1455 -1185 720) (1465 -1185 720)"
-			vertices_plus
-			{
-				"v" "1455 -1175 720"
-				"v" "1455 -1185 720"
-				"v" "1465 -1185 720"
-				"v" "1465 -1175 720"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[-1 0 0 0] 0.3125"
-			"vaxis" "[0 -1 0 -0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35282"
-			"plane" "(1455 -1185 720) (1455 -1175 720) (1455 -1175 840)"
-			vertices_plus
-			{
-				"v" "1455 -1185 720"
-				"v" "1455 -1175 720"
-				"v" "1455 -1175 840"
-				"v" "1455 -1185 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[0 -1 0 -0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35281"
-			"plane" "(1465 -1175 720) (1465 -1185 720) (1465 -1185 840)"
-			vertices_plus
-			{
-				"v" "1465 -1175 720"
-				"v" "1465 -1185 720"
-				"v" "1465 -1185 840"
-				"v" "1465 -1175 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[0 1 0 0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35280"
-			"plane" "(1455 -1175 720) (1465 -1175 720) (1465 -1175 840)"
-			vertices_plus
-			{
-				"v" "1455 -1175 720"
-				"v" "1465 -1175 720"
-				"v" "1465 -1175 840"
-				"v" "1455 -1175 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[-1 0 0 0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35279"
-			"plane" "(1465 -1185 720) (1455 -1185 720) (1455 -1185 840)"
-			vertices_plus
-			{
-				"v" "1465 -1185 720"
-				"v" "1455 -1185 720"
-				"v" "1455 -1185 840"
-				"v" "1465 -1185 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[1 0 0 -0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 180 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"id" "194166"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_gameplay/mvm_gemergency_light.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "CP1.SirenMDL"
+	"origin" "1459 -1500 840"
 	editor
 	{
-		"color" "0 180 0"
-		"visgroupid" "20"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
+		"logicalpos" "[4000 16000]"
 	}
 }
 entity
@@ -94858,133 +94667,32 @@ entity
 }
 entity
 {
-	"id" "106897"
-	"classname" "func_detail"
-	solid
-	{
-		"id" "106898"
-		side
-		{
-			"id" "35278"
-			"plane" "(1455 -1505 840) (1455 -1495 840) (1465 -1495 840)"
-			vertices_plus
-			{
-				"v" "1455 -1505 840"
-				"v" "1455 -1495 840"
-				"v" "1465 -1495 840"
-				"v" "1465 -1505 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[1 0 0 -0] 0.3125"
-			"vaxis" "[0 -1 0 -0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35277"
-			"plane" "(1455 -1495 720) (1455 -1505 720) (1465 -1505 720)"
-			vertices_plus
-			{
-				"v" "1455 -1495 720"
-				"v" "1455 -1505 720"
-				"v" "1465 -1505 720"
-				"v" "1465 -1495 720"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[-1 0 0 0] 0.3125"
-			"vaxis" "[0 -1 0 -0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35276"
-			"plane" "(1455 -1505 720) (1455 -1495 720) (1455 -1495 840)"
-			vertices_plus
-			{
-				"v" "1455 -1505 720"
-				"v" "1455 -1495 720"
-				"v" "1455 -1495 840"
-				"v" "1455 -1505 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[0 -1 0 -0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35275"
-			"plane" "(1465 -1495 720) (1465 -1505 720) (1465 -1505 840)"
-			vertices_plus
-			{
-				"v" "1465 -1495 720"
-				"v" "1465 -1505 720"
-				"v" "1465 -1505 840"
-				"v" "1465 -1495 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[0 1 0 0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35274"
-			"plane" "(1455 -1495 720) (1465 -1495 720) (1465 -1495 840)"
-			vertices_plus
-			{
-				"v" "1455 -1495 720"
-				"v" "1465 -1495 720"
-				"v" "1465 -1495 840"
-				"v" "1455 -1495 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[-1 0 0 0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "35273"
-			"plane" "(1465 -1505 720) (1455 -1505 720) (1455 -1505 840)"
-			vertices_plus
-			{
-				"v" "1465 -1505 720"
-				"v" "1455 -1505 720"
-				"v" "1455 -1505 840"
-				"v" "1465 -1505 840"
-			}
-			"material" "MINECRAFT_ORIGINAL/PLANKS_OAK"
-			"uaxis" "[1 0 0 -0] 0.3125"
-			"vaxis" "[0 0 -1 0] 0.3125"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 180 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"id" "194162"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_construction/construction_fence_pole.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1140 -1180 708"
 	editor
 	{
-		"color" "0 180 0"
-		"visgroupid" "20"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
+		"logicalpos" "[4000 16000]"
 	}
 }
 entity
@@ -95105,7 +94813,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"SetBodyGroup" "0"
-	"skin" "0"
+	"skin" "1"
 	"solid" "6"
 	"spawnflags" "0"
 	"StartDisabled" "0"
@@ -121039,13 +120747,125 @@ entity
 		"logicalpos" "[1500 12000]"
 	}
 }
+entity
+{
+	"id" "194150"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_gameplay/mvm_gemergency_light.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "CP1.SirenMDL"
+	"origin" "1140 -1180 840"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 16000]"
+	}
+}
+entity
+{
+	"id" "194154"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_construction/construction_fence_pole.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1459 -1180 708"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 16000]"
+	}
+}
+entity
+{
+	"id" "194158"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_gameplay/mvm_gemergency_light.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "1"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "CP1.SirenMDL"
+	"origin" "1459 -1180 840"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 16000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1069.05 -1455.35 923.917]"
-		"look" "[2561.12 -2328.09 -419.767]"
+		"position" "[1542.14 -443.617 1058.33]"
+		"look" "[2867.73 -1764.81 -77.7662]"
 	}
 }
 cordons
