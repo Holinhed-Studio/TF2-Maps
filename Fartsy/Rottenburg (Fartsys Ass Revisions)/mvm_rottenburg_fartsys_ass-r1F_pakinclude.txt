@@ -284,10 +284,8 @@ sound\fartsy\misc\triggerscore.wav
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\triggerscore.wav
 sound\fartsy\misc\wtfboom.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\wtfboom.mp3
-sound\fartsy\music\brawler\xbc2\battle.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc2\battle.mp3
-sound\fartsy\music\brawler\xbc2\battle_intro.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc2\battle_intro.mp3
+sound\fartsy\music\brawler\xbc2\battle.wav
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc2\battle.wav
 sound\fartsy\music\brawler\doom\gatling_shoot.wav
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\doom\gatling_shoot.wav
 sound\fartsy\music\brawler\doom\gatling_shoot_crit.wav
@@ -338,22 +336,22 @@ sound\fartsy\music\class_menu_09.wav
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_09.wav
 sound\fartsy\music\class_menu_bg.wav
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\class_menu_bg.wav
-sound\fartsy\music\ffxiv\locus.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\locus.mp3
-sound\fartsy\music\ffxiv\metal.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\metal.mp3
-sound\fartsy\music\ffxiv\exponentialentropy.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\exponentialentropy.mp3
+sound\fartsy\music\ffxiv\locus.wav
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\locus.wav
+sound\fartsy\music\ffxiv\metal.wav
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\metal.wav
+sound\fartsy\music\ffxiv\exponentialentropy.wav
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\exponentialentropy.wav
 sound\fartsy\music\ffxiv\tornfromtheheavens.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\tornfromtheheavens.mp3
-sound\fartsy\music\ffxiv\metalbrutejusticemode.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\metalbrutejusticemode.mp3
+sound\fartsy\music\ffxiv\metalbrutejusticemode.wav
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\metalbrutejusticemode.wav
 sound\fartsy\music\ffxiv\penitus.wav
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\penitus.wav
-sound\fartsy\music\ffxiv\revengetwofold.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\revengetwofold.mp3
-sound\fartsy\music\ffxiv\landslide.mp3
-D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\landslide.mp3
+sound\fartsy\music\ffxiv\revengetwofold.wav
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\revengetwofold.wav
+sound\fartsy\music\ffxiv\landslide.wav
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\landslide.wav
 sound\fartsy\music\ffxiv\thesilentregardofstars.mp3
 D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\ffxiv\thesilentregardofstars.mp3
 sound\fartsy\music\ffxiv\knowledgeneversleeps.mp3
