@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "84"
+	"mapversion" "85"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "84"
+	"mapversion" "85"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -23506,6 +23506,366 @@ world
 }
 entity
 {
+	"id" "22401"
+	"classname" "prop_static"
+	"angles" "-20.8211 26.589 62.7995"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3885.59 -995.084 -378.963"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22441"
+	"classname" "prop_static"
+	"angles" "-0.468635 199.142 60.3228"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2054.55 -1014.62 -416"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22437"
+	"classname" "prop_static"
+	"angles" "6.09144 18.4167 78.0546"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "1990.55 -903.061 -278.311"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22405"
+	"classname" "prop_static"
+	"angles" "-3.99252 210.167 112.51"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3968.59 -877.262 -255.814"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22915"
+	"classname" "prop_static"
+	"angles" "13.686 184.723 65.3338"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3417.23 -1062.85 -416"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22365"
+	"classname" "prop_static"
+	"angles" "3.63026 190.58 111.314"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3716.92 -975.375 -251.93"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22361"
+	"classname" "prop_static"
+	"angles" "13.686 184.723 65.3338"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3622.23 -1052.18 -390.325"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22325"
+	"classname" "prop_static"
+	"angles" "8.16521 356.213 43.7461"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3414.47 -985.948 -271.312"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22321"
+	"classname" "prop_static"
+	"angles" "1.41689 165.605 -38.4122"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3216.16 -1031.75 -371.556"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22285"
+	"classname" "prop_static"
+	"angles" "11.1186 357.467 47.6208"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3086.43 -970.123 -279.926"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22281"
+	"classname" "prop_static"
+	"angles" "13.686 184.723 65.3338"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2914.95 -1023.77 -416"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22239"
+	"classname" "prop_static"
+	"angles" "11.1586 180.679 43.5442"
+	"disableselfshadowing" "1"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2798.59 -947.35 -279.926"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "7450"
 	"classname" "prop_static"
 	"angles" "0 105 0"
@@ -27392,11 +27752,11 @@ entity
 }
 entity
 {
-	"id" "22239"
+	"id" "23362"
 	"classname" "prop_static"
-	"angles" "11.1586 180.679 43.5442"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
@@ -27407,26 +27767,26 @@ entity
 	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"model" "models/props_foliage/swamp_shrubwall_block_256.mdl"
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "2798.59 -947.35 -279.926"
+	"origin" "-2507.72 -1754.18 -340.539"
 	editor
 	{
 		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 2000]"
 	}
 }
 entity
 {
-	"id" "22281"
+	"id" "23416"
 	"classname" "prop_static"
-	"angles" "13.686 184.723 65.3338"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
@@ -27437,317 +27797,17 @@ entity
 	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
+	"model" "models/props_foliage/swamp_shrubwall_512_deep.mdl"
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "2914.95 -1023.77 -416"
+	"origin" "-2048 -1498.92 -352"
 	editor
 	{
 		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22285"
-	"classname" "prop_static"
-	"angles" "11.1186 357.467 47.6208"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3086.43 -970.123 -279.926"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22321"
-	"classname" "prop_static"
-	"angles" "1.41689 165.605 -38.4122"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3216.16 -1031.75 -371.556"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22325"
-	"classname" "prop_static"
-	"angles" "8.16521 356.213 43.7461"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3414.47 -985.948 -271.312"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22361"
-	"classname" "prop_static"
-	"angles" "13.686 184.723 65.3338"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3622.23 -1052.18 -390.325"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22365"
-	"classname" "prop_static"
-	"angles" "3.63026 190.58 111.314"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3716.92 -975.375 -251.93"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22915"
-	"classname" "prop_static"
-	"angles" "13.686 184.723 65.3338"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3417.23 -1062.85 -416"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22405"
-	"classname" "prop_static"
-	"angles" "-3.99252 210.167 112.51"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3968.59 -877.262 -255.814"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22437"
-	"classname" "prop_static"
-	"angles" "6.09144 18.4167 78.0546"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "1990.55 -903.061 -278.311"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22441"
-	"classname" "prop_static"
-	"angles" "-0.468635 199.142 60.3228"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "2054.55 -1014.62 -416"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "22401"
-	"classname" "prop_static"
-	"angles" "-20.8211 26.589 62.7995"
-	"disableselfshadowing" "1"
-	"disableshadows" "1"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_wasteland/rockgranite04a.mdl"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3885.59 -995.084 -378.963"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras
@@ -27755,8 +27815,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-2591.33 -1370.21 219.151]"
-		"look" "[-2587 -1367.87 214.537]"
+		"position" "[-2255.73 -1399.46 591.766]"
+		"look" "[-2255.03 -1400.46 585.131]"
 	}
 }
 cordons
