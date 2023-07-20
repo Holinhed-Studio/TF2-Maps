@@ -1,0 +1,10 @@
+sound/fartsy/music/brawler/fe_3h/thelongroad_rain.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\fe_3h\thelongroad_rain.wav
+sound/fartsy/music/brawler/fe_3h/thelongroad_thunder.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\fe_3h\thelongroad_thunder.wav
+sound/fartsy/music/brawler/fe_w/chaossilence.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\fe_w\chaossilence.wav
+sound/fartsy/music/brawler/hw_aoc/aquietmoment.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\hw_aoc\aquietmoment.mp3
+sound/fartsy/misc/brawler/cannon_echo.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\cannon_echo.mp3
