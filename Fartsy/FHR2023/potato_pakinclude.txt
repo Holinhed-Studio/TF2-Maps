@@ -68,3 +68,5 @@ sound/mvm/mvm_tank_horn.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\kissonetank\sound\mvm\mvm_tank_horn.wav
 sound/mvm/mvm_tank_loop.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sound\mvm\mvm_tank_loop.wav
+sound/fartsy/vo/jeffy/tornadowarn00.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\sound\fartsy\vo\jeffy\tornadowarn00.wav
