@@ -88,3 +88,5 @@ sound/fartsy/vo/jeffy/tank03.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tank03.mp3
 sound/fartsy/vo/jeffy/tank04.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tank04.mp3
+sound/fartsy/misc/brawler/pl_tank.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_tank.mp3
