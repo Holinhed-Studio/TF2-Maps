@@ -102,23 +102,35 @@ sound/fartsy/vo/jeffy/countdown.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\countdown.mp3
 sound/fartsy/misc/brawler/pl_tank.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_tank.mp3
-sound/fartsy/weather/thunder1.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder1.wav
-sound/fartsy/weather/thunder2.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder2.wav
-sound/fartsy/weather/thunder3.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder3.wav
-sound/fartsy/weather/thunder4.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder4.wav
-sound/fartsy/weather/thunder5.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder5.wav
-sound/fartsy/weather/thunder6.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder6.wav
-sound/fartsy/weather/thunder7.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder7.wav
-sound/fartsy/weather/thunder8.wav
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder8.wav
 sound/fartsy/ffxiv/return.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\return.mp3
 sound/fartsy/ffxiv/returnsuccess.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\returnsuccess.mp3
+sound/vo/demoman_cloakedspyidentify02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/demoman_cloakedspyidentify02.mp3
+sound/vo/demoman_medic03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/demoman_medic03.mp3
+sound/vo/engineer_medic03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/engineer_medic03.mp3
+sound/vo/heavy_medic01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/heavy_medic01.mp3
+sound/vo/heavy_medic02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/heavy_medic02.mp3
+sound/vo/medic_medic03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/medic_medic03.mp3
+sound/vo/pyro_medic01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/pyro_medic01.mp3
+sound/vo/scout_medic01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/scout_medic01.mp3
+sound/vo/sniper_medic01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/sniper_medic01.mp3
+sound/vo/soldier_LaughLong01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/soldier_LaughLong01.mp3
+sound/vo/soldier_medic01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/soldier_medic01.mp3
+sound/vo/soldier_medic02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/soldier_medic02.mp3
+sound/vo/spy_medic01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/spy_medic01.mp3
+sound/vo/spy_medic03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\vo/spy_medic03.mp3
