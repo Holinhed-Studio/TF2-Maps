@@ -68,25 +68,47 @@ sound/mvm/mvm_tank_horn.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\kissonetank\sound\mvm\mvm_tank_horn.wav
 sound/mvm/mvm_tank_loop.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\mvm\mvm_tank_loop.wav
-sound/fartsy/vo/jeffy/tornadowarn00.wav
+sound\fartsy\vo\jeffy\tornadowarn00.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tornadowarn00.wav
-sound/fartsy/vo/jeffy/tornadowarn01.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tornadowarn01.mp3
-sound/fartsy/vo/jeffy/tornadowarn02.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tornadowarn02.mp3
-sound/fartsy/vo/jeffy/tornadowarn03.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tornadowarn03.mp3
-sound/fartsy/vo/jeffy/tornadowarn04.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tornadowarn04.mp3
-sound/fartsy/vo/jeffy/tank00.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tank00.mp3
-sound/fartsy/vo/jeffy/tank01.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tank01.mp3
-sound/fartsy/vo/jeffy/tank02.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tank02.mp3
-sound/fartsy/vo/jeffy/tank03.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tank03.mp3
-sound/fartsy/vo/jeffy/tank04.mp3
-D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\tank04.mp3
+sound/fartsy/vo/brawler/jeffy/tornadowarn00.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tornadowarn00.mp3
+sound/fartsy/vo/brawler/jeffy/tornadowarn01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tornadowarn01.mp3
+sound/fartsy/vo/brawler/jeffy/tornadowarn02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tornadowarn02.mp3
+sound/fartsy/vo/brawler/jeffy/tornadowarn03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tornadowarn03.mp3
+sound/fartsy/vo/brawler/jeffy/tank00.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tank00.mp3
+sound/fartsy/vo/brawler/jeffy/tank01.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tank01.mp3
+sound/fartsy/vo/brawler/jeffy/tank02.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tank02.mp3
+sound/fartsy/vo/brawler/jeffy/tank03.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tank03.mp3
+sound/fartsy/vo/brawler/jeffy/tank04.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tank04.mp3
+sound/fartsy/vo/jeffy/countdown.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\countdown.mp3
 sound/fartsy/misc/brawler/pl_tank.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\brawler\pl_tank.mp3
+sound/fartsy/weather/thunder1.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder1.wav
+sound/fartsy/weather/thunder2.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder2.wav
+sound/fartsy/weather/thunder3.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder3.wav
+sound/fartsy/weather/thunder4.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder4.wav
+sound/fartsy/weather/thunder5.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder5.wav
+sound/fartsy/weather/thunder6.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder6.wav
+sound/fartsy/weather/thunder7.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder7.wav
+sound/fartsy/weather/thunder8.wav
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\weather\thunder8.wav
+sound/fartsy/ffxiv/return.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\return.mp3
+sound/fartsy/ffxiv/returnsuccess.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\ffxiv\returnsuccess.mp3
