@@ -52,12 +52,18 @@ sound/fartsy/music/brawler/xbc2/youwillrecallournames.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc2\youwillrecallournames.wav
 sound/fartsy/music/brawler/xbc3/immediatethreat.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc3\immediatethreat.wav
+sound/fartsy/music/brawler/xbc3/immediatethreat_end.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc3\immediatethreat_end.mp3
+sound/fartsy/music/brawler/xbc3/immediatethreat_end_loss.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc3\immediatethreat_end_loss.mp3
 sound/fartsy/music/brawler/xbc3/youwillknowournames_finale.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc3\youwillknowournames_finale.wav
 sound/fartsy/music/brawler/xbc3/immediatethreatpre.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc3\immediatethreatpre.wav
 sound/fartsy/music/brawler/xbc3/youwillknowournames_pre.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc3\youwillknowournames_pre.wav
+sound/fartsy/music/brawler/xbc3/youwillknowournames_end.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\music\brawler\xbc3\youwillknowournames_end.mp3
 sound/fartsy/misc/countdown.wav
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\misc\countdown.wav
 sound/mvm/mvm_tank_deploy.wav
@@ -88,6 +94,10 @@ sound/fartsy/vo/brawler/jeffy/tank03.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tank03.mp3
 sound/fartsy/vo/brawler/jeffy/tank04.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\tank04.mp3
+sound/fartsy/vo/brawler/jeffy/begins_60s.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\begins_60s.mp3
+sound/fartsy/vo/brawler/jeffy/begins_30s.mp3
+D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\brawler\jeffy\begins_30s.mp3
 sound/fartsy/vo/jeffy/countdown.mp3
 D:\Software\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsy\sound\fartsy\vo\jeffy\countdown.mp3
 sound/fartsy/misc/brawler/pl_tank.mp3
