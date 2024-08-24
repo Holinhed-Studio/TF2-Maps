@@ -1,0 +1,668 @@
+materials/hud/cconflict/cc_bluFF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFF.vmt
+materials/hud/cconflict/cc_bluFE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFE.vmt
+materials/hud/cconflict/cc_bluFD.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFD.vmt
+materials/hud/cconflict/cc_bluFC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFC.vmt
+materials/hud/cconflict/cc_bluFB.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFB.vmt
+materials/hud/cconflict/cc_bluFA.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFA.vmt
+materials/hud/cconflict/cc_bluF9.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF9.vmt
+materials/hud/cconflict/cc_bluF8.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF8.vmt
+materials/hud/cconflict/cc_bluF7.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF7.vmt
+materials/hud/cconflict/cc_bluF6.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF6.vmt
+materials/hud/cconflict/cc_bluF5.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF5.vmt
+materials/hud/cconflict/cc_bluF4.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF4.vmt
+materials/hud/cconflict/cc_bluF3.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF3.vmt
+materials/hud/cconflict/cc_bluF2.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF2.vmt
+materials/hud/cconflict/cc_bluF1.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF1.vmt
+materials/hud/cconflict/cc_bluF0.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF0.vmt
+materials/hud/cconflict/cc_bluEF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluEF.vmt
+materials/hud/cconflict/cc_bluEE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluEE.vmt
+materials/hud/cconflict/cc_bluED.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluED.vmt
+materials/hud/cconflict/cc_bluEC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluEC.vmt
+materials/hud/cconflict/cc_blu00.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu00.vmt
+materials/hud/cconflict/cc_blu01.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu01.vmt
+materials/hud/cconflict/cc_blu02.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu02.vmt
+materials/hud/cconflict/cc_blu03.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu03.vmt
+materials/hud/cconflict/cc_blu04.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu04.vmt
+materials/hud/cconflict/cc_blu05.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu05.vmt
+materials/hud/cconflict/cc_blu06.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu06.vmt
+materials/hud/cconflict/cc_blu07.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu07.vmt
+materials/hud/cconflict/cc_blu08.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu08.vmt
+materials/hud/cconflict/cc_blu09.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu09.vmt
+materials/hud/cconflict/cc_blu0A.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0A.vmt
+materials/hud/cconflict/cc_blu0B.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0B.vmt
+materials/hud/cconflict/cc_blu0C.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0C.vmt
+materials/hud/cconflict/cc_blu0D.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0D.vmt
+materials/hud/cconflict/cc_blu0E.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0E.vmt
+materials/hud/cconflict/cc_blu0F.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0F.vmt
+materials/hud/cconflict/cc_blu10.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu10.vmt
+materials/hud/cconflict/cc_blu11.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu11.vmt
+materials/hud/cconflict/cc_blu12.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu12.vmt
+materials/hud/cconflict/cc_blu13.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu13.vmt
+materials/hud/cconflict/cc_blu14.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu14.vmt
+materials/hud/cconflict/cc_blu15.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu15.vmt
+materials/hud/cconflict/cc_bluFF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFF.vtf
+materials/hud/cconflict/cc_bluFE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFE.vtf
+materials/hud/cconflict/cc_bluFD.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFD.vtf
+materials/hud/cconflict/cc_bluFC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFC.vtf
+materials/hud/cconflict/cc_bluFB.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFB.vtf
+materials/hud/cconflict/cc_bluFA.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluFA.vtf
+materials/hud/cconflict/cc_bluF9.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF9.vtf
+materials/hud/cconflict/cc_bluF8.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF8.vtf
+materials/hud/cconflict/cc_bluF7.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF7.vtf
+materials/hud/cconflict/cc_bluF6.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF6.vtf
+materials/hud/cconflict/cc_bluF5.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF5.vtf
+materials/hud/cconflict/cc_bluF4.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF4.vtf
+materials/hud/cconflict/cc_bluF3.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF3.vtf
+materials/hud/cconflict/cc_bluF2.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF2.vtf
+materials/hud/cconflict/cc_bluF1.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF1.vtf
+materials/hud/cconflict/cc_bluF0.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluF0.vtf
+materials/hud/cconflict/cc_bluEF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluEF.vtf
+materials/hud/cconflict/cc_bluEE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluEE.vtf
+materials/hud/cconflict/cc_bluED.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluED.vtf
+materials/hud/cconflict/cc_bluEC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_bluEC.vtf
+materials/hud/cconflict/cc_blu00.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu00.vtf
+materials/hud/cconflict/cc_blu01.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu01.vtf
+materials/hud/cconflict/cc_blu02.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu02.vtf
+materials/hud/cconflict/cc_blu03.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu03.vtf
+materials/hud/cconflict/cc_blu04.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu04.vtf
+materials/hud/cconflict/cc_blu05.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu05.vtf
+materials/hud/cconflict/cc_blu06.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu06.vtf
+materials/hud/cconflict/cc_blu07.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu07.vtf
+materials/hud/cconflict/cc_blu08.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu08.vtf
+materials/hud/cconflict/cc_blu09.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu09.vtf
+materials/hud/cconflict/cc_blu0A.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0A.vtf
+materials/hud/cconflict/cc_blu0B.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0B.vtf
+materials/hud/cconflict/cc_blu0C.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0C.vtf
+materials/hud/cconflict/cc_blu0D.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0D.vtf
+materials/hud/cconflict/cc_blu0E.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0E.vtf
+materials/hud/cconflict/cc_blu0F.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu0F.vtf
+materials/hud/cconflict/cc_blu10.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu10.vtf
+materials/hud/cconflict/cc_blu11.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu11.vtf
+materials/hud/cconflict/cc_blu12.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu12.vtf
+materials/hud/cconflict/cc_blu13.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu13.vtf
+materials/hud/cconflict/cc_blu14.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu14.vtf
+materials/hud/cconflict/cc_blu15.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_blu15.vtf
+materials/hud/cconflict/cc_red2A.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red2A.vmt
+materials/hud/cconflict/cc_red29.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red29.vmt
+materials/hud/cconflict/cc_red28.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red28.vmt
+materials/hud/cconflict/cc_red27.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red27.vmt
+materials/hud/cconflict/cc_red26.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red26.vmt
+materials/hud/cconflict/cc_red25.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red25.vmt
+materials/hud/cconflict/cc_red24.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red24.vmt
+materials/hud/cconflict/cc_red23.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red23.vmt
+materials/hud/cconflict/cc_red22.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red22.vmt
+materials/hud/cconflict/cc_red21.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red21.vmt
+materials/hud/cconflict/cc_red20.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red20.vmt
+materials/hud/cconflict/cc_red1F.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1F.vmt
+materials/hud/cconflict/cc_red1E.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1E.vmt
+materials/hud/cconflict/cc_red1D.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1D.vmt
+materials/hud/cconflict/cc_red1C.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1C.vmt
+materials/hud/cconflict/cc_red1B.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1B.vmt
+materials/hud/cconflict/cc_red1A.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1A.vmt
+materials/hud/cconflict/cc_red19.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red19.vmt
+materials/hud/cconflict/cc_red18.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red18.vmt
+materials/hud/cconflict/cc_red17.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red17.vmt
+materials/hud/cconflict/cc_red16.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red16.vmt
+materials/hud/cconflict/cc_red15.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red15.vmt
+materials/hud/cconflict/cc_redEC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redEC.vmt
+materials/hud/cconflict/cc_redED.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redED.vmt
+materials/hud/cconflict/cc_redEE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redEE.vmt
+materials/hud/cconflict/cc_redEF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redEF.vmt
+materials/hud/cconflict/cc_redF0.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF0.vmt
+materials/hud/cconflict/cc_redF1.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF1.vmt
+materials/hud/cconflict/cc_redF2.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF2.vmt
+materials/hud/cconflict/cc_redF3.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF3.vmt
+materials/hud/cconflict/cc_redF4.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF4.vmt
+materials/hud/cconflict/cc_redF5.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF5.vmt
+materials/hud/cconflict/cc_redF6.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF6.vmt
+materials/hud/cconflict/cc_redF7.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF7.vmt
+materials/hud/cconflict/cc_redF8.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF8.vmt
+materials/hud/cconflict/cc_redF9.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF9.vmt
+materials/hud/cconflict/cc_redFA.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFA.vmt
+materials/hud/cconflict/cc_redFB.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFB.vmt
+materials/hud/cconflict/cc_redFC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFC.vmt
+materials/hud/cconflict/cc_redFD.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFD.vmt
+materials/hud/cconflict/cc_redFE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFE.vmt
+materials/hud/cconflict/cc_redFF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFF.vmt
+materials/hud/cconflict/cc_red2A.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red2A.vtf
+materials/hud/cconflict/cc_red29.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red29.vtf
+materials/hud/cconflict/cc_red28.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red28.vtf
+materials/hud/cconflict/cc_red27.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red27.vtf
+materials/hud/cconflict/cc_red26.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red26.vtf
+materials/hud/cconflict/cc_red25.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red25.vtf
+materials/hud/cconflict/cc_red24.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red24.vtf
+materials/hud/cconflict/cc_red23.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red23.vtf
+materials/hud/cconflict/cc_red22.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red22.vtf
+materials/hud/cconflict/cc_red21.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red21.vtf
+materials/hud/cconflict/cc_red20.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red20.vtf
+materials/hud/cconflict/cc_red1F.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1F.vtf
+materials/hud/cconflict/cc_red1E.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1E.vtf
+materials/hud/cconflict/cc_red1D.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1D.vtf
+materials/hud/cconflict/cc_red1C.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1C.vtf
+materials/hud/cconflict/cc_red1B.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1B.vtf
+materials/hud/cconflict/cc_red1A.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red1A.vtf
+materials/hud/cconflict/cc_red19.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red19.vtf
+materials/hud/cconflict/cc_red18.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red18.vtf
+materials/hud/cconflict/cc_red17.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red17.vtf
+materials/hud/cconflict/cc_red16.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red16.vtf
+materials/hud/cconflict/cc_red15.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_red15.vtf
+materials/hud/cconflict/cc_redEC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redEC.vtf
+materials/hud/cconflict/cc_redED.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redED.vtf
+materials/hud/cconflict/cc_redEE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redEE.vtf
+materials/hud/cconflict/cc_redEF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redEF.vtf
+materials/hud/cconflict/cc_redF0.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF0.vtf
+materials/hud/cconflict/cc_redF1.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF1.vtf
+materials/hud/cconflict/cc_redF2.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF2.vtf
+materials/hud/cconflict/cc_redF3.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF3.vtf
+materials/hud/cconflict/cc_redF4.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF4.vtf
+materials/hud/cconflict/cc_redF5.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF5.vtf
+materials/hud/cconflict/cc_redF6.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF6.vtf
+materials/hud/cconflict/cc_redF7.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF7.vtf
+materials/hud/cconflict/cc_redF8.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF8.vtf
+materials/hud/cconflict/cc_redF9.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redF9.vtf
+materials/hud/cconflict/cc_redFA.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFA.vtf
+materials/hud/cconflict/cc_redFB.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFB.vtf
+materials/hud/cconflict/cc_redFC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFC.vtf
+materials/hud/cconflict/cc_redFD.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFD.vtf
+materials/hud/cconflict/cc_redFE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFE.vtf
+materials/hud/cconflict/cc_redFF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_redFF.vtf
+materials/hud/cconflict/cc_neutralFF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFF.vmt
+materials/hud/cconflict/cc_neutralFE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFE.vmt
+materials/hud/cconflict/cc_neutralFD.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFD.vmt
+materials/hud/cconflict/cc_neutralFC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFC.vmt
+materials/hud/cconflict/cc_neutralFB.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFB.vmt
+materials/hud/cconflict/cc_neutralFA.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFA.vmt
+materials/hud/cconflict/cc_neutralF9.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF9.vmt
+materials/hud/cconflict/cc_neutralF8.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF8.vmt
+materials/hud/cconflict/cc_neutralF7.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF7.vmt
+materials/hud/cconflict/cc_neutralF6.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF6.vmt
+materials/hud/cconflict/cc_neutralF5.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF5.vmt
+materials/hud/cconflict/cc_neutralF4.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF4.vmt
+materials/hud/cconflict/cc_neutralF3.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF3.vmt
+materials/hud/cconflict/cc_neutralF2.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF2.vmt
+materials/hud/cconflict/cc_neutralF1.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF1.vmt
+materials/hud/cconflict/cc_neutralF0.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF0.vmt
+materials/hud/cconflict/cc_neutralEF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralEF.vmt
+materials/hud/cconflict/cc_neutralEE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralEE.vmt
+materials/hud/cconflict/cc_neutralED.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralED.vmt
+materials/hud/cconflict/cc_neutralEC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralEC.vmt
+materials/hud/cconflict/cc_neutral00.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral00.vmt
+materials/hud/cconflict/cc_neutral01.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral01.vmt
+materials/hud/cconflict/cc_neutral02.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral02.vmt
+materials/hud/cconflict/cc_neutral03.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral03.vmt
+materials/hud/cconflict/cc_neutral04.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral04.vmt
+materials/hud/cconflict/cc_neutral05.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral05.vmt
+materials/hud/cconflict/cc_neutral06.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral06.vmt
+materials/hud/cconflict/cc_neutral07.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral07.vmt
+materials/hud/cconflict/cc_neutral08.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral08.vmt
+materials/hud/cconflict/cc_neutral09.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral09.vmt
+materials/hud/cconflict/cc_neutral0A.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0A.vmt
+materials/hud/cconflict/cc_neutral0B.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0B.vmt
+materials/hud/cconflict/cc_neutral0C.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0C.vmt
+materials/hud/cconflict/cc_neutral0D.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0D.vmt
+materials/hud/cconflict/cc_neutral0E.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0E.vmt
+materials/hud/cconflict/cc_neutral0F.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0F.vmt
+materials/hud/cconflict/cc_neutral10.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral10.vmt
+materials/hud/cconflict/cc_neutral11.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral11.vmt
+materials/hud/cconflict/cc_neutral12.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral12.vmt
+materials/hud/cconflict/cc_neutral13.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral13.vmt
+materials/hud/cconflict/cc_neutral14.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral14.vmt
+materials/hud/cconflict/cc_neutral15.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral15.vmt
+materials/hud/cconflict/cc_neutralFF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFF.vtf
+materials/hud/cconflict/cc_neutralFE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFE.vtf
+materials/hud/cconflict/cc_neutralFD.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFD.vtf
+materials/hud/cconflict/cc_neutralFC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFC.vtf
+materials/hud/cconflict/cc_neutralFB.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFB.vtf
+materials/hud/cconflict/cc_neutralFA.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralFA.vtf
+materials/hud/cconflict/cc_neutralF9.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF9.vtf
+materials/hud/cconflict/cc_neutralF8.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF8.vtf
+materials/hud/cconflict/cc_neutralF7.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF7.vtf
+materials/hud/cconflict/cc_neutralF6.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF6.vtf
+materials/hud/cconflict/cc_neutralF5.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF5.vtf
+materials/hud/cconflict/cc_neutralF4.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF4.vtf
+materials/hud/cconflict/cc_neutralF3.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF3.vtf
+materials/hud/cconflict/cc_neutralF2.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF2.vtf
+materials/hud/cconflict/cc_neutralF1.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF1.vtf
+materials/hud/cconflict/cc_neutralF0.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralF0.vtf
+materials/hud/cconflict/cc_neutralEF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralEF.vtf
+materials/hud/cconflict/cc_neutralEE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralEE.vtf
+materials/hud/cconflict/cc_neutralED.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralED.vtf
+materials/hud/cconflict/cc_neutralEC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutralEC.vtf
+materials/hud/cconflict/cc_neutral00.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral00.vtf
+materials/hud/cconflict/cc_neutral01.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral01.vtf
+materials/hud/cconflict/cc_neutral02.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral02.vtf
+materials/hud/cconflict/cc_neutral03.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral03.vtf
+materials/hud/cconflict/cc_neutral04.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral04.vtf
+materials/hud/cconflict/cc_neutral05.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral05.vtf
+materials/hud/cconflict/cc_neutral06.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral06.vtf
+materials/hud/cconflict/cc_neutral07.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral07.vtf
+materials/hud/cconflict/cc_neutral08.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral08.vtf
+materials/hud/cconflict/cc_neutral09.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral09.vtf
+materials/hud/cconflict/cc_neutral0A.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0A.vtf
+materials/hud/cconflict/cc_neutral0B.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0B.vtf
+materials/hud/cconflict/cc_neutral0C.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0C.vtf
+materials/hud/cconflict/cc_neutral0D.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0D.vtf
+materials/hud/cconflict/cc_neutral0E.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0E.vtf
+materials/hud/cconflict/cc_neutral0F.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral0F.vtf
+materials/hud/cconflict/cc_neutral10.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral10.vtf
+materials/hud/cconflict/cc_neutral11.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral11.vtf
+materials/hud/cconflict/cc_neutral12.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral12.vtf
+materials/hud/cconflict/cc_neutral13.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral13.vtf
+materials/hud/cconflict/cc_neutral14.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_neutral14.vtf
+materials/hud/cconflict/cc_idleFF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFF.vmt
+materials/hud/cconflict/cc_idleFE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFE.vmt
+materials/hud/cconflict/cc_idleFD.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFD.vmt
+materials/hud/cconflict/cc_idleFC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFC.vmt
+materials/hud/cconflict/cc_idleFB.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFB.vmt
+materials/hud/cconflict/cc_idleFA.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFA.vmt
+materials/hud/cconflict/cc_idleF9.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF9.vmt
+materials/hud/cconflict/cc_idleF8.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF8.vmt
+materials/hud/cconflict/cc_idleF7.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF7.vmt
+materials/hud/cconflict/cc_idleF6.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF6.vmt
+materials/hud/cconflict/cc_idleF5.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF5.vmt
+materials/hud/cconflict/cc_idleF4.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF4.vmt
+materials/hud/cconflict/cc_idleF3.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF3.vmt
+materials/hud/cconflict/cc_idleF2.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF2.vmt
+materials/hud/cconflict/cc_idleF1.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF1.vmt
+materials/hud/cconflict/cc_idleF0.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF0.vmt
+materials/hud/cconflict/cc_idleEF.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleEF.vmt
+materials/hud/cconflict/cc_idleEE.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleEE.vmt
+materials/hud/cconflict/cc_idleED.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleED.vmt
+materials/hud/cconflict/cc_idleEC.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleEC.vmt
+materials/hud/cconflict/cc_idle00.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle00.vmt
+materials/hud/cconflict/cc_idle01.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle01.vmt
+materials/hud/cconflict/cc_idle02.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle02.vmt
+materials/hud/cconflict/cc_idle03.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle03.vmt
+materials/hud/cconflict/cc_idle04.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle04.vmt
+materials/hud/cconflict/cc_idle05.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle05.vmt
+materials/hud/cconflict/cc_idle06.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle06.vmt
+materials/hud/cconflict/cc_idle07.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle07.vmt
+materials/hud/cconflict/cc_idle08.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle08.vmt
+materials/hud/cconflict/cc_idle09.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle09.vmt
+materials/hud/cconflict/cc_idle0A.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0A.vmt
+materials/hud/cconflict/cc_idle0B.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0B.vmt
+materials/hud/cconflict/cc_idle0C.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0C.vmt
+materials/hud/cconflict/cc_idle0D.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0D.vmt
+materials/hud/cconflict/cc_idle0E.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0E.vmt
+materials/hud/cconflict/cc_idle0F.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0F.vmt
+materials/hud/cconflict/cc_idle10.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle10.vmt
+materials/hud/cconflict/cc_idle11.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle11.vmt
+materials/hud/cconflict/cc_idle12.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle12.vmt
+materials/hud/cconflict/cc_idle13.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle13.vmt
+materials/hud/cconflict/cc_idle14.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle14.vmt
+materials/hud/cconflict/cc_idle15.vmt
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle15.vmt
+materials/hud/cconflict/cc_idleFF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFF.vtf
+materials/hud/cconflict/cc_idleFE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFE.vtf
+materials/hud/cconflict/cc_idleFD.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFD.vtf
+materials/hud/cconflict/cc_idleFC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFC.vtf
+materials/hud/cconflict/cc_idleFB.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFB.vtf
+materials/hud/cconflict/cc_idleFA.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleFA.vtf
+materials/hud/cconflict/cc_idleF9.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF9.vtf
+materials/hud/cconflict/cc_idleF8.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF8.vtf
+materials/hud/cconflict/cc_idleF7.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF7.vtf
+materials/hud/cconflict/cc_idleF6.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF6.vtf
+materials/hud/cconflict/cc_idleF5.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF5.vtf
+materials/hud/cconflict/cc_idleF4.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF4.vtf
+materials/hud/cconflict/cc_idleF3.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF3.vtf
+materials/hud/cconflict/cc_idleF2.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF2.vtf
+materials/hud/cconflict/cc_idleF1.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF1.vtf
+materials/hud/cconflict/cc_idleF0.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleF0.vtf
+materials/hud/cconflict/cc_idleEF.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleEF.vtf
+materials/hud/cconflict/cc_idleEE.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleEE.vtf
+materials/hud/cconflict/cc_idleED.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleED.vtf
+materials/hud/cconflict/cc_idleEC.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idleEC.vtf
+materials/hud/cconflict/cc_idle01.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle01.vtf
+materials/hud/cconflict/cc_idle02.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle02.vtf
+materials/hud/cconflict/cc_idle03.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle03.vtf
+materials/hud/cconflict/cc_idle04.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle04.vtf
+materials/hud/cconflict/cc_idle05.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle05.vtf
+materials/hud/cconflict/cc_idle06.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle06.vtf
+materials/hud/cconflict/cc_idle07.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle07.vtf
+materials/hud/cconflict/cc_idle08.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle08.vtf
+materials/hud/cconflict/cc_idle09.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle09.vtf
+materials/hud/cconflict/cc_idle0A.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0A.vtf
+materials/hud/cconflict/cc_idle0B.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0B.vtf
+materials/hud/cconflict/cc_idle0C.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0C.vtf
+materials/hud/cconflict/cc_idle0D.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0D.vtf
+materials/hud/cconflict/cc_idle0E.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0E.vtf
+materials/hud/cconflict/cc_idle0F.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle0F.vtf
+materials/hud/cconflict/cc_idle10.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle10.vtf
+materials/hud/cconflict/cc_idle11.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle11.vtf
+materials/hud/cconflict/cc_idle12.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle12.vtf
+materials/hud/cconflict/cc_idle13.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle13.vtf
+materials/hud/cconflict/cc_idle14.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle14.vtf
+materials/hud/cconflict/cc_idle15.vtf
+D:\Games\Steam\steamapps\common\Team Fortress 2\tf\custom\fartsyxiv\materials\hud\cconflict\cc_idle15.vtf
